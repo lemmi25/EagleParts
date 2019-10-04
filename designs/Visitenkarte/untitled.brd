@@ -73,17 +73,21 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="85" y2="0" width="0" layer="20"/>
-<wire x1="85" y1="0" x2="85" y2="55" width="0" layer="20"/>
-<wire x1="85" y1="55" x2="0" y2="55" width="0" layer="20"/>
-<wire x1="0" y1="55" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="50" x2="0" y2="5" width="0" layer="20"/>
+<wire x1="0" y1="5" x2="5" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="5" y1="0" x2="80" y2="0" width="0" layer="20"/>
+<wire x1="80" y1="0" x2="85" y2="5" width="0" layer="20" curve="90"/>
+<wire x1="85" y1="5" x2="85" y2="50" width="0" layer="20"/>
+<wire x1="85" y1="50" x2="80" y2="55" width="0" layer="20" curve="90"/>
+<wire x1="80" y1="55" x2="5" y2="55" width="0" layer="20"/>
+<wire x1="5" y1="55" x2="0" y2="50" width="0" layer="20" curve="90"/>
 <text x="26.76735" y="21.848371875" size="5.08" layer="21" font="vector" ratio="12">Moritz Boesenberg</text>
 <text x="26.76735" y="16.848371875" size="2.54" layer="21" font="vector" ratio="10">moritz.boesenberg@outlook.com</text>
 <text x="26.76735" y="12.848371875" size="2.54" layer="21" font="vector" ratio="10">https://github.com/lemmi25</text>
-<text x="26.76735" y="21.848371875" size="5.08" layer="39" font="vector" ratio="12">Moritz Boesenberg</text>
+<text x="26.76735" y="21.848371875" size="5.08" layer="29" font="vector" ratio="12">Moritz Boesenberg</text>
 <text x="26.76735" y="16.848371875" size="2.54" layer="39" font="vector" ratio="10">moritz.boesenberg@outlook.com</text>
 <text x="26.76735" y="12.848371875" size="2.54" layer="39" font="vector" ratio="10">https://github.com/lemmi25</text>
-<text x="26.76735" y="21.848371875" size="5.08" layer="29" font="vector" ratio="12">Moritz Boesenberg</text>
+<text x="26.76735" y="21.848371875" size="5.08" layer="39" font="vector" ratio="12">Moritz Boesenberg</text>
 <text x="26.76735" y="16.848371875" size="2.54" layer="29" font="vector" ratio="10">moritz.boesenberg@outlook.com</text>
 <text x="26.26735" y="8.848371875" size="2.54" layer="21" font="vector" ratio="10">+49 162 3198786</text>
 <text x="26.26735" y="8.848371875" size="2.54" layer="39" font="vector" ratio="10">+49 162 3198786</text>
@@ -15557,10 +15561,14 @@ design rules under a new name.</description>
 <signals>
 <signal name="GND">
 <polygon width="0.1524" layer="1">
-<vertex x="0" y="55"/>
-<vertex x="85" y="55"/>
-<vertex x="85" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="5" y="55"/>
+<vertex x="80" y="55" curve="-90"/>
+<vertex x="85" y="50"/>
+<vertex x="85" y="5" curve="-90"/>
+<vertex x="80" y="0"/>
+<vertex x="5" y="0" curve="-90"/>
+<vertex x="0" y="5"/>
+<vertex x="0" y="50" curve="-90"/>
 </polygon>
 <contactref element="IC3" pad="4"/>
 <contactref element="IC3" pad="5"/>
@@ -15631,22 +15639,26 @@ design rules under a new name.</description>
 <wire x1="51.01270625" y1="34.930209375" x2="49.85425" y2="34.11905" width="0" layer="19" extent="1-1"/>
 <wire x1="46.262315625" y1="36.783259375" x2="47.420771875" y2="37.59441875" width="0" layer="19" extent="1-1"/>
 <wire x1="50.665409375" y1="32.96059375" x2="49.85425" y2="34.11905" width="0" layer="19" extent="1-1"/>
-<wire x1="45.79845" y1="39.91133125" x2="46.95690625" y2="40.722490625" width="0" layer="19" extent="1-1"/>
 <wire x1="50.201546875" y1="36.088665625" x2="49.043090625" y2="35.27750625" width="0" layer="19" extent="1-1"/>
+<wire x1="45.79845" y1="39.91133125" x2="46.95690625" y2="40.722490625" width="0" layer="19" extent="1-1"/>
 <wire x1="44.930209375" y1="34.987290625" x2="46.899825" y2="34.639996875" width="0" layer="19" extent="1-1"/>
 <wire x1="44.11905" y1="36.145746875" x2="44.930209375" y2="34.987290625" width="0" layer="19" extent="1-1"/>
 <wire x1="43.771753125" y1="34.17613125" x2="44.930209375" y2="34.987290625" width="0" layer="19" extent="1-1"/>
-<wire x1="49.44746875" y1="43.329615625" x2="49.100171875" y2="41.36" width="0" layer="19" extent="1-1"/>
 <wire x1="47.5373375" y1="32.49673125" x2="47.884634375" y2="34.466346875" width="0" layer="19" extent="1-1"/>
-<wire x1="42.67038125" y1="39.44746875" x2="44.987290625" y2="41.0697875" width="0" layer="19" extent="1-1"/>
+<wire x1="49.44746875" y1="43.329615625" x2="49.100171875" y2="41.36" width="0" layer="19" extent="1-1"/>
 <wire x1="53.503265625" y1="37.5373375" x2="51.880946875" y2="39.85425" width="0" layer="19" extent="1-1"/>
+<wire x1="42.67038125" y1="39.44746875" x2="44.987290625" y2="41.0697875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AGND">
 <polygon width="0.1524" layer="16">
-<vertex x="0" y="55"/>
-<vertex x="85" y="55"/>
-<vertex x="85" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="5" y="55"/>
+<vertex x="80" y="55" curve="-90"/>
+<vertex x="85" y="50"/>
+<vertex x="85" y="5" curve="-90"/>
+<vertex x="80" y="0"/>
+<vertex x="5" y="0" curve="-90"/>
+<vertex x="0" y="5"/>
+<vertex x="0" y="50" curve="-90"/>
 </polygon>
 <contactref element="IC6" pad="3"/>
 <contactref element="IC6" pad="54"/>

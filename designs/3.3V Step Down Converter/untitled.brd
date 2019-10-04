@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -73,19 +73,17 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:-QwGMtSLRBuZRmq8BcjXxg" pcbguid="cfa700d8-5b19-4e30-959a-88a9a90e99f0" lastpulledtime="" lastsyncedchangeguid="5ee24608-7879-c175-7cbf-5d5ee42bbe00"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:-QwGMtSLRBuZRmq8BcjXxg" pcbguid="cfa700d8-5b19-4e30-959a-88a9a90e99f0" lastpulledtime="" lastsyncedchangeguid="d39d554c-b4cb-5895-2ab3-298544398bbf"/>
 <plain>
-<wire x1="24.93" y1="28.045" x2="24.93" y2="2" width="0.0254" layer="20"/>
-<wire x1="24.93" y1="2" x2="22.93" y2="0" width="0.0254" layer="20" curve="-90"/>
-<wire x1="22.93" y1="0" x2="2" y2="0" width="0.0254" layer="20"/>
-<wire x1="2" y1="0" x2="0" y2="2" width="0.0254" layer="20" curve="-90"/>
-<wire x1="0" y1="2" x2="0" y2="28.045" width="0.0254" layer="20"/>
-<wire x1="0" y1="28.045" x2="2" y2="30.045" width="0.0254" layer="20" curve="-90"/>
-<wire x1="2" y1="30.045" x2="22.93" y2="30.045" width="0.0254" layer="20"/>
-<wire x1="22.93" y1="30.045" x2="24.93" y2="28.045" width="0.0254" layer="20" curve="-90"/>
-<hole x="2" y="27.85" drill="3"/>
-<hole x="23" y="27.85" drill="3"/>
-<hole x="23" y="2" drill="3"/>
+<wire x1="1" y1="30.045" x2="23.93" y2="30.045" width="0.0254" layer="20"/>
+<wire x1="23.93" y1="30.045" x2="24.93" y2="29.045" width="0.0254" layer="20" curve="-90"/>
+<wire x1="24.93" y1="29.045" x2="24.93" y2="1" width="0.0254" layer="20"/>
+<wire x1="24.93" y1="1" x2="23.93" y2="0" width="0.0254" layer="20" curve="-90"/>
+<wire x1="23.93" y1="0" x2="1" y2="0" width="0.0254" layer="20"/>
+<wire x1="1" y1="0" x2="0" y2="1" width="0.0254" layer="20" curve="-90"/>
+<wire x1="0" y1="1" x2="0" y2="29.045" width="0.0254" layer="20"/>
+<wire x1="0" y1="29.045" x2="1" y2="30.045" width="0.0254" layer="20" curve="-90"/>
+<hole x="23" y="2.5" drill="3"/>
 <dimension x1="25.0825" y1="0" x2="25" y2="30" x3="28.521971875" y3="15.00956875" textsize="1.778" layer="1"/>
 <dimension x1="0" y1="30.17" x2="24.93" y2="30.045" x3="12.47206875" y3="31.517690625" textsize="1.778" layer="1"/>
 <text x="3.58" y="7.825" size="0.6096" layer="25">C1</text>
@@ -97,7 +95,6 @@
 <text x="10.795" y="4.445" size="0.6096" layer="25" ratio="20" rot="R90">GND</text>
 <text x="13.335" y="4.445" size="0.6096" layer="25" ratio="20" rot="R90">GND</text>
 <text x="15.875" y="4.445" size="0.6096" layer="25" ratio="20" rot="R90">IOUT</text>
-<hole x="2" y="2" drill="3"/>
 <rectangle x1="22.99481875" y1="15.91635" x2="23.13198125" y2="15.92905" layer="22"/>
 <rectangle x1="19.00701875" y1="15.92905" x2="19.04258125" y2="15.94175" layer="22"/>
 <rectangle x1="22.93131875" y1="15.92905" x2="23.15738125" y2="15.94175" layer="22"/>
@@ -6972,6 +6969,9 @@
 <rectangle x1="21.67218125" y1="25.82355" x2="21.83981875" y2="25.83625" layer="30"/>
 <rectangle x1="21.67218125" y1="25.83625" x2="21.83981875" y2="25.84895" layer="30"/>
 <rectangle x1="21.67218125" y1="25.84895" x2="21.83981875" y2="25.86165" layer="30"/>
+<hole x="2" y="27.5" drill="3"/>
+<hole x="2" y="2.5" drill="3"/>
+<hole x="23" y="27.5" drill="3"/>
 </plain>
 <libraries>
 <library name="MouserUseful">
@@ -7507,8 +7507,8 @@ design rules under a new name.</description>
 <vertex x="7.3025" y="9.4375"/>
 <vertex x="8.89" y="7.85"/>
 <vertex x="8.89" y="0"/>
-<vertex x="2" y="0" curve="-90"/>
-<vertex x="0" y="2"/>
+<vertex x="1" y="0" curve="-90"/>
+<vertex x="0" y="1"/>
 </polygon>
 <contactref element="J1" pad="1"/>
 <wire x1="6.9944" y1="9.4944" x2="6.1025" y2="8.6025" width="0.1524" layer="1"/>
@@ -7567,10 +7567,10 @@ design rules under a new name.</description>
 <vertex x="13.335" y="9.12"/>
 <vertex x="15.24" y="7.215"/>
 <vertex x="15.24" y="0"/>
-<vertex x="23.0825" y="0" curve="90"/>
-<vertex x="25.0825" y="2"/>
-<vertex x="25.0825" y="28.3525" curve="90"/>
-<vertex x="23.0825" y="30.3525"/>
+<vertex x="24.0825" y="0" curve="90"/>
+<vertex x="25.0825" y="1"/>
+<vertex x="25.0825" y="29.3525" curve="90"/>
+<vertex x="24.0825" y="30.3525"/>
 </polygon>
 <contactref element="J2" pad="1"/>
 <wire x1="8.9575" y1="22.16" x2="10.16" y2="22.16" width="0.254" layer="1"/>
@@ -7636,12 +7636,12 @@ design rules under a new name.</description>
 <vertex x="5.08" y="19.05"/>
 <vertex x="5.08" y="6.985"/>
 <vertex x="24.765" y="6.985"/>
-<vertex x="24.765" y="2" curve="-90"/>
-<vertex x="22.765" y="0"/>
-<vertex x="2" y="0" curve="-90"/>
-<vertex x="0" y="2"/>
-<vertex x="0" y="27.845" curve="-90"/>
-<vertex x="2" y="29.845"/>
+<vertex x="24.765" y="1" curve="-90"/>
+<vertex x="23.765" y="0"/>
+<vertex x="1" y="0" curve="-90"/>
+<vertex x="0" y="1"/>
+<vertex x="0" y="28.845" curve="-90"/>
+<vertex x="1" y="29.845"/>
 </polygon>
 </signal>
 <signal name="PG2">
