@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -179,19 +179,23 @@ Metric Code Size 2012</description>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="INDDFN630X600X450-2N" urn="urn:adsk.eagle:footprint:13422189/1">
-<description>DFN2, 6.30 X 6.00 X 4.50 mm body
-&lt;p&gt;DFN2 package with body size 6.30 X 6.00 X 4.50 mm&lt;/p&gt;</description>
-<wire x1="3.3" y1="3.15" x2="-3.3" y2="3.15" width="0.12" layer="21"/>
-<wire x1="3.3" y1="-3.15" x2="-3.3" y2="-3.15" width="0.12" layer="21"/>
-<wire x1="3.3" y1="-3.15" x2="-3.3" y2="-3.15" width="0.12" layer="51"/>
-<wire x1="-3.3" y1="-3.15" x2="-3.3" y2="3.15" width="0.12" layer="51"/>
-<wire x1="-3.3" y1="3.15" x2="3.3" y2="3.15" width="0.12" layer="51"/>
-<wire x1="3.3" y1="3.15" x2="3.3" y2="-3.15" width="0.12" layer="51"/>
-<smd name="1" x="-1.7096" y="0" dx="1.91" dy="5.0153" layer="1"/>
-<smd name="2" x="1.7096" y="0" dx="1.91" dy="5.0153" layer="1"/>
-<text x="0" y="3.785" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.785" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<package name="INDPM6060X450N">
+<description>&lt;b&gt;VLS6045&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.3" y="0" dx="4.9" dy="2.7" layer="1" rot="R90"/>
+<smd name="2" x="2.3" y="0" dx="4.9" dy="2.7" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.9" y1="3.4" x2="3.9" y2="3.4" width="0.05" layer="51"/>
+<wire x1="3.9" y1="3.4" x2="3.9" y2="-3.4" width="0.05" layer="51"/>
+<wire x1="3.9" y1="-3.4" x2="-3.9" y2="-3.4" width="0.05" layer="51"/>
+<wire x1="-3.9" y1="-3.4" x2="-3.9" y2="3.4" width="0.05" layer="51"/>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="3" x2="3" y2="-3" width="0.1" layer="51"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.1" layer="51"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="3" x2="-3" y2="3" width="0.2" layer="21"/>
+<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.2" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -231,13 +235,6 @@ Metric Code Size 2012</description>
 <description>RESISTOR</description>
 <packageinstances>
 <packageinstance name="R0402"/>
-</packageinstances>
-</package3d>
-<package3d name="INDDFN630X600X450-2N" urn="urn:adsk.eagle:package:13422172/1" type="model">
-<description>DFN2, 6.30 X 6.00 X 4.50 mm body
-&lt;p&gt;DFN2 package with body size 6.30 X 6.00 X 4.50 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="INDDFN630X600X450-2N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -308,7 +305,7 @@ Metric Code Size 2012</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="VLS6045EX-1R5N">
+<symbol name="VLS6045EX-221M">
 <wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
 <wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
 <wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
@@ -492,25 +489,28 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps62160.pdf"&gt; Datasheet
 </device>
 </devices>
 </deviceset>
-<deviceset name="VLS6045EX-1R5N" prefix="L">
-<description>&lt;b&gt;TDK - VLS6045EX-1R5N - INDUCTOR, WIREWOUND, 1.5UH, 5.3A, 30%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.mouser.com/ds/2/400/nductor_commercial_power_vls6045ex_en-776394.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="VLS6045EX-221M" prefix="L">
+<description>&lt;b&gt;Wirewound Inductor 220uH 500mA 1.15 mOhm TDK VLS-EX Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 220 uH Wire-Wound 500mA Idc&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_power_vls6045ex_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="VLS6045EX-1R5N" x="0" y="0"/>
+<gate name="G$1" symbol="VLS6045EX-221M" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="INDDFN630X600X450-2N">
+<device name="" package="INDPM6060X450N">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13422172/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MAXA" value="7.5" constant="no"/>
-<attribute name="VALUE" value="2.2uH" constant="no"/>
+<attribute name="DESCRIPTION" value="Wirewound Inductor 220uH 500mA 1.15 mOhm TDK VLS-EX Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 220 uH Wire-Wound 500mA Idc" constant="no"/>
+<attribute name="HEIGHT" value="4.5mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="VLS6045EX-221M" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-VLS6045EX-221M" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-VLS6045EX-221M" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="1247062" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1247062" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -787,7 +787,6 @@ Source: &lt;a href="http://www.mouser.com/ds/2/400/nductor_commercial_power_vls6
 <part name="C2" library="MouserUseful" deviceset="GRM219R61C226ME15K" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22uF"/>
 <part name="R1" library="MouserUseful" deviceset="RCS1206100KJNEA" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100kOhm"/>
 <part name="R3" library="MouserUseful" deviceset="RN73R1ETTP1803D25" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="180kOhm"/>
-<part name="L1" library="MouserUseful" deviceset="VLS6045EX-1R5N" device="" package3d_urn="urn:adsk.eagle:package:13422172/1" value="2.2uH"/>
 <part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="AGND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
@@ -796,6 +795,7 @@ Source: &lt;a href="http://www.mouser.com/ds/2/400/nductor_commercial_power_vls6
 <part name="J2" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
 <part name="AGND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
+<part name="L1" library="MouserUseful" deviceset="VLS6045EX-221M" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -827,10 +827,6 @@ Source: &lt;a href="http://www.mouser.com/ds/2/400/nductor_commercial_power_vls6
 <attribute name="NAME" x="133.1214" y="125.73" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="137.922" y="125.73" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="L1" gate="G$1" x="106.68" y="154.94" smashed="yes">
-<attribute name="NAME" x="123.19" y="161.29" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="123.19" y="158.75" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="AGND1" gate="VR1" x="81.28" y="114.3" smashed="yes">
 <attribute name="VALUE" x="78.74" y="109.22" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -857,6 +853,10 @@ Source: &lt;a href="http://www.mouser.com/ds/2/400/nductor_commercial_power_vls6
 </instance>
 <instance part="AGND3" gate="VR1" x="127" y="91.44" smashed="yes">
 <attribute name="VALUE" x="124.46" y="86.36" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="L1" gate="G$1" x="106.68" y="154.94" smashed="yes">
+<attribute name="NAME" x="123.19" y="161.29" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="123.19" y="158.75" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -896,13 +896,11 @@ Source: &lt;a href="http://www.mouser.com/ds/2/400/nductor_commercial_power_vls6
 <wire x1="127" y1="139.7" x2="127" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="127" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="154.94" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="154.94" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="127" y1="144.78" x2="127" y2="154.94" width="0.1524" layer="91"/>
 <junction x="127" y="144.78"/>
-<junction x="127" y="154.94"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="149.86" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
 <junction x="134.62" y="154.94"/>
@@ -910,6 +908,8 @@ Source: &lt;a href="http://www.mouser.com/ds/2/400/nductor_commercial_power_vls6
 <wire x1="147.32" y1="147.32" x2="147.32" y2="154.94" width="0.1524" layer="91"/>
 <junction x="147.32" y="154.94"/>
 <label x="152.4" y="154.94" size="1.778" layer="95" xref="yes"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<junction x="127" y="154.94"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
@@ -993,8 +993,8 @@ Source: &lt;a href="http://www.mouser.com/ds/2/400/nductor_commercial_power_vls6
 <segment>
 <pinref part="IC1" gate="G$1" pin="SW"/>
 <wire x1="104.14" y1="142.24" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="142.24" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

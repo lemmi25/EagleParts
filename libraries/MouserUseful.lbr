@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2777,6 +2777,24 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <rectangle x1="-0.4" y1="0.175" x2="0" y2="0.4" layer="51"/>
 <rectangle x1="-0.25" y1="0.175" x2="0" y2="0.4" layer="21"/>
 </package>
+<package name="INDPM6060X450N">
+<description>&lt;b&gt;VLS6045&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.3" y="0" dx="4.9" dy="2.7" layer="1" rot="R90"/>
+<smd name="2" x="2.3" y="0" dx="4.9" dy="2.7" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.9" y1="3.4" x2="3.9" y2="3.4" width="0.05" layer="51"/>
+<wire x1="3.9" y1="3.4" x2="3.9" y2="-3.4" width="0.05" layer="51"/>
+<wire x1="3.9" y1="-3.4" x2="-3.9" y2="-3.4" width="0.05" layer="51"/>
+<wire x1="-3.9" y1="-3.4" x2="-3.9" y2="3.4" width="0.05" layer="51"/>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="3" x2="3" y2="-3" width="0.1" layer="51"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.1" layer="51"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.1" layer="51"/>
+<wire x1="3" y1="3" x2="-3" y2="3" width="0.2" layer="21"/>
+<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.2" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOP65P490X110-8N" urn="urn:adsk.eagle:package:13422153/1" type="model">
@@ -3835,6 +3853,16 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
+<symbol name="VLS6045EX-221M">
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TPS62160DGKR" prefix="IC">
@@ -3866,30 +3894,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps62160.pdf"&gt; Datasheet
 <attribute name="MANUFACTURER_PART_NUMBER" value="TPS62160DGKR" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-TPS62160DGKR" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=595-TPS62160DGKR" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VLS6045EX-1R5N" prefix="L">
-<description>&lt;b&gt;TDK - VLS6045EX-1R5N - INDUCTOR, WIREWOUND, 1.5UH, 5.3A, 30%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.mouser.com/ds/2/400/nductor_commercial_power_vls6045ex_en-776394.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="VLS6045EX-1R5N" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="INDDFN630X600X450-2N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:13422172/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MAXA" value="7.5" constant="no"/>
-<attribute name="VALUE" value="2.2uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4052,6 +4056,33 @@ Source: &lt;a href="http://www.ti.com/lit/ds/snvs321o/snvs321o.pdf"&gt; Datashee
 <technologies>
 <technology name="">
 <attribute name="VALUE" value="562kOhm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VLS6045EX-221M" prefix="L">
+<description>&lt;b&gt;Wirewound Inductor 220uH 500mA 1.15 mOhm TDK VLS-EX Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 220 uH Wire-Wound 500mA Idc&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_power_vls6045ex_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="VLS6045EX-221M" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDPM6060X450N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Wirewound Inductor 220uH 500mA 1.15 mOhm TDK VLS-EX Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 220 uH Wire-Wound 500mA Idc" constant="no"/>
+<attribute name="HEIGHT" value="4.5mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="VLS6045EX-221M" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-VLS6045EX-221M" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-VLS6045EX-221M" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="1247062" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1247062" constant="no"/>
 </technology>
 </technologies>
 </device>
