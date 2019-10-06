@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.100000001" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="3.93700791" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -73,7 +73,6 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:PYU_gf1RQ4GT7Y1MgGNsEg" pcbguid="a588fb06-f60e-46b8-9998-7d83cd95d09b" lastpulledtime="" lastsyncedchangeguid="a0fd55d2-5992-7aa3-74f6-2eedeaa61141"/>
 <plain>
 <text x="3.58" y="7.825" size="0.6096" layer="25">C1</text>
 <text x="1.905" y="22.225" size="0.6096" layer="25" ratio="20" rot="R90">Gnd</text>
@@ -6962,14 +6961,14 @@
 <hole x="2" y="27.5" drill="3"/>
 <hole x="2" y="2.5" drill="3"/>
 <hole x="23" y="27.5" drill="3"/>
-<wire x1="1" y1="30" x2="24" y2="30" width="0.0254" layer="20"/>
-<wire x1="24" y1="30" x2="25" y2="29" width="0.0254" layer="20" curve="-90"/>
-<wire x1="25" y1="29" x2="25" y2="1" width="0.0254" layer="20"/>
-<wire x1="25" y1="1" x2="24" y2="0" width="0.0254" layer="20" curve="-90"/>
-<wire x1="24" y1="0" x2="1" y2="0" width="0.0254" layer="20"/>
+<wire x1="1" y1="30.045" x2="23.93" y2="30.045" width="0.0254" layer="20"/>
+<wire x1="23.93" y1="30.045" x2="24.93" y2="29.045" width="0.0254" layer="20" curve="-90"/>
+<wire x1="24.93" y1="29.045" x2="24.93" y2="1" width="0.0254" layer="20"/>
+<wire x1="24.93" y1="1" x2="23.93" y2="0" width="0.0254" layer="20" curve="-90"/>
+<wire x1="23.93" y1="0" x2="1" y2="0" width="0.0254" layer="20"/>
 <wire x1="1" y1="0" x2="0" y2="1" width="0.0254" layer="20" curve="-90"/>
-<wire x1="0" y1="1" x2="0" y2="29" width="0.0254" layer="20"/>
-<wire x1="0" y1="29" x2="1" y2="30" width="0.0254" layer="20" curve="-90"/>
+<wire x1="0" y1="1" x2="0" y2="29.045" width="0.0254" layer="20"/>
+<wire x1="0" y1="29.045" x2="1" y2="30.045" width="0.0254" layer="20" curve="-90"/>
 </plain>
 <libraries>
 <library name="MouserUseful">
@@ -7725,11 +7724,6 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports Fusion synchronisation.
-This feature will not be available in this version and saving
-the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
