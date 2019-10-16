@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7539,16 +7539,17 @@ straight</description>
 <segment>
 <pinref part="IC6" gate="G$1" pin="GND_3"/>
 <wire x1="160.02" y1="162.56" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="162.56" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="GND_4"/>
 <wire x1="167.64" y1="149.86" x2="167.64" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="154.94" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="160.02" x2="160.02" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="167.64" y1="160.02" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="154.94" x2="167.64" y2="154.94" width="0.1524" layer="91"/>
 <junction x="167.64" y="154.94"/>
 <pinref part="RST" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="167.64" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="GND_4"/>
+<wire x1="160.02" y1="160.02" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
+<junction x="167.64" y="160.02"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="G$1" pin="GND_1"/>
@@ -8186,6 +8187,9 @@ straight</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="108,1,167.64,160.02,GND,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

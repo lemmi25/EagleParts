@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5719,6 +5719,9 @@ W = angled&lt;p&gt;
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,20.3623,40.3504,SV1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

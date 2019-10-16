@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -9662,7 +9662,7 @@ Moritz Bösenberg</text>
 <clearance class="1" value="0.1"/>
 </class>
 </classes>
-<designrules name="default *">
+<designrules name="Main_1">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -9691,7 +9691,7 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="20mil"/>
+<param name="mdCopperDimension" value="10mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
@@ -9953,21 +9953,21 @@ design rules under a new name.</description>
 <attribute name="NAME" x="64.62576875" y="27.952390625" size="0.8128" layer="26" rot="MR180"/>
 <attribute name="PACKAGE" value="None" x="68.5" y="29" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R1" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="73" y="14.5" smashed="yes">
+<element name="R1" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K" x="73" y="14.5" smashed="yes">
 <attribute name="NAME" x="71.73" y="15.77" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="71.73" y="11.96" size="1.27" layer="27"/>
+<attribute name="VALUE" x="71.73" y="12.46" size="0.8128" layer="27"/>
 </element>
-<element name="R2" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="73" y="14.5" smashed="yes" rot="MR0">
+<element name="R2" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K" x="73" y="14.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="74.27" y="15.77" size="0.8128" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="74.27" y="11.96" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="74.27" y="12.46" size="0.8128" layer="28" rot="MR0"/>
 </element>
-<element name="R3" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="73" y="22.5" smashed="yes">
+<element name="R3" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K" x="73" y="22.5" smashed="yes">
 <attribute name="NAME" x="71.73" y="23.77" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="71.73" y="19.96" size="1.27" layer="27"/>
+<attribute name="VALUE" x="71.73" y="20.46" size="0.8128" layer="27"/>
 </element>
-<element name="R4" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="73" y="22.5" smashed="yes" rot="MR0">
+<element name="R4" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K" x="73" y="22.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="74.27" y="23.77" size="0.8128" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="74.27" y="19.96" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="73.77" y="20.46" size="0.8128" layer="28" rot="MR0"/>
 </element>
 <element name="SV4" library="CommonParts" package="MA08-1" package3d_urn="urn:adsk.eagle:package:8343/1" value="" x="43" y="12" smashed="yes">
 <attribute name="MF" value="" x="43" y="12" size="1.778" layer="27" display="off"/>

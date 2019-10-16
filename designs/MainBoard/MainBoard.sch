@@ -713,10 +713,10 @@
 <part name="J6" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
 <part name="J7" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
 <part name="J8" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
-<part name="R1" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
-<part name="R2" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
-<part name="R3" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
-<part name="R4" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
+<part name="R1" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
+<part name="R2" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
+<part name="R3" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
+<part name="R4" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
 <part name="SV4" library="CommonParts" deviceset="PINHEADER-1X8" device="" package3d_urn="urn:adsk.eagle:package:8343/1"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
