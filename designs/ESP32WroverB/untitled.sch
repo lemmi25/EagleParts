@@ -7407,11 +7407,11 @@ straight</description>
 <part name="C1" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1nF"/>
 <part name="C2" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100uF"/>
 <part name="C3" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
-<part name="R1" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="R1" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="12k"/>
 <part name="C4" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1nF"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R2" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="460ohm"/>
 <part name="JTAG" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1" value="1"/>
 <part name="UART" library="con-panduit" library_urn="urn:adsk.eagle:library:169" deviceset="057-006-" device="1" package3d_urn="urn:adsk.eagle:package:9198/1"/>
 <part name="SV5" library="CommonParts" deviceset="PINHEADER-1X9" device="" package3d_urn="urn:adsk.eagle:package:8350/1"/>
@@ -7638,12 +7638,6 @@ straight</description>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="95.25" y1="231.394" x2="91.948" y2="231.394" width="0.1524" layer="91"/>
 <label x="91.948" y="231.394" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="POWER" gate="G$1" pin="2"/>
-<pinref part="ON/OFF" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="247.65" x2="107.95" y2="247.65" width="0.1524" layer="91"/>
-<wire x1="107.95" y1="247.65" x2="107.95" y2="250.19" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="208.28" x2="226.06" y2="208.28" width="0.1524" layer="91"/>
@@ -8132,6 +8126,14 @@ straight</description>
 <wire x1="238.76" y1="203.2" x2="248.92" y2="203.2" width="0.1524" layer="91"/>
 <label x="238.76" y="203.2" size="1.778" layer="95"/>
 <pinref part="SV1" gate="1" pin="6"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="POWER" gate="G$1" pin="2"/>
+<pinref part="ON/OFF" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="247.65" x2="107.95" y2="247.65" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="247.65" x2="107.95" y2="250.19" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
