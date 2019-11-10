@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7070,6 +7070,22 @@ Source: www.kingbright.com</description>
 <rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
 <rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
 </package>
+<package name="C1206" urn="urn:adsk.eagle:footprint:23125/1">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0805" urn="urn:adsk.eagle:package:23617/2" type="model">
@@ -7088,6 +7104,12 @@ Source: www.kingbright.com</description>
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="MA09-1"/>
+</packageinstances>
+</package3d>
+<package3d name="C1206" urn="urn:adsk.eagle:package:23618/2" type="model">
+<description>CAPACITOR</description>
+<packageinstances>
+<packageinstance name="C1206"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -7135,6 +7157,16 @@ Source: www.kingbright.com</description>
 <pin name="7" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="8" x="7.62" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="9" x="7.62" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="C-EU">
+<wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<text x="1.524" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.524" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
+<rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
+<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7219,6 +7251,35 @@ Source: www.kingbright.com</description>
 </technologies>
 </device>
 </devices>
+</deviceset>
+<deviceset name="C-EU_1206" prefix="C" uservalue="yes">
+<description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
+<gates>
+<gate name="G$1" symbol="C-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="C1206" package="C1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23618/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="54" constant="no"/>
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
 </deviceset>
 </devicesets>
 </library>
@@ -7405,7 +7466,6 @@ straight</description>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C1" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1nF"/>
-<part name="C2" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100uF"/>
 <part name="C3" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="R1" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="12k"/>
 <part name="C4" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1nF"/>
@@ -7419,6 +7479,7 @@ straight</description>
 <part name="SV1" library="CommonParts" deviceset="PINHEADER-1X9" device="" package3d_urn="urn:adsk.eagle:package:8350/1"/>
 <part name="SV2" library="CommonParts" deviceset="PINHEADER-1X9" device="" package3d_urn="urn:adsk.eagle:package:8350/1"/>
 <part name="RST" library="FSMSMTR" deviceset="FSMSMTR" device=""/>
+<part name="C2" library="CommonParts" deviceset="C-EU_1206" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -7468,10 +7529,6 @@ straight</description>
 <instance part="C1" gate="G$1" x="221.742" y="250.19" smashed="yes" rot="R270">
 <attribute name="NAME" x="222.123" y="248.666" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="217.043" y="248.666" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="C2" gate="G$1" x="88.9" y="198.12" smashed="yes">
-<attribute name="NAME" x="90.424" y="198.501" size="1.778" layer="95"/>
-<attribute name="VALUE" x="90.424" y="193.421" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="101.6" y="198.12" smashed="yes">
 <attribute name="NAME" x="103.124" y="198.501" size="1.778" layer="95"/>
@@ -7524,6 +7581,10 @@ straight</description>
 <instance part="SV2" gate="1" x="231.14" y="175.26" smashed="yes"/>
 <instance part="RST" gate="G$1" x="172.72" y="187.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="177.8" y="181.61" size="1.778" layer="95" rot="R270" align="center-left"/>
+</instance>
+<instance part="C2" gate="G$1" x="88.9" y="198.12" smashed="yes">
+<attribute name="NAME" x="90.424" y="198.501" size="1.778" layer="95"/>
+<attribute name="VALUE" x="90.424" y="193.421" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -7588,10 +7649,10 @@ straight</description>
 <wire x1="101.6" y1="193.04" x2="101.6" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="182.88" x2="88.9" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="182.88" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="193.04" x2="88.9" y2="182.88" width="0.1524" layer="91"/>
 <junction x="88.9" y="182.88"/>
 <pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="210.82" x2="226.06" y2="210.82" width="0.1524" layer="91"/>
@@ -7615,7 +7676,6 @@ straight</description>
 <wire x1="88.9" y1="203.2" x2="83.82" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="203.2" x2="83.82" y2="210.82" width="0.1524" layer="91"/>
 <label x="83.82" y="210.82" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="200.66" x2="88.9" y2="203.2" width="0.1524" layer="91"/>
 <junction x="88.9" y="203.2"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -7627,6 +7687,7 @@ straight</description>
 <wire x1="106.68" y1="203.2" x2="124.46" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="198.12" x2="106.68" y2="203.2" width="0.1524" layer="91"/>
 <junction x="106.68" y="203.2"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="ON/OFF" gate="G$1" pin="1"/>
