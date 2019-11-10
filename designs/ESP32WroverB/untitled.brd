@@ -6938,12 +6938,33 @@ design rules under a new name.</description>
 <via x="22.6194" y="22.75" extent="1-16" drill="0.35"/>
 <wire x1="22.6194" y1="22.75" x2="22.2322" y2="22.75" width="0.2" layer="16"/>
 <wire x1="22.2322" y1="22.75" x2="22.2322" y2="12.7678" width="0.2" layer="16"/>
-<wire x1="22.2322" y1="12.7678" x2="19.5" y2="12.7678" width="0.2" layer="16"/>
+<wire x1="22.2322" y1="12.7678" x2="20.1" y2="12.7678" width="0.2" layer="16"/>
+<wire x1="20.1" y1="12.7678" x2="19.5" y2="12.7678" width="0.2" layer="16"/>
 <wire x1="19.5" y1="12.7678" x2="19.5" y2="21" width="0.2" layer="16"/>
 <wire x1="19.5" y1="21" x2="15.5" y2="21" width="0.2" layer="16"/>
 <via x="15.5" y="21" extent="1-16" drill="0.35"/>
 <wire x1="15.5" y1="21" x2="15.513" y2="21" width="0.2" layer="1"/>
 <wire x1="15.513" y1="21" x2="15.513" y2="18.037" width="0.2" layer="1"/>
+<contactref element="SV1" pad="6"/>
+<wire x1="20.1" y1="12.7678" x2="20.1" y2="10.25" width="0.1524" layer="16"/>
+<wire x1="20.1" y1="10.25" x2="20.6" y2="9.75" width="0.1524" layer="16"/>
+<wire x1="20.6" y1="9.75" x2="20.625" y2="9.775" width="0.1524" layer="16"/>
+<via x="20.625" y="9.775" extent="1-16" drill="0.35"/>
+<wire x1="20.625" y1="9.775" x2="20.6" y2="9.75" width="0.1524" layer="1"/>
+<wire x1="20.6" y1="9.75" x2="20.6" y2="6.75" width="0.1524" layer="1"/>
+<wire x1="20.6" y1="6.75" x2="20.55" y2="6.7" width="0.1524" layer="1"/>
+<via x="20.55" y="6.7" extent="1-16" drill="0.35"/>
+<wire x1="20.55" y1="6.7" x2="20.8454" y2="6.4046" width="0.1524" layer="16"/>
+<wire x1="22.2" y1="3.78539375" x2="22.2" y2="2" width="0.1524" layer="16"/>
+<wire x1="20.8454" y1="6.4046" x2="20.8454" y2="5.13999375" width="0.1524" layer="16"/>
+<wire x1="20.8454" y1="5.13999375" x2="22.2" y2="3.78539375" width="0.1524" layer="16"/>
+<via x="22.2" y="2" extent="1-16" drill="0.35"/>
+<wire x1="30.672325" y1="3.3894" x2="31.2526" y2="3.969675" width="0.1524" layer="1"/>
+<wire x1="31.2526" y1="3.969675" x2="31.2526" y2="7.330325" width="0.1524" layer="1"/>
+<wire x1="31.2526" y1="7.330325" x2="29.5" y2="9.082925" width="0.1524" layer="1"/>
+<wire x1="22.2" y1="2" x2="23.5894" y2="3.3894" width="0.1524" layer="1"/>
+<wire x1="23.5894" y1="3.3894" x2="30.672325" y2="3.3894" width="0.1524" layer="1"/>
+<wire x1="29.5" y1="9.082925" x2="29.5" y2="9.46" width="0.1524" layer="1"/>
 </signal>
 <signal name="SEN_VP">
 <contactref element="IC6" pad="4"/>
@@ -7257,9 +7278,6 @@ design rules under a new name.</description>
 <contactref element="SV2" pad="1"/>
 <wire x1="25.65" y1="45.522" x2="29.5" y2="45.522" width="0.2" layer="1"/>
 <wire x1="29.5" y1="45.522" x2="29.5" y2="45.16" width="0.2" layer="1"/>
-</signal>
-<signal name="IO15">
-<contactref element="SV1" pad="6"/>
 </signal>
 <signal name="N$1">
 <contactref element="POWER" pad="2"/>

@@ -7869,6 +7869,11 @@ straight</description>
 <wire x1="160.02" y1="200.66" x2="167.64" y2="200.66" width="0.1524" layer="91"/>
 <label x="160.02" y="200.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="238.76" y1="203.2" x2="248.92" y2="203.2" width="0.1524" layer="91"/>
+<label x="238.76" y="203.2" size="1.778" layer="95"/>
+<pinref part="SV1" gate="1" pin="6"/>
+</segment>
 </net>
 <net name="SEN_VP" class="0">
 <segment>
@@ -8182,13 +8187,6 @@ straight</description>
 <pinref part="SV2" gate="1" pin="1"/>
 </segment>
 </net>
-<net name="IO15" class="0">
-<segment>
-<wire x1="238.76" y1="203.2" x2="248.92" y2="203.2" width="0.1524" layer="91"/>
-<label x="238.76" y="203.2" size="1.778" layer="95"/>
-<pinref part="SV1" gate="1" pin="6"/>
-</segment>
-</net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="POWER" gate="G$1" pin="2"/>
@@ -8250,9 +8248,6 @@ straight</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="108,1,167.64,160.02,GND,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
