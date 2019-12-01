@@ -73,7 +73,7 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:PYU_gf1RQ4GT7Y1MgGNsEg" pcbguid="a588fb06-f60e-46b8-9998-7d83cd95d09b" lastpulledtime="" lastsyncedchangeguid="a0fd55d2-5992-7aa3-74f6-2eedeaa61141"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:PYU_gf1RQ4GT7Y1MgGNsEg" pcbguid="a588fb06-f60e-46b8-9998-7d83cd95d09b" lastpulledtime="" lastsyncedchangeguid="fbd65d9d-124c-70b0-dc00-1bd723cbdb11"/>
 <plain>
 <text x="3.58" y="7.825" size="0.6096" layer="25">C1</text>
 <text x="2.405" y="21.225" size="1.016" layer="25" ratio="20" rot="R90">Gnd</text>
