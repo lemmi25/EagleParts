@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -73,17 +73,17 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:qr5fd7wmTYGYkqGqhFxAAQ" pcbguid="ed1bca21-045a-418e-931a-820db0e3dc27" lastpulledtime="" lastsyncedchangeguid="ae491c87-77c9-2377-a230-266f3260ef8a"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:qr5fd7wmTYGYkqGqhFxAAQ" pcbguid="ed1bca21-045a-418e-931a-820db0e3dc27" lastpulledtime="" lastsyncedchangeguid="2cda2d61-7268-cf4c-ad3c-c233fa6ebd5d"/>
 <plain>
 <text x="3.58" y="7.825" size="0.6096" layer="25">C1</text>
-<text x="2.405" y="21.225" size="1.016" layer="25" ratio="20" rot="R90">Gnd</text>
-<text x="0.675" y="21.225" size="1.016" layer="25" ratio="20" rot="R90">IOUT</text>
-<text x="25.025" y="21.225" size="1.016" layer="25" ratio="20" rot="R90">Gnd</text>
-<text x="23.295" y="21.225" size="1.016" layer="25" ratio="20" rot="R90">VIN</text>
-<text x="8.755" y="3.945" size="0.6096" layer="25" ratio="20" rot="R90">VIN</text>
-<text x="11.295" y="3.945" size="0.6096" layer="25" ratio="20" rot="R90">GND</text>
-<text x="13.835" y="3.945" size="0.6096" layer="25" ratio="20" rot="R90">GND</text>
-<text x="16.375" y="3.945" size="0.6096" layer="25" ratio="20" rot="R90">IOUT</text>
+<text x="0.405" y="21.225" size="1.016" layer="25" ratio="20" rot="R90">Gnd</text>
+<text x="2.675" y="21.225" size="1.016" layer="25" ratio="20" rot="R90">IOUT</text>
+<text x="23.025" y="21.225" size="1.016" layer="25" ratio="20" rot="R90">Gnd</text>
+<text x="25.295" y="21.225" size="1.016" layer="25" ratio="20" rot="R90">VIN</text>
+<text x="8.755" y="3.945" size="1.016" layer="25" ratio="20" rot="R90">VIN</text>
+<text x="11.295" y="3.945" size="1.016" layer="25" ratio="20" rot="R90">GND</text>
+<text x="13.835" y="3.945" size="1.016" layer="25" ratio="20" rot="R90">GND</text>
+<text x="16.375" y="3.945" size="1.016" layer="25" ratio="20" rot="R90">IOUT</text>
 <rectangle x1="22.99481875" y1="15.91635" x2="23.13198125" y2="15.92905" layer="22"/>
 <rectangle x1="19.00701875" y1="15.92905" x2="19.04258125" y2="15.94175" layer="22"/>
 <rectangle x1="22.93131875" y1="15.92905" x2="23.15738125" y2="15.94175" layer="22"/>
@@ -6963,8 +6963,8 @@
 <dimension x1="0" y1="28.845" x2="25" y2="28" x3="12.5" y3="35.5" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="24" y1="30" x2="23.765" y2="0" x3="33.5" y3="15" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="0" y1="1" x2="12.5" y2="2" x3="6.25" y3="-3.5" textsize="1.778" layer="47" dtype="horizontal"/>
-<hole x="0" y="2.5" drill="2.8"/>
-<hole x="25" y="2.5" drill="2.8"/>
+<hole x="0" y="0.5" drill="2.8"/>
+<hole x="25" y="0.5" drill="2.8"/>
 <hole x="0" y="27.5" drill="2.8"/>
 <hole x="25" y="27.5" drill="2.8"/>
 <dimension x1="2" y1="26.1" x2="2" y2="28.9" x3="-3.5" y3="27.5" textsize="1.778" layer="47" dtype="diameter"/>
@@ -11556,11 +11556,11 @@
 <rectangle x1="21.67358125" y1="25.84635" x2="21.84121875" y2="25.85905" layer="16"/>
 <wire x1="22.5" y1="31" x2="26" y2="31" width="0.0762" layer="20"/>
 <wire x1="26" y1="31" x2="28" y2="29" width="0.0762" layer="20" curve="-90"/>
-<wire x1="28" y1="29" x2="28" y2="1" width="0.0762" layer="20"/>
-<wire x1="28" y1="1" x2="26" y2="-1" width="0.0762" layer="20" curve="-90"/>
-<wire x1="26" y1="-1" x2="-1" y2="-1" width="0.0762" layer="20"/>
-<wire x1="-1" y1="-1" x2="-3" y2="1" width="0.0762" layer="20" curve="-90"/>
-<wire x1="-3" y1="1" x2="-3" y2="29" width="0.0762" layer="20"/>
+<wire x1="28" y1="29" x2="28" y2="-1" width="0.0762" layer="20"/>
+<wire x1="28" y1="-1" x2="26" y2="-3" width="0.0762" layer="20" curve="-90"/>
+<wire x1="26" y1="-3" x2="-1" y2="-3" width="0.0762" layer="20"/>
+<wire x1="-1" y1="-3" x2="-3" y2="-1" width="0.0762" layer="20" curve="-90"/>
+<wire x1="-3" y1="-1" x2="-3" y2="29" width="0.0762" layer="20"/>
 <wire x1="-3" y1="29" x2="-1" y2="31" width="0.0762" layer="20" curve="-90"/>
 <wire x1="-1" y1="31" x2="2.5" y2="31" width="0.0762" layer="20"/>
 <wire x1="2.5" y1="31" x2="3" y2="30.5" width="0.0762" layer="20" curve="-90"/>
@@ -12106,7 +12106,8 @@ design rules under a new name.</description>
 <vertex x="7.3025" y="11.9775"/>
 <vertex x="7.3025" y="9.4375"/>
 <vertex x="9.39" y="7.35"/>
-<vertex x="9.39" y="-1"/>
+<vertex x="9.39" y="-3"/>
+<vertex x="-1" y="-3" curve="-90"/>
 <vertex x="-3" y="-1"/>
 </polygon>
 <contactref element="J1" pad="1"/>
@@ -12161,7 +12162,8 @@ design rules under a new name.</description>
 <vertex x="12.065" y="9.12"/>
 <vertex x="13.335" y="9.12"/>
 <vertex x="15.24" y="7.215"/>
-<vertex x="15.24" y="-1"/>
+<vertex x="15.24" y="-3"/>
+<vertex x="26.0825" y="-3" curve="90"/>
 <vertex x="28.0825" y="-1"/>
 <vertex x="28.0825" y="31.3525"/>
 </polygon>
@@ -12207,8 +12209,8 @@ design rules under a new name.</description>
 <vertex x="7.9375" y="12.93"/>
 <vertex x="7.9375" y="9.755"/>
 <vertex x="10.025" y="7.6675"/>
-<vertex x="10.025" y="-1"/>
-<vertex x="14.605" y="-1"/>
+<vertex x="10.025" y="-3"/>
+<vertex x="14.605" y="-3"/>
 <vertex x="14.605" y="6.8975"/>
 <vertex x="13.0175" y="8.485"/>
 <vertex x="11.43" y="8.485"/>
@@ -12238,7 +12240,9 @@ design rules under a new name.</description>
 <vertex x="5.08" y="19.05"/>
 <vertex x="5.08" y="6.985"/>
 <vertex x="27.765" y="6.985"/>
-<vertex x="27.765" y="-1"/>
+<vertex x="27.765" y="-1" curve="-90"/>
+<vertex x="25.765" y="-3"/>
+<vertex x="-1" y="-3" curve="-90"/>
 <vertex x="-3" y="-1"/>
 <vertex x="-3" y="30.845"/>
 </polygon>
