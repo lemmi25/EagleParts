@@ -87,8 +87,11 @@
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="Display" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="prix" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="test" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -99,6 +102,22 @@
 <layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
@@ -316,6 +335,31 @@
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="PJ-002AH-SMT-TR">
+<description>&lt;b&gt;PJ-002AH-SMT-TR&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="11.1" y="10.2" dx="2.8" dy="2.4" layer="1"/>
+<smd name="2" x="5" y="10.2" dx="2.8" dy="2.4" layer="1"/>
+<smd name="3" x="5" y="-1.2" dx="2.8" dy="2.4" layer="1"/>
+<smd name="4" x="11.1" y="-1.2" dx="2.8" dy="2.4" layer="1"/>
+<pad name="5" x="9.5" y="4.5" drill="1.8" diameter="2.7"/>
+<pad name="6" x="5" y="4.5" drill="1.6" diameter="2.4"/>
+<text x="6.79111875" y="4.65485" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="6.79111875" y="4.65485" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="0" y1="9" x2="14.8" y2="9" width="0.2" layer="51"/>
+<wire x1="14.8" y1="9" x2="14.8" y2="0" width="0.2" layer="51"/>
+<wire x1="14.8" y1="0" x2="0" y2="0" width="0.2" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="9" width="0.2" layer="51"/>
+<wire x1="0" y1="9" x2="0" y2="0" width="0.2" layer="21"/>
+<wire x1="14.8" y1="0" x2="14.8" y2="9" width="0.2" layer="21"/>
+<wire x1="14.8" y1="9" x2="12.862" y2="9" width="0.2" layer="21"/>
+<wire x1="14.8" y1="0" x2="12.843" y2="0" width="0.2" layer="21"/>
+<wire x1="0" y1="0" x2="3.148" y2="0" width="0.2" layer="21"/>
+<wire x1="0" y1="9" x2="3.325" y2="9" width="0.2" layer="21"/>
+<wire x1="6.584" y1="9" x2="9.44" y2="9" width="0.2" layer="21"/>
+<wire x1="6.647" y1="0" x2="9.503" y2="0" width="0.2" layer="21"/>
+<circle x="11.388" y="12.44" radius="0.218209375" width="0.4" layer="25"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MA09-1" urn="urn:adsk.eagle:package:8350/1" type="box">
@@ -420,6 +464,18 @@
 <rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="PJ-002AH-SMT-TR">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1_1" x="0" y="0" length="middle"/>
+<pin name="1_2" x="0" y="-2.54" length="middle"/>
+<pin name="2" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="3" x="22.86" y="-2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -561,6 +617,33 @@
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+</deviceset>
+<deviceset name="PJ-002AH-SMT-TR" prefix="J">
+<description>&lt;b&gt;DC Power Connectors Power Jacks&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-TR.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PJ-002AH-SMT-TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PJ-002AH-SMT-TR">
+<connects>
+<connect gate="G$1" pin="1_1" pad="1"/>
+<connect gate="G$1" pin="1_2" pad="2"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="DC Power Connectors Power Jacks" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="CUI" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PJ-002AH-SMT-TR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="490-PJ-002AH-SMT-TR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=490-PJ-002AH-SMT-TR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
 </deviceset>
 </devicesets>
 </library>
@@ -1031,8 +1114,6 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="J2" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
 <part name="J4" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
 <part name="J6" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
-<part name="J5" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
-<part name="J7" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
 <part name="R1" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
 <part name="R2" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
 <part name="SV1" library="CommonParts" deviceset="PINHEADER-1X8" device="" package3d_urn="urn:adsk.eagle:package:8343/1"/>
@@ -1044,10 +1125,8 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="C1" library="CommonParts" deviceset="C-EU_1206" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
 <part name="C2" library="CommonParts" deviceset="C-EU_1206" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J3" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SV6" library="CommonParts" deviceset="PINHEADER-1X8" device="" package3d_urn="urn:adsk.eagle:package:8343/1"/>
+<part name="J5" library="CommonParts" deviceset="PJ-002AH-SMT-TR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1088,14 +1167,6 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="NAME" x="202.68428125" y="116.8371" size="1.272509375" layer="95" rot="R90"/>
 <attribute name="VALUE" x="217.70268125" y="116.83188125" size="1.275409375" layer="96" rot="R90"/>
 </instance>
-<instance part="J5" gate="G$1" x="193.04" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="187.44428125" y="66.0371" size="1.272509375" layer="95" rot="R90"/>
-<attribute name="VALUE" x="202.46268125" y="66.03188125" size="1.275409375" layer="96" rot="R90"/>
-</instance>
-<instance part="J7" gate="G$1" x="208.28" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="202.68428125" y="66.0371" size="1.272509375" layer="95" rot="R90"/>
-<attribute name="VALUE" x="217.70268125" y="66.03188125" size="1.275409375" layer="96" rot="R90"/>
-</instance>
 <instance part="R1" gate="G$1" x="154.94" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="153.4414" y="97.79" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="158.242" y="97.79" size="1.778" layer="96" rot="R90"/>
@@ -1132,18 +1203,10 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <instance part="GND1" gate="1" x="106.68" y="96.52" smashed="yes">
 <attribute name="VALUE" x="104.14" y="93.98" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="190.5" y="55.88" smashed="yes">
-<attribute name="VALUE" x="187.96" y="53.34" size="1.778" layer="96"/>
-</instance>
-<instance part="GND9" gate="1" x="205.74" y="55.88" smashed="yes">
-<attribute name="VALUE" x="203.2" y="53.34" size="1.778" layer="96"/>
-</instance>
-<instance part="J3" gate="G$1" x="172.72" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="167.12428125" y="66.0371" size="1.272509375" layer="95" rot="R90"/>
-<attribute name="VALUE" x="182.14268125" y="66.03188125" size="1.275409375" layer="96" rot="R90"/>
-</instance>
-<instance part="GND5" gate="1" x="170.18" y="55.88" smashed="yes">
-<attribute name="VALUE" x="167.64" y="53.34" size="1.778" layer="96"/>
+<instance part="SV6" gate="1" x="152.4" y="50.8" smashed="yes"/>
+<instance part="J5" gate="G$1" x="205.74" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="186.69" y="48.26" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="186.69" y="50.8" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -1219,21 +1282,6 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <wire x1="78.74" y1="116.84" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
 <label x="81.28" y="116.84" size="1.778" layer="95" xref="yes"/>
 <pinref part="SV1" gate="1" pin="5"/>
-</segment>
-<segment>
-<pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="58.42" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="1"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="205.74" y1="58.42" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="58.42" x2="170.18" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -1552,19 +1600,9 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <label x="93.98" y="124.46" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="50.8" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
-<label x="193.04" y="50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="129.54" y1="121.92" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
 <label x="129.54" y="116.84" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="50.8" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
-<label x="172.72" y="50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="170V" class="0">
@@ -1572,11 +1610,6 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <wire x1="78.74" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
 <label x="81.28" y="119.38" size="1.778" layer="95" xref="yes"/>
 <pinref part="SV1" gate="1" pin="6"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="63.5" x2="208.28" y2="50.8" width="0.1524" layer="91"/>
-<label x="208.28" y="50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="5V" class="0">

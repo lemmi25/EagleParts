@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -700,77 +700,6 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 </deviceset>
 </devicesets>
 </library>
-<library name="CommonParts">
-<packages>
-<package name="JST_S2B-PH-SM4-TB(LF)(SN)">
-<wire x1="3.95" y1="0.35" x2="1.9" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="0.35" x2="-3.95" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-3.95" y1="0.35" x2="-3.95" y2="-3.65" width="0.127" layer="21"/>
-<circle x="-2.15" y="1.35" radius="0.1" width="0.3" layer="21"/>
-<wire x1="-2.2" y1="-7.25" x2="2.2" y2="-7.25" width="0.127" layer="21"/>
-<wire x1="3.95" y1="-3.65" x2="3.95" y2="0.35" width="0.127" layer="21"/>
-<wire x1="4.35" y1="-7.7" x2="-4.35" y2="-7.7" width="0.05" layer="39"/>
-<wire x1="-4.35" y1="-7.7" x2="-4.35" y2="0.6" width="0.05" layer="39"/>
-<wire x1="-4.35" y1="0.6" x2="-1.75" y2="0.6" width="0.05" layer="39"/>
-<wire x1="-1.75" y1="0.6" x2="-1.75" y2="2" width="0.05" layer="39"/>
-<wire x1="-1.75" y1="2" x2="1.75" y2="2" width="0.05" layer="39"/>
-<wire x1="1.75" y1="2" x2="1.75" y2="0.6" width="0.05" layer="39"/>
-<wire x1="1.75" y1="0.6" x2="4.35" y2="0.6" width="0.05" layer="39"/>
-<wire x1="4.35" y1="0.6" x2="4.35" y2="-7.7" width="0.05" layer="39"/>
-<text x="-3.87423125" y="2.547609375" size="1.27278125" layer="25">&gt;NAME</text>
-<text x="-3.75341875" y="-10.1187" size="1.274540625" layer="27">&gt;VALUE</text>
-<wire x1="3.95" y1="0.35" x2="3.95" y2="-7.25" width="0.127" layer="51"/>
-<wire x1="3.95" y1="-7.25" x2="-3.95" y2="-7.25" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="-7.25" x2="-3.95" y2="0.35" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="0.35" x2="3.95" y2="0.35" width="0.127" layer="51"/>
-<circle x="-2.15" y="1.35" radius="0.1" width="0.3" layer="51"/>
-<smd name="2" x="1" y="0" dx="1" dy="3.5" layer="1" rot="R180"/>
-<smd name="1" x="-1" y="0" dx="1" dy="3.5" layer="1" rot="R180"/>
-<smd name="S2" x="3.35" y="-5.75" dx="1.5" dy="3.4" layer="1" rot="R180"/>
-<smd name="S1" x="-3.35" y="-5.75" dx="1.5" dy="3.4" layer="1" rot="R180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="S2B-PH-SM4-TB(LF)(SN)">
-<text x="-5.0829" y="5.59571875" size="1.272509375" layer="95">&gt;NAME</text>
-<text x="-5.08811875" y="-9.42268125" size="1.275409375" layer="96">&gt;VALUE</text>
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
-<pin name="1" x="-7.62" y="2.54" length="short" direction="pas"/>
-<pin name="2" x="-7.62" y="0" length="short" direction="pas"/>
-<pin name="SHIELD" x="-7.62" y="-5.08" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="S2B-PH-SM4" prefix="J">
-<description>PH Series 2 Position 2 mm Pitch Surface Mount Side Entry Shrouded Header</description>
-<gates>
-<gate name="G$1" symbol="S2B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JST_S2B-PH-SM4-TB(LF)(SN)">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" PH Series 2 Position 2 mm Pitch Surface Mount Side Entry Shrouded Header "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="455-1749-1-ND"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/jst-sales-america-inc/S2B-PH-SM4-TB_LF__SN_/455-1749-1-ND/926846?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
-<attribute name="MF" value="JST Sales"/>
-<attribute name="MP" value="S2B-PH-SM4-TB_LF__SN_"/>
-<attribute name="PACKAGE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -791,10 +720,6 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="AGND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="J1" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
-<part name="J2" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
-<part name="AGND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="AGND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="L1" library="MouserUseful" deviceset="VLS6045EX-221M" device=""/>
 </parts>
 <sheets>
@@ -840,20 +765,6 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <instance part="AGND5" gate="VR1" x="142.24" y="93.98" smashed="yes">
 <attribute name="VALUE" x="139.7" y="88.9" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J1" gate="G$1" x="104.14" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="98.54428125" y="106.6771" size="1.272509375" layer="95" rot="R90"/>
-<attribute name="VALUE" x="113.56268125" y="106.67188125" size="1.275409375" layer="96" rot="R90"/>
-</instance>
-<instance part="J2" gate="G$1" x="121.92" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="116.32428125" y="106.6771" size="1.272509375" layer="95" rot="R90"/>
-<attribute name="VALUE" x="131.34268125" y="106.67188125" size="1.275409375" layer="96" rot="R90"/>
-</instance>
-<instance part="AGND2" gate="VR1" x="109.22" y="91.44" smashed="yes">
-<attribute name="VALUE" x="106.68" y="86.36" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="AGND3" gate="VR1" x="127" y="91.44" smashed="yes">
-<attribute name="VALUE" x="124.46" y="86.36" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="L1" gate="G$1" x="106.68" y="154.94" smashed="yes">
 <attribute name="NAME" x="123.19" y="161.29" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="123.19" y="158.75" size="1.778" layer="96" align="center-left"/>
@@ -883,11 +794,6 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <wire x1="137.16" y1="111.76" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
 <label x="137.16" y="106.68" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="104.14" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
-<label x="101.6" y="101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="IOUT" class="0">
 <segment>
@@ -915,11 +821,6 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <pinref part="JP1" gate="A" pin="4"/>
 <wire x1="144.78" y1="111.76" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
 <label x="144.78" y="106.68" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="104.14" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
-<label x="119.38" y="101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -957,18 +858,6 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <pinref part="JP1" gate="A" pin="3"/>
 <pinref part="AGND5" gate="VR1" pin="AGND"/>
 <wire x1="142.24" y1="96.52" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="104.14" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="AGND2" gate="VR1" pin="AGND"/>
-<wire x1="104.14" y1="93.98" x2="109.22" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<pinref part="AGND3" gate="VR1" pin="AGND"/>
-<wire x1="121.92" y1="104.14" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PG2" class="0">
