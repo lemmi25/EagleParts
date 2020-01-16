@@ -5712,29 +5712,6 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <wire x1="1.75" y1="1.4" x2="-2.325" y2="1.4" width="0.2" layer="21"/>
 <wire x1="-1.75" y1="-1.4" x2="1.75" y2="-1.4" width="0.2" layer="21"/>
 </package>
-<package name="SOT95P251X112-3N">
-<description>&lt;b&gt;SSOT-3L&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.15" y="0.95" dx="1.1" dy="0.65" layer="1"/>
-<smd name="2" x="-1.15" y="-0.95" dx="1.1" dy="0.65" layer="1"/>
-<smd name="3" x="1.15" y="0" dx="1.1" dy="0.65" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.95" y1="1.77" x2="1.95" y2="1.77" width="0.05" layer="51"/>
-<wire x1="1.95" y1="1.77" x2="1.95" y2="-1.77" width="0.05" layer="51"/>
-<wire x1="1.95" y1="-1.77" x2="-1.95" y2="-1.77" width="0.05" layer="51"/>
-<wire x1="-1.95" y1="-1.77" x2="-1.95" y2="1.77" width="0.05" layer="51"/>
-<wire x1="-0.7" y1="1.46" x2="0.7" y2="1.46" width="0.1" layer="51"/>
-<wire x1="0.7" y1="1.46" x2="0.7" y2="-1.46" width="0.1" layer="51"/>
-<wire x1="0.7" y1="-1.46" x2="-0.7" y2="-1.46" width="0.1" layer="51"/>
-<wire x1="-0.7" y1="-1.46" x2="-0.7" y2="1.46" width="0.1" layer="51"/>
-<wire x1="-0.7" y1="0.51" x2="0.25" y2="1.46" width="0.1" layer="51"/>
-<wire x1="-0.25" y1="1.46" x2="0.25" y2="1.46" width="0.2" layer="21"/>
-<wire x1="0.25" y1="1.46" x2="0.25" y2="-1.46" width="0.2" layer="21"/>
-<wire x1="0.25" y1="-1.46" x2="-0.25" y2="-1.46" width="0.2" layer="21"/>
-<wire x1="-0.25" y1="-1.46" x2="-0.25" y2="1.46" width="0.2" layer="21"/>
-<wire x1="-1.7" y1="1.525" x2="-0.6" y2="1.525" width="0.2" layer="21"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="1206" urn="urn:adsk.eagle:package:15796/2" type="model">
@@ -7680,17 +7657,6 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <vertex x="6.35" y="5.08"/>
 </polygon>
 </symbol>
-<symbol name="FDN335N">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="G" x="0" y="0" length="middle"/>
-<pin name="S" x="0" y="-2.54" length="middle"/>
-<pin name="D" x="20.32" y="0" length="middle" rot="R180"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LED_1206" prefix="LED" uservalue="yes">
@@ -8595,32 +8561,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ASMT-UWB1-NX3
 <attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" constant="no"/>
 <attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" constant="no"/>
 <attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FDN335N" prefix="IC">
-<description>&lt;b&gt;FDN335N, N-channel MOSFET Transistor 1.7 A 20 V, 3-Pin SuperSOT&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="FDN335N" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT95P251X112-3N">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="FDN335N, N-channel MOSFET Transistor 1.7 A 20 V, 3-Pin SuperSOT" constant="no"/>
-<attribute name="HEIGHT" value="1.12mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="FDN335N" constant="no"/>
-<attribute name="MOUSER2_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER2_PRICE-STOCK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
