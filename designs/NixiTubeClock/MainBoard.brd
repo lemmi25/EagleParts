@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -192,10 +192,10 @@
 <text x="49.5" y="9.62945" size="1.016" layer="26">SD0</text>
 <text x="49.5" y="7.100040625" size="1.016" layer="26">CLK</text>
 <text x="26" y="8.07055" size="1.016" layer="25" rot="R180">GND</text>
-<text x="8.75" y="35" size="1.016" layer="25" rot="R270" align="bottom-right">12V IN</text>
+<text x="8.75" y="35" size="1.016" layer="26" rot="R270" align="bottom-right">12V IN</text>
 <text x="14.75" y="35" size="1.016" layer="26" rot="MR270" align="bottom-right">GND</text>
 <text x="12.25" y="35" size="1.016" layer="26" rot="MR270" align="bottom-right">GND</text>
-<text x="16.5" y="35" size="1.016" layer="25" rot="R270" align="bottom-right">3.3V OUT</text>
+<text x="16.5" y="35" size="1.016" layer="26" rot="R270" align="bottom-right">3.3V OUT</text>
 <text x="6" y="11.7425875" size="1.016" layer="26" rot="R180" align="top-right">IO27</text>
 <text x="6" y="14.33623125" size="1.016" layer="26" rot="R180" align="top-right">GPIO14</text>
 <text x="6" y="16.929875" size="1.016" layer="26" rot="R180" align="top-right">GPIO12</text>
@@ -998,161 +998,161 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="29" x="3.25" y="17.33" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="6.171" y="14.79" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="IC2" library="CommonParts" package="SOT95P251X112-3N" value="FDN335N" x="66.5" y="43" smashed="yes">
-<attribute name="DESCRIPTION" value="FDN335N, N-channel MOSFET Transistor 1.7 A 20 V, 3-Pin SuperSOT" x="65.75" y="47.25" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.12mm" x="65.75" y="47.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="65.75" y="47.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="FDN335N" x="65.75" y="47.25" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER2_PART_NUMBER" value="" x="65.75" y="47.25" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER2_PRICE-STOCK" value="" x="65.75" y="47.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="70.5" y="43" size="1.27" layer="25" align="center"/>
+<element name="IC2" library="CommonParts" package="SOT95P251X112-3N" value="FDN335N" x="83.5" y="50" smashed="yes">
+<attribute name="DESCRIPTION" value="FDN335N, N-channel MOSFET Transistor 1.7 A 20 V, 3-Pin SuperSOT" x="82.75" y="54.25" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.12mm" x="82.75" y="54.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="82.75" y="54.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FDN335N" x="82.75" y="54.25" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PART_NUMBER" value="" x="82.75" y="54.25" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PRICE-STOCK" value="" x="82.75" y="54.25" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="87.5" y="50" size="1.27" layer="25" align="center"/>
 </element>
-<element name="R3" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="64.5" y="48" smashed="yes">
-<attribute name="NAME" x="63.23" y="49.27" size="1.27" layer="25"/>
-<attribute name="VALUE" x="63.23" y="45.46" size="1.27" layer="27"/>
+<element name="R3" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="73.5" y="51" smashed="yes">
+<attribute name="NAME" x="72.23" y="52.27" size="1.27" layer="25"/>
+<attribute name="VALUE" x="72.23" y="48.46" size="1.27" layer="27"/>
 </element>
-<element name="LED1" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="48" y="61" smashed="yes">
-<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="43.25" y="69.25" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2mm" x="43.25" y="69.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="43.25" y="69.25" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="43.25" y="69.25" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="43.25" y="69.25" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="43.25" y="69.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="53" y="61" size="1.27" layer="25" align="center"/>
+<element name="LED1" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="49" y="61" smashed="yes">
+<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="44.25" y="69.25" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2mm" x="44.25" y="69.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="44.25" y="69.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="44.25" y="69.25" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="44.25" y="69.25" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="44.25" y="69.25" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="54" y="61" size="1.27" layer="25" align="center"/>
 </element>
-<element name="LED5" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="65.5" y="61" smashed="yes">
-<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="66" y="70" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2mm" x="66" y="70" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="66" y="70" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="66" y="70" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="66" y="70" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="66" y="70" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="70.5" y="61" size="1.27" layer="25" align="center"/>
+<element name="LED5" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="66.5" y="61" smashed="yes">
+<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="67" y="70" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2mm" x="67" y="70" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="67" y="70" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="67" y="70" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="67" y="70" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="67" y="70" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="71.5" y="61" size="1.27" layer="25" align="center"/>
 </element>
-<element name="LED6" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="83.5" y="61" smashed="yes">
-<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="77.25" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2mm" x="77.25" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="77.25" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="77.25" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="77.25" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="77.25" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="88.5" y="61" size="1.27" layer="25" align="center"/>
+<element name="LED6" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="84.5" y="61" smashed="yes">
+<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="78.25" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2mm" x="78.25" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="78.25" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="78.25" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="78.25" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="78.25" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="89.5" y="61" size="1.27" layer="25" align="center"/>
 </element>
-<element name="LED7" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="30" y="61" smashed="yes">
-<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="30.5" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2mm" x="30.5" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="30.5" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="30.5" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="30.5" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="30.5" y="66.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="35" y="61" size="1.27" layer="25" align="center"/>
+<element name="LED7" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="31" y="61" smashed="yes">
+<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="31.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2mm" x="31.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="31.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="31.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="31.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="31.5" y="66.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="36" y="61" size="1.27" layer="25" align="center"/>
 </element>
-<element name="LED8" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="12" y="61" smashed="yes">
-<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="5.75" y="63" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2mm" x="5.75" y="63" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="5.75" y="63" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="5.75" y="63" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="5.75" y="63" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="5.75" y="63" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="17" y="61" size="1.27" layer="25" align="center"/>
+<element name="LED8" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="13" y="61" smashed="yes">
+<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="6.75" y="63" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2mm" x="6.75" y="63" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="6.75" y="63" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="6.75" y="63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="6.75" y="63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="6.75" y="63" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="18" y="61" size="1.27" layer="25" align="center"/>
 </element>
-<element name="R4" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="12" y="58" smashed="yes">
-<attribute name="NAME" x="15.23" y="57.77" size="1.27" layer="25"/>
-<attribute name="VALUE" x="10.73" y="55.46" size="1.27" layer="27"/>
+<element name="R4" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="13" y="58" smashed="yes">
+<attribute name="NAME" x="16.23" y="57.77" size="1.27" layer="25"/>
+<attribute name="VALUE" x="11.73" y="55.46" size="1.27" layer="27"/>
 </element>
-<element name="R5" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="30" y="58" smashed="yes">
-<attribute name="NAME" x="33.23" y="57.77" size="1.27" layer="25"/>
-<attribute name="VALUE" x="28.73" y="55.46" size="1.27" layer="27"/>
+<element name="R5" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="31" y="58" smashed="yes">
+<attribute name="NAME" x="34.23" y="57.77" size="1.27" layer="25"/>
+<attribute name="VALUE" x="29.73" y="55.46" size="1.27" layer="27"/>
 </element>
-<element name="R6" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="83.5" y="58" smashed="yes">
-<attribute name="NAME" x="86.73" y="57.77" size="1.27" layer="25"/>
-<attribute name="VALUE" x="82.23" y="55.46" size="1.27" layer="27"/>
+<element name="R6" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="84.5" y="58" smashed="yes">
+<attribute name="NAME" x="87.73" y="57.77" size="1.27" layer="25"/>
+<attribute name="VALUE" x="83.23" y="55.46" size="1.27" layer="27"/>
 </element>
-<element name="R7" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="48" y="58" smashed="yes">
-<attribute name="NAME" x="51.23" y="57.77" size="1.27" layer="25"/>
-<attribute name="VALUE" x="46.73" y="55.46" size="1.27" layer="27"/>
+<element name="R7" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="49" y="58" smashed="yes">
+<attribute name="NAME" x="52.23" y="57.77" size="1.27" layer="25"/>
+<attribute name="VALUE" x="47.73" y="55.46" size="1.27" layer="27"/>
 </element>
-<element name="R8" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="65.5" y="58" smashed="yes">
-<attribute name="NAME" x="68.73" y="57.77" size="1.27" layer="25"/>
-<attribute name="VALUE" x="64.23" y="55.46" size="1.27" layer="27"/>
+<element name="R8" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="66.5" y="58" smashed="yes">
+<attribute name="NAME" x="69.73" y="57.77" size="1.27" layer="25"/>
+<attribute name="VALUE" x="65.23" y="55.46" size="1.27" layer="27"/>
 </element>
-<element name="IC3" library="CommonParts" package="SOT95P251X112-3N" value="FDN335N" x="-5.5" y="-15" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="FDN335N, N-channel MOSFET Transistor 1.7 A 20 V, 3-Pin SuperSOT" x="-5" y="-6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="1.12mm" x="-5" y="-6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="-5" y="-6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="FDN335N" x="-5" y="-6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER2_PART_NUMBER" value="" x="-5" y="-6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER2_PRICE-STOCK" value="" x="-5" y="-6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-0.5" y="-15" size="1.27" layer="26" rot="MR0" align="center"/>
+<element name="IC3" library="CommonParts" package="SOT95P251X112-3N" value="FDN335N" x="83.5" y="46.5" smashed="yes">
+<attribute name="DESCRIPTION" value="FDN335N, N-channel MOSFET Transistor 1.7 A 20 V, 3-Pin SuperSOT" x="83" y="55.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.12mm" x="83" y="55.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="83" y="55.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FDN335N" x="83" y="55.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PART_NUMBER" value="" x="83" y="55.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER2_PRICE-STOCK" value="" x="83" y="55.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="87.5" y="46.5" size="1.27" layer="25" align="center"/>
 </element>
-<element name="R9" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="-7.5" y="-7.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-6.23" y="-6.23" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="-6.23" y="-10.04" size="1.27" layer="28" rot="MR0"/>
+<element name="R9" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="73.5" y="47.5" smashed="yes">
+<attribute name="NAME" x="72.23" y="48.77" size="1.27" layer="25"/>
+<attribute name="VALUE" x="72.23" y="44.96" size="1.27" layer="27"/>
 </element>
-<element name="LED2" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="2.5" y="-15" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="11.5" y="-14" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="2mm" x="11.5" y="-14" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="11.5" y="-14" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="11.5" y="-14" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="11.5" y="-14" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="11.5" y="-14" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-2.5" y="-14" size="1.27" layer="25" align="center"/>
+<element name="LED2" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="13" y="61" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="22" y="62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="2mm" x="22" y="62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="22" y="62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="22" y="62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="22" y="62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="22" y="62" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="8" y="61" size="1.27" layer="25" rot="MR0" align="center"/>
 </element>
-<element name="LED3" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="-6.5" y="-19" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="-6.5" y="-17.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="2mm" x="-6.5" y="-17.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="-6.5" y="-17.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="-6.5" y="-17.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="-6.5" y="-17.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="-6.5" y="-17.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-0.5" y="-18.5" size="1.27" layer="26" rot="MR0" align="center"/>
+<element name="LED3" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="66.5" y="61" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="66.5" y="62.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="2mm" x="66.5" y="62.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="66.5" y="62.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="66.5" y="62.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="66.5" y="62.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="66.5" y="62.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="61.5" y="61" size="1.27" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="LED4" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="0.5" y="-19" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="7.5" y="-21" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="2mm" x="7.5" y="-21" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="7.5" y="-21" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="7.5" y="-21" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="7.5" y="-21" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="7.5" y="-21" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="-3.5" y="-21" size="1.27" layer="26" rot="MR0" align="center"/>
+<element name="LED4" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="49" y="61" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="56" y="59" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="2mm" x="56" y="59" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="56" y="59" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="56" y="59" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="56" y="59" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="56" y="59" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="44" y="61" size="1.27" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="LED9" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="-6.5" y="-22.5" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="-6.5" y="-24.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="2mm" x="-6.5" y="-24.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="-6.5" y="-24.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="-6.5" y="-24.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="-6.5" y="-24.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="-6.5" y="-24.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="0.5" y="-24" size="1.27" layer="26" rot="MR0" align="center"/>
+<element name="LED9" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="84.5" y="61" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="84.5" y="59" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="2mm" x="84.5" y="59" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="84.5" y="59" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="84.5" y="59" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="84.5" y="59" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="84.5" y="59" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="79.5" y="61" size="1.27" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="LED10" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="16.5" y="-23" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="23.5" y="-28.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="2mm" x="23.5" y="-28.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="23.5" y="-28.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="23.5" y="-28.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="23.5" y="-28.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="23.5" y="-28.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="15.5" y="-18" size="1.27" layer="25" align="center"/>
+<element name="LED10" library="CommonParts" package="LEDM3528X200N" value="PLCC2" x="31" y="61" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value="Cool White SMT LED, PLCC2 1800mcd Min. Broadcom ASMT-UWB1-NX302, ASMT-UWB Series White LED, 6250K, PLCC 2, Round Lens SMD package" x="38" y="55.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="HEIGHT" value="2mm" x="38" y="55.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Avago Technologies" x="38" y="55.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ASMT-UWB1-NX302" x="38" y="55.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER2_PART_NUMBER" value="630-ASMT-UWB1-NX302" x="38" y="55.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOUSER2_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=630-ASMT-UWB1-NX302" x="38" y="55.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="25.5" y="61" size="1.27" layer="25" rot="MR0" align="center"/>
 </element>
-<element name="R10" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="-2.5" y="-7.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-1.23" y="-6.23" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="-1.23" y="-10.04" size="1.27" layer="28" rot="MR0"/>
+<element name="R10" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="31" y="58" smashed="yes" rot="MR0">
+<attribute name="NAME" x="27.77" y="57.77" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="32.27" y="55.46" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R11" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="2.5" y="-7.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="3.77" y="-6.23" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="3.77" y="-10.04" size="1.27" layer="28" rot="MR0"/>
+<element name="R11" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="84.5" y="58" smashed="yes" rot="MR0">
+<attribute name="NAME" x="81.27" y="57.77" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="85.77" y="55.46" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R12" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="-7.5" y="-12" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-6.23" y="-10.73" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="-6.23" y="-14.54" size="1.27" layer="28" rot="MR0"/>
+<element name="R12" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="49" y="58" smashed="yes" rot="MR0">
+<attribute name="NAME" x="45.77" y="57.77" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="50.27" y="55.46" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R13" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="-2.5" y="-12" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-1.23" y="-10.73" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="-1.23" y="-14.54" size="1.27" layer="28" rot="MR0"/>
+<element name="R13" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="13" y="58" smashed="yes" rot="MR0">
+<attribute name="NAME" x="10.27" y="57.77" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="14.27" y="55.46" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R14" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="2.5" y="-12" smashed="yes" rot="MR0">
-<attribute name="NAME" x="3.77" y="-10.73" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="3.77" y="-14.54" size="1.27" layer="28" rot="MR0"/>
+<element name="R14" library="CommonParts" package="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="" x="66.5" y="58" smashed="yes" rot="MR0">
+<attribute name="NAME" x="63.27" y="57.77" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="67.77" y="55.46" size="1.27" layer="28" rot="MR0"/>
 </element>
 </elements>
 <signals>
@@ -1179,8 +1179,8 @@ design rules under a new name.</description>
 <vertex x="0" y="53" curve="-90"/>
 <vertex x="10" y="63"/>
 <vertex x="88" y="63" curve="-90"/>
-<vertex x="98" y="53"/>
-<vertex x="98" y="-4"/>
+<vertex x="98.5" y="52.5"/>
+<vertex x="98.5" y="-4"/>
 </polygon>
 <contactref element="J1" pad="1"/>
 <contactref element="J2" pad="1"/>
@@ -1193,7 +1193,8 @@ design rules under a new name.</description>
 <contactref element="SV7" pad="3"/>
 <contactref element="R3" pad="1"/>
 <contactref element="R9" pad="1"/>
-<wire x1="61" y1="30.81" x2="63.078" y2="48" width="0" layer="19" extent="1-1"/>
+<wire x1="72.078" y1="47.5" x2="72.078" y2="51" width="0" layer="19" extent="1-1"/>
+<wire x1="61" y1="30.81" x2="72.078" y2="47.5" width="0" layer="19" extent="1-1"/>
 <wire x1="61" y1="28.27" x2="61" y2="30.81" width="0" layer="19" extent="1-1"/>
 <wire x1="61" y1="25.73" x2="61" y2="28.27" width="0" layer="19" extent="1-1"/>
 <wire x1="61" y1="23.19" x2="61" y2="25.73" width="0" layer="19" extent="1-1"/>
@@ -1211,7 +1212,6 @@ design rules under a new name.</description>
 <wire x1="14.27" y1="32.8" x2="29.5" y2="30.34" width="0" layer="19" extent="1-1"/>
 <wire x1="11.73" y1="32.8" x2="14.27" y2="32.8" width="0" layer="19" extent="1-1"/>
 <wire x1="3.25" y1="12.25" x2="11.73" y2="32.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-6.078" y1="-7.5" x2="3.25" y2="12.25" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="3.3V">
 <contactref element="SV2" pad="8"/>
@@ -1230,21 +1230,21 @@ design rules under a new name.</description>
 <contactref element="R12" pad="1"/>
 <contactref element="R13" pad="1"/>
 <contactref element="R14" pad="1"/>
-<wire x1="64.078" y1="58" x2="82.078" y2="58" width="0" layer="19" extent="1-1"/>
-<wire x1="46.578" y1="58" x2="64.078" y2="58" width="0" layer="19" extent="1-1"/>
-<wire x1="28.578" y1="58" x2="46.578" y2="58" width="0" layer="19" extent="1-1"/>
-<wire x1="10.578" y1="58" x2="28.578" y2="58" width="0" layer="19" extent="1-1"/>
-<wire x1="29.5" y1="32.88" x2="28.578" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="83.078" y1="58" x2="85.922" y2="58" width="0" layer="19" extent="1-16"/>
+<wire x1="67.922" y1="58" x2="83.078" y2="58" width="0" layer="19" extent="1-16"/>
+<wire x1="65.078" y1="58" x2="67.922" y2="58" width="0" layer="19" extent="1-16"/>
+<wire x1="50.422" y1="58" x2="65.078" y2="58" width="0" layer="19" extent="1-16"/>
+<wire x1="47.578" y1="58" x2="50.422" y2="58" width="0" layer="19" extent="1-16"/>
+<wire x1="32.422" y1="58" x2="47.578" y2="58" width="0" layer="19" extent="1-16"/>
+<wire x1="29.578" y1="58" x2="32.422" y2="58" width="0" layer="19" extent="1-16"/>
+<wire x1="14.422" y1="58" x2="29.578" y2="58" width="0" layer="19" extent="1-16"/>
+<wire x1="11.578" y1="58" x2="14.422" y2="58" width="0" layer="19" extent="1-16"/>
+<wire x1="29.5" y1="32.88" x2="29.578" y2="58" width="0" layer="19" extent="1-1"/>
 <wire x1="16.81" y1="32.8" x2="29.5" y2="32.88" width="0" layer="19" extent="1-1"/>
-<wire x1="80" y1="16.422" x2="82.078" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="80" y1="16.422" x2="83.078" y2="58" width="0" layer="19" extent="1-1"/>
 <wire x1="73" y1="16.422" x2="80" y2="16.422" width="0" layer="19" extent="1-1"/>
 <wire x1="71.5" y1="7" x2="73" y2="16.422" width="0" layer="19" extent="1-1"/>
 <wire x1="82.5" y1="7" x2="80" y2="16.422" width="0" layer="19" extent="1-1"/>
-<wire x1="3.922" y1="-7.5" x2="16.81" y2="32.8" width="0" layer="19" extent="16-16"/>
-<wire x1="3.922" y1="-12" x2="3.922" y2="-7.5" width="0" layer="19" extent="16-16"/>
-<wire x1="-1.078" y1="-12" x2="3.922" y2="-12" width="0" layer="19" extent="16-16"/>
-<wire x1="-1.078" y1="-7.5" x2="-1.078" y2="-12" width="0" layer="19" extent="16-16"/>
-<wire x1="-6.078" y1="-12" x2="-1.078" y2="-12" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="RXD0" class="1">
 <contactref element="SV5" pad="4"/>
@@ -1402,7 +1402,7 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="R3" pad="2"/>
 <contactref element="IC2" pad="1"/>
-<wire x1="65.35" y1="43.95" x2="65.922" y2="48" width="0" layer="19" extent="1-1"/>
+<wire x1="74.922" y1="51" x2="82.35" y2="50.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED8" pad="1"/>
@@ -1411,41 +1411,41 @@ design rules under a new name.</description>
 <contactref element="LED1" pad="1"/>
 <contactref element="LED5" pad="1"/>
 <contactref element="IC2" pad="3"/>
-<wire x1="64" y1="61" x2="82" y2="61" width="0" layer="19" extent="1-1"/>
-<wire x1="46.5" y1="61" x2="64" y2="61" width="0" layer="19" extent="1-1"/>
-<wire x1="28.5" y1="61" x2="46.5" y2="61" width="0" layer="19" extent="1-1"/>
-<wire x1="10.5" y1="61" x2="28.5" y2="61" width="0" layer="19" extent="1-1"/>
-<wire x1="67.65" y1="43" x2="64" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="83" y1="61" x2="84.65" y2="50" width="0" layer="19" extent="1-1"/>
+<wire x1="65" y1="61" x2="83" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="47.5" y1="61" x2="65" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="29.5" y1="61" x2="47.5" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="11.5" y1="61" x2="29.5" y2="61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="LED5" pad="2"/>
 <contactref element="R8" pad="2"/>
-<wire x1="66.922" y1="58" x2="67" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="68" y1="61" x2="67.922" y2="58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="LED1" pad="2"/>
 <contactref element="R7" pad="2"/>
-<wire x1="49.422" y1="58" x2="49.5" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="50.5" y1="61" x2="50.422" y2="58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="LED6" pad="2"/>
 <contactref element="R6" pad="2"/>
-<wire x1="84.922" y1="58" x2="85" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="86" y1="61" x2="85.922" y2="58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="LED7" pad="2"/>
 <contactref element="R5" pad="2"/>
-<wire x1="31.422" y1="58" x2="31.5" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="32.5" y1="61" x2="32.422" y2="58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="LED8" pad="2"/>
 <contactref element="R4" pad="2"/>
-<wire x1="13.422" y1="58" x2="13.5" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="14.5" y1="61" x2="14.422" y2="58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R9" pad="2"/>
 <contactref element="IC3" pad="1"/>
-<wire x1="-8.922" y1="-7.5" x2="-4.35" y2="-14.05" width="0" layer="19" extent="16-16"/>
+<wire x1="74.922" y1="47.5" x2="82.35" y2="47.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="LED10" pad="1"/>
@@ -1454,36 +1454,36 @@ design rules under a new name.</description>
 <contactref element="LED2" pad="1"/>
 <contactref element="LED3" pad="1"/>
 <contactref element="IC3" pad="3"/>
-<wire x1="-5" y1="-19" x2="-5" y2="-22.5" width="0" layer="19" extent="16-16"/>
-<wire x1="-6.65" y1="-15" x2="-5" y2="-19" width="0" layer="19" extent="16-16"/>
-<wire x1="2" y1="-19" x2="-5" y2="-19" width="0" layer="19" extent="16-16"/>
-<wire x1="4" y1="-15" x2="2" y2="-19" width="0" layer="19" extent="16-16"/>
-<wire x1="18" y1="-23" x2="4" y2="-15" width="0" layer="19" extent="16-16"/>
+<wire x1="84.65" y1="46.5" x2="86" y2="61" width="0" layer="19" extent="1-16"/>
+<wire x1="68" y1="61" x2="86" y2="61" width="0" layer="19" extent="16-16"/>
+<wire x1="50.5" y1="61" x2="68" y2="61" width="0" layer="19" extent="16-16"/>
+<wire x1="32.5" y1="61" x2="50.5" y2="61" width="0" layer="19" extent="16-16"/>
+<wire x1="14.5" y1="61" x2="32.5" y2="61" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$10">
 <contactref element="LED3" pad="2"/>
 <contactref element="R14" pad="2"/>
-<wire x1="1.078" y1="-12" x2="-8" y2="-19" width="0" layer="19" extent="16-16"/>
+<wire x1="65.078" y1="58" x2="65" y2="61" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$11">
 <contactref element="LED2" pad="2"/>
 <contactref element="R13" pad="2"/>
-<wire x1="-3.922" y1="-12" x2="1" y2="-15" width="0" layer="19" extent="16-16"/>
+<wire x1="11.578" y1="58" x2="11.5" y2="61" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$12">
 <contactref element="LED4" pad="2"/>
 <contactref element="R12" pad="2"/>
-<wire x1="-8.922" y1="-12" x2="-1" y2="-19" width="0" layer="19" extent="16-16"/>
+<wire x1="47.578" y1="58" x2="47.5" y2="61" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$13">
 <contactref element="LED9" pad="2"/>
 <contactref element="R11" pad="2"/>
-<wire x1="1.078" y1="-7.5" x2="-8" y2="-22.5" width="0" layer="19" extent="16-16"/>
+<wire x1="83.078" y1="58" x2="83" y2="61" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$14">
 <contactref element="LED10" pad="2"/>
 <contactref element="R10" pad="2"/>
-<wire x1="-3.922" y1="-7.5" x2="15" y2="-23" width="0" layer="19" extent="16-16"/>
+<wire x1="29.578" y1="58" x2="29.5" y2="61" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
