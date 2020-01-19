@@ -8190,9 +8190,9 @@ straight</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="POWER" gate="G$1" pin="2"/>
-<pinref part="ON/OFF" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="247.65" x2="107.95" y2="247.65" width="0.1524" layer="91"/>
-<wire x1="107.95" y1="247.65" x2="107.95" y2="250.19" width="0.1524" layer="91"/>
+<pinref part="ON/OFF" gate="G$1" pin="3"/>
+<wire x1="96.52" y1="247.65" x2="96.52" y2="250.19" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="250.19" x2="105.41" y2="250.19" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
