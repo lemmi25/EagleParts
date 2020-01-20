@@ -3,7 +3,7 @@
 <eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -121,7 +121,7 @@
 <layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:EW_nxjs3TOeM8ciUlo7Bhg" pcbguid="f30d4857-b7eb-4cd6-9f83-62fb7e7f0654" lastpulledtime="" lastsyncedchangeguid="197d38ea-c724-6cd4-b45d-e32d125fc2c5"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:EW_nxjs3TOeM8ciUlo7Bhg" pcbguid="f30d4857-b7eb-4cd6-9f83-62fb7e7f0654" lastpulledtime="" lastsyncedchangeguid="e5bd292d-e348-6bac-0a30-bca2dcfeea96"/>
 <plain>
 <wire x1="51" y1="2" x2="51" y2="37" width="0" layer="20"/>
 <wire x1="51" y1="37" x2="49" y2="39" width="0" layer="20" curve="90"/>
@@ -133,14 +133,14 @@
 <wire x1="49" y1="0" x2="51" y2="2" width="0" layer="20" curve="90"/>
 <hole x="2" y="36" drill="2.8"/>
 <hole x="48" y="36" drill="2.8"/>
-<text x="15.5" y="4" size="1.016" layer="26" rot="R90">12V</text>
-<text x="18.057140625" y="4" size="1.016" layer="26" rot="R90">12V</text>
-<text x="20.61428125" y="4" size="1.016" layer="26" rot="R90">GND</text>
-<text x="23.171421875" y="4" size="1.016" layer="26" rot="R90">GND</text>
-<text x="25.7285625" y="4" size="1.016" layer="26" rot="R90">GND</text>
-<text x="28.285703125" y="4" size="1.016" layer="26" rot="R90">GND</text>
-<text x="30.84284375" y="4" size="1.016" layer="26" rot="R90">170V</text>
-<text x="33.399984375" y="4" size="1.016" layer="26" rot="R90">170V</text>
+<text x="37.5" y="1" size="1.016" layer="25" rot="R90">12V</text>
+<text x="39.057140625" y="1" size="1.016" layer="25" rot="R90">12V</text>
+<text x="40.61428125" y="1" size="1.016" layer="25" rot="R90">GND</text>
+<text x="42.171421875" y="1" size="1.016" layer="25" rot="R90">GND</text>
+<text x="43.7285625" y="1" size="1.016" layer="25" rot="R90">GND</text>
+<text x="45.285703125" y="1" size="1.016" layer="25" rot="R90">GND</text>
+<text x="46.84284375" y="1" size="1.016" layer="25" rot="R90">170V</text>
+<text x="48.399984375" y="1" size="1.016" layer="25" rot="R90">170V</text>
 <text x="5.5" y="4.2" size="1.016" layer="25" ratio="10" distance="10" rot="R90">12-15V 170-220V</text>
 <dimension x1="2" y1="36" x2="48" y2="36" x3="25" y3="41" textsize="1.778" layer="47" dtype="horizontal"/>
 <text x="4" y="4" size="2.54" layer="1" font="vector" ratio="20" rot="R90">HIGH VOLTAGE</text>
@@ -2413,7 +2413,7 @@ W = angled&lt;p&gt;
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="default *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2442,7 +2442,7 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="10mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
@@ -2763,31 +2763,31 @@ design rules under a new name.</description>
 <via x="43.5" y="9.7" extent="1-16" drill="0.1"/>
 <via x="42.7" y="10.3" extent="1-16" drill="0.1"/>
 <polygon width="0" layer="16">
-<vertex x="50" y="36"/>
-<vertex x="50" y="2" curve="-90"/>
-<vertex x="48" y="0"/>
-<vertex x="2" y="0" curve="-90"/>
-<vertex x="0" y="2"/>
-<vertex x="0" y="36" curve="-90"/>
-<vertex x="2" y="38"/>
-<vertex x="48" y="38" curve="-90"/>
+<vertex x="51" y="38"/>
+<vertex x="51" y="0"/>
+<vertex x="0" y="0" curve="-90"/>
+<vertex x="-1" y="1"/>
+<vertex x="-1" y="37" curve="-90"/>
+<vertex x="1" y="39"/>
+<vertex x="50" y="39" curve="-90"/>
 </polygon>
 <polygon width="0" layer="16">
-<vertex x="50" y="36"/>
-<vertex x="50" y="2" curve="-90"/>
-<vertex x="48" y="0"/>
-<vertex x="2" y="0" curve="-90"/>
-<vertex x="0" y="2"/>
-<vertex x="0" y="36" curve="-90"/>
-<vertex x="2" y="38"/>
-<vertex x="48" y="38" curve="-90"/>
+<vertex x="50.95" y="37.05"/>
+<vertex x="50.95" y="1.95" curve="-90"/>
+<vertex x="49" y="0"/>
+<vertex x="1" y="0" curve="-90"/>
+<vertex x="-1" y="2"/>
+<vertex x="-1" y="37" curve="-90"/>
+<vertex x="1" y="39"/>
+<vertex x="49" y="39" curve="-90"/>
 </polygon>
 <contactref element="SV2" pad="3"/>
 <contactref element="SV2" pad="4"/>
 <contactref element="SV2" pad="5"/>
 <contactref element="SV2" pad="6"/>
 <contactref element="LED1" pad="C"/>
-<wire x1="43.5" y1="9.7" x2="43.13" y2="9.99" width="0" layer="19" extent="1-1"/>
+<wire x1="43.13" y1="9.99" x2="43.01" y2="9.99" width="0.1524" layer="1"/>
+<wire x1="43.01" y1="9.99" x2="42.7" y2="10.3" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="L1" pad="2"/>
@@ -2880,8 +2880,8 @@ design rules under a new name.</description>
 <contactref element="C4" pad="+"/>
 <contactref element="R1" pad="2"/>
 <polygon width="0.1524" layer="1">
-<vertex x="51" y="9.3"/>
-<vertex x="37" y="9.3"/>
+<vertex x="51" y="9.4"/>
+<vertex x="37" y="9.4"/>
 <vertex x="37" y="13"/>
 <vertex x="40.5" y="13"/>
 <vertex x="43.5" y="16"/>
@@ -2974,6 +2974,21 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="21,19,9ee19ee19ce39de2"/>
+<approved hash="1,20,567a080808135661"/>
+<approved hash="1,20,69ca1bb81bfc698e"/>
+<approved hash="1,20,577a090809655717"/>
+<approved hash="1,20,8af280807f38754a"/>
+<approved hash="1,20,65690f1b0f1f656d"/>
+<approved hash="1,20,4e0278707b394d4b"/>
+<approved hash="1,20,5afe660666ba5a42"/>
+<approved hash="1,20,fade062606eafa12"/>
+<approved hash="1,20,5a7a0808076b5519"/>
+<approved hash="1,20,6e6a1818191c6f6e"/>
+<approved hash="1,20,5d820ff00f475d35"/>
+<approved hash="1,20,51820ff00f39514b"/>
+</errors>
 </board>
 </drawing>
 <compatibility>

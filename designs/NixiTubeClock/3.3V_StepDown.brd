@@ -3,7 +3,7 @@
 <eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -74,7 +74,7 @@
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:qr5fd7wmTYGYkqGqhFxAAQ" pcbguid="ed1bca21-045a-418e-931a-820db0e3dc27" lastpulledtime="" lastsyncedchangeguid="ed205765-a3d5-e185-4c81-48e96141a835"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:qr5fd7wmTYGYkqGqhFxAAQ" pcbguid="ed1bca21-045a-418e-931a-820db0e3dc27" lastpulledtime="" lastsyncedchangeguid="298981ec-a62b-3c0b-070c-bb565dcbefc4"/>
 <plain>
 <text x="1.7704" y="10.7654" size="0.6096" layer="25">C1</text>
 <text x="9.155" y="17.945" size="1.016" layer="25" ratio="10" rot="R90">VIN</text>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -123,7 +123,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:sIc1WYWiRnKTMBUjB1WWbw" pcbguid="963d08c0-42bd-4bef-8ac7-da9e1254c3c3" lastpulledtime="" lastsyncedchangeguid="29938a95-c5d6-387e-86ed-b41e76510cf1"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:sIc1WYWiRnKTMBUjB1WWbw" pcbguid="963d08c0-42bd-4bef-8ac7-da9e1254c3c3" lastpulledtime="" lastsyncedchangeguid="06c0c3c6-15d9-9501-93bf-f9a5b0f67d39"/>
 <plain>
 <hole x="3" y="50" drill="2.8"/>
 <hole x="95" y="50" drill="2.8"/>
@@ -139,8 +139,8 @@
 <text x="87.47055" y="8.5" size="1.016" layer="25" rot="R90">GND</text>
 <text x="83.02945" y="8.5" size="1.016" layer="25" rot="R90">GND</text>
 <text x="81.47055" y="8.5" size="1.016" layer="25" rot="R90">3.3V</text>
-<text x="64.47055" y="8.5" size="1.016" layer="25" rot="R90">GND</text>
-<text x="65.97055" y="8.5" size="1.016" layer="25" rot="R90">RXD0</text>
+<text x="65.97055" y="8.5" size="1.016" layer="25" rot="R90">GND</text>
+<text x="67.47055" y="8.5" size="1.016" layer="25" rot="R90">RXD0</text>
 <rectangle x1="-10.16048125" y1="33.39915" x2="-10.15031875" y2="33.41185" layer="1" rot="R270"/>
 <wire x1="0" y1="53" x2="10" y2="63" width="0.127" layer="20" curve="-90"/>
 <hole x="95" y="4" drill="2.8"/>
@@ -1720,12 +1720,12 @@
 </polygon>
 <text x="18.5" y="32" size="1.778" layer="25">3.3V</text>
 <text x="2.5" y="29" size="1.778" layer="25" rot="R270">RTC</text>
-<text x="37.3" y="4.4" size="1.778" layer="25">T/H</text>
+<text x="31.8" y="5.4" size="1.778" layer="25">°C/%</text>
 <text x="60" y="38" size="1.778" layer="25">180V</text>
-<text x="45.5" y="5" size="1.778" layer="25">NIXIs</text>
+<text x="44.5" y="5.5" size="1.778" layer="25">NIXIs</text>
 <text x="40" y="46.5" size="1.778" layer="25">ESP32</text>
-<text x="34.1" y="4.67055" size="1.016" layer="26" rot="R90">GND</text>
-<text x="36.7" y="4.67055" size="1.016" layer="26" rot="R90">3.3V</text>
+<text x="34.1" y="5.17055" size="1.016" layer="26" rot="R90">GND</text>
+<text x="36.7" y="5.17055" size="1.016" layer="26" rot="R90">3.3V</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
