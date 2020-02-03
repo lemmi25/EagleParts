@@ -5833,6 +5833,29 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <wire x1="-1" y1="-2.8" x2="-1" y2="-2.8" width="0.2" layer="21"/>
 <wire x1="-1" y1="-2.8" x2="-1" y2="-2.6" width="0.2" layer="21" curve="180"/>
 </package>
+<package name="3306F1103">
+<description>&lt;b&gt;3306F&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-2.5" y="-2.5" drill="1.1" diameter="1.65"/>
+<pad name="2" x="0" y="2.5" drill="1.1" diameter="1.65"/>
+<pad name="3" x="2.5" y="-2.5" drill="1.1" diameter="1.65"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.405" y1="4.05" x2="3.405" y2="4.05" width="0.2" layer="51"/>
+<wire x1="3.405" y1="4.05" x2="3.405" y2="-4.05" width="0.2" layer="51"/>
+<wire x1="3.405" y1="-4.05" x2="-3.405" y2="-4.05" width="0.2" layer="51"/>
+<wire x1="-3.405" y1="-4.05" x2="-3.405" y2="4.05" width="0.2" layer="51"/>
+<wire x1="-4.405" y1="5.05" x2="4.405" y2="5.05" width="0.1" layer="51"/>
+<wire x1="4.405" y1="5.05" x2="4.405" y2="-5.05" width="0.1" layer="51"/>
+<wire x1="4.405" y1="-5.05" x2="-4.405" y2="-5.05" width="0.1" layer="51"/>
+<wire x1="-4.405" y1="-5.05" x2="-4.405" y2="5.05" width="0.1" layer="51"/>
+<wire x1="-3.405" y1="-1.5" x2="-3.405" y2="4.05" width="0.1" layer="21"/>
+<wire x1="-3.405" y1="4.05" x2="3.405" y2="4.05" width="0.1" layer="21"/>
+<wire x1="3.405" y1="4.05" x2="3.405" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="-3.405" y1="-3.5" x2="-3.405" y2="-4.05" width="0.1" layer="21"/>
+<wire x1="-3.405" y1="-4.05" x2="3.405" y2="-4.05" width="0.1" layer="21"/>
+<wire x1="3.405" y1="-4.05" x2="3.405" y2="-3.5" width="0.1" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="1206" urn="urn:adsk.eagle:package:15796/2" type="model">
@@ -7845,6 +7868,17 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <pin name="B1" x="22.86" y="0" length="middle" rot="R180"/>
 <pin name="C1" x="0" y="-2.54" length="middle"/>
 </symbol>
+<symbol name="3306F-1-504">
+<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="CCW" x="0" y="0" length="middle"/>
+<pin name="WIPER" x="27.94" y="0" length="middle" rot="R180"/>
+<pin name="CW" x="0" y="-2.54" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LED_1206" prefix="LED" uservalue="yes">
@@ -8879,6 +8913,32 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="EVM3YSX50B14" constant="no"/>
 <attribute name="MOUSER2_PART_NUMBER" value="" constant="no"/>
 <attribute name="MOUSER2_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3306F-1-504" prefix="VR">
+<description>&lt;b&gt;Trimmer Resistors - Through Hole 500K 25% 6mm Single Turn&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/3306F-1-504.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="3306F-1-504" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3306F1103">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="WIPER" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Trimmer Resistors - Through Hole 500K 25% 6mm Single Turn" constant="no"/>
+<attribute name="HEIGHT" value="8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="3306F-1-504" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-3306F-1-504" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-3306F-1-504" constant="no"/>
 </technology>
 </technologies>
 </device>

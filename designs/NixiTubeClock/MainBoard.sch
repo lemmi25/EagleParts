@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1674,11 +1674,6 @@ Rx0</text>
 <pinref part="SV2" gate="1" pin="9"/>
 </segment>
 <segment>
-<wire x1="83.82" y1="129.54" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
-<label x="86.36" y="129.54" size="1.778" layer="95" xref="yes"/>
-<pinref part="SV1" gate="1" pin="8"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <wire x1="78.74" y1="154.94" x2="78.74" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -1862,6 +1857,11 @@ Rx0</text>
 <pinref part="JP2" gate="A" pin="1"/>
 <wire x1="93.98" y1="170.18" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
 <label x="93.98" y="165.1" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<wire x1="83.82" y1="129.54" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
+<label x="86.36" y="129.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="SV1" gate="1" pin="8"/>
 </segment>
 </net>
 <net name="RXD0" class="1">
