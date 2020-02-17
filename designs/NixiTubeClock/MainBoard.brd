@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -2290,7 +2290,7 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="20mil"/>
+<param name="mdCopperDimension" value="10mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
@@ -3301,25 +3301,14 @@ design rules under a new name.</description>
 <vertex x="84" y="42"/>
 <vertex x="68" y="42"/>
 </polygon>
-<polygon width="0.6096" layer="1">
-<vertex x="68" y="42"/>
-<vertex x="84" y="42"/>
-<vertex x="84" y="29"/>
-<vertex x="68" y="29"/>
-</polygon>
-<wire x1="68" y1="29" x2="77" y2="29" width="0.6096" layer="1"/>
-<wire x1="77" y1="29" x2="80.5" y2="29" width="0.6096" layer="1"/>
-<wire x1="84" y1="29" x2="84" y2="42" width="0.6096" layer="1"/>
-<wire x1="84" y1="42" x2="68" y2="42" width="0.6096" layer="1"/>
-<wire x1="68" y1="42" x2="68" y2="29" width="0.6096" layer="1"/>
 <wire x1="68" y1="42" x2="84" y2="42" width="0.6096" layer="16"/>
 <wire x1="84" y1="42" x2="84" y2="29" width="0.6096" layer="16"/>
 <wire x1="84" y1="29" x2="78.5" y2="29" width="0.6096" layer="16"/>
 <wire x1="78.5" y1="29" x2="68" y2="29" width="0.6096" layer="16"/>
-<wire x1="68" y1="29" x2="68" y2="42" width="0.6096" layer="16"/>
 <wire x1="80.4" y1="23" x2="80.4" y2="24.9" width="0.6096" layer="16"/>
-<wire x1="80.5" y1="25" x2="80.5" y2="29" width="0.6096" layer="1"/>
-<wire x1="80.5" y1="25" x2="85.5" y2="25" width="0.6096" layer="1"/>
+<wire x1="85.5" y1="25" x2="83.5" y2="25" width="0.6096" layer="1"/>
+<wire x1="83.5" y1="25" x2="82.5" y2="25" width="0.6096" layer="1"/>
+<wire x1="82.5" y1="25" x2="81.5" y2="25" width="0.6096" layer="1"/>
 <wire x1="85.5" y1="25" x2="85.5" y2="19" width="0.6096" layer="1"/>
 <wire x1="85.5" y1="19" x2="85" y2="18.5" width="0.6096" layer="1"/>
 <wire x1="85" y1="18.5" x2="68.5" y2="18.5" width="0.6096" layer="1"/>
@@ -3351,6 +3340,26 @@ design rules under a new name.</description>
 <via x="70" y="36" extent="1-16" drill="0.6"/>
 <via x="71" y="34" extent="1-16" drill="0.6"/>
 <via x="70" y="32" extent="1-16" drill="0.6"/>
+<wire x1="68" y1="29" x2="68" y2="42" width="0.6096" layer="16"/>
+<wire x1="81.5" y1="29" x2="81.5" y2="25" width="0.6096" layer="1"/>
+<wire x1="81.5" y1="29" x2="80.5" y2="29" width="0.6096" layer="1"/>
+<wire x1="80.5" y1="29" x2="80.5" y2="25" width="0.6096" layer="1"/>
+<wire x1="81.5" y1="25" x2="80.5" y2="25" width="0.6096" layer="1"/>
+<wire x1="84" y1="29" x2="84" y2="42" width="0.6096" layer="1"/>
+<wire x1="84" y1="42" x2="68" y2="42" width="0.6096" layer="1"/>
+<wire x1="68" y1="42" x2="68" y2="29" width="0.6096" layer="1"/>
+<wire x1="68" y1="29" x2="80.5" y2="29" width="0.6096" layer="1"/>
+<wire x1="81.5" y1="29" x2="82.5" y2="29" width="0.6096" layer="1"/>
+<wire x1="82.5" y1="29" x2="83.5" y2="29" width="0.6096" layer="1"/>
+<wire x1="83.5" y1="29" x2="84" y2="29" width="0.6096" layer="1"/>
+<wire x1="83.5" y1="29" x2="83.5" y2="25" width="0.6096" layer="1"/>
+<wire x1="82.5" y1="29" x2="82.5" y2="25" width="0.6096" layer="1"/>
+<polygon width="0.6096" layer="1">
+<vertex x="68" y="42"/>
+<vertex x="84" y="42"/>
+<vertex x="84" y="29"/>
+<vertex x="68" y="29"/>
+</polygon>
 </signal>
 <signal name="DS">
 <contactref element="SV6" pad="5"/>
@@ -3473,10 +3482,10 @@ design rules under a new name.</description>
 <contactref element="LED10" pad="2"/>
 <contactref element="R14" pad="2"/>
 <wire x1="11.5" y1="61" x2="11" y2="60.5" width="0.8128" layer="16"/>
-<wire x1="11" y1="60.5" x2="4.5" y2="60.5" width="0.8128" layer="16"/>
-<via x="4.5" y="60.5" extent="1-16" drill="0.6"/>
-<wire x1="4.5" y1="60.5" x2="3.5" y2="59.5" width="0.8128" layer="1"/>
-<wire x1="3.5" y1="59.5" x2="3.5" y2="55" width="0.8128" layer="1"/>
+<wire x1="11" y1="60.5" x2="5" y2="60.5" width="0.8128" layer="16"/>
+<via x="5" y="60.5" extent="1-16" drill="0.6"/>
+<wire x1="5" y1="60.5" x2="3.5" y2="59" width="0.8128" layer="1"/>
+<wire x1="3.5" y1="59" x2="3.5" y2="55" width="0.8128" layer="1"/>
 <via x="3.5" y="55" extent="1-16" drill="0.6"/>
 <wire x1="3.5" y1="55" x2="11.578" y2="55" width="0.8128" layer="16"/>
 </signal>
@@ -4184,7 +4193,6 @@ design rules under a new name.</description>
 <approved hash="3,16,9507b34733561516"/>
 <approved hash="3,16,54c77104f115d4d6"/>
 <approved hash="3,16,9c764b37cb3e1c7f"/>
-<approved hash="3,16,ba2878e8f8e73a27"/>
 <approved hash="3,16,d4770a308a39547e"/>
 <approved hash="3,16,205b7904f910a04f"/>
 <approved hash="3,16,a6f5e44a644926f6"/>
@@ -4516,25 +4524,13 @@ design rules under a new name.</description>
 <approved hash="1,20,700004743b124f66"/>
 <approved hash="20,1,ed17e860258022f5"/>
 <approved hash="20,16,ed17e860258022f5"/>
-<approved hash="4,1,235f989590770b0d"/>
-<approved hash="4,1,9cff14270388de23"/>
-<approved hash="4,1,3893cc8cbc199bc5"/>
-<approved hash="4,1,f8918c8fbc159bc9"/>
-<approved hash="4,1,ca436696b3744bea"/>
-<approved hash="4,1,a0e4de4a6f519297"/>
-<approved hash="4,1,d492fc8c281807c5"/>
-<approved hash="4,1,d493fc8ca81507c6"/>
-<approved hash="4,1,3a8c9207465084a5"/>
-<approved hash="4,1,95e80042197a80df"/>
-<approved hash="4,1,5a6a5db3587c777a"/>
-<approved hash="4,16,5a6a5db3587c777a"/>
-<approved hash="4,16,b763d015bca626d8"/>
-<approved hash="4,16,afbb1d8ea50dbc19"/>
-<approved hash="4,16,2f3f84e489913129"/>
-<approved hash="4,16,b61e86daad3031a3"/>
-<approved hash="4,16,6f706b6863cec9b7"/>
-<approved hash="4,16,2960bb16ba33f9a9"/>
 <approved hash="3,16,1c36ccf64cff9c3f"/>
+<approved hash="23,1,bb45158ac03eafad"/>
+<approved hash="23,16,cbdb5b2b5211c2e1"/>
+<approved hash="23,16,60ec9d109e90636c"/>
+<approved hash="23,16,7bf3a60fa6d07b2c"/>
+<approved hash="23,16,7d66409a40fb7d07"/>
+<approved hash="23,16,9cd2733c73739c9d"/>
 </errors>
 </board>
 </drawing>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -5902,18 +5902,13 @@ design rules under a new name.</description>
 </polygon>
 <wire x1="5.7944" y1="9.82" x2="4.83035" y2="9.82" width="0.1524" layer="1"/>
 <polygon width="0.254" layer="16">
-<vertex x="15.945" y="21.845"/>
-<vertex x="15.945" y="15.615"/>
-<vertex x="4.515" y="15.615"/>
-<vertex x="4.515" y="4.82"/>
-<vertex x="25.565" y="4.82"/>
-<vertex x="25.565" y="7.36"/>
-<vertex x="14.04" y="7.36"/>
-<vertex x="10.23" y="11.17"/>
+<vertex x="23.765" y="21.845"/>
+<vertex x="0.015" y="21.845"/>
+<vertex x="0.015" y="-0.18"/>
+<vertex x="10.23" y="-0.18"/>
 <vertex x="10.23" y="12.44"/>
 <vertex x="25.565" y="12.44"/>
 <vertex x="25.565" y="20.045" curve="90"/>
-<vertex x="23.765" y="21.845"/>
 </polygon>
 </signal>
 <signal name="IOUT">
@@ -5952,6 +5947,12 @@ design rules under a new name.</description>
 <wire x1="19.3" y1="14.7" x2="18.8" y2="14.7" width="0.254" layer="1"/>
 <wire x1="19.3" y1="15" x2="19.3" y2="14.7" width="0.762" layer="1"/>
 <wire x1="19.3" y1="14.7" x2="18.8" y2="14.2" width="0.762" layer="1"/>
+<polygon width="0.1524" layer="16">
+<vertex x="15.5" y="0"/>
+<vertex x="15.5" y="7.5"/>
+<vertex x="26" y="7.5"/>
+<vertex x="26" y="0"/>
+</polygon>
 </signal>
 <signal name="AGND">
 <contactref element="R3" pad="1"/>
@@ -5993,16 +5994,11 @@ design rules under a new name.</description>
 <vertex x="-0.2" y="20.2875"/>
 </polygon>
 <wire x1="6.944" y1="12.67" x2="6.944" y2="13.178" width="0.254" layer="1"/>
-<polygon width="0.254" layer="16">
-<vertex x="15.31" y="21.845"/>
-<vertex x="15.31" y="16.25"/>
-<vertex x="3.88" y="16.25"/>
-<vertex x="3.88" y="3.585"/>
-<vertex x="25.565" y="3.585"/>
-<vertex x="25.565" y="0"/>
-<vertex x="0" y="0"/>
-<vertex x="0" y="19.845" curve="-90"/>
-<vertex x="2" y="21.845"/>
+<polygon width="0.1524" layer="16">
+<vertex x="11" y="7.5"/>
+<vertex x="15" y="7.5"/>
+<vertex x="15" y="0"/>
+<vertex x="11" y="0"/>
 </polygon>
 </signal>
 <signal name="PG2">
@@ -6023,8 +6019,7 @@ design rules under a new name.</description>
 <vertex x="10.865" y="11.805"/>
 <vertex x="25.565" y="11.805"/>
 <vertex x="25.565" y="7.995"/>
-<vertex x="14.04" y="7.995"/>
-<vertex x="10.865" y="11.17"/>
+<vertex x="10.865" y="7.995"/>
 </polygon>
 </signal>
 <signal name="FB2">
