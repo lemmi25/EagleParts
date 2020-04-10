@@ -17077,9 +17077,10 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="IC2" gate="A" pin="Q"/>
 <wire x1="116.84" y1="45.72" x2="116.84" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="S"/>
-<wire x1="68.58" y1="83.82" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="G"/>
+<wire x1="68.58" y1="88.9" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="88.9" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -17110,11 +17111,7 @@ W = angled&lt;p&gt;
 <pinref part="T1" gate="G$1" pin="E"/>
 <wire x1="48.26" y1="15.24" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="15.24" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="G"/>
-<wire x1="68.58" y1="88.9" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="15.24" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="15.24" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
 <junction x="55.88" y="15.24"/>
 <pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="48.26" y1="73.66" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
@@ -17125,9 +17122,9 @@ W = angled&lt;p&gt;
 <pinref part="IC2" gate="A" pin="GND"/>
 <wire x1="96.52" y1="60.96" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="60.96" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
-<junction x="63.5" y="15.24"/>
+<wire x1="83.82" y1="15.24" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="-"/>
+<wire x1="68.58" y1="15.24" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="73.66" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="15.24" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
 <junction x="83.82" y="15.24"/>
@@ -17138,6 +17135,9 @@ W = angled&lt;p&gt;
 <pinref part="AGND1" gate="VR1" pin="AGND"/>
 <wire x1="157.48" y1="10.16" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
 <junction x="157.48" y="15.24"/>
+<pinref part="IC1" gate="G$1" pin="S"/>
+<wire x1="68.58" y1="83.82" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
+<junction x="68.58" y="15.24"/>
 </segment>
 </net>
 <net name="+170V" class="0">
