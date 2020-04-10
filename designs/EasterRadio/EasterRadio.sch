@@ -631,6 +631,40 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="supply1" urn="urn:adsk.eagle:library:371">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+ GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+ Please keep in mind, that these devices are necessary for the
+ automatic wiring of the supply signals.&lt;p&gt;
+ The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+ In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="AGND" urn="urn:adsk.eagle:symbol:26949/1" library_version="1">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AGND" urn="urn:adsk.eagle:component:26977/1" prefix="AGND" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VR1" symbol="AGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -645,6 +679,9 @@
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X14" device="" package3d_urn="urn:adsk.eagle:package:22417/2"/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
 <part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
+<part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
+<part name="AGND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
+<part name="AGND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -667,6 +704,15 @@
 <attribute name="NAME" x="46.99" y="9.525" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="46.99" y="35.56" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="AGND1" gate="VR1" x="73.66" y="38.1" smashed="yes">
+<attribute name="VALUE" x="71.12" y="33.02" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="AGND2" gate="VR1" x="0" y="0" smashed="yes">
+<attribute name="VALUE" x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="AGND3" gate="VR1" x="73.66" y="-2.54" smashed="yes">
+<attribute name="VALUE" x="71.12" y="-7.62" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -674,15 +720,289 @@
 <net name="LOUT" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="14"/>
-<wire x1="43.18" y1="78.74" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
-<label x="63.5" y="78.74" size="1.778" layer="95" xref="yes"/>
-<label x="57.15" y="78.74" size="1.778" layer="95"/>
+<wire x1="43.18" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
+<label x="59.69" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="ROUT" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="13"/>
-<wire x1="43.18" y1="76.2" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="76.2" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
+<label x="58.42" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DBYP" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="12"/>
+<wire x1="43.18" y1="73.66" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
+<label x="58.42" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDIO" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="6"/>
+<wire x1="43.18" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
+<label x="58.42" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RST" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="5"/>
+<wire x1="43.18" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
+<label x="58.42" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD2" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="11"/>
+<wire x1="43.18" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
+<label x="58.42" y="71.12" size="1.778" layer="95"/>
+<label x="58.42" y="71.12" size="1.778" layer="95"/>
+<label x="58.42" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD1" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="10"/>
+<wire x1="43.18" y1="68.58" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
+<label x="58.42" y="68.58" size="1.778" layer="95"/>
+<label x="58.42" y="68.58" size="1.778" layer="95"/>
+<label x="58.42" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="XTALI" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="9"/>
+<wire x1="43.18" y1="66.04" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
+<label x="58.42" y="66.04" size="1.778" layer="95"/>
+<label x="58.42" y="66.04" size="1.778" layer="95"/>
+<label x="58.42" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="XTALO" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="8"/>
+<wire x1="43.18" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
+<label x="58.42" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCLK" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="7"/>
+<wire x1="43.18" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
+<label x="58.42" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AGND" class="0">
+<segment>
+<pinref part="JP2" gate="A" pin="4"/>
+<wire x1="43.18" y1="53.34" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
+<label x="58.42" y="53.34" size="1.778" layer="95"/>
+<label x="58.42" y="53.34" size="1.778" layer="95"/>
+<pinref part="AGND1" gate="VR1" pin="AGND"/>
+<wire x1="73.66" y1="53.34" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="73.66" y1="50.8" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="50.8" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
+<label x="58.42" y="50.8" size="1.778" layer="95"/>
+<label x="58.42" y="50.8" size="1.778" layer="95"/>
+<junction x="73.66" y="50.8"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="22.86" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
+<label x="5.08" y="27.94" size="1.778" layer="95"/>
+<pinref part="AGND2" gate="VR1" pin="AGND"/>
+<wire x1="0" y1="27.94" x2="0" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="7"/>
+<wire x1="43.18" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
+<label x="60.96" y="27.94" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="60.96" y1="27.94" x2="60.96" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="91"/>
+<junction x="0" y="2.54"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="3"/>
+<wire x1="43.18" y1="17.78" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
+<label x="60.96" y="17.78" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="AGND3" gate="VR1" pin="AGND"/>
+<wire x1="73.66" y1="17.78" x2="73.66" y2="0" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="1"/>
+<wire x1="43.18" y1="12.7" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
+<label x="60.96" y="12.7" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="58.42" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="12.7" x2="58.42" y2="0" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="0" x2="73.66" y2="0" width="0.1524" layer="91"/>
+<junction x="58.42" y="12.7"/>
+<junction x="73.66" y="0"/>
+</segment>
+</net>
+<net name="LNA_EN" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="22.86" y1="78.74" x2="2.54" y2="78.74" width="0.1524" layer="91"/>
+<label x="2.54" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IRQ" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="22.86" y1="76.2" x2="2.54" y2="76.2" width="0.1524" layer="91"/>
+<label x="2.54" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TUNE1" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="22.86" y1="73.66" x2="2.54" y2="73.66" width="0.1524" layer="91"/>
+<label x="2.54" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TUNE2" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="22.86" y1="71.12" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
+<label x="2.54" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BAND" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="5"/>
+<wire x1="22.86" y1="68.58" x2="2.54" y2="68.58" width="0.1524" layer="91"/>
+<label x="2.54" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="6"/>
+<wire x1="22.86" y1="66.04" x2="2.54" y2="66.04" width="0.1524" layer="91"/>
+<label x="2.54" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC1" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="22.86" y1="63.5" x2="2.54" y2="63.5" width="0.1524" layer="91"/>
+<label x="2.54" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FMI" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="22.86" y1="60.96" x2="2.54" y2="60.96" width="0.1524" layer="91"/>
+<label x="2.54" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RFGND" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="9"/>
+<wire x1="22.86" y1="58.42" x2="2.54" y2="58.42" width="0.1524" layer="91"/>
+<label x="2.54" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC2" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="10"/>
+<wire x1="22.86" y1="55.88" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
+<label x="2.54" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="NC3" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="11"/>
+<wire x1="22.86" y1="53.34" x2="2.54" y2="53.34" width="0.1524" layer="91"/>
+<label x="2.54" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AMI" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="12"/>
+<wire x1="22.86" y1="50.8" x2="2.54" y2="50.8" width="0.1524" layer="91"/>
+<label x="2.54" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="INR" class="0">
+<segment>
+<pinref part="JP4" gate="A" pin="2"/>
+<wire x1="43.18" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
+<label x="60.96" y="15.24" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="SHDN" class="0">
+<segment>
+<pinref part="JP4" gate="A" pin="4"/>
+<wire x1="43.18" y1="20.32" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
+<label x="60.96" y="20.32" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="PVDD2" class="0">
+<segment>
+<pinref part="JP4" gate="A" pin="5"/>
+<wire x1="43.18" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
+<label x="60.96" y="22.86" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="-OUT_R" class="0">
+<segment>
+<pinref part="JP4" gate="A" pin="6"/>
+<wire x1="43.18" y1="25.4" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
+<label x="60.96" y="25.4" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="+OUT_R" class="0">
+<segment>
+<pinref part="JP4" gate="A" pin="8"/>
+<wire x1="43.18" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
+<label x="60.96" y="30.48" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="+OUT_L" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="1"/>
+<wire x1="22.86" y1="30.48" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
+<label x="5.08" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="-OUT_L" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="3"/>
+<wire x1="22.86" y1="25.4" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
+<label x="5.08" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PVDD" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="4"/>
+<wire x1="22.86" y1="22.86" x2="5.08" y2="22.86" width="0.1524" layer="91"/>
+<label x="5.08" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MUTE" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="5"/>
+<wire x1="22.86" y1="20.32" x2="5.08" y2="20.32" width="0.1524" layer="91"/>
+<label x="5.08" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="6"/>
+<wire x1="22.86" y1="17.78" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
+<label x="5.08" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="INL" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="7"/>
+<wire x1="22.86" y1="15.24" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
+<label x="5.08" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VREF" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="8"/>
+<wire x1="22.86" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="91"/>
+<label x="5.08" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -705,6 +1025,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.0" severity="warning">
+Since Version 9.0, EAGLE supports the align property for labels. 
+Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
+for full support of labels. 
 </note>
 </compatibility>
 </eagle>
