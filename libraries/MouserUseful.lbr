@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2795,6 +2795,142 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="3" y1="3" x2="-3" y2="3" width="0.2" layer="21"/>
 <wire x1="-3" y1="-3" x2="3" y2="-3" width="0.2" layer="21"/>
 </package>
+<package name="SOT95P270X145-5N">
+<description>&lt;b&gt;5-Lead (OT) SOT-23&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0.95" dx="1.4" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="1.4" dy="0.6" layer="1"/>
+<smd name="3" x="-1.25" y="-0.95" dx="1.4" dy="0.6" layer="1"/>
+<smd name="4" x="1.25" y="-0.95" dx="1.4" dy="0.6" layer="1"/>
+<smd name="5" x="1.25" y="0.95" dx="1.4" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.2" y1="1.8" x2="2.2" y2="1.8" width="0.05" layer="51"/>
+<wire x1="2.2" y1="1.8" x2="2.2" y2="-1.8" width="0.05" layer="51"/>
+<wire x1="2.2" y1="-1.8" x2="-2.2" y2="-1.8" width="0.05" layer="51"/>
+<wire x1="-2.2" y1="-1.8" x2="-2.2" y2="1.8" width="0.05" layer="51"/>
+<wire x1="-0.775" y1="1.45" x2="0.775" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.775" y1="1.45" x2="0.775" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.775" y1="-1.45" x2="-0.775" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.775" y1="-1.45" x2="-0.775" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.775" y1="0.5" x2="0.175" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.2" y1="1.45" x2="0.2" y2="1.45" width="0.2" layer="21"/>
+<wire x1="0.2" y1="1.45" x2="0.2" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="0.2" y1="-1.45" x2="-0.2" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.2" y1="-1.45" x2="-0.2" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-1.95" y1="1.5" x2="-0.55" y2="1.5" width="0.2" layer="21"/>
+</package>
+<package name="SOP63P600X175-24N">
+<text x="-3.85" y="-4.502" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-3.85" y="4.502" size="1.27" layer="25">&gt;NAME</text>
+<circle x="-4.355" y="3.9025" radius="0.2" width="0" layer="21"/>
+<circle x="-4.355" y="3.9025" radius="0.2" width="0" layer="51"/>
+<wire x1="-1.95" y1="4.325" x2="1.95" y2="4.325" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="-4.325" x2="1.95" y2="-4.325" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="4.325" x2="1.95" y2="4.325" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="-4.325" x2="1.95" y2="-4.325" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="4.325" x2="-1.95" y2="-4.325" width="0.127" layer="51"/>
+<wire x1="1.95" y1="4.325" x2="1.95" y2="-4.325" width="0.127" layer="51"/>
+<wire x1="-3.655" y1="4.575" x2="3.655" y2="4.575" width="0.05" layer="39"/>
+<wire x1="-3.655" y1="-4.575" x2="3.655" y2="-4.575" width="0.05" layer="39"/>
+<wire x1="-3.655" y1="4.575" x2="-3.655" y2="-4.575" width="0.05" layer="39"/>
+<wire x1="3.655" y1="4.575" x2="3.655" y2="-4.575" width="0.05" layer="39"/>
+<smd name="1" x="-2.455" y="3.4925" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="2" x="-2.455" y="2.8575" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="3" x="-2.455" y="2.2225" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="4" x="-2.455" y="1.5875" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="5" x="-2.455" y="0.9525" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="6" x="-2.455" y="0.3175" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="7" x="-2.455" y="-0.3175" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="8" x="-2.455" y="-0.9525" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="9" x="-2.455" y="-1.5875" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="10" x="-2.455" y="-2.2225" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="11" x="-2.455" y="-2.8575" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="12" x="-2.455" y="-3.4925" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="13" x="2.455" y="-3.4925" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="14" x="2.455" y="-2.8575" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="15" x="2.455" y="-2.2225" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="16" x="2.455" y="-1.5875" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="17" x="2.455" y="-0.9525" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="18" x="2.455" y="-0.3175" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="19" x="2.455" y="0.3175" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="20" x="2.455" y="0.9525" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="21" x="2.455" y="1.5875" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="22" x="2.455" y="2.2225" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="23" x="2.455" y="2.8575" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+<smd name="24" x="2.455" y="3.4925" dx="1.9" dy="0.41" layer="1" roundness="25"/>
+</package>
+<package name="SOIC127P605X175-16N">
+<description>&lt;b&gt;SOP-16&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.738" y="4.445" dx="1.575" dy="0.7" layer="1"/>
+<smd name="2" x="-2.738" y="3.175" dx="1.575" dy="0.7" layer="1"/>
+<smd name="3" x="-2.738" y="1.905" dx="1.575" dy="0.7" layer="1"/>
+<smd name="4" x="-2.738" y="0.635" dx="1.575" dy="0.7" layer="1"/>
+<smd name="5" x="-2.738" y="-0.635" dx="1.575" dy="0.7" layer="1"/>
+<smd name="6" x="-2.738" y="-1.905" dx="1.575" dy="0.7" layer="1"/>
+<smd name="7" x="-2.738" y="-3.175" dx="1.575" dy="0.7" layer="1"/>
+<smd name="8" x="-2.738" y="-4.445" dx="1.575" dy="0.7" layer="1"/>
+<smd name="9" x="2.738" y="-4.445" dx="1.575" dy="0.7" layer="1"/>
+<smd name="10" x="2.738" y="-3.175" dx="1.575" dy="0.7" layer="1"/>
+<smd name="11" x="2.738" y="-1.905" dx="1.575" dy="0.7" layer="1"/>
+<smd name="12" x="2.738" y="-0.635" dx="1.575" dy="0.7" layer="1"/>
+<smd name="13" x="2.738" y="0.635" dx="1.575" dy="0.7" layer="1"/>
+<smd name="14" x="2.738" y="1.905" dx="1.575" dy="0.7" layer="1"/>
+<smd name="15" x="2.738" y="3.175" dx="1.575" dy="0.7" layer="1"/>
+<smd name="16" x="2.738" y="4.445" dx="1.575" dy="0.7" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.775" y1="5.25" x2="3.775" y2="5.25" width="0.05" layer="51"/>
+<wire x1="3.775" y1="5.25" x2="3.775" y2="-5.25" width="0.05" layer="51"/>
+<wire x1="3.775" y1="-5.25" x2="-3.775" y2="-5.25" width="0.05" layer="51"/>
+<wire x1="-3.775" y1="-5.25" x2="-3.775" y2="5.25" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="4.95" x2="1.95" y2="4.95" width="0.1" layer="51"/>
+<wire x1="1.95" y1="4.95" x2="1.95" y2="-4.95" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-4.95" x2="-1.95" y2="-4.95" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-4.95" x2="-1.95" y2="4.95" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="3.68" x2="-0.68" y2="4.95" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="4.95" x2="1.6" y2="4.95" width="0.2" layer="21"/>
+<wire x1="1.6" y1="4.95" x2="1.6" y2="-4.95" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-4.95" x2="-1.6" y2="-4.95" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-4.95" x2="-1.6" y2="4.95" width="0.2" layer="21"/>
+<wire x1="-3.525" y1="5.145" x2="-1.95" y2="5.145" width="0.2" layer="21"/>
+</package>
+<package name="CM7VT1A32768KHZ125PF10PPMTBQC">
+<description>&lt;b&gt;CM7V-T1A-32.768kHz-12.5pF-10PPM-TB-QC-2&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0" dx="1.8" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="1.25" y="0" dx="1.8" dy="1" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.6" y1="0.75" x2="1.6" y2="0.75" width="0.2" layer="51"/>
+<wire x1="1.6" y1="0.75" x2="1.6" y2="-0.75" width="0.2" layer="51"/>
+<wire x1="1.6" y1="-0.75" x2="-1.6" y2="-0.75" width="0.2" layer="51"/>
+<wire x1="-1.6" y1="-0.75" x2="-1.6" y2="0.75" width="0.2" layer="51"/>
+<wire x1="-2.75" y1="1.9" x2="2.75" y2="1.9" width="0.1" layer="51"/>
+<wire x1="2.75" y1="1.9" x2="2.75" y2="-1.9" width="0.1" layer="51"/>
+<wire x1="2.75" y1="-1.9" x2="-2.75" y2="-1.9" width="0.1" layer="51"/>
+<wire x1="-2.75" y1="-1.9" x2="-2.75" y2="1.9" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="0.75" x2="0.5" y2="0.75" width="0.1" layer="21"/>
+<wire x1="-0.4" y1="-0.75" x2="0.5" y2="-0.75" width="0.1" layer="21"/>
+</package>
+<package name="LQW2UAS12NG00L">
+<description>&lt;b&gt;1008 (2520) T=1.830.2mm&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.143" y="0" dx="2.54" dy="1.015" layer="1" rot="R90"/>
+<smd name="2" x="1.143" y="0" dx="2.54" dy="1.015" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.1" y1="1.6" x2="2.1" y2="1.6" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.6" x2="2.1" y2="-1.6" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.6" x2="-2.1" y2="-1.6" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.6" x2="-2.1" y2="1.6" width="0.05" layer="51"/>
+<wire x1="-1.31" y1="1.225" x2="1.31" y2="1.225" width="0.1" layer="51"/>
+<wire x1="1.31" y1="1.225" x2="1.31" y2="-1.225" width="0.1" layer="51"/>
+<wire x1="1.31" y1="-1.225" x2="-1.31" y2="-1.225" width="0.1" layer="51"/>
+<wire x1="-1.31" y1="-1.225" x2="-1.31" y2="1.225" width="0.1" layer="51"/>
+<wire x1="0" y1="1.125" x2="0" y2="-1.125" width="0.2" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOP65P490X110-8N" urn="urn:adsk.eagle:package:13422153/1" type="model">
@@ -3863,6 +3999,63 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
+<symbol name="MCP73832T-2ACI_OT">
+<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-7.62" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="STAT" x="0" y="0" length="middle"/>
+<pin name="VSS" x="0" y="-2.54" length="middle" direction="pwr"/>
+<pin name="VBAT" x="0" y="-5.08" length="middle"/>
+<pin name="VDD" x="27.94" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="PROG" x="27.94" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="PAM8403DR">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-20.32" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="OUT_L+" x="0" y="0" length="middle" direction="out"/>
+<pin name="PGND_1" x="0" y="-2.54" length="middle" direction="pwr"/>
+<pin name="OUT_L-" x="0" y="-5.08" length="middle" direction="out"/>
+<pin name="PVDD_1" x="0" y="-7.62" length="middle" direction="pwr"/>
+<pin name="!MUTE" x="0" y="-10.16" length="middle"/>
+<pin name="VDD" x="0" y="-12.7" length="middle" direction="pwr"/>
+<pin name="INL" x="0" y="-15.24" length="middle" direction="in"/>
+<pin name="VREF" x="0" y="-17.78" length="middle" direction="in"/>
+<pin name="OUT_R+" x="33.02" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="PGND_2" x="33.02" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUT_R-" x="33.02" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="PVDD_2" x="33.02" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="!SHDN" x="33.02" y="-10.16" length="middle" rot="R180"/>
+<pin name="GND" x="33.02" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="INR" x="33.02" y="-15.24" length="middle" direction="in" rot="R180"/>
+<pin name="NC" x="33.02" y="-17.78" length="middle" direction="nc" rot="R180"/>
+</symbol>
+<symbol name="CM7V-T1A-32.768K-9PF-20PPM-TA-">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="0" y="-2.54" length="middle"/>
+</symbol>
+<symbol name="LQW2UASR56F0CL">
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TPS62160DGKR" prefix="IC">
@@ -4083,6 +4276,123 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-VLS6045EX-221M" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="1247062" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1247062" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP73832T-2ACI_OT" prefix="IC">
+<description>&lt;b&gt;Battery Charger Lithium-Ion, Lithium-Polymer&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP73832T-2ACI_OT.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MCP73832T-2ACI_OT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P270X145-5N">
+<connects>
+<connect gate="G$1" pin="PROG" pad="5"/>
+<connect gate="G$1" pin="STAT" pad="1"/>
+<connect gate="G$1" pin="VBAT" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Battery Charger Lithium-Ion, Lithium-Polymer" constant="no"/>
+<attribute name="HEIGHT" value="1.45mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Microchip" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCP73832T-2ACI/OT" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="579-MCP73832T-2ACIOT" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=579-MCP73832T-2ACIOT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PAM8403DR" prefix="IC">
+<description>&lt;b&gt;Class-D Stereo Audio Amp 5V 2x3W SOP16 DiodesZetex PAM8403DR Audio Amplifier, Class-D Stereo, 16-Pin SOP&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PAM8403DR.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PAM8403DR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P605X175-16N">
+<connects>
+<connect gate="G$1" pin="!MUTE" pad="5"/>
+<connect gate="G$1" pin="!SHDN" pad="12"/>
+<connect gate="G$1" pin="GND" pad="11"/>
+<connect gate="G$1" pin="INL" pad="7"/>
+<connect gate="G$1" pin="INR" pad="10"/>
+<connect gate="G$1" pin="NC" pad="9"/>
+<connect gate="G$1" pin="OUT_L+" pad="1"/>
+<connect gate="G$1" pin="OUT_L-" pad="3"/>
+<connect gate="G$1" pin="OUT_R+" pad="16"/>
+<connect gate="G$1" pin="OUT_R-" pad="14"/>
+<connect gate="G$1" pin="PGND_1" pad="2"/>
+<connect gate="G$1" pin="PGND_2" pad="15"/>
+<connect gate="G$1" pin="PVDD_1" pad="4"/>
+<connect gate="G$1" pin="PVDD_2" pad="13"/>
+<connect gate="G$1" pin="VDD" pad="6"/>
+<connect gate="G$1" pin="VREF" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Class-D Stereo Audio Amp 5V 2x3W SOP16 DiodesZetex PAM8403DR Audio Amplifier, Class-D Stereo, 16-Pin SOP" constant="no"/>
+<attribute name="HEIGHT" value="1.75mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Diodes Inc." constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PAM8403DR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="621-PAM8403DR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=621-PAM8403DR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CM7V-T1A-32.768K-9PF-20PPM-TA-" prefix="Y">
+<description>&lt;b&gt;Crystals 32.768 kHz 9.0 pF +/-20 PPM AEC-Q200&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/CM7V-T1A-32.768k-9pF-20PPM-TA-QA T3.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CM7V-T1A-32.768K-9PF-20PPM-TA-" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CM7VT1A32768KHZ125PF10PPMTBQC">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Crystals 32.768 kHz 9.0 pF +/-20 PPM AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.65mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="MICRO CRYSTAL" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CM7V-T1A-32.768k-9pF-20PPM-TA-QA T3" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="428-201568-MG03" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=428-201568-MG03" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LQW2UASR56F0CL" prefix="L">
+<description>&lt;b&gt;LQW2UAS_0C Series Inductor 560nH +/-1% 1008 (2520)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/LQW2UASR56F0CL.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LQW2UASR56F0CL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LQW2UAS12NG00L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="LQW2UAS_0C Series Inductor 560nH +/-1% 1008 (2520)" constant="no"/>
+<attribute name="HEIGHT" value="2.03mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LQW2UASR56F0CL" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="81-LQW2UASR56F0CL" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-LQW2UASR56F0CL" constant="no"/>
 </technology>
 </technologies>
 </device>
