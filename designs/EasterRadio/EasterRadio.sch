@@ -9138,13 +9138,13 @@ www.irf.com&lt;p&gt;
 <part name="R9" library="MouserUseful" deviceset="RCS1206100KJNEA" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1K"/>
 <part name="R10" library="MouserUseful" deviceset="RCS1206100KJNEA" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
 <part name="C21" library="MouserUseful" deviceset="CNC5L1X7R1C106K160AE" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="33nF"/>
-<part name="C22" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value=".47nF"/>
+<part name="C22" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10pF"/>
 <part name="AGND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="C23" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value=".47uF"/>
 <part name="VR1" library="MouserUseful" deviceset="RK09D113BF25B15" device=""/>
 <part name="R11" library="MouserUseful" deviceset="ERJ-PB6B5623V" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
 <part name="C24" library="MouserUseful" deviceset="CNC5L1X7R1C106K160AE" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF"/>
-<part name="C20" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value=".47nF"/>
+<part name="C20" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value=".47uF"/>
 <part name="C25" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value=".1uF"/>
 <part name="AGND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="IC1" library="MouserUseful" deviceset="MCP73832T-2ACI_OT" device=""/>
@@ -9169,7 +9169,6 @@ www.irf.com&lt;p&gt;
 <part name="C30" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="D1" library="CommonParts" deviceset="LSM115JE3_TR13" device=""/>
 <part name="R15" library="MouserUseful" deviceset="ERJ-PB6B5623V" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2.2k"/>
-<part name="R17" library="MouserUseful" deviceset="ERJ-PB6B5623V" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
 <part name="R18" library="MouserUseful" deviceset="ERJ-PB6B5623V" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2.2k"/>
 <part name="C28" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value=".1uF"/>
 <part name="R16" library="MouserUseful" deviceset="ERJ-PB6B5623V" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
@@ -9564,7 +9563,7 @@ www.irf.com&lt;p&gt;
 </instance>
 <instance part="C23" gate="G$1" x="81.28" y="152.4" smashed="yes">
 <attribute name="NAME" x="82.804" y="152.781" size="1.778" layer="95"/>
-<attribute name="VALUE" x="87.376" y="149.479" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="79.756" y="149.479" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="VR1" gate="G$1" x="50.8" y="55.88" smashed="yes">
 <attribute name="NAME" x="52.07" y="63.5" size="1.778" layer="95" align="center-left"/>
@@ -9592,10 +9591,6 @@ www.irf.com&lt;p&gt;
 <instance part="R15" gate="G$1" x="157.48" y="86.36" smashed="yes">
 <attribute name="NAME" x="151.13" y="85.3186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="161.29" y="85.598" size="1.778" layer="96"/>
-</instance>
-<instance part="R17" gate="G$1" x="124.46" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="122.9614" y="64.77" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="127.762" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R18" gate="G$1" x="157.48" y="83.82" smashed="yes">
 <attribute name="NAME" x="151.13" y="82.7786" size="1.778" layer="95"/>
