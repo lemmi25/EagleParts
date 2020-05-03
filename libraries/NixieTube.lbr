@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -868,15 +868,15 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <hole x="0" y="0" drill="5"/>
 </package>
 <package name="DA-2000">
-<pad name="3" x="0" y="-5.9" drill="1"/>
-<pad name="4" x="-3.26705" y="-4.860271875" drill="1"/>
-<pad name="5" x="-5.2990125" y="-2.098790625" drill="1"/>
-<pad name="6" x="-5.319746875" y="1.32965" drill="1"/>
-<pad name="7" x="-3.321334375" y="4.11550625" drill="1"/>
-<pad name="8" x="-0.0671" y="5.194675" drill="1"/>
-<pad name="9" x="3.19995" y="4.154946875" drill="1"/>
-<pad name="2" x="3.4543375" y="-4.83211875" drill="1"/>
-<pad name="1" x="5.621271875" y="-1.937778125" drill="1" first="yes"/>
+<pad name="3" x="0" y="-5.9" drill="2.3" diameter="3.1"/>
+<pad name="4" x="-3.468" y="-4.773" drill="2.3" diameter="3.1"/>
+<pad name="5" x="-5.611" y="-1.823" drill="2.3" diameter="3.1"/>
+<pad name="6" x="-5.611" y="1.823" drill="2.3" diameter="3.1"/>
+<pad name="7" x="-3.468" y="4.773" drill="2.3" diameter="3.1"/>
+<pad name="8" x="0" y="5.9" drill="2.3" diameter="3.1"/>
+<pad name="9" x="3.468" y="4.773" drill="2.3" diameter="3.1"/>
+<pad name="2" x="3.46" y="-4.773" drill="2.3" diameter="3.1"/>
+<pad name="1" x="5.611" y="-1.823" drill="2.3" diameter="3.1" shape="octagon" first="yes"/>
 <hole x="0" y="0" drill="3"/>
 <wire x1="-2" y1="-8" x2="2" y2="-8" width="0.127" layer="25" curve="-331.927513"/>
 <circle x="0" y="0" radius="10.25" width="0.127" layer="25"/>
@@ -1461,7 +1461,7 @@ Distributor:  Buerklin</description>
 <pin name="B" x="-10.16" y="-7.62" length="middle" direction="in"/>
 <pin name="F" x="-10.16" y="-10.16" length="middle" direction="in"/>
 <text x="2.54" y="15.24" size="2.54" layer="95">DA-2000</text>
-<pin name="NC" x="-10.16" y="10.16" length="middle" direction="nc"/>
+<pin name="DEC" x="-10.16" y="10.16" length="middle" direction="in"/>
 </symbol>
 <symbol name="TLC5916IN">
 <wire x1="5.08" y1="2.54" x2="33.02" y2="2.54" width="0.254" layer="94"/>
@@ -1925,10 +1925,10 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <connect gate="G$1" pin="C" pad="5"/>
 <connect gate="G$1" pin="COM" pad="2"/>
 <connect gate="G$1" pin="D" pad="4"/>
+<connect gate="G$1" pin="DEC" pad="1"/>
 <connect gate="G$1" pin="E" pad="3"/>
 <connect gate="G$1" pin="F" pad="9"/>
 <connect gate="G$1" pin="G" pad="6"/>
-<connect gate="G$1" pin="NC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
