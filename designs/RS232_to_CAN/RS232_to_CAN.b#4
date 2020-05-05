@@ -1031,110 +1031,110 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-60.96" y="67.31" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-60.96" y="67.31" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC1" library="MouserUseful" package="QFP80P900X900X160-32N" value="STM32F042K6T6TR" x="34.29" y="31.75" smashed="yes" rot="R315">
-<attribute name="DESCRIPTION" value="ARM Microcontrollers - MCU Mainstream ARM Cortex-M0 USB line MCU with 32 Kbytes Flash, 48 MHz CPU, USB, CAN and CEC functions" x="60.332740625" y="-44.582175" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="HEIGHT" value="1.6mm" x="60.332740625" y="-44.582175" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="60.332740625" y="-44.582175" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="STM32F042K6T6TR" x="60.332740625" y="-44.582175" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="511-STM32F042K6T6TR" x="60.332740625" y="-44.582175" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F042K6T6TR?qs=%252BEew9%252B0nqrBO2N6vhg3%252BsA%3D%3D" x="60.332740625" y="-44.582175" size="1.778" layer="27" rot="R315" display="off"/>
-<attribute name="NAME" x="36.984075" y="32.648028125" size="1.27" layer="25" rot="R315" align="center"/>
-<attribute name="VALUE" x="32.493946875" y="29.95395" size="1.27" layer="27" rot="R315" align="center"/>
+<element name="IC1" library="MouserUseful" package="QFP80P900X900X160-32N" value="STM32F042K6T6TR" x="-72.39" y="35.56" smashed="yes">
+<attribute name="DESCRIPTION" value="ARM Microcontrollers - MCU Mainstream ARM Cortex-M0 USB line MCU with 32 Kbytes Flash, 48 MHz CPU, USB, CAN and CEC functions" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.6mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="STM32F042K6T6TR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-STM32F042K6T6TR" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F042K6T6TR?qs=%252BEew9%252B0nqrBO2N6vhg3%252BsA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-72.39" y="35.56" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-72.39" y="35.56" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC2" library="MouserUseful" package="SOIC127P600X175-8N" value="TJA1050T_CM,118" x="52.07" y="17.78" smashed="yes">
-<attribute name="DESCRIPTION" value="NXP - TJA1050T/CM,118 - CAN TRANSCEIVER, 1TX/RX, SOIC-8" x="73.66" y="-55.88" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.75mm" x="73.66" y="-55.88" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="NXP" x="73.66" y="-55.88" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TJA1050T/CM,118" x="73.66" y="-55.88" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-TJA1050T/CM118" x="73.66" y="-55.88" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/TJA1050T-CM118?qs=5XOdhvmYM0NFFspw0VP5sA%3D%3D" x="73.66" y="-55.88" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="52.07" y="17.78" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="52.07" y="17.78" size="1.27" layer="27" align="center"/>
+<element name="IC2" library="MouserUseful" package="SOIC127P600X175-8N" value="TJA1050T_CM,118" x="-21.59" y="73.66" smashed="yes">
+<attribute name="DESCRIPTION" value="NXP - TJA1050T/CM,118 - CAN TRANSCEIVER, 1TX/RX, SOIC-8" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="NXP" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TJA1050T/CM,118" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-TJA1050T/CM118" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/TJA1050T-CM118?qs=5XOdhvmYM0NFFspw0VP5sA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-21.59" y="73.66" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-21.59" y="73.66" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC3" library="MouserUseful" package="SOIC127P600X175-16N" value="MAX232DRG4" x="13.97" y="22.86" smashed="yes">
-<attribute name="DESCRIPTION" value="RS-232 Interface IC Dual EIA-232 Driver/ Receiver" x="69.85" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.75mm" x="69.85" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="69.85" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MAX232DRG4" x="69.85" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-MAX232DRG4" x="69.85" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/MAX232DRG4?qs=tP77tliwutBAhcsawRpYug%3D%3D" x="69.85" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="13.97" y="22.86" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="13.97" y="22.86" size="1.27" layer="27" align="center"/>
+<element name="IC3" library="MouserUseful" package="SOIC127P600X175-16N" value="MAX232DRG4" x="-55.88" y="35.56" smashed="yes">
+<attribute name="DESCRIPTION" value="RS-232 Interface IC Dual EIA-232 Driver/ Receiver" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MAX232DRG4" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-MAX232DRG4" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/MAX232DRG4?qs=tP77tliwutBAhcsawRpYug%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-55.88" y="35.56" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-55.88" y="35.56" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC4" library="MouserUseful" package="SOP65P780X200-28N" value="FT232RL-TUBE" x="49.53" y="43.18" smashed="yes">
-<attribute name="DESCRIPTION" value="USB Interface IC FT232R Single Ch Full Speed" x="91.44" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2mm" x="91.44" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="FTDI Chip" x="91.44" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="FT232RL-TUBE" x="91.44" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="895-FT232RL-TUBE" x="91.44" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/FTDI/FT232RL-TUBE?qs=D1%2FPMqvA100UF95YMvGN8w%3D%3D" x="91.44" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="49.53" y="43.18" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="49.53" y="43.18" size="1.27" layer="27" align="center"/>
+<element name="IC4" library="MouserUseful" package="SOP65P780X200-28N" value="FT232RL-TUBE" x="-41.91" y="35.56" smashed="yes">
+<attribute name="DESCRIPTION" value="USB Interface IC FT232R Single Ch Full Speed" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="FTDI Chip" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FT232RL-TUBE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="895-FT232RL-TUBE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/FTDI/FT232RL-TUBE?qs=D1%2FPMqvA100UF95YMvGN8w%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-41.91" y="35.56" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-41.91" y="35.56" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J1" library="MouserUseful" package="FTSH10701LDVKA" value="FTSH-107-01-L-DV-K-A" x="63.5" y="29.21" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings .050&quot; Micro Terminal Strip" x="110.49" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="5.97mm" x="110.49" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="SAMTEC" x="110.49" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="FTSH-107-01-L-DV-K-A" x="110.49" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="200-FTSH10701LDVKA" x="110.49" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Samtec/FTSH-107-01-L-DV-K-A?qs=PB6%2FjmICvI3xEHFou4PhNg%3D%3D" x="110.49" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="63.835" y="29.21" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="63.835" y="29.21" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="J1" library="MouserUseful" package="FTSH10701LDVKA" value="FTSH-107-01-L-DV-K-A" x="-22.86" y="46.99" smashed="yes">
+<attribute name="DESCRIPTION" value="Headers &amp; Wire Housings .050&quot; Micro Terminal Strip" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.97mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="SAMTEC" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FTSH-107-01-L-DV-K-A" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="200-FTSH10701LDVKA" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Samtec/FTSH-107-01-L-DV-K-A?qs=PB6%2FjmICvI3xEHFou4PhNg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-22.86" y="46.655" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-22.86" y="46.655" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J2" library="MouserUseful" package="K202XHTE9SN" value="K202XHT-E9S-N" x="52.07" y="8.89" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="D-Sub Standard Connectors" x="5.08" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="12.8mm" x="5.08" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kycon" x="5.08" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="K202XHT-E9S-N" x="5.08" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="806-K202XHT-E9S-N" x="5.08" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kycon/K202XHT-E9S-N?qs=gotfk7Nc9iJUua3eLQY%2FyA%3D%3D" x="5.08" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="52.07" y="6.659" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="52.07" y="6.659" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="J2" library="MouserUseful" package="K202XHTE9SN" value="K202XHT-E9S-N" x="-46.99" y="5.08" smashed="yes">
+<attribute name="DESCRIPTION" value="D-Sub Standard Connectors" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="12.8mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kycon" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="K202XHT-E9S-N" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="806-K202XHT-E9S-N" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kycon/K202XHT-E9S-N?qs=gotfk7Nc9iJUua3eLQY%2FyA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-46.99" y="7.311" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-46.99" y="7.311" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J3" library="MouserUseful" package="K202XHTE9SN" value="K202XHT-E9S-N" x="16.51" y="8.89" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="D-Sub Standard Connectors" x="-12.7" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="12.8mm" x="-12.7" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kycon" x="-12.7" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="K202XHT-E9S-N" x="-12.7" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="806-K202XHT-E9S-N" x="-12.7" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kycon/K202XHT-E9S-N?qs=gotfk7Nc9iJUua3eLQY%2FyA%3D%3D" x="-12.7" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="16.51" y="6.659" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="16.51" y="6.659" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="J3" library="MouserUseful" package="K202XHTE9SN" value="K202XHT-E9S-N" x="-29.21" y="20.32" smashed="yes">
+<attribute name="DESCRIPTION" value="D-Sub Standard Connectors" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="12.8mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kycon" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="K202XHT-E9S-N" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="806-K202XHT-E9S-N" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kycon/K202XHT-E9S-N?qs=gotfk7Nc9iJUua3eLQY%2FyA%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-29.21" y="22.551" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-29.21" y="22.551" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J4" library="CommonParts" package="PJ-002AH-SMT-TR" value="PJ-002AH-SMT-TR" x="29.21" y="76.2" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="DC Power Connectors Power Jacks" x="26.67" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="mm" x="26.67" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="CUI" x="26.67" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PJ-002AH-SMT-TR" x="26.67" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="490-PJ-002AH-SMT-TR" x="26.67" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=490-PJ-002AH-SMT-TR" x="26.67" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="33.86485" y="69.40888125" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="VALUE" x="33.86485" y="69.40888125" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="J4" library="CommonParts" package="PJ-002AH-SMT-TR" value="PJ-002AH-SMT-TR" x="24.13" y="76.2" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="DC Power Connectors Power Jacks" x="21.59" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="21.59" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="CUI" x="21.59" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PJ-002AH-SMT-TR" x="21.59" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="490-PJ-002AH-SMT-TR" x="21.59" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=490-PJ-002AH-SMT-TR" x="21.59" y="48.26" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="28.78485" y="69.40888125" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="VALUE" x="28.78485" y="69.40888125" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="J5" library="MouserUseful" package="101181920001LF" value="10118192-0001LF" x="64.77" y="44.45" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="USB Connectors 5P MICRO USB TYPE B RECEPTACLE" x="110.49" y="86.36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="2.8mm" x="110.49" y="86.36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol" x="110.49" y="86.36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="10118192-0001LF" x="110.49" y="86.36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="649-10118192-0001LF" x="110.49" y="86.36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10118192-0001LF?qs=Ywefl8B65e5bHFoQtIudZg%3D%3D" x="110.49" y="86.36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="63.5" y="44.45" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="63.5" y="44.45" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="J5" library="MouserUseful" package="101181920001LF" value="10118192-0001LF" x="-41.91" y="45.72" smashed="yes">
+<attribute name="DESCRIPTION" value="USB Connectors 5P MICRO USB TYPE B RECEPTACLE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.8mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="10118192-0001LF" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="649-10118192-0001LF" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10118192-0001LF?qs=Ywefl8B65e5bHFoQtIudZg%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-41.91" y="45.72" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-41.91" y="45.72" size="1.27" layer="27" align="center"/>
 </element>
-<element name="JP1" library="CommonParts" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="62.23" y="16.51" smashed="yes">
-<attribute name="NAME" x="59.6138" y="18.3388" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="98" x="95.25" y="-55.88" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="59.69" y="13.335" size="1.27" layer="27"/>
+<element name="JP1" library="CommonParts" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="-33.02" y="72.39" smashed="yes">
+<attribute name="NAME" x="-35.6362" y="74.2188" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="98" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-35.56" y="69.215" size="1.27" layer="27"/>
 </element>
-<element name="JP2" library="CommonParts" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="20.32" y="58.42" smashed="yes">
-<attribute name="NAME" x="17.7038" y="60.2488" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="98" x="59.69" y="-13.97" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="17.78" y="55.245" size="1.27" layer="27"/>
+<element name="JP2" library="CommonParts" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="-39.37" y="72.39" smashed="yes">
+<attribute name="NAME" x="-41.9862" y="74.2188" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="98" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-41.91" y="69.215" size="1.27" layer="27"/>
 </element>
-<element name="JP3" library="CommonParts" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="46.99" y="58.42" smashed="yes">
-<attribute name="NAME" x="44.3738" y="60.2488" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="98" x="92.71" y="-13.97" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="44.45" y="55.245" size="1.27" layer="27"/>
+<element name="JP3" library="CommonParts" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="-45.72" y="72.39" smashed="yes">
+<attribute name="NAME" x="-48.3362" y="74.2188" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="98" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-48.26" y="69.215" size="1.27" layer="27"/>
 </element>
 <element name="LED1" library="CommonParts" package="1206" package3d_urn="urn:adsk.eagle:package:15796/2" value="" x="-53.34" y="71.12" smashed="yes">
 <attribute name="NAME" x="-54.61" y="72.39" size="1.27" layer="25"/>
@@ -1166,13 +1166,13 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="20" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-17.78" y="74.93" size="1.27" layer="27"/>
 </element>
-<element name="PS1" library="MouserUseful" package="SOT150P700X160-5N" package3d_urn="urn:adsk.eagle:package:13422906/1" value="LP38693MPX-3.3NOPB" x="27.94" y="54.61" smashed="yes" rot="R90">
-<attribute name="NAME" x="23.8564" y="54.61" size="1.27" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="31.925" y="54.61" size="1.27" layer="27" rot="R90" align="top-center"/>
+<element name="PS1" library="MouserUseful" package="SOT150P700X160-5N" package3d_urn="urn:adsk.eagle:package:13422906/1" value="LP38693MPX-3.3NOPB" x="22.86" y="54.61" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.7764" y="54.61" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="26.845" y="54.61" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
-<element name="PS2" library="MouserUseful" package="SOT150P700X160-5N" package3d_urn="urn:adsk.eagle:package:13422906/1" value="LP38693MPX-5.0_NOPB" x="39.37" y="54.61" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.2864" y="54.61" size="1.27" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="43.355" y="54.61" size="1.27" layer="27" rot="R90" align="top-center"/>
+<element name="PS2" library="MouserUseful" package="SOT150P700X160-5N" package3d_urn="urn:adsk.eagle:package:13422906/1" value="LP38693MPX-5.0_NOPB" x="34.29" y="54.61" smashed="yes" rot="R90">
+<attribute name="NAME" x="30.2064" y="54.61" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="38.275" y="54.61" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="Q1" library="CommonParts" package="SOT95P237X122-3N" value="FDN5632N-F085" x="-20.32" y="83.82" smashed="yes">
 <attribute name="DESCRIPTION" value="MOSFET Trans MOS N-Ch 60V 1.7A" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1242,15 +1242,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-33.02" y="78.74" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-33.02" y="74.93" size="1.27" layer="27"/>
 </element>
-<element name="S1" library="MouserUseful" package="PTS526SM15SMTR2LFS" value="PTS526_SM15_SMTR2_LFS" x="45.72" y="25.4" smashed="yes">
-<attribute name="DESCRIPTION" value="Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator" x="107.95" y="-20.32" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.5mm" x="107.95" y="-20.32" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="C &amp; K COMPONENTS" x="107.95" y="-20.32" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PTS526 SM15 SMTR2 LFS" x="107.95" y="-20.32" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="611-PTS526SM15SMTR2L" x="107.95" y="-20.32" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/CK/PTS526-SM15-SMTR2-LFS?qs=UXgszm6BlbENivbslIA%252B5g%3D%3D" x="107.95" y="-20.32" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="45.72" y="25.5" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="45.72" y="25.5" size="1.27" layer="27" align="center"/>
+<element name="S1" library="MouserUseful" package="PTS526SM15SMTR2LFS" value="PTS526_SM15_SMTR2_LFS" x="-62.23" y="45.72" smashed="yes">
+<attribute name="DESCRIPTION" value="Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.5mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="C &amp; K COMPONENTS" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTS526 SM15 SMTR2 LFS" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="611-PTS526SM15SMTR2L" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/CK/PTS526-SM15-SMTR2-LFS?qs=UXgszm6BlbENivbslIA%252B5g%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-62.23" y="45.82" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-62.23" y="45.82" size="1.27" layer="27" align="center"/>
 </element>
 <element name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-62.23" y="78.74" smashed="yes">
 <attribute name="NAME" x="-63.881" y="79.883" size="1.27" layer="25" ratio="10"/>
@@ -1273,18 +1273,18 @@ design rules under a new name.</description>
 <contactref element="C10" pad="1"/>
 <contactref element="PS1" pad="3"/>
 <contactref element="JP2" pad="1"/>
-<wire x1="35.30681875" y1="26.77338125" x2="65.535" y2="26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="31.0104375" y1="34.463875" x2="35.30681875" y2="26.77338125" width="0" layer="19" extent="1-1"/>
-<wire x1="28.69" y1="51.5874" x2="31.0104375" y2="34.463875" width="0" layer="19" extent="1-1"/>
-<wire x1="19.05" y1="58.42" x2="28.69" y2="51.5874" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.86" y1="77.47" x2="19.05" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-55.56" y1="54.61" x2="-42.86" y2="77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.4" y1="44.955" x2="23.61" y2="51.5874" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.64" y1="72.39" x2="-25.4" y2="44.955" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.86" y1="77.47" x2="-40.64" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.56" y1="54.61" x2="-40.64" y2="72.39" width="0" layer="19" extent="1-1"/>
 <wire x1="-61.91" y1="54.61" x2="-55.56" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.152" y1="32.76" x2="-61.91" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.628" y1="35.16" x2="-68.152" y2="32.76" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWIDO">
 <contactref element="J1" pad="4"/>
 <contactref element="IC1" pad="23"/>
-<wire x1="38.70093125" y1="30.16749375" x2="61.465" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.4" y1="49.025" x2="-68.152" y2="37.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NRST">
 <contactref element="J1" pad="12"/>
@@ -1292,10 +1292,10 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="4"/>
 <contactref element="S1" pad="3"/>
 <contactref element="C3" pad="2"/>
-<wire x1="31.576121875" y1="35.029559375" x2="61.465" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="48.72" y1="23.55" x2="31.576121875" y2="35.029559375" width="0" layer="19" extent="1-1"/>
-<wire x1="42.72" y1="23.55" x2="48.72" y2="23.55" width="0" layer="19" extent="1-1"/>
-<wire x1="-66.36" y1="54.61" x2="42.72" y2="23.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.23" y1="43.87" x2="-76.628" y2="35.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.23" y1="43.87" x2="-65.23" y2="43.87" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.36" y1="54.61" x2="-65.23" y2="43.87" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.32" y1="49.025" x2="-59.23" y2="43.87" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AGND">
 <contactref element="J1" pad="5"/>
@@ -1344,21 +1344,11 @@ design rules under a new name.</description>
 <contactref element="LED4" pad="C"/>
 <contactref element="J4" pad="3"/>
 <contactref element="J4" pad="4"/>
-<wire x1="65.535" y1="31.75" x2="63.088" y2="45.1" width="0" layer="19" extent="1-1"/>
-<wire x1="65.535" y1="29.21" x2="65.535" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="65.535" y1="27.94" x2="65.535" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="52.07" y1="9.39" x2="65.535" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="47.915" y1="9.39" x2="52.07" y2="9.39" width="0" layer="19" extent="1-1"/>
-<wire x1="33.273178125" y1="26.77338125" x2="47.915" y2="9.39" width="0" layer="19" extent="1-1"/>
-<wire x1="35.30681875" y1="36.726615625" x2="33.273178125" y2="26.77338125" width="0" layer="19" extent="1-1"/>
-<wire x1="39.37" y1="57.6326" x2="35.30681875" y2="36.726615625" width="0" layer="19" extent="1-1"/>
-<wire x1="27.94" y1="57.6326" x2="39.37" y2="57.6326" width="0" layer="19" extent="1-1"/>
-<wire x1="28.01" y1="65.1" x2="27.94" y2="57.6326" width="0" layer="19" extent="1-1"/>
-<wire x1="28.01" y1="71.2" x2="28.01" y2="65.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.088" y1="77.47" x2="28.01" y2="71.2" width="0" layer="19" extent="1-1"/>
-<wire x1="49.345" y1="18.415" x2="-15.088" y2="77.47" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.168" y1="60.96" x2="49.345" y2="18.415" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.46" y1="60.96" x2="-20.168" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="22.93" y1="65.1" x2="22.86" y2="57.6326" width="0" layer="19" extent="1-1"/>
+<wire x1="22.93" y1="71.2" x2="22.93" y2="65.1" width="0" layer="19" extent="1-1"/>
+<wire x1="34.29" y1="57.6326" x2="22.93" y2="65.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.46" y1="60.96" x2="34.29" y2="57.6326" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.168" y1="60.96" x2="-17.46" y2="60.96" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.18" y1="54.61" x2="-20.168" y2="60.96" width="0" layer="19" extent="1-1"/>
 <wire x1="-26.8" y1="54.61" x2="-19.18" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.42" y1="54.61" x2="-26.8" y2="54.61" width="0" layer="19" extent="1-1"/>
@@ -1367,15 +1357,19 @@ design rules under a new name.</description>
 <wire x1="-48.39" y1="54.61" x2="-42.04" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.66" y1="54.61" x2="-48.39" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.01" y1="54.61" x2="-53.66" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="48.72" y1="27.25" x2="-60.01" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="42.72" y1="27.25" x2="48.72" y2="27.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.26" y1="54.61" x2="42.72" y2="27.25" width="0" layer="19" extent="1-1"/>
-<wire x1="16.682" y1="26.035" x2="48.72" y2="27.25" width="0" layer="19" extent="1-1"/>
-<wire x1="45.98" y1="43.505" x2="16.682" y2="26.035" width="0" layer="19" extent="1-1"/>
-<wire x1="53.08" y1="42.855" x2="45.98" y2="43.505" width="0" layer="19" extent="1-1"/>
-<wire x1="53.08" y1="40.905" x2="53.08" y2="42.855" width="0" layer="19" extent="1-1"/>
-<wire x1="53.08" y1="45.455" x2="53.08" y2="42.855" width="0" layer="19" extent="1-1"/>
-<wire x1="53.08" y1="46.105" x2="53.08" y2="45.455" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.23" y1="47.57" x2="-60.01" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.23" y1="47.57" x2="-59.23" y2="47.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.26" y1="47.402" x2="-42.04" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.26" y1="54.61" x2="-65.23" y2="47.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.36" y1="38.485" x2="-41.26" y2="47.402" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.36" y1="37.835" x2="-38.36" y2="38.485" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.36" y1="35.235" x2="-38.36" y2="37.835" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.36" y1="33.285" x2="-38.36" y2="35.235" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.46" y1="35.885" x2="-38.36" y2="35.235" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.168" y1="38.735" x2="-45.46" y2="35.885" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.32" y1="44.955" x2="-19.18" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.86" y1="44.955" x2="-20.32" y2="44.955" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.13" y1="44.955" x2="-22.86" y2="44.955" width="0" layer="19" extent="1-1"/>
 <wire x1="-79.69" y1="54.61" x2="-68.26" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="-43.66" y1="67.31" x2="-33.172" y2="60.96" width="0" layer="19" extent="1-1"/>
 <wire x1="-51.918" y1="71.12" x2="-43.66" y2="67.31" width="0" layer="19" extent="1-1"/>
@@ -1389,64 +1383,70 @@ design rules under a new name.</description>
 <wire x1="-40.96" y1="77.47" x2="-46.04" y2="77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-56.2" y1="77.47" x2="-51.12" y2="77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-68.072" y1="78.74" x2="-70.968" y2="71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.19" y1="39.798" x2="-65.23" y2="47.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.59" y1="31.322" x2="-75.19" y2="39.798" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.315" y1="74.295" x2="-20.168" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.088" y1="77.47" x2="-24.315" y2="74.295" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.835" y1="4.58" x2="-38.36" y2="33.285" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.99" y1="4.58" x2="-42.835" y2="4.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="IC1" pad="24"/>
 <contactref element="J1" pad="6"/>
-<wire x1="39.266615625" y1="30.733178125" x2="61.465" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.13" y1="49.025" x2="-68.152" y2="38.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_RX">
 <contactref element="IC1" pad="21"/>
 <contactref element="IC2" pad="4"/>
-<wire x1="49.345" y1="15.875" x2="37.569559375" y2="29.036121875" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.152" y1="35.96" x2="-24.315" y2="71.755" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_TX">
 <contactref element="IC1" pad="22"/>
 <contactref element="IC2" pad="1"/>
-<wire x1="49.345" y1="19.685" x2="38.13524375" y2="29.601809375" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.152" y1="36.76" x2="-24.315" y2="75.565" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="IC1" pad="31"/>
 <contactref element="R3" pad="1"/>
-<wire x1="-23.012" y1="60.96" x2="35.872503125" y2="36.16093125" width="0" layer="19" extent="1-1"/>
+<wire x1="-74.39" y1="39.798" x2="-23.012" y2="60.96" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RXD">
 <contactref element="IC1" pad="8"/>
 <contactref element="IC4" pad="5"/>
-<wire x1="45.98" y1="44.805" x2="29.31338125" y2="32.76681875" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.46" y1="37.185" x2="-76.628" y2="32.76" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TXD">
 <contactref element="IC1" pad="9"/>
 <contactref element="IC4" pad="1"/>
-<wire x1="45.98" y1="47.405" x2="29.31338125" y2="30.733178125" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.46" y1="39.785" x2="-75.19" y2="31.322" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART1_TX">
 <contactref element="IC1" pad="19"/>
 <contactref element="J1" pad="14"/>
 <contactref element="IC3" pad="11"/>
-<wire x1="36.4381875" y1="27.904753125" x2="61.465" y2="33.02" width="0" layer="19" extent="1-1"/>
-<wire x1="16.682" y1="20.955" x2="36.4381875" y2="27.904753125" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.168" y1="33.655" x2="-68.152" y2="34.36" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.05" y1="49.025" x2="-53.168" y2="33.655" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART1_RX">
 <contactref element="IC1" pad="20"/>
 <contactref element="J1" pad="13"/>
 <contactref element="IC3" pad="12"/>
-<wire x1="37.003875" y1="28.4704375" x2="65.535" y2="33.02" width="0" layer="19" extent="1-1"/>
-<wire x1="16.682" y1="22.225" x2="37.003875" y2="28.4704375" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.168" y1="34.925" x2="-68.152" y2="35.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.05" y1="44.955" x2="-53.168" y2="34.925" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PA6">
 <contactref element="IC1" pad="12"/>
 <contactref element="Q1" pad="1"/>
 <contactref element="R1" pad="2"/>
 <wire x1="-77.79" y1="54.61" x2="-21.42" y2="84.77" width="0" layer="19" extent="1-1"/>
-<wire x1="31.0104375" y1="29.036121875" x2="-21.42" y2="84.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-72.79" y1="31.322" x2="-77.79" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PA7">
 <contactref element="IC1" pad="13"/>
 <contactref element="Q2" pad="1"/>
 <contactref element="R2" pad="2"/>
-<wire x1="-15.56" y1="60.96" x2="31.576121875" y2="28.4704375" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.66" y1="84.77" x2="-15.56" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.56" y1="60.96" x2="-36.66" y2="84.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.99" y1="31.322" x2="-15.56" y2="60.96" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="LED1" pad="A"/>
@@ -1467,8 +1467,8 @@ design rules under a new name.</description>
 <contactref element="PS1" pad="4"/>
 <contactref element="C12" pad="1"/>
 <contactref element="R5" pad="2"/>
-<wire x1="41.62" y1="51.5874" x2="30.19" y2="51.5874" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.168" y1="77.47" x2="41.62" y2="51.5874" width="0" layer="19" extent="1-1"/>
+<wire x1="36.54" y1="51.5874" x2="25.11" y2="51.5874" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.168" y1="77.47" x2="36.54" y2="51.5874" width="0" layer="19" extent="1-1"/>
 <wire x1="-25.248" y1="77.47" x2="-20.168" y2="77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.22" y1="83.82" x2="-20.168" y2="77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.46" y1="83.82" x2="-25.248" y2="77.47" width="0" layer="19" extent="1-1"/>
@@ -1478,29 +1478,29 @@ design rules under a new name.</description>
 <signal name="CTS#">
 <contactref element="IC1" pad="6"/>
 <contactref element="IC4" pad="11"/>
-<wire x1="45.98" y1="40.905" x2="30.444753125" y2="33.8981875" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.46" y1="33.285" x2="-76.628" y2="34.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RTS#">
 <contactref element="IC1" pad="7"/>
 <contactref element="IC4" pad="3"/>
-<wire x1="45.98" y1="46.105" x2="29.879065625" y2="33.332503125" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.46" y1="38.485" x2="-76.628" y2="33.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RI#">
 <contactref element="IC1" pad="10"/>
 <contactref element="IC4" pad="6"/>
-<wire x1="45.98" y1="44.155" x2="29.879065625" y2="30.16749375" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.46" y1="36.535" x2="-74.39" y2="31.322" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWERN#">
 <contactref element="IC1" pad="11"/>
 <contactref element="IC4" pad="14"/>
 <contactref element="R11" pad="1"/>
-<wire x1="-38.252" y1="60.96" x2="30.444753125" y2="29.601809375" width="0" layer="19" extent="1-1"/>
-<wire x1="45.98" y1="38.955" x2="-38.252" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.46" y1="31.335" x2="-73.59" y2="31.322" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.252" y1="60.96" x2="-45.46" y2="31.335" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R4" pad="1"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="-28.092" y1="60.96" x2="60.96" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.092" y1="60.96" x2="-34.29" y2="72.39" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="C4" pad="2"/>
@@ -1520,22 +1520,22 @@ design rules under a new name.</description>
 <contactref element="C11" pad="1"/>
 <contactref element="PS2" pad="3"/>
 <contactref element="JP3" pad="1"/>
-<wire x1="39.41" y1="65.1" x2="39.41" y2="71.2" width="0" layer="19" extent="1-1"/>
-<wire x1="40.12" y1="51.5874" x2="39.41" y2="65.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.38" y1="54.61" x2="40.12" y2="51.5874" width="0" layer="19" extent="1-1"/>
+<wire x1="34.33" y1="65.1" x2="34.33" y2="71.2" width="0" layer="19" extent="1-1"/>
+<wire x1="35.04" y1="51.5874" x2="34.33" y2="65.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.38" y1="54.61" x2="35.04" y2="51.5874" width="0" layer="19" extent="1-1"/>
 <wire x1="-24" y1="54.61" x2="-16.38" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="-31.62" y1="54.61" x2="-24" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="-35.408" y1="60.96" x2="-31.62" y2="54.61" width="0" layer="19" extent="1-1"/>
 <wire x1="-45.59" y1="54.61" x2="-35.408" y2="60.96" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.11" y1="67.31" x2="-24" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="49.345" y1="17.145" x2="-21.11" y2="67.31" width="0" layer="19" extent="1-1"/>
-<wire x1="45.72" y1="58.42" x2="-35.408" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.1" y1="77.47" x2="45.72" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.315" y1="73.025" x2="-21.11" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.99" y1="72.39" x2="-35.408" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.1" y1="77.47" x2="-46.99" y2="72.39" width="0" layer="19" extent="1-1"/>
 <wire x1="-62.71" y1="67.31" x2="-58.1" y2="77.47" width="0" layer="19" extent="1-1"/>
-<wire x1="16.682" y1="27.305" x2="-45.59" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="45.98" y1="45.455" x2="16.682" y2="27.305" width="0" layer="19" extent="1-1"/>
-<wire x1="53.08" y1="42.205" x2="45.98" y2="45.455" width="0" layer="19" extent="1-1"/>
-<wire x1="56.225" y1="9.39" x2="53.08" y2="42.205" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.168" y1="40.005" x2="-45.59" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.46" y1="37.835" x2="-53.168" y2="40.005" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.36" y1="34.585" x2="-45.46" y2="37.835" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.145" y1="4.58" x2="-38.36" y2="34.585" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HIGH/SILENT_MODE">
 <contactref element="IC2" pad="8"/>
@@ -1544,15 +1544,15 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="2"/>
 <contactref element="IC2" pad="6"/>
 <contactref element="J2" pad="2"/>
-<wire x1="63.5" y1="16.51" x2="54.795" y2="17.145" width="0" layer="19" extent="1-1"/>
-<wire x1="49.3" y1="9.39" x2="63.5" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.75" y1="72.39" x2="-18.865" y2="73.025" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.22" y1="4.58" x2="-31.75" y2="72.39" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_H">
 <contactref element="IC2" pad="7"/>
 <contactref element="R4" pad="2"/>
 <contactref element="J2" pad="7"/>
-<wire x1="-25.248" y1="60.96" x2="54.795" y2="18.415" width="0" layer="19" extent="1-1"/>
-<wire x1="50.685" y1="9.39" x2="-25.248" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.248" y1="60.96" x2="-18.865" y2="74.295" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.605" y1="4.58" x2="-25.248" y2="60.96" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NC1">
 <contactref element="J2" pad="1"/>
@@ -1563,7 +1563,7 @@ design rules under a new name.</description>
 <signal name="SHIELD">
 <contactref element="J2" pad="5"/>
 <contactref element="J5" pad="5"/>
-<wire x1="57.61" y1="9.39" x2="63.088" y2="45.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.61" y1="47.402" x2="-52.53" y2="4.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NC3">
 <contactref element="J2" pad="8"/>
@@ -1577,42 +1577,42 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="IC3" pad="1"/>
 <contactref element="C5" pad="1"/>
-<wire x1="-51.28" y1="60.96" x2="11.258" y2="27.305" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.28" y1="60.96" x2="-58.592" y2="40.005" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="IC3" pad="3"/>
 <contactref element="C5" pad="2"/>
-<wire x1="-47.78" y1="60.96" x2="11.258" y2="24.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.78" y1="60.96" x2="-58.592" y2="37.465" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="IC3" pad="4"/>
 <contactref element="C6" pad="1"/>
-<wire x1="-70.33" y1="60.96" x2="11.258" y2="23.495" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.33" y1="60.96" x2="-58.592" y2="36.195" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC3" pad="5"/>
 <contactref element="C6" pad="2"/>
-<wire x1="-66.83" y1="60.96" x2="11.258" y2="22.225" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.83" y1="60.96" x2="-58.592" y2="34.925" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC3" pad="2"/>
 <contactref element="C7" pad="1"/>
-<wire x1="11.258" y1="26.035" x2="-24.61" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.592" y1="38.735" x2="-24.61" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="IC3" pad="6"/>
 <contactref element="C8" pad="2"/>
-<wire x1="11.258" y1="20.955" x2="-40.16" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.592" y1="33.655" x2="-40.16" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="T1OUT">
 <contactref element="J3" pad="2"/>
 <contactref element="IC3" pad="14"/>
-<wire x1="16.682" y1="24.765" x2="13.74" y2="9.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.44" y1="19.82" x2="-53.168" y2="37.465" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="R1IN">
 <contactref element="J3" pad="3"/>
 <contactref element="IC3" pad="13"/>
-<wire x1="16.682" y1="23.495" x2="16.51" y2="9.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.21" y1="19.82" x2="-53.168" y2="36.195" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="J3" pad="5"/>
@@ -1623,15 +1623,15 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="7"/>
 <contactref element="SJ1" pad="2"/>
 <contactref element="SJ1" pad="1"/>
-<wire x1="10.97" y1="9.39" x2="12.355" y2="9.39" width="0" layer="19" extent="1-1"/>
-<wire x1="11.258" y1="19.685" x2="10.97" y2="9.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.468" y1="78.74" x2="11.258" y2="19.685" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.055" y1="19.82" x2="-58.592" y2="32.385" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.67" y1="19.82" x2="-25.055" y2="19.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.468" y1="78.74" x2="-58.592" y2="32.385" width="0" layer="19" extent="1-1"/>
 <wire x1="-62.992" y1="78.74" x2="-61.468" y2="78.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="J1_8">
 <contactref element="J3" pad="8"/>
 <contactref element="J3" pad="7"/>
-<wire x1="15.125" y1="9.39" x2="17.895" y2="9.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.825" y1="19.82" x2="-30.595" y2="19.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="J1_MH1">
 <contactref element="J3" pad="MH1"/>
@@ -1642,44 +1642,44 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="IC3" pad="10"/>
 <contactref element="SJ2" pad="2"/>
-<wire x1="-66.548" y1="78.74" x2="16.682" y2="19.685" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.548" y1="78.74" x2="-53.168" y2="32.385" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET#">
 <contactref element="J5" pad="1"/>
 <contactref element="R7" pad="2"/>
-<wire x1="-70.968" y1="54.61" x2="63.088" y2="43.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.21" y1="47.402" x2="-70.968" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USBDM">
 <contactref element="J5" pad="2"/>
 <contactref element="IC4" pad="16"/>
-<wire x1="53.08" y1="39.605" x2="63.088" y2="43.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.56" y1="47.402" x2="-38.36" y2="31.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USBDP">
 <contactref element="J5" pad="3"/>
 <contactref element="IC4" pad="15"/>
-<wire x1="53.08" y1="38.955" x2="63.088" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.91" y1="47.402" x2="-38.36" y2="31.335" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="IC4" pad="17"/>
 <contactref element="C17" pad="2"/>
-<wire x1="53.08" y1="40.255" x2="-39.24" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.36" y1="32.635" x2="-39.24" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R7" pad="1"/>
 <contactref element="R8" pad="2"/>
 <contactref element="IC4" pad="19"/>
-<wire x1="53.08" y1="41.555" x2="-30.328" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="-73.812" y1="54.61" x2="53.08" y2="41.555" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.36" y1="33.935" x2="-30.328" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-73.812" y1="54.61" x2="-38.36" y2="33.935" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="IC4" pad="23"/>
 <contactref element="R9" pad="1"/>
-<wire x1="53.08" y1="44.155" x2="-33.172" y2="77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.36" y1="36.535" x2="-33.172" y2="77.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="IC4" pad="22"/>
 <contactref element="R10" pad="2"/>
-<wire x1="53.08" y1="43.505" x2="-35.408" y2="77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.36" y1="35.885" x2="-35.408" y2="77.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="LED6" pad="A"/>
@@ -1694,12 +1694,12 @@ design rules under a new name.</description>
 <signal name="N$14">
 <contactref element="PS1" pad="1"/>
 <contactref element="JP2" pad="2"/>
-<wire x1="21.59" y1="58.42" x2="25.69" y2="51.5874" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.1" y1="72.39" x2="20.61" y2="51.5874" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="PS2" pad="1"/>
 <contactref element="JP3" pad="2"/>
-<wire x1="48.26" y1="58.42" x2="37.12" y2="51.5874" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.45" y1="72.39" x2="32.04" y2="51.5874" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R5" pad="1"/>

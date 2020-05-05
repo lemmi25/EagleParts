@@ -1653,12 +1653,31 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="GNDA" urn="urn:adsk.eagle:symbol:26926/1" library_version="1">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="GNDA" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AGND" urn="urn:adsk.eagle:component:26977/1" prefix="AGND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="VR1" symbol="AGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GNDA" urn="urn:adsk.eagle:component:26955/1" prefix="GND" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GNDA" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -1844,6 +1863,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <part name="LED3" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
 <part name="R5" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
 <part name="J4" library="CommonParts" deviceset="PJ-002AH-SMT-TR" device=""/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="LED4" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
 <part name="R6" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
 <part name="J1" library="MouserUseful" deviceset="FTSH-107-01-L-DV-K-A" device=""/>
@@ -1882,7 +1902,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <part name="AGND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="R11" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
-<part name="AGND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3042,7 +3061,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <sheet>
 <description>POWER</description>
 <plain>
-<frame x1="0" y1="0" x2="129.54" y2="101.6" columns="8" rows="5" layer="91"/>
+<frame x1="0" y1="0" x2="121.92" y2="101.6" columns="8" rows="5" layer="91"/>
 </plain>
 <instances>
 <instance part="PS1" gate="G$1" x="33.02" y="73.66" smashed="yes">
@@ -3095,6 +3114,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <attribute name="NAME" x="95.25" y="45.72" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="97.79" y="45.72" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
+<instance part="GND6" gate="1" x="114.3" y="72.39" smashed="yes" rot="R90">
+<attribute name="VALUE" x="116.84" y="69.85" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="LED4" gate="G$1" x="76.2" y="20.32" smashed="yes">
 <attribute name="NAME" x="79.756" y="15.748" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="81.915" y="15.748" size="1.778" layer="96" rot="R90"/>
@@ -3102,9 +3124,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <instance part="R6" gate="G$1" x="76.2" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="74.7014" y="26.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="79.502" y="26.67" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="AGND23" gate="VR1" x="116.84" y="72.39" smashed="yes" rot="R90">
-<attribute name="VALUE" x="121.92" y="69.85" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -3161,15 +3180,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <wire x1="76.2" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
 <junction x="68.58" y="12.7"/>
 </segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="105.41" y1="72.39" x2="102.87" y2="72.39" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="3"/>
-<pinref part="AGND23" gate="VR1" pin="AGND"/>
-<wire x1="102.87" y1="72.39" x2="102.87" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="105.41" y1="67.31" x2="105.41" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="105.41" y1="72.39" x2="114.3" y2="72.39" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$14" class="0">
 <segment>
@@ -3194,6 +3204,18 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="76.2" y1="60.96" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GNDA" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="102.87" y1="67.31" x2="102.87" y2="72.39" width="0.1524" layer="91"/>
+<wire x1="105.41" y1="72.39" x2="102.87" y2="72.39" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="3"/>
+<wire x1="105.41" y1="67.31" x2="105.41" y2="72.39" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="1" pin="GNDA"/>
+<wire x1="105.41" y1="72.39" x2="111.76" y2="72.39" width="0.1524" layer="91"/>
+<junction x="105.41" y="72.39"/>
 </segment>
 </net>
 <net name="5V" class="0">
