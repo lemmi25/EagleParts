@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5875,6 +5875,26 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <wire x1="2.7" y1="1.81" x2="-3.275" y2="1.81" width="0.2" layer="21"/>
 <wire x1="-2.7" y1="-1.81" x2="2.7" y2="-1.81" width="0.2" layer="21"/>
 </package>
+<package name="CAPAE430X550N">
+<description>&lt;b&gt;case code 4x5.4&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.75" y="0" dx="2.9" dy="1.85" layer="1"/>
+<smd name="2" x="1.75" y="0" dx="2.9" dy="1.85" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.7" y1="2.75" x2="3.7" y2="2.75" width="0.05" layer="51"/>
+<wire x1="3.7" y1="2.75" x2="3.7" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="3.7" y1="-2.75" x2="-3.7" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="-3.7" y1="-2.75" x2="-3.7" y2="2.75" width="0.05" layer="51"/>
+<wire x1="2.15" y1="2.15" x2="-1.075" y2="2.15" width="0.1" layer="51"/>
+<wire x1="-1.075" y1="2.15" x2="-2.15" y2="1.075" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="1.075" x2="-2.15" y2="-1.075" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="-1.075" x2="-1.075" y2="-2.15" width="0.1" layer="51"/>
+<wire x1="-1.075" y1="-2.15" x2="2.15" y2="-2.15" width="0.1" layer="51"/>
+<wire x1="2.15" y1="-2.15" x2="2.15" y2="2.15" width="0.1" layer="51"/>
+<wire x1="-3.2" y1="2.15" x2="2.15" y2="2.15" width="0.2" layer="21"/>
+<wire x1="-1.075" y1="-2.15" x2="2.15" y2="-2.15" width="0.2" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="1206" urn="urn:adsk.eagle:package:15796/2" type="model">
@@ -7914,6 +7934,26 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <pin name="K" x="2.54" y="0" visible="pad" length="short"/>
 <pin name="A" x="17.78" y="0" visible="pad" length="short" rot="R180"/>
 </symbol>
+<symbol name="UWX1H010MCL2GB">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.572" y1="1.27" x2="3.556" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.064" y1="1.778" x2="4.064" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+" x="0" y="0" visible="pad" length="short"/>
+<pin name="-" x="12.7" y="0" visible="pad" length="short" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="7.62" y="2.54"/>
+<vertex x="7.62" y="-2.54"/>
+<vertex x="6.858" y="-2.54"/>
+<vertex x="6.858" y="2.54"/>
+</polygon>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LED_1206" prefix="LED" uservalue="yes">
@@ -8999,6 +9039,31 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/LSM115JE3_TR1
 <attribute name="MANUFACTURER_PART_NUMBER" value="LSM115JE3/TR13" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="494-LSM115JE3/TR13" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=494-LSM115JE3%2FTR13" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UWX1H010MCL2GB" prefix="C">
+<description>&lt;b&gt;Nichicon 1uF Electrolytic Capacitor 50V dc Surface Mount - UWX1H010MCL2GB&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/UWX1H010MCL2GB.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="UWX1H010MCL2GB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPAE430X550N">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Nichicon 1uF Electrolytic Capacitor 50V dc Surface Mount - UWX1H010MCL2GB" constant="no"/>
+<attribute name="HEIGHT" value="5.5mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UWX1H010MCL2GB" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UWX1H010MCL2" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UWX1H010MCL2GB?qs=atHKiefXm7RQQtnuG9o73w%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
