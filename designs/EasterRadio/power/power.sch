@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -356,33 +356,6 @@
 <rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
 <rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
 </package>
-<package name="JST_S2B-PH-SM4-TB(LF)(SN)">
-<wire x1="3.95" y1="0.35" x2="1.9" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="0.35" x2="-3.95" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-3.95" y1="0.35" x2="-3.95" y2="-3.65" width="0.127" layer="21"/>
-<circle x="-2.15" y="1.35" radius="0.1" width="0.3" layer="21"/>
-<wire x1="-2.2" y1="-7.25" x2="2.2" y2="-7.25" width="0.127" layer="21"/>
-<wire x1="3.95" y1="-3.65" x2="3.95" y2="0.35" width="0.127" layer="21"/>
-<wire x1="4.35" y1="-7.7" x2="-4.35" y2="-7.7" width="0.05" layer="39"/>
-<wire x1="-4.35" y1="-7.7" x2="-4.35" y2="0.6" width="0.05" layer="39"/>
-<wire x1="-4.35" y1="0.6" x2="-1.75" y2="0.6" width="0.05" layer="39"/>
-<wire x1="-1.75" y1="0.6" x2="-1.75" y2="2" width="0.05" layer="39"/>
-<wire x1="-1.75" y1="2" x2="1.75" y2="2" width="0.05" layer="39"/>
-<wire x1="1.75" y1="2" x2="1.75" y2="0.6" width="0.05" layer="39"/>
-<wire x1="1.75" y1="0.6" x2="4.35" y2="0.6" width="0.05" layer="39"/>
-<wire x1="4.35" y1="0.6" x2="4.35" y2="-7.7" width="0.05" layer="39"/>
-<text x="-3.87423125" y="2.547609375" size="1.27278125" layer="25">&gt;NAME</text>
-<text x="-3.75341875" y="-10.1187" size="1.274540625" layer="27">&gt;VALUE</text>
-<wire x1="3.95" y1="0.35" x2="3.95" y2="-7.25" width="0.127" layer="51"/>
-<wire x1="3.95" y1="-7.25" x2="-3.95" y2="-7.25" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="-7.25" x2="-3.95" y2="0.35" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="0.35" x2="3.95" y2="0.35" width="0.127" layer="51"/>
-<circle x="-2.15" y="1.35" radius="0.1" width="0.3" layer="51"/>
-<smd name="2" x="1" y="0" dx="1" dy="3.5" layer="1" rot="R180"/>
-<smd name="1" x="-1" y="0" dx="1" dy="3.5" layer="1" rot="R180"/>
-<smd name="S2" x="3.35" y="-5.75" dx="1.5" dy="3.4" layer="1" rot="R180"/>
-<smd name="S1" x="-3.35" y="-5.75" dx="1.5" dy="3.4" layer="1" rot="R180"/>
-</package>
 <package name="1206" urn="urn:adsk.eagle:footprint:15651/1">
 <description>&lt;b&gt;CHICAGO MINIATURE LAMP, INC.&lt;/b&gt;&lt;p&gt;
 7022X Series SMT LEDs 1206 Package Size</description>
@@ -450,6 +423,33 @@
 <wire x1="2.7" y1="1.81" x2="-3.275" y2="1.81" width="0.2" layer="21"/>
 <wire x1="-2.7" y1="-1.81" x2="2.7" y2="-1.81" width="0.2" layer="21"/>
 </package>
+<package name="JST_S2B-PH-SM4-TB(LF)(SN)">
+<wire x1="3.95" y1="0.35" x2="1.9" y2="0.35" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="0.35" x2="-3.95" y2="0.35" width="0.127" layer="21"/>
+<wire x1="-3.95" y1="0.35" x2="-3.95" y2="-3.65" width="0.127" layer="21"/>
+<circle x="-2.15" y="1.35" radius="0.1" width="0.3" layer="21"/>
+<wire x1="-2.2" y1="-7.25" x2="2.2" y2="-7.25" width="0.127" layer="21"/>
+<wire x1="3.95" y1="-3.65" x2="3.95" y2="0.35" width="0.127" layer="21"/>
+<wire x1="4.35" y1="-7.7" x2="-4.35" y2="-7.7" width="0.05" layer="39"/>
+<wire x1="-4.35" y1="-7.7" x2="-4.35" y2="0.6" width="0.05" layer="39"/>
+<wire x1="-4.35" y1="0.6" x2="-1.75" y2="0.6" width="0.05" layer="39"/>
+<wire x1="-1.75" y1="0.6" x2="-1.75" y2="2" width="0.05" layer="39"/>
+<wire x1="-1.75" y1="2" x2="1.75" y2="2" width="0.05" layer="39"/>
+<wire x1="1.75" y1="2" x2="1.75" y2="0.6" width="0.05" layer="39"/>
+<wire x1="1.75" y1="0.6" x2="4.35" y2="0.6" width="0.05" layer="39"/>
+<wire x1="4.35" y1="0.6" x2="4.35" y2="-7.7" width="0.05" layer="39"/>
+<text x="-3.87423125" y="2.547609375" size="1.27278125" layer="25">&gt;NAME</text>
+<text x="-3.75341875" y="-10.1187" size="1.274540625" layer="27">&gt;VALUE</text>
+<wire x1="3.95" y1="0.35" x2="3.95" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="3.95" y1="-7.25" x2="-3.95" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="-7.25" x2="-3.95" y2="0.35" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="0.35" x2="3.95" y2="0.35" width="0.127" layer="51"/>
+<circle x="-2.15" y="1.35" radius="0.1" width="0.3" layer="51"/>
+<smd name="2" x="1" y="0" dx="1" dy="3.5" layer="1" rot="R180"/>
+<smd name="1" x="-1" y="0" dx="1" dy="3.5" layer="1" rot="R180"/>
+<smd name="S2" x="3.35" y="-5.75" dx="1.5" dy="3.4" layer="1" rot="R180"/>
+<smd name="S1" x="-3.35" y="-5.75" dx="1.5" dy="3.4" layer="1" rot="R180"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0805" urn="urn:adsk.eagle:package:23617/2" type="model">
@@ -509,17 +509,6 @@
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="S2B-PH-SM4-TB(LF)(SN)">
-<text x="-5.0829" y="5.59571875" size="1.272509375" layer="95">&gt;NAME</text>
-<text x="-5.08811875" y="-9.42268125" size="1.275409375" layer="96">&gt;VALUE</text>
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
-<pin name="1" x="-7.62" y="2.54" length="short" direction="pas"/>
-<pin name="2" x="-7.62" y="0" length="short" direction="pas"/>
-<pin name="SHIELD" x="-7.62" y="-5.08" length="short" direction="pas"/>
-</symbol>
 <symbol name="LED">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
@@ -571,6 +560,17 @@
 <text x="12.7" y="6.35" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="K" x="2.54" y="0" visible="pad" length="short"/>
 <pin name="A" x="17.78" y="0" visible="pad" length="short" rot="R180"/>
+</symbol>
+<symbol name="S2B-PH-SM4-TB(LF)(SN)">
+<text x="-5.0829" y="5.59571875" size="1.272509375" layer="95">&gt;NAME</text>
+<text x="-5.08811875" y="-9.42268125" size="1.275409375" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.1524" layer="94"/>
+<pin name="1" x="-7.62" y="2.54" length="short" direction="pas"/>
+<pin name="2" x="-7.62" y="0" length="short" direction="pas"/>
+<pin name="SHIELD" x="-7.62" y="-5.08" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -636,31 +636,6 @@
 </package3dinstances>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="S2B-PH-SM4" prefix="J">
-<description>PH Series 2 Position 2 mm Pitch Surface Mount Side Entry Shrouded Header</description>
-<gates>
-<gate name="G$1" symbol="S2B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JST_S2B-PH-SM4-TB(LF)(SN)">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" PH Series 2 Position 2 mm Pitch Surface Mount Side Entry Shrouded Header "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="455-1749-1-ND"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/jst-sales-america-inc/S2B-PH-SM4-TB_LF__SN_/455-1749-1-ND/926846?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
-<attribute name="MF" value="JST Sales"/>
-<attribute name="MP" value="S2B-PH-SM4-TB_LF__SN_"/>
-<attribute name="PACKAGE" value="None"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -808,6 +783,31 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/LSM115JE3_TR1
 <attribute name="MANUFACTURER_PART_NUMBER" value="LSM115JE3/TR13" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="494-LSM115JE3/TR13" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=494-LSM115JE3%2FTR13" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S2B-PH-SM4" prefix="J">
+<description>PH Series 2 Position 2 mm Pitch Surface Mount Side Entry Shrouded Header</description>
+<gates>
+<gate name="G$1" symbol="S2B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_S2B-PH-SM4-TB(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" PH Series 2 Position 2 mm Pitch Surface Mount Side Entry Shrouded Header "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="455-1749-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/jst-sales-america-inc/S2B-PH-SM4-TB_LF__SN_/455-1749-1-ND/926846?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="S2B-PH-SM4-TB_LF__SN_"/>
+<attribute name="PACKAGE" value="None"/>
 </technology>
 </technologies>
 </device>
@@ -963,7 +963,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 </classes>
 <parts>
 <part name="IC1" library="MouserUseful" deviceset="MCP73832T-2ACI_OT" device=""/>
-<part name="J4" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
 <part name="C26" library="CommonParts" deviceset="C-EU_1206" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="4.7uF"/>
 <part name="R12" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
@@ -972,13 +971,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <part name="C27" library="CommonParts" deviceset="C-EU_1206" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="4.7uF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="J6" library="CommonParts" deviceset="PJ-002AH-SMT-TR" device=""/>
-<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="IC3" library="MouserUseful" deviceset="DMP1045U-7" device=""/>
 <part name="R14" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100K"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="C30" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="D1" library="CommonParts" deviceset="LSM115JE3_TR13" device=""/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
+<part name="J4" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -992,10 +992,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <instance part="IC1" gate="G$1" x="53.34" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="41.91" y="50.8" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="52.07" y="48.26" size="1.778" layer="96" rot="R180" align="center-left"/>
-</instance>
-<instance part="J4" gate="G$1" x="90.17" y="40.64" smashed="yes">
-<attribute name="NAME" x="85.0871" y="46.23571875" size="1.272509375" layer="95"/>
-<attribute name="VALUE" x="85.08188125" y="31.21731875" size="1.275409375" layer="96"/>
 </instance>
 <instance part="C26" gate="G$1" x="74.93" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="73.406" y="37.719" size="1.778" layer="95" rot="R180"/>
@@ -1027,9 +1023,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <attribute name="NAME" x="93.98" y="72.39" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="93.98" y="74.93" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="GND6" gate="1" x="67.31" y="91.44" smashed="yes" rot="R180">
-<attribute name="VALUE" x="69.85" y="93.98" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="JP1" gate="A" x="175.26" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="167.005" y="69.85" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="182.88" y="69.85" size="1.778" layer="96" rot="R90"/>
@@ -1053,6 +1046,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <attribute name="NAME" x="135.89" y="55.88" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="138.43" y="55.88" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
+<instance part="GND6" gate="1" x="99.06" y="90.17" smashed="yes" rot="R180">
+<attribute name="VALUE" x="101.6" y="92.71" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="J4" gate="G$1" x="90.17" y="40.64" smashed="yes">
+<attribute name="NAME" x="85.0871" y="46.23571875" size="1.272509375" layer="95"/>
+<attribute name="VALUE" x="85.08188125" y="31.21731875" size="1.275409375" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1072,17 +1072,20 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <pinref part="IC1" gate="G$1" pin="VBAT"/>
 <wire x1="53.34" y1="43.18" x2="74.93" y2="43.18" width="0.1524" layer="91"/>
 <label x="63.5" y="43.18" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="J4" gate="G$1" pin="1"/>
 <pinref part="C26" gate="G$1" pin="2"/>
-<wire x1="74.93" y1="43.18" x2="80.01" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="43.18" x2="77.47" y2="43.18" width="0.1524" layer="91"/>
 <junction x="74.93" y="43.18"/>
-<wire x1="80.01" y1="43.18" x2="82.55" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="43.18" x2="80.01" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
-<junction x="80.01" y="43.18"/>
-<pinref part="IC3" gate="G$1" pin="S"/>
-<wire x1="109.22" y1="41.91" x2="106.68" y2="41.91" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="48.26" x2="106.68" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="77.47" y1="43.18" x2="77.47" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="77.47" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="48.26" x2="106.68" y2="36.83" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="D"/>
+<wire x1="129.54" y1="44.45" x2="129.54" y2="36.83" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="36.83" x2="106.68" y2="36.83" width="0.1524" layer="91"/>
+<wire x1="77.47" y1="43.18" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
+<junction x="77.47" y="43.18"/>
+<wire x1="78.74" y1="43.18" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="40.64" x2="82.55" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PROG" class="0">
@@ -1102,33 +1105,25 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GNDA"/>
-<pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="82.55" y1="40.64" x2="77.47" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="77.47" y1="40.64" x2="77.47" y2="35.56" width="0.1524" layer="91"/>
-<junction x="77.47" y="35.56"/>
 <pinref part="C26" gate="G$1" pin="1"/>
-<wire x1="74.93" y1="35.56" x2="77.47" y2="35.56" width="0.1524" layer="91"/>
-<junction x="74.93" y="35.56"/>
-<wire x1="71.12" y1="35.56" x2="74.93" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="40.64" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="16.51" x2="71.12" y2="16.51" width="0.1524" layer="91"/>
+<junction x="74.93" y="16.51"/>
+<wire x1="71.12" y1="16.51" x2="74.93" y2="16.51" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="35.56" x2="74.93" y2="16.51" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="16.51" x2="77.47" y2="16.51" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VSS"/>
+<wire x1="77.47" y1="16.51" x2="74.93" y2="16.51" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
 <label x="63.5" y="40.64" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="C27" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="16.51" x2="77.47" y2="16.51" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="40.64" x2="71.12" y2="16.51" width="0.1524" layer="91"/>
+<junction x="71.12" y="16.51"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="82.55" y1="43.18" x2="80.01" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="80.01" y1="43.18" x2="80.01" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="80.01" y1="38.1" x2="77.47" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="77.47" y1="38.1" x2="77.47" y2="16.51" width="0.1524" layer="91"/>
 <junction x="77.47" y="16.51"/>
-<wire x1="77.47" y1="35.56" x2="77.47" y2="16.51" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="16.51" x2="77.47" y2="16.51" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="2"/>
-<wire x1="72.39" y1="80.01" x2="67.31" y2="80.01" width="0.1524" layer="91"/>
-<wire x1="67.31" y1="82.55" x2="67.31" y2="80.01" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="3"/>
-<wire x1="72.39" y1="82.55" x2="67.31" y2="82.55" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GNDA"/>
-<wire x1="67.31" y1="82.55" x2="67.31" y2="88.9" width="0.1524" layer="91"/>
-<junction x="67.31" y="82.55"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
@@ -1146,6 +1141,16 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <wire x1="175.26" y1="24.13" x2="172.72" y2="24.13" width="0.1524" layer="91"/>
 <junction x="172.72" y="24.13"/>
 <pinref part="C30" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="1_2"/>
+<wire x1="95.25" y1="82.55" x2="99.06" y2="82.55" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="1_1"/>
+<wire x1="95.25" y1="80.01" x2="99.06" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="82.55" x2="99.06" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="82.55" x2="99.06" y2="87.63" width="0.1524" layer="91"/>
+<junction x="99.06" y="82.55"/>
+<pinref part="GND6" gate="1" pin="GNDA"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -1183,16 +1188,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <junction x="144.78" y="62.23"/>
 </segment>
 <segment>
-<label x="99.06" y="87.63" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="1_2"/>
-<wire x1="95.25" y1="82.55" x2="99.06" y2="82.55" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="1_1"/>
-<wire x1="95.25" y1="80.01" x2="99.06" y2="80.01" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="82.55" x2="99.06" y2="80.01" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="82.55" x2="99.06" y2="87.63" width="0.1524" layer="91"/>
-<junction x="99.06" y="82.55"/>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="72.39" y1="80.01" x2="67.31" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="67.31" y1="82.55" x2="67.31" y2="80.01" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="3"/>
+<wire x1="72.39" y1="82.55" x2="67.31" y2="82.55" width="0.1524" layer="91"/>
+<wire x1="67.31" y1="82.55" x2="67.31" y2="88.9" width="0.1524" layer="91"/>
+<junction x="67.31" y="82.55"/>
+<label x="67.31" y="88.9" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -1205,15 +1208,18 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <net name="U_DRAIN" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<pinref part="IC3" gate="G$1" pin="D"/>
 <wire x1="170.18" y1="73.66" x2="170.18" y2="44.45" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="44.45" x2="144.78" y2="44.45" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="K"/>
-<wire x1="144.78" y1="44.45" x2="129.54" y2="44.45" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="45.72" x2="144.78" y2="44.45" width="0.1524" layer="91"/>
 <junction x="144.78" y="44.45"/>
 <pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="44.45" x2="144.78" y2="34.29" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="S"/>
+<wire x1="109.22" y1="41.91" x2="109.22" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="33.02" x2="135.89" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="135.89" y1="33.02" x2="135.89" y2="44.45" width="0.1524" layer="91"/>
+<wire x1="135.89" y1="44.45" x2="144.78" y2="44.45" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
