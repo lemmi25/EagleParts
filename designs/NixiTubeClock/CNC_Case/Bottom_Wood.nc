@@ -1,11 +1,9 @@
 (1001)
 (NixiTube)
-(T1  D=2 CR=0 - ZMIN=-10 - flat end mill)
+(T1  D=2 CR=0 - ZMIN=-5 - flat end mill)
 G90 G94
 G17
 G21
-G28 G91 Z0
-G90
 
 (2D Pocket1)
 T1 M6
@@ -313,26 +311,5 @@ X18.91
 Y11.848
 X98.373
 Z1
-
-(Drill1)
-M8
-G0 X28.11 Y21.048
-Z1
-G1 Z-10 F333.3
-G0 Z1
-Y68.754
-G1 Z-10 F333.3
-G0 Z1
-X138.11
-G1 Z-10 F333.3
-G0 Z1
-Y21.048
-G1 Z-10 F333.3
-G0 Z1
-M9
-G28 G91 Z0
-G90
-G28 G91 X0 Y0
-G90
 M5
 M30
