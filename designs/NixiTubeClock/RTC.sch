@@ -8274,12 +8274,12 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U1" library="MouserUseful" deviceset="S8411-45R" device=""/>
 <part name="Y1" library="MouserUseful" deviceset="CM7V-T1A-32.768K-9PF-20PPM-TA-" device=""/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-1" device="" package3d_urn="urn:adsk.eagle:package:8332/1"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="2.2K"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M1206" package3d_urn="urn:adsk.eagle:package:23566/2" value="2.2K"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -8368,11 +8368,6 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="109.22" y="50.8"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="27.94" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
-<label x="17.78" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="30.48" x2="106.68" y2="17.78" width="0.1524" layer="91"/>
 <label x="106.68" y="20.32" size="1.778" layer="95" rot="R90"/>
@@ -8382,6 +8377,11 @@ Source: AVX .. aphvc.pdf</description>
 <label x="111.76" y="20.32" size="1.778" layer="95" rot="R90"/>
 <wire x1="111.76" y1="25.4" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="4"/>
+<wire x1="27.94" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
+<label x="17.78" y="20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SQW/OUT" class="0">
 <segment>
@@ -8390,9 +8390,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="119.38" y="48.26" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="25.4" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
-<label x="17.78" y="25.4" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="27.94" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
+<label x="17.78" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -8406,9 +8406,9 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="106.68" y="45.72"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="27.94" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
-<label x="17.78" y="22.86" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="25.4" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
+<label x="17.78" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -8422,9 +8422,9 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="111.76" y="43.18"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="4"/>
-<wire x1="27.94" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
-<label x="17.78" y="20.32" size="1.778" layer="95"/>
+<pinref part="SV1" gate="G$1" pin="3"/>
+<wire x1="27.94" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
+<label x="17.78" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
