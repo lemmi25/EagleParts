@@ -1803,7 +1803,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.1524" drill="0">
+</class>
+<class number="1" name="AGND" width="0.5" drill="0">
+</class>
+<class number="2" name="3.3V" width="0.5" drill="0">
+</class>
+<class number="3" name="5V" width="0.5" drill="0">
 </class>
 </classes>
 <parts>
@@ -1831,8 +1837,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <part name="AGND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="PS1" library="MouserUseful" deviceset="LP38693MPX-5.0_NOPB" device="" package3d_urn="urn:adsk.eagle:package:13422906/1" value="LP38693MPX-3.3NOPB"/>
 <part name="PS2" library="MouserUseful" deviceset="LP38693MPX-5.0_NOPB" device="" package3d_urn="urn:adsk.eagle:package:13422906/1"/>
-<part name="LED1" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
-<part name="LED2" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
 <part name="C10" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="C12" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="C13" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
@@ -1846,7 +1850,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <part name="J4" library="CommonParts" deviceset="PJ-002AH-SMT-TR" device=""/>
 <part name="LED4" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
 <part name="R6" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
-<part name="J1" library="MouserUseful" deviceset="FTSH-107-01-L-DV-K-A" device=""/>
+<part name="PRGM" library="MouserUseful" deviceset="FTSH-107-01-L-DV-K-A" device=""/>
 <part name="AGND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
@@ -1854,7 +1858,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <part name="AGND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="C1" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="C2" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
-<part name="S1" library="MouserUseful" deviceset="PTS526_SM15_SMTR2_LFS" device=""/>
+<part name="RST" library="MouserUseful" deviceset="PTS526_SM15_SMTR2_LFS" device=""/>
 <part name="C3" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="Q2" library="CommonParts" deviceset="FDN5632N-F085" device=""/>
 <part name="Q1" library="CommonParts" deviceset="FDN5632N-F085" device=""/>
@@ -1883,6 +1887,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <part name="AGND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="R11" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
 <part name="AGND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
+<part name="LED1" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
+<part name="LED2" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
+<part name="R12" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R13" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -1895,15 +1903,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <attribute name="NAME" x="133.35" y="96.52" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="133.35" y="93.98" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LED1" gate="G$1" x="38.1" y="83.82" smashed="yes">
-<attribute name="NAME" x="41.656" y="79.248" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="43.815" y="79.248" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="LED2" gate="G$1" x="38.1" y="30.48" smashed="yes">
-<attribute name="NAME" x="41.656" y="25.908" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="43.815" y="25.908" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="J1" gate="G$1" x="177.8" y="88.9" smashed="yes">
+<instance part="PRGM" gate="G$1" x="177.8" y="88.9" smashed="yes">
 <attribute name="NAME" x="196.85" y="96.52" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="196.85" y="93.98" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -1931,40 +1931,56 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <attribute name="NAME" x="75.819" y="98.044" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="80.899" y="98.044" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="S1" gate="G$1" x="55.88" y="83.82" smashed="yes">
+<instance part="RST" gate="G$1" x="55.88" y="83.82" smashed="yes">
 <attribute name="NAME" x="62.23" y="88.9" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="C3" gate="G$1" x="96.52" y="83.82" smashed="yes">
 <attribute name="NAME" x="90.424" y="79.121" size="1.778" layer="95"/>
 <attribute name="VALUE" x="98.044" y="79.121" size="1.778" layer="96"/>
 </instance>
-<instance part="Q2" gate="G$1" x="30.48" y="40.64" smashed="yes">
-<attribute name="NAME" x="41.91" y="44.45" size="1.778" layer="95" align="center-left"/>
+<instance part="Q2" gate="G$1" x="30.48" y="25.4" smashed="yes">
+<attribute name="NAME" x="41.91" y="29.21" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="Q1" gate="G$1" x="30.48" y="93.98" smashed="yes">
 <attribute name="NAME" x="41.91" y="97.79" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="AGND13" gate="VR1" x="38.1" y="20.32" smashed="yes">
-<attribute name="VALUE" x="35.56" y="15.24" size="1.778" layer="96" rot="R90"/>
+<instance part="AGND13" gate="VR1" x="38.1" y="5.08" smashed="yes">
+<attribute name="VALUE" x="35.56" y="0" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="AGND14" gate="VR1" x="38.1" y="73.66" smashed="yes">
 <attribute name="VALUE" x="35.56" y="68.58" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="25.4" y="30.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="23.9014" y="26.67" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="28.702" y="26.67" size="1.778" layer="96" rot="R90"/>
+<instance part="R2" gate="G$1" x="25.4" y="15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.9014" y="11.43" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="28.702" y="11.43" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R1" gate="G$1" x="25.4" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.9014" y="80.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="28.702" y="80.01" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="LED1" gate="G$1" x="38.1" y="114.3" smashed="yes">
+<attribute name="NAME" x="41.656" y="109.728" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="43.815" y="109.728" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED2" gate="G$1" x="38.1" y="43.18" smashed="yes">
+<attribute name="NAME" x="41.656" y="38.608" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="43.815" y="38.608" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R12" gate="G$1" x="38.1" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.6014" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="41.402" y="49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R13" gate="G$1" x="38.1" y="121.92" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.6014" y="118.11" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="41.402" y="118.11" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="3.3V" class="0">
+<net name="3.3V" class="2">
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="PRGM" gate="G$1" pin="3"/>
 <wire x1="177.8" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
 <label x="172.72" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -1990,7 +2006,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 </net>
 <net name="SWIDO" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="PRGM" gate="G$1" pin="4"/>
 <wire x1="177.8" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
 <label x="172.72" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2002,17 +2018,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 </net>
 <net name="NRST" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="12"/>
+<pinref part="PRGM" gate="G$1" pin="12"/>
 <wire x1="200.66" y1="78.74" x2="205.74" y2="78.74" width="0.1524" layer="91"/>
 <label x="205.74" y="78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S1" gate="G$1" pin="NO_2"/>
+<pinref part="RST" gate="G$1" pin="NO_2"/>
 <wire x1="86.36" y1="81.28" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="NRST"/>
 <wire x1="96.52" y1="66.04" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="66.04" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="NO_1"/>
+<pinref part="RST" gate="G$1" pin="NO_1"/>
 <wire x1="91.44" y1="73.66" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="76.2" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="81.28" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
@@ -2027,19 +2043,19 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <label x="78.74" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AGND" class="0">
+<net name="AGND" class="1">
 <segment>
-<pinref part="J1" gate="G$1" pin="5"/>
+<pinref part="PRGM" gate="G$1" pin="5"/>
 <wire x1="177.8" y1="78.74" x2="175.26" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="78.74" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="7"/>
+<pinref part="PRGM" gate="G$1" pin="7"/>
 <wire x1="175.26" y1="73.66" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="73.66" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
 <junction x="175.26" y="73.66"/>
 <pinref part="AGND9" gate="VR1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="11"/>
+<pinref part="PRGM" gate="G$1" pin="11"/>
 <wire x1="200.66" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="AGND10" gate="VR1" pin="AGND"/>
 <wire x1="208.28" y1="81.28" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
@@ -2060,10 +2076,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <wire x1="106.68" y1="111.76" x2="106.68" y2="96.52" width="0.1524" layer="91"/>
 <junction x="106.68" y="111.76"/>
 <wire x1="106.68" y1="111.76" x2="91.44" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="COM_2"/>
+<pinref part="RST" gate="G$1" pin="COM_2"/>
 <wire x1="86.36" y1="83.82" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="83.82" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="COM_1"/>
+<pinref part="RST" gate="G$1" pin="COM_1"/>
 <wire x1="91.44" y1="88.9" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="83.82" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
@@ -2083,19 +2099,21 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <junction x="91.44" y="109.22"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="38.1" y1="25.4" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="10.16" x2="38.1" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="AGND13" gate="VR1" pin="AGND"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
-<junction x="38.1" y="25.4"/>
+<wire x1="25.4" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
+<wire x1="38.1" y1="20.32" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
+<junction x="38.1" y="10.16"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="38.1" y1="78.74" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="AGND14" gate="VR1" pin="AGND"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="38.1" y1="88.9" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
 <junction x="38.1" y="78.74"/>
 </segment>
 </net>
@@ -2106,7 +2124,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <label x="137.16" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="6"/>
+<pinref part="PRGM" gate="G$1" pin="6"/>
 <wire x1="177.8" y1="76.2" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
 <label x="172.72" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2158,7 +2176,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <label x="149.86" y="50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="14"/>
+<pinref part="PRGM" gate="G$1" pin="14"/>
 <wire x1="200.66" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
 <label x="205.74" y="73.66" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -2171,7 +2189,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <label x="154.94" y="50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="13"/>
+<pinref part="PRGM" gate="G$1" pin="13"/>
 <wire x1="200.66" y1="76.2" x2="205.74" y2="76.2" width="0.1524" layer="91"/>
 <label x="205.74" y="76.2" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -2200,38 +2218,26 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
-<label x="20.32" y="40.64" size="1.778" layer="95"/>
+<wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
+<label x="20.32" y="25.4" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="40.64" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="35.56" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
-<junction x="25.4" y="40.64"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="38.1" y1="86.36" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="38.1" y1="33.02" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="20.32" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
+<junction x="25.4" y="25.4"/>
 </segment>
 </net>
 <net name="IN" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="38.1" y1="104.14" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
-<label x="38.1" y="109.22" size="1.778" layer="95" rot="R90" xref="yes"/>
+<label x="38.1" y="129.54" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="38.1" y1="50.8" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
-<label x="38.1" y="55.88" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="38.1" y1="35.56" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
+<label x="38.1" y="60.96" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="CTS#" class="0">
@@ -2266,6 +2272,31 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <wire x1="111.76" y1="30.48" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="30.48" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
 <label x="116.84" y="22.86" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="38.1" y1="48.26" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="60.96" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="129.54" x2="38.1" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -2316,7 +2347,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <wire x1="76.2" y1="30.48" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="3">
 <segment>
 <wire x1="38.1" y1="27.94" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
 <label x="38.1" y="17.78" size="1.778" layer="95" rot="R270" xref="yes"/>
@@ -2332,7 +2363,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <label x="152.4" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AGND" class="0">
+<net name="AGND" class="1">
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="AGND3" gate="VR1" pin="AGND"/>
@@ -2553,7 +2584,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <wire x1="55.88" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AGND" class="0">
+<net name="AGND" class="1">
 <segment>
 <pinref part="C8" gate="G$1" pin="+"/>
 <pinref part="AGND5" gate="VR1" pin="AGND"/>
@@ -2600,7 +2631,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <wire x1="106.68" y1="68.58" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="J3" gate="G$1" pin="5"/>
 <wire x1="25.4" y1="99.06" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
@@ -2656,7 +2687,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <label x="53.34" y="99.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="3">
 <segment>
 <pinref part="C7" gate="G$1" pin="-"/>
 <wire x1="43.18" y1="35.56" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
@@ -2839,7 +2870,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <label x="22.86" y="104.14" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="AGND" class="0">
+<net name="AGND" class="1">
 <segment>
 <pinref part="J5" gate="G$1" pin="4"/>
 <wire x1="45.72" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
@@ -2903,7 +2934,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <pinref part="AGND22" gate="VR1" pin="AGND"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="3">
 <segment>
 <pinref part="IC4" gate="G$1" pin="VCC"/>
 <wire x1="73.66" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
@@ -3110,7 +3141,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <busses>
 </busses>
 <nets>
-<net name="3.3V" class="0">
+<net name="3.3V" class="2">
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="PS1" gate="G$1" pin="OUT"/>
@@ -3124,7 +3155,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <label x="20.32" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="AGND" class="0">
+<net name="AGND" class="1">
 <segment>
 <pinref part="PS1" gate="G$1" pin="GND"/>
 <wire x1="58.42" y1="71.12" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
@@ -3196,16 +3227,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <wire x1="76.2" y1="60.96" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5V" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="1_2"/>
-<wire x1="105.41" y1="44.45" x2="105.41" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="1_1"/>
-<wire x1="102.87" y1="44.45" x2="102.87" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="105.41" y1="40.64" x2="102.87" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="105.41" y1="40.64" x2="110.49" y2="40.64" width="0.1524" layer="91"/>
-<junction x="105.41" y="40.64"/>
-</segment>
+<net name="5V" class="3">
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="PS2" gate="G$1" pin="OUT"/>
@@ -3248,6 +3270,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 <wire x1="76.2" y1="73.66" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
 <junction x="76.2" y="73.66"/>
 <label x="78.74" y="73.66" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="1_2"/>
+<wire x1="105.41" y1="44.45" x2="105.41" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="1_1"/>
+<wire x1="102.87" y1="44.45" x2="102.87" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="105.41" y1="40.64" x2="102.87" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="105.41" y1="40.64" x2="110.49" y2="40.64" width="0.1524" layer="91"/>
+<junction x="105.41" y="40.64"/>
 </segment>
 </net>
 <net name="N$10" class="0">

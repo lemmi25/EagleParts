@@ -77,11 +77,13 @@
 <board>
 <fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:2NRZY2egRq2a-97Lgq_41w" pcbguid="693e9798-b6a1-4fd4-ae18-6a33ed75623c" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="1f683a9c-1593-4e56-b279-a90f9531e47d" lastsyncedrevisionid="1f683a9c-1593-4e56-b279-a90f9531e47d" lastboardhashguid="0ab2bbda-6f7f-6f10-28d1-716f08334124" lastpushedtime="2020-06-12T15:54:50Z" linktopcb3d="%12"/>
 <plain>
-<wire x1="25.999815625" y1="-0.000321875" x2="25.999815625" y2="27.052746875" width="0" layer="20"/>
-<wire x1="25.999815625" y1="27.052746875" x2="22.992890625" y2="30.0527375" width="0" layer="20" curve="90.132258"/>
-<wire x1="22.992890625" y1="30.0527375" x2="2.992890625" y2="30.006578125" width="0" layer="20"/>
-<wire x1="2.992890625" y1="30.006578125" x2="-0.000184375" y2="27.0065875" width="0" layer="20" curve="89.856726"/>
-<wire x1="-0.000184375" y1="27.0065875" x2="-0.000184375" y2="-0.000321875" width="0" layer="20"/>
+<wire x1="25.999815625" y1="-0.000321875" x2="25.999815625" y2="27.05274375" width="0" layer="20"/>
+<wire x1="25.999815625" y1="27.05274375" x2="22.99289375" y2="30.0527375" width="0" layer="20" curve="90.132198"/>
+<wire x1="22.99289375" y1="30.0527375" x2="8.808425" y2="30.020003125" width="0" layer="20"/>
+<wire x1="8.808425" y1="30.020003125" x2="7.397196875" y2="29.4325875" width="0" layer="20" curve="44.933735"/>
+<wire x1="7.397196875" y1="29.4325875" x2="0.583971875" y2="22.603621875" width="0" layer="20"/>
+<wire x1="0.583971875" y1="22.603621875" x2="-0.000184375" y2="21.191040625" width="0" layer="20" curve="44.933911"/>
+<wire x1="-0.000184375" y1="21.191040625" x2="-0.000184375" y2="-0.000321875" width="0" layer="20"/>
 <wire x1="-0.000184375" y1="-0.000321875" x2="25.999815625" y2="-0.000321875" width="0" layer="20"/>
 <hole x="23" y="26" drill="2.8"/>
 <hole x="3" y="3" drill="2.8"/>
@@ -3747,20 +3749,16 @@ design rules under a new name.</description>
 <wire x1="11.551815625" y1="15.839678125" x2="17.545215625" y2="21.833078125" width="0.254" layer="1"/>
 <wire x1="17.545215625" y1="21.833078125" x2="19.550159375" y2="21.833078125" width="0.254" layer="1"/>
 <polygon width="0.1524" layer="1">
-<vertex x="0" y="0"/>
-<vertex x="0" y="27.08" curve="-90"/>
-<vertex x="3" y="30.08"/>
-<vertex x="23.07" y="30.08" curve="-90"/>
-<vertex x="26.07" y="27.08"/>
+<vertex x="0" y="30.08"/>
+<vertex x="26.07" y="30.08"/>
 <vertex x="26.07" y="0"/>
+<vertex x="0" y="0"/>
 </polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="0" y="0"/>
-<vertex x="0" y="27.08" curve="-90"/>
-<vertex x="3" y="30.08"/>
-<vertex x="23.07" y="30.08" curve="-90"/>
-<vertex x="26.07" y="27.08"/>
+<vertex x="0" y="30.08"/>
+<vertex x="26.07" y="30.08"/>
 <vertex x="26.07" y="0"/>
+<vertex x="0" y="0"/>
 </polygon>
 </signal>
 </signals>
