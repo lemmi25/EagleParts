@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7701,6 +7701,11 @@ straight</description>
 <label x="91.948" y="231.394" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
+<wire x1="215.9" y1="208.28" x2="226.06" y2="208.28" width="0.1524" layer="91"/>
+<label x="215.9" y="208.28" size="1.778" layer="95"/>
+<pinref part="SV5" gate="1" pin="8"/>
+</segment>
+<segment>
 <pinref part="UART" gate="-3" pin="S"/>
 <wire x1="160.02" y1="233.68" x2="154.94" y2="233.68" width="0.1524" layer="91"/>
 <label x="154.94" y="233.68" size="1.778" layer="95"/>
@@ -8180,17 +8185,12 @@ straight</description>
 <pinref part="SV2" gate="1" pin="1"/>
 </segment>
 </net>
-<net name="3.3V_IN" class="0">
+<net name="N$1" class="0">
 <segment>
 <pinref part="POWER" gate="G$1" pin="2"/>
 <pinref part="ON/OFF" gate="G$1" pin="3"/>
 <wire x1="96.52" y1="247.65" x2="96.52" y2="250.19" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="250.19" x2="105.41" y2="250.19" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="215.9" y1="208.28" x2="226.06" y2="208.28" width="0.1524" layer="91"/>
-<label x="215.9" y="208.28" size="1.778" layer="95"/>
-<pinref part="SV5" gate="1" pin="8"/>
 </segment>
 </net>
 </nets>
