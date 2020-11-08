@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -967,7 +967,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <part name="R12" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="R13" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470ohm"/>
-<part name="LED2" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
+<part name="LED_RED" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
 <part name="C27" library="CommonParts" deviceset="C-EU_1206" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="4.7uF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="J6" library="CommonParts" deviceset="PJ-002AH-SMT-TR" device=""/>
@@ -979,6 +979,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <part name="D1" library="CommonParts" deviceset="LSM115JE3_TR13" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="J4" library="CommonParts" deviceset="S2B-PH-SM4" device=""/>
+<part name="LED_GR" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
+<part name="R1" library="CommonParts" deviceset="R-EU_1206" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470ohm"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -987,6 +990,18 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 (MCP73832T-2ACI/OT)</text>
 <frame x1="0" y1="0" x2="186.69" y2="118.11" columns="8" rows="5" layer="91"/>
 <text x="149.86" y="78.74" size="1.778" layer="91">Step down to 3.3V Converter</text>
+<text x="35.56" y="30.48" size="1.778" layer="89">Lade-IC
+STAT = Low --&gt;
+Battery charging</text>
+<text x="66.04" y="73.66" size="1.778" layer="91">Netzteil Spannungsversorgung</text>
+<text x="106.68" y="25.4" size="1.778" layer="89">pMOSFET
+runs current when ext. 
+v. source is NOT connected</text>
+<text x="137.16" y="38.1" size="1.778" layer="89">Shottky diode
+to prevent current 
+flowing from the battery 
+into the charging power source</text>
+<text x="63.5" y="7.62" size="1.778" layer="89">Charging Done</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="53.34" y="38.1" smashed="yes" rot="R180">
@@ -1008,7 +1023,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <attribute name="NAME" x="52.07" y="25.1714" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="52.07" y="29.972" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED2" gate="G$1" x="29.21" y="26.67" smashed="yes" rot="R90">
+<instance part="LED_RED" gate="G$1" x="29.21" y="26.67" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.782" y="30.226" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="33.782" y="32.385" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -1020,8 +1035,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <attribute name="VALUE" x="91.44" y="13.97" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="J6" gate="G$1" x="95.25" y="80.01" smashed="yes" rot="R180">
-<attribute name="NAME" x="93.98" y="72.39" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="93.98" y="74.93" size="1.778" layer="96" rot="R180" align="center-left"/>
+<attribute name="NAME" x="93.98" y="77.47" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="93.98" y="87.63" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="JP1" gate="A" x="175.26" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="167.005" y="69.85" size="1.778" layer="95" rot="R90"/>
@@ -1053,6 +1068,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <attribute name="NAME" x="85.0871" y="46.23571875" size="1.272509375" layer="95"/>
 <attribute name="VALUE" x="85.08188125" y="31.21731875" size="1.275409375" layer="96"/>
 </instance>
+<instance part="LED_GR" gate="G$1" x="57.15" y="11.43" smashed="yes">
+<attribute name="NAME" x="60.706" y="4.318" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="62.865" y="6.858" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R1" gate="G$1" x="57.15" y="22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="58.6486" y="26.67" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="53.848" y="26.67" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND1" gate="1" x="57.15" y="5.08" smashed="yes">
+<attribute name="VALUE" x="54.61" y="2.54" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1060,11 +1086,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <net name="STAT" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="STAT"/>
-<wire x1="53.34" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <label x="63.5" y="38.1" size="1.778" layer="95" align="bottom-right"/>
 <pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="57.15" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="26.67" x2="66.04" y2="26.67" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="26.67" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="57.15" y1="27.94" x2="57.15" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="57.15" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -1156,7 +1186,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <net name="N$10" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LED_RED" gate="G$1" pin="C"/>
 <wire x1="43.18" y1="26.67" x2="34.29" y2="26.67" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1168,7 +1198,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="62.23" x2="157.48" y2="62.23" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="62.23" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED_RED" gate="G$1" pin="A"/>
 <pinref part="IC1" gate="G$1" pin="VDD"/>
 <wire x1="25.4" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="38.1" x2="17.78" y2="26.67" width="0.1524" layer="91"/>
@@ -1220,6 +1250,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DMP1045U-7.pd
 <wire x1="109.22" y1="33.02" x2="135.89" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="135.89" y1="33.02" x2="135.89" y2="44.45" width="0.1524" layer="91"/>
 <wire x1="135.89" y1="44.45" x2="144.78" y2="44.45" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="LED_GR" gate="G$1" pin="A"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="57.15" y1="13.97" x2="57.15" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
