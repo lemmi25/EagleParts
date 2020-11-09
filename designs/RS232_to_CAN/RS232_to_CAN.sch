@@ -1809,7 +1809,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PJ-002AH-SMT-
 </class>
 <class number="2" name="3.3V" width="0.5" drill="0">
 </class>
-<class number="3" name="5V" width="0.5" drill="0">
+<class number="3" name="5V" width="0.3" drill="0">
 </class>
 </classes>
 <parts>
