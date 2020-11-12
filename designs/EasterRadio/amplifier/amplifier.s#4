@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.5" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -727,37 +727,37 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 </class>
 </classes>
 <parts>
-<part name="IC1" library="MouserUseful" deviceset="PAM8403DR" device=""/>
+<part name="IC2" library="MouserUseful" deviceset="PAM8403DR" device=""/>
 <part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="R1" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="C2" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.47uF"/>
-<part name="C6" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="R17" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="C29" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.47uF"/>
+<part name="C31" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="AGND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="C1" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
-<part name="R2" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="C7" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.47uF"/>
+<part name="C32" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="R19" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="C34" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.47uF"/>
 <part name="AGND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="C4" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="470uF"/>
-<part name="C3" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
-<part name="C5" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C35" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="470uF"/>
+<part name="C36" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C37" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="AGND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="J1" library="MouserUseful" deviceset="STX-3120-3BM" device=""/>
+<part name="J7" library="MouserUseful" deviceset="STX-3120-3BM" device=""/>
 <part name="AGND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="J2" library="CommonParts" deviceset="S2B-NSHSS-TB" device=""/>
-<part name="J3" library="CommonParts" deviceset="S2B-NSHSS-TB" device=""/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
+<part name="J8" library="CommonParts" deviceset="S2B-NSHSS-TB" device=""/>
+<part name="J9" library="CommonParts" deviceset="S2B-NSHSS-TB" device=""/>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <frame x1="0" y1="0" x2="172.72" y2="127" columns="8" rows="5" layer="91"/>
-<text x="0" y="129.54" size="5.08" layer="91">Amplifier &amp; Audio Jack (PAM8403DR)</text>
+<text x="0" y="129.54" size="5.08" layer="91">Amplifier (PAM8403DR)</text>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="69.85" y="114.3" smashed="yes">
+<instance part="IC2" gate="G$1" x="69.85" y="114.3" smashed="yes">
 <attribute name="NAME" x="43.18" y="119.38" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="43.18" y="116.84" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -767,45 +767,45 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <instance part="AGND11" gate="VR1" x="27.94" y="78.74" smashed="yes">
 <attribute name="VALUE" x="25.4" y="73.66" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R1" gate="G$1" x="52.07" y="99.06" smashed="yes" rot="R180">
+<instance part="R17" gate="G$1" x="52.07" y="99.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.45" y="99.2886" size="1.778" layer="95"/>
 <attribute name="VALUE" x="53.34" y="97.282" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C2" gate="G$1" x="46.99" y="87.63" smashed="yes" rot="R180">
+<instance part="C29" gate="G$1" x="46.99" y="87.63" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.434" y="85.471" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="51.054" y="85.471" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C6" gate="G$1" x="58.42" y="91.44" smashed="yes">
+<instance part="C31" gate="G$1" x="58.42" y="91.44" smashed="yes">
 <attribute name="NAME" x="59.944" y="91.821" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.944" y="86.741" size="1.778" layer="96"/>
 </instance>
 <instance part="AGND12" gate="VR1" x="58.42" y="78.74" smashed="yes">
 <attribute name="VALUE" x="55.88" y="73.66" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C1" gate="G$1" x="36.83" y="101.6" smashed="yes" rot="R270">
+<instance part="C32" gate="G$1" x="36.83" y="101.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.464" y="101.981" size="1.778" layer="95"/>
 <attribute name="VALUE" x="41.656" y="103.759" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R2" gate="G$1" x="128.27" y="99.06" smashed="yes">
+<instance part="R19" gate="G$1" x="128.27" y="99.06" smashed="yes">
 <attribute name="NAME" x="132.08" y="99.2886" size="1.778" layer="95"/>
 <attribute name="VALUE" x="124.46" y="95.758" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="133.35" y="90.17" smashed="yes">
+<instance part="C34" gate="G$1" x="133.35" y="90.17" smashed="yes">
 <attribute name="NAME" x="136.271" y="91.186" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="130.429" y="84.074" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="AGND13" gate="VR1" x="111.76" y="78.74" smashed="yes">
 <attribute name="VALUE" x="109.22" y="73.66" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C4" gate="G$1" x="52.07" y="52.07" smashed="yes" rot="R90">
+<instance part="C35" gate="G$1" x="52.07" y="52.07" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.436" y="51.689" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="45.974" y="49.911" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="52.07" y="59.69" smashed="yes" rot="R90">
+<instance part="C36" gate="G$1" x="52.07" y="59.69" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.436" y="59.309" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="47.244" y="57.531" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="52.07" y="44.45" smashed="yes" rot="R90">
+<instance part="C37" gate="G$1" x="52.07" y="44.45" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.436" y="44.069" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="47.244" y="42.291" size="1.778" layer="96"/>
 </instance>
@@ -818,22 +818,22 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <instance part="AGND16" gate="VR1" x="63.5" y="44.45" smashed="yes" rot="R90">
 <attribute name="VALUE" x="68.58" y="41.91" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J1" gate="G$1" x="71.12" y="20.32" smashed="yes">
+<instance part="J7" gate="G$1" x="71.12" y="20.32" smashed="yes">
 <attribute name="NAME" x="92.71" y="27.94" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="92.71" y="25.4" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="AGND17" gate="VR1" x="67.31" y="8.89" smashed="yes">
 <attribute name="VALUE" x="64.77" y="6.35" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J2" gate="G$1" x="110.49" y="55.88" smashed="yes" rot="R180">
+<instance part="J8" gate="G$1" x="110.49" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="101.6" y="48.26" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="109.22" y="50.8" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="J3" gate="G$1" x="148.59" y="55.88" smashed="yes" rot="R180">
+<instance part="J9" gate="G$1" x="148.59" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="139.7" y="48.26" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="147.32" y="50.8" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="JP1" gate="A" x="35.56" y="10.16" smashed="yes" rot="R270">
+<instance part="JP2" gate="A" x="35.56" y="10.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.355" y="16.51" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="25.4" y="16.51" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -846,57 +846,57 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <label x="120.65" y="96.52" size="1.778" layer="95" align="bottom-right"/>
 <pinref part="AGND1" gate="VR1" pin="AGND"/>
 <wire x1="151.13" y1="81.28" x2="151.13" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="IC2" gate="G$1" pin="GND"/>
 <wire x1="102.87" y1="101.6" x2="151.13" y2="101.6" width="0.1524" layer="91"/>
 <label x="120.65" y="101.6" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="IC1" gate="G$1" pin="PGND_2"/>
+<pinref part="IC2" gate="G$1" pin="PGND_2"/>
 <wire x1="102.87" y1="111.76" x2="151.13" y2="111.76" width="0.1524" layer="91"/>
 <label x="120.65" y="111.76" size="1.778" layer="95" align="bottom-right"/>
 <wire x1="151.13" y1="111.76" x2="151.13" y2="101.6" width="0.1524" layer="91"/>
 <junction x="151.13" y="101.6"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PGND_1"/>
+<pinref part="IC2" gate="G$1" pin="PGND_1"/>
 <wire x1="69.85" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="AGND11" gate="VR1" pin="AGND"/>
 <wire x1="27.94" y1="111.76" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="101.6" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C32" gate="G$1" pin="2"/>
 <wire x1="31.75" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 <junction x="27.94" y="101.6"/>
 </segment>
 <segment>
 <pinref part="AGND12" gate="VR1" pin="AGND"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C31" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="81.28" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND13" gate="VR1" pin="AGND"/>
 <wire x1="111.76" y1="81.28" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="NC"/>
+<pinref part="IC2" gate="G$1" pin="NC"/>
 <wire x1="111.76" y1="96.52" x2="102.87" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND14" gate="VR1" pin="AGND"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C36" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="59.69" x2="57.15" y2="59.69" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND15" gate="VR1" pin="AGND"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C35" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="52.07" x2="57.15" y2="52.07" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND16" gate="VR1" pin="AGND"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C37" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="44.45" x2="57.15" y2="44.45" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="J7" gate="G$1" pin="1"/>
 <pinref part="AGND17" gate="VR1" pin="AGND"/>
 <wire x1="71.12" y1="17.78" x2="67.31" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="67.31" y1="17.78" x2="67.31" y2="11.43" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="JP2" gate="A" pin="1"/>
 <wire x1="43.18" y1="12.7" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="17.78" x2="67.31" y2="17.78" width="0.1524" layer="91"/>
 <junction x="67.31" y="17.78"/>
@@ -904,12 +904,12 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 </net>
 <net name="INR" class="0">
 <segment>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C34" gate="G$1" pin="2"/>
 <wire x1="133.35" y1="85.09" x2="133.35" y2="77.47" width="0.1524" layer="91"/>
 <label x="133.35" y="82.55" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="5"/>
+<pinref part="J7" gate="G$1" pin="5"/>
 <wire x1="96.52" y1="20.32" x2="105.41" y2="20.32" width="0.1524" layer="91"/>
 <label x="100.33" y="20.32" size="1.778" layer="95"/>
 </segment>
@@ -919,50 +919,32 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VDD"/>
+<pinref part="IC2" gate="G$1" pin="VDD"/>
 <label x="58.42" y="101.6" size="1.778" layer="95"/>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C32" gate="G$1" pin="1"/>
 <wire x1="39.37" y1="101.6" x2="69.85" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="26.67" y1="52.07" x2="38.1" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="52.07" x2="49.53" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="59.69" x2="49.53" y2="59.69" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="44.45" x2="49.53" y2="44.45" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="59.69" x2="38.1" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="52.07" x2="38.1" y2="44.45" width="0.1524" layer="91"/>
-<junction x="38.1" y="52.07"/>
+<pinref part="C35" gate="G$1" pin="1"/>
+<wire x1="26.67" y1="52.07" x2="49.53" y2="52.07" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="6"/>
+<pinref part="JP2" gate="A" pin="6"/>
 <wire x1="30.48" y1="12.7" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
 <label x="30.48" y="21.59" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <label x="26.67" y="52.07" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="PVDD_1"/>
-<wire x1="69.85" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
-<label x="58.42" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="PVDD_2"/>
-<wire x1="102.87" y1="106.68" x2="123.19" y2="106.68" width="0.1524" layer="91"/>
-<label x="120.65" y="106.68" size="1.778" layer="95" align="bottom-right"/>
-</segment>
 </net>
 <net name="INL" class="0">
 <segment>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C29" gate="G$1" pin="1"/>
 <wire x1="46.99" y1="85.09" x2="46.99" y2="80.01" width="0.1524" layer="91"/>
 <label x="46.99" y="80.01" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="J7" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="15.24" x2="105.41" y2="15.24" width="0.1524" layer="91"/>
 <label x="100.33" y="15.24" size="1.778" layer="95"/>
 </segment>
@@ -970,39 +952,57 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <label x="38.1" y="24.13" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
+<net name="-OUT_R1" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="1"/>
+<wire x1="110.49" y1="55.88" x2="113.03" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="55.88" x2="113.03" y2="36.83" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+OUT_R1" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="2"/>
+<wire x1="90.17" y1="55.88" x2="87.63" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="55.88" x2="87.63" y2="36.83" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+OUT_L1" class="0">
+<segment>
+<pinref part="J9" gate="G$1" pin="2"/>
+<wire x1="128.27" y1="55.88" x2="125.73" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="125.73" y1="55.88" x2="125.73" y2="36.83" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="-OUT_L1" class="0">
+<segment>
+<pinref part="J9" gate="G$1" pin="1"/>
+<wire x1="148.59" y1="55.88" x2="151.13" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="55.88" x2="151.13" y2="36.83" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="OUT_L+" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="OUT_L+"/>
+<pinref part="IC2" gate="G$1" pin="OUT_L+"/>
 <wire x1="69.85" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
 <label x="58.42" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="125.73" y="36.83" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="128.27" y1="55.88" x2="125.73" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="125.73" y1="55.88" x2="125.73" y2="36.83" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="OUT_L-" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="OUT_L-"/>
+<pinref part="IC2" gate="G$1" pin="OUT_L-"/>
 <wire x1="69.85" y1="109.22" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
 <label x="58.42" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="151.13" y="36.83" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="148.59" y1="55.88" x2="151.13" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="151.13" y1="55.88" x2="151.13" y2="36.83" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="!MUTE" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="!MUTE"/>
+<pinref part="IC2" gate="G$1" pin="!MUTE"/>
 <wire x1="69.85" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
 <label x="58.42" y="104.14" size="1.778" layer="95"/>
 </segment>
@@ -1012,52 +1012,75 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 </net>
 <net name="IC2_INL" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="INL"/>
+<pinref part="IC2" gate="G$1" pin="INL"/>
 <wire x1="69.85" y1="99.06" x2="57.15" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="IC2_VREF" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VREF"/>
+<pinref part="IC2" gate="G$1" pin="VREF"/>
 <wire x1="69.85" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="96.52" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUT_R+" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="OUT_R+"/>
+<pinref part="IC2" gate="G$1" pin="OUT_R+"/>
 <wire x1="102.87" y1="114.3" x2="123.19" y2="114.3" width="0.1524" layer="91"/>
 <label x="120.65" y="114.3" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <label x="87.63" y="45.72" size="1.778" layer="95" rot="R90" align="bottom-right"/>
 </segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="90.17" y1="55.88" x2="87.63" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="87.63" y1="55.88" x2="87.63" y2="36.83" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="OUT_R-" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="OUT_R-"/>
+<pinref part="IC2" gate="G$1" pin="OUT_R-"/>
 <wire x1="102.87" y1="109.22" x2="123.19" y2="109.22" width="0.1524" layer="91"/>
 <label x="120.65" y="109.22" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <label x="113.03" y="45.72" size="1.778" layer="95" rot="R90" align="bottom-right"/>
 </segment>
+</net>
+<net name="PVDD" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="110.49" y1="55.88" x2="113.03" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="113.03" y1="55.88" x2="113.03" y2="36.83" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PVDD_2"/>
+<wire x1="102.87" y1="106.68" x2="123.19" y2="106.68" width="0.1524" layer="91"/>
+<label x="120.65" y="106.68" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PVDD_1"/>
+<wire x1="69.85" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
+<label x="58.42" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="38.1" y1="59.69" x2="49.53" y2="59.69" width="0.1524" layer="91"/>
+<pinref part="C36" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="44.45" x2="49.53" y2="44.45" width="0.1524" layer="91"/>
+<pinref part="C37" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="44.45" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="59.69" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="55.88" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="55.88" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="55.88" x2="33.02" y2="64.77" width="0.1524" layer="91"/>
+<junction x="38.1" y="55.88"/>
+<wire x1="38.1" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
+<junction x="38.1" y="48.26"/>
+<wire x1="33.02" y1="48.26" x2="33.02" y2="39.37" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="33.02" y="64.77" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+</segment>
+<segment>
+<label x="33.02" y="45.72" size="1.778" layer="95" rot="R90" align="bottom-right"/>
 </segment>
 </net>
 <net name="!SHDN" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="!SHDN"/>
+<pinref part="IC2" gate="G$1" pin="!SHDN"/>
 <wire x1="102.87" y1="104.14" x2="123.19" y2="104.14" width="0.1524" layer="91"/>
 <label x="114.3" y="104.14" size="1.778" layer="95"/>
 </segment>
@@ -1067,46 +1090,46 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 </net>
 <net name="IC2_INR" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="INR"/>
+<pinref part="IC2" gate="G$1" pin="INR"/>
 <wire x1="102.87" y1="99.06" x2="123.19" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <wire x1="46.99" y1="99.06" x2="46.99" y2="92.71" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="C29" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="C34" gate="G$1" pin="1"/>
 <wire x1="133.35" y1="99.06" x2="133.35" y2="92.71" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="JP2" gate="A" pin="5"/>
 <wire x1="33.02" y1="12.7" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="JP2" gate="A" pin="4"/>
 <wire x1="35.56" y1="12.7" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="JP2" gate="A" pin="3"/>
 <wire x1="38.1" y1="12.7" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="JP2" gate="A" pin="2"/>
 <wire x1="40.64" y1="12.7" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>

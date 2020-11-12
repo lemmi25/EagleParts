@@ -3388,8 +3388,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </description>
 <pad name="1" x="-0.55" y="0" drill="1.3" diameter="2.35"/>
 <pad name="4" x="-0.55" y="5" drill="1.6" diameter="2.35"/>
-<pad name="5" x="4.45" y="5.08" drill="1.3" diameter="2.35"/>
-<pad name="3" x="4.45" y="0.04" drill="1.6" diameter="2.35"/>
+<pad name="3" x="4.45" y="5.08" drill="1.3" diameter="2.35"/>
+<pad name="5" x="4.45" y="0.04" drill="1.6" diameter="2.35"/>
 <pad name="2" x="4.45" y="-5" drill="1.3" diameter="2.35"/>
 <pad name="6" x="-0.55" y="-5" drill="1.6" diameter="2.35"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
@@ -4815,7 +4815,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="1" x="0" y="-2.54" length="middle"/>
 <pin name="MH2" x="0" y="0" length="middle"/>
-<pin name="5" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="3" x="25.4" y="0" length="middle" rot="R180"/>
 <pin name="MH1" x="25.4" y="-2.54" length="middle" rot="R180"/>
 <pin name="2" x="25.4" y="-5.08" length="middle" rot="R180"/>
 <pin name="MH3" x="0" y="-5.08" length="middle"/>
@@ -5616,7 +5616,7 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="3" pad="5"/>
 <connect gate="G$1" pin="MH1" pad="6"/>
 <connect gate="G$1" pin="MH2" pad="4"/>
 <connect gate="G$1" pin="MH3" pad="3"/>

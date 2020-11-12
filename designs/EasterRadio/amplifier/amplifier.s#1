@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.5" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -926,15 +926,7 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="26.67" y1="52.07" x2="38.1" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="52.07" x2="49.53" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="59.69" x2="49.53" y2="59.69" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="44.45" x2="49.53" y2="44.45" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="59.69" x2="38.1" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="52.07" x2="38.1" y2="44.45" width="0.1524" layer="91"/>
-<junction x="38.1" y="52.07"/>
+<wire x1="26.67" y1="52.07" x2="49.53" y2="52.07" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="6"/>
@@ -943,16 +935,6 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 </segment>
 <segment>
 <label x="26.67" y="52.07" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="PVDD_1"/>
-<wire x1="69.85" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
-<label x="58.42" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="PVDD_2"/>
-<wire x1="102.87" y1="106.68" x2="123.19" y2="106.68" width="0.1524" layer="91"/>
-<label x="120.65" y="106.68" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="INL" class="0">
@@ -1053,6 +1035,39 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="110.49" y1="55.88" x2="113.03" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="113.03" y1="55.88" x2="113.03" y2="36.83" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PVDD" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PVDD_2"/>
+<wire x1="102.87" y1="106.68" x2="123.19" y2="106.68" width="0.1524" layer="91"/>
+<label x="120.65" y="106.68" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PVDD_1"/>
+<wire x1="69.85" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
+<label x="58.42" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="38.1" y1="59.69" x2="49.53" y2="59.69" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="44.45" x2="49.53" y2="44.45" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="44.45" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="59.69" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="55.88" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="55.88" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="55.88" x2="33.02" y2="64.77" width="0.1524" layer="91"/>
+<junction x="38.1" y="55.88"/>
+<wire x1="38.1" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
+<junction x="38.1" y="48.26"/>
+<wire x1="33.02" y1="48.26" x2="33.02" y2="39.37" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="33.02" y="64.77" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+</segment>
+<segment>
+<label x="33.02" y="45.72" size="1.778" layer="95" rot="R90" align="bottom-right"/>
 </segment>
 </net>
 <net name="!SHDN" class="0">

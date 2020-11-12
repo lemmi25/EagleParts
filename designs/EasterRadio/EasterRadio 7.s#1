@@ -9982,7 +9982,7 @@ www.irf.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="C35" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="-74.93" x2="43.18" y2="-74.93" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-74.93" x2="43.18" y2="-74.93" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="6"/>
@@ -9990,7 +9990,7 @@ www.irf.com&lt;p&gt;
 <label x="24.13" y="-105.41" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<label x="20.32" y="-74.93" size="1.778" layer="95"/>
+<label x="25.4" y="-74.93" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INL" class="0">
