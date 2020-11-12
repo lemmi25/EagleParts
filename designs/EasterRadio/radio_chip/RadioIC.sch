@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1378,6 +1378,19 @@ W = angled&lt;p&gt;
 <text x="170.18" y="170.18" size="2.54" layer="91">To Amplifier</text>
 <text x="170.18" y="152.4" size="2.54" layer="91">Power</text>
 <text x="0" y="210.82" size="5.08" layer="91">Radio IC (SI4840-A10-GU)</text>
+<text x="53.34" y="43.18" size="1.778" layer="89">Potentiometer
+to adjust receiver frequency</text>
+<text x="132.08" y="121.92" size="1.778" layer="89">Connection to 
+Audio Speaker</text>
+<text x="187.96" y="190.5" size="1.778" layer="89">I²C to uC</text>
+<text x="187.96" y="175.26" size="1.778" layer="89">IRQ to uC: 
+active high</text>
+<text x="114.3" y="139.7" size="1.778" layer="89">Jumpers only necessary 
+due to space issues.
+Should be removed.</text>
+<text x="116.84" y="22.86" size="1.778" layer="89">Jumpers only necessary 
+due to space issues.
+Should be removed.</text>
 </plain>
 <instances>
 <instance part="JP5" gate="A" x="99.06" y="88.9" smashed="yes">
@@ -1469,9 +1482,9 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="52.07" y="63.5" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="52.07" y="60.96" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R11" gate="G$1" x="58.42" y="40.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.23" y="39.1414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="62.23" y="43.942" size="1.778" layer="96" rot="R180"/>
+<instance part="R11" gate="G$1" x="60.96" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="64.77" y="36.6014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="64.77" y="41.402" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C24" gate="G$1" x="58.42" y="15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.039" y="16.764" size="1.778" layer="95" rot="R90"/>
@@ -1736,8 +1749,8 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="40.64" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="40.64" x2="78.74" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="38.1" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="38.1" x2="78.74" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="AGND10" gate="VR1" pin="AGND"/>
 <pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
@@ -2015,8 +2028,8 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="VR1" gate="G$1" pin="3"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="50.8" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="50.8" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INL" class="0">
@@ -2078,6 +2091,10 @@ W = angled&lt;p&gt;
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
