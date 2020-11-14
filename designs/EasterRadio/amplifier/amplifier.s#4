@@ -952,34 +952,6 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <label x="38.1" y="24.13" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="-OUT_R1" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="110.49" y1="55.88" x2="113.03" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="113.03" y1="55.88" x2="113.03" y2="36.83" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="+OUT_R1" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="90.17" y1="55.88" x2="87.63" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="87.63" y1="55.88" x2="87.63" y2="36.83" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="+OUT_L1" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="128.27" y1="55.88" x2="125.73" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="125.73" y1="55.88" x2="125.73" y2="36.83" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="-OUT_L1" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="148.59" y1="55.88" x2="151.13" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="151.13" y1="55.88" x2="151.13" y2="36.83" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="OUT_L+" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT_L+"/>
@@ -988,6 +960,11 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 </segment>
 <segment>
 <label x="125.73" y="36.83" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="128.27" y1="55.88" x2="125.73" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="125.73" y1="55.88" x2="125.73" y2="36.83" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUT_L-" class="0">
@@ -998,6 +975,11 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 </segment>
 <segment>
 <label x="151.13" y="36.83" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="148.59" y1="55.88" x2="151.13" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="55.88" x2="151.13" y2="36.83" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!MUTE" class="0">
@@ -1034,6 +1016,11 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <segment>
 <label x="87.63" y="45.72" size="1.778" layer="95" rot="R90" align="bottom-right"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="90.17" y1="55.88" x2="87.63" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="55.88" x2="87.63" y2="36.83" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="OUT_R-" class="0">
 <segment>
@@ -1043,6 +1030,11 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 </segment>
 <segment>
 <label x="113.03" y="45.72" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="110.49" y1="55.88" x2="113.03" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="55.88" x2="113.03" y2="36.83" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PVDD" class="0">

@@ -718,10 +718,10 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.7" drill="0.2">
+<class number="0" name="default" width="0.1524" drill="0.2">
 <clearance class="0" value="0.2"/>
 </class>
-<class number="1" name="other" width="0.7" drill="0.2">
+<class number="1" name="other" width="0.1524" drill="0.2">
 <clearance class="0" value="0.205"/>
 <clearance class="1" value="0.205"/>
 </class>
