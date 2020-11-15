@@ -1105,6 +1105,9 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,69.85,106.68,IC1,PVDD_1,3.3V,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
