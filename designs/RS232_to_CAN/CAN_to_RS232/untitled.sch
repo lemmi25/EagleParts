@@ -80,6 +80,7 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<fusionteam huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" folderUrn="urn:adsk.wipprod:fs.folder:co.YBJbKZStTziyAS5_U3qXTQ" urn="urn:adsk.wipprod:dm.lineage:2o2tXWNNS6eCnzqWqFy21Q"  versionUrn="urn:adsk.wipprod:fs.file:vf.2o2tXWNNS6eCnzqWqFy21Q?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="3b8f872b-202b-9f53-c4b6-801e42e8c07b"/>
 <libraries>
 <library name="CommonParts">
 <packages>
@@ -1568,6 +1569,12 @@ Source: &lt;a href="https://www.microcrystal.com/fileadmin/Media/Products/32kHz/
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="LEDs" width="0.1524" drill="0">
+</class>
+<class number="2" name="CAN" width="0" drill="0">
+</class>
+<class number="3" name="CAN_Uc" width="0" drill="0">
+</class>
 </classes>
 <groups>
 <schematic_group name="POWER"/>
@@ -1578,14 +1585,14 @@ Source: &lt;a href="https://www.microcrystal.com/fileadmin/Media/Products/32kHz/
 <schematic_group name="DEBUGGER"/>
 </groups>
 <parts>
-<part name="J1" library="MouserUseful" deviceset="FTSH-107-01-L-DV-K-A" device="" value="Programmer"/>
-<part name="J2" library="MouserUseful" deviceset="K202XHT-E9S-N" device="" value="CAN"/>
+<part name="J2" library="MouserUseful" deviceset="FTSH-107-01-L-DV-K-A" device="" value="Programmer"/>
+<part name="J3" library="MouserUseful" deviceset="K202XHT-E9S-N" device="" value="CAN"/>
 <part name="PS1" library="MouserUseful" deviceset="LP38693MPX-5.0_NOPB" device="" package3d_urn="urn:adsk.eagle:package:13422906/1" value="5V"/>
 <part name="PS2" library="MouserUseful" deviceset="LP38693MPX-5.0_NOPB" device="" package3d_urn="urn:adsk.eagle:package:13422906/1" value="3.3V"/>
 <part name="IC1" library="MouserUseful" deviceset="MAX232DRG4" device="" value="UART_RS232"/>
 <part name="IC2" library="MouserUseful" deviceset="STM32F042K6T6TR" device=""/>
 <part name="IC3" library="MouserUseful" deviceset="TJA1050T_CM,118" device="" value="CAN_Receiver"/>
-<part name="J3" library="MouserUseful" deviceset="K202XHT-E9S-N" device="" value="RS232"/>
+<part name="J1" library="MouserUseful" deviceset="K202XHT-E9S-N" device="" value="RS232"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
@@ -1593,7 +1600,7 @@ Source: &lt;a href="https://www.microcrystal.com/fileadmin/Media/Products/32kHz/
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="C4" library="CommonParts" deviceset="UWX1H010MCL2GB" device="" value="1uF"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
-<part name="R3" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10kOhm"/>
+<part name="R1" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10kOhm"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="S1" library="MouserUseful" deviceset="PTS526_SM15_SMTR2_LFS" device="" value="RST BTN"/>
@@ -1601,27 +1608,27 @@ Source: &lt;a href="https://www.microcrystal.com/fileadmin/Media/Products/32kHz/
 <part name="C6" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="C7" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
-<part name="C1" library="CommonParts" deviceset="UWX1H010MCL2GB" device="" value="1uF"/>
-<part name="C2" library="CommonParts" deviceset="UWX1H010MCL2GB" device="" value="1uF"/>
 <part name="C3" library="CommonParts" deviceset="UWX1H010MCL2GB" device="" value="1uF"/>
+<part name="C2" library="CommonParts" deviceset="UWX1H010MCL2GB" device="" value="1uF"/>
+<part name="C1" library="CommonParts" deviceset="UWX1H010MCL2GB" device="" value="1uF"/>
 <part name="R4" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120Ohm"/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="/90" package3d_urn="urn:adsk.eagle:package:22437/2" value="Power"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="Y1" library="MouserUseful" deviceset="CM7V-T1A-32.768KHZ-7PF-100PPM-" device="" value="OSC1"/>
-<part name="C8" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="9pf"/>
 <part name="C9" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="9pf"/>
+<part name="C8" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="9pf"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="LED1" library="CommonParts" deviceset="LED_805" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
 <part name="LED2" library="CommonParts" deviceset="LED_805" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
-<part name="R1" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10Ohm"/>
 <part name="R2" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10Ohm"/>
+<part name="R3" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10Ohm"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
-<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="/90" package3d_urn="urn:adsk.eagle:package:22475/2" value="SPI"/>
-<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="/90" package3d_urn="urn:adsk.eagle:package:22459/2" value="I2C"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
-<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="/90" package3d_urn="urn:adsk.eagle:package:22475/2"/>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
+<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -2002,11 +2009,11 @@ CAN to RS232</text>
 <frame x1="0" y1="0" x2="353.06" y2="185.42" columns="8" rows="5" layer="91"/>
 </plain>
 <instances>
-<instance part="J1" gate="G$1" x="175.26" y="27.94" smashed="yes" grouprefs="DEBUGGER">
+<instance part="J2" gate="G$1" x="175.26" y="27.94" smashed="yes" grouprefs="DEBUGGER">
 <attribute name="NAME" x="194.31" y="35.56" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="194.31" y="33.02" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="J2" gate="G$1" x="307.34" y="149.86" smashed="yes" grouprefs="CAN">
+<instance part="J3" gate="G$1" x="307.34" y="149.86" smashed="yes" grouprefs="CAN">
 <attribute name="NAME" x="326.39" y="157.48" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="326.39" y="154.94" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -2030,7 +2037,7 @@ CAN to RS232</text>
 <attribute name="NAME" x="321.31" y="104.14" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="321.31" y="101.6" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="J3" gate="G$1" x="40.64" y="149.86" smashed="yes" grouprefs="RS232">
+<instance part="J1" gate="G$1" x="40.64" y="149.86" smashed="yes" grouprefs="RS232">
 <attribute name="NAME" x="59.69" y="157.48" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="59.69" y="154.94" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -2044,7 +2051,7 @@ CAN to RS232</text>
 <attribute name="VALUE" x="64.77" y="54.61" size="1.778" layer="96" align="center-right"/>
 </instance>
 <instance part="GND6" gate="1" x="144.78" y="7.62" smashed="yes"/>
-<instance part="R3" gate="G$1" x="165.1" y="165.1" smashed="yes" rot="R180" grouprefs="UC">
+<instance part="R1" gate="G$1" x="165.1" y="165.1" smashed="yes" rot="R180" grouprefs="UC">
 <attribute name="NAME" x="168.91" y="163.6014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="168.91" y="168.402" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -2067,7 +2074,7 @@ CAN to RS232</text>
 <attribute name="VALUE" x="134.239" y="123.444" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND11" gate="1" x="124.46" y="119.38" smashed="yes" grouprefs="UC"/>
-<instance part="C1" gate="G$1" x="58.42" y="50.8" smashed="yes" rot="R180" grouprefs="RS232">
+<instance part="C3" gate="G$1" x="58.42" y="50.8" smashed="yes" rot="R180" grouprefs="RS232">
 <attribute name="NAME" x="46.99" y="57.15" size="1.778" layer="95" align="center-right"/>
 <attribute name="VALUE" x="46.99" y="54.61" size="1.778" layer="96" align="center-right"/>
 </instance>
@@ -2075,7 +2082,7 @@ CAN to RS232</text>
 <attribute name="NAME" x="29.21" y="57.15" size="1.778" layer="95" align="center-right"/>
 <attribute name="VALUE" x="29.21" y="54.61" size="1.778" layer="96" align="center-right"/>
 </instance>
-<instance part="C3" gate="G$1" x="22.86" y="50.8" smashed="yes" rot="R180" grouprefs="RS232">
+<instance part="C1" gate="G$1" x="22.86" y="50.8" smashed="yes" rot="R180" grouprefs="RS232">
 <attribute name="NAME" x="11.43" y="57.15" size="1.778" layer="95" align="center-right"/>
 <attribute name="VALUE" x="11.43" y="54.61" size="1.778" layer="96" align="center-right"/>
 </instance>
@@ -2083,20 +2090,16 @@ CAN to RS232</text>
 <attribute name="NAME" x="293.1414" y="148.59" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="297.942" y="148.59" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP1" gate="G$1" x="15.24" y="27.94" smashed="yes" rot="R90" grouprefs="BREAKOUT">
-<attribute name="NAME" x="9.525" y="21.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="20.32" y="21.59" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND14" gate="1" x="167.64" y="149.86" smashed="yes" rot="R180" grouprefs="UC"/>
 <instance part="Y1" gate="G$1" x="243.84" y="127" smashed="yes" rot="R90" grouprefs="UC">
 <attribute name="NAME" x="238.76" y="123.19" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="241.3" y="123.19" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="C8" gate="G$1" x="251.46" y="109.22" smashed="yes" rot="R90" grouprefs="UC">
+<instance part="C9" gate="G$1" x="251.46" y="109.22" smashed="yes" rot="R90" grouprefs="UC">
 <attribute name="NAME" x="253.619" y="118.364" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="253.619" y="115.824" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C9" gate="G$1" x="236.22" y="109.22" smashed="yes" rot="R90" grouprefs="UC">
+<instance part="C8" gate="G$1" x="236.22" y="109.22" smashed="yes" rot="R90" grouprefs="UC">
 <attribute name="NAME" x="238.379" y="118.364" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="238.379" y="115.824" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -2110,28 +2113,32 @@ CAN to RS232</text>
 <attribute name="NAME" x="277.876" y="107.188" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="280.035" y="107.188" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R1" gate="G$1" x="266.7" y="121.92" smashed="yes" rot="R90" grouprefs="UC">
+<instance part="R2" gate="G$1" x="266.7" y="121.92" smashed="yes" rot="R90" grouprefs="UC">
 <attribute name="NAME" x="265.2014" y="118.11" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="270.002" y="118.11" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="274.32" y="121.92" smashed="yes" rot="R90" grouprefs="UC">
+<instance part="R3" gate="G$1" x="274.32" y="121.92" smashed="yes" rot="R90" grouprefs="UC">
 <attribute name="NAME" x="272.8214" y="118.11" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="277.622" y="118.11" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND7" gate="1" x="274.32" y="99.06" smashed="yes" grouprefs="UC"/>
 <instance part="GND8" gate="1" x="266.7" y="99.06" smashed="yes" grouprefs="UC"/>
+<instance part="GND15" gate="1" x="149.86" y="76.2" smashed="yes" rot="R180" grouprefs="UC"/>
 <instance part="JP2" gate="A" x="33.02" y="27.94" smashed="yes" rot="R90" grouprefs="BREAKOUT">
 <attribute name="NAME" x="22.225" y="21.59" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="43.18" y="21.59" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP3" gate="A" x="50.8" y="27.94" smashed="yes" rot="R90" grouprefs="BREAKOUT">
-<attribute name="NAME" x="45.085" y="21.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="58.42" y="21.59" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND15" gate="1" x="149.86" y="76.2" smashed="yes" rot="R180" grouprefs="UC"/>
 <instance part="JP4" gate="A" x="71.12" y="27.94" smashed="yes" rot="R90" grouprefs="BREAKOUT">
 <attribute name="NAME" x="60.325" y="21.59" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="81.28" y="21.59" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP1" gate="G$1" x="15.24" y="27.94" smashed="yes" rot="R90" grouprefs="BREAKOUT">
+<attribute name="NAME" x="9.525" y="21.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="20.32" y="21.59" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP3" gate="A" x="50.8" y="27.94" smashed="yes" rot="R90" grouprefs="BREAKOUT">
+<attribute name="NAME" x="45.085" y="21.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="58.42" y="21.59" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -2161,7 +2168,7 @@ CAN to RS232</text>
 <wire x1="73.66" y1="93.98" x2="73.66" y2="109.22" width="0.762" layer="92" grouprefs="RS232"/>
 </segment>
 </bus>
-<bus name="CAN:AGND,CAN_H,CAN_L">
+<bus name="CAN:AGND,CAN_H_P,CAN_L_N,CAN_N,CAN_P">
 <segment>
 <wire x1="289.56" y1="116.84" x2="289.56" y2="165.1" width="0.762" layer="92" grouprefs="CAN"/>
 <wire x1="289.56" y1="165.1" x2="294.64" y2="170.18" width="0.762" layer="92" grouprefs="CAN"/>
@@ -2171,7 +2178,7 @@ CAN to RS232</text>
 <wire x1="294.64" y1="111.76" x2="340.36" y2="111.76" width="0.762" layer="92" grouprefs="CAN"/>
 </segment>
 </bus>
-<bus name="CAN_UC:AGND,RXD,TXD">
+<bus name="CAN_UC:AGND,CAN_UC_XD_N,CAN_UC_XD_P,RXD,TXD,XD_N,XD_P">
 <segment>
 <wire x1="289.56" y1="93.98" x2="289.56" y2="71.12" width="0.762" layer="92" grouprefs="CAN"/>
 <label x="307.34" y="67.31" size="1.778" layer="95" grouprefs="CAN"/>
@@ -2185,7 +2192,7 @@ CAN to RS232</text>
 <label x="208.28" y="128.27" size="1.778" layer="95" grouprefs="UC"/>
 </segment>
 </bus>
-<bus name="RS232_UC:AGND,RXD,TXD">
+<bus name="RS232_UC:AGND,RXD,RXD_UC,TXD,TXD_UC">
 <segment>
 <wire x1="73.66" y1="86.36" x2="73.66" y2="68.58" width="0.762" layer="92" grouprefs="RS232"/>
 <wire x1="73.66" y1="68.58" x2="68.58" y2="63.5" width="0.762" layer="92" grouprefs="RS232"/>
@@ -2221,18 +2228,12 @@ CAN to RS232</text>
 </bus>
 </busses>
 <nets>
-<net name="RXD" class="0">
+<net name="RXD" class="3">
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 <label x="35.56" y="147.32" size="1.778" layer="95" grouprefs="RS232"/>
 <wire x1="40.64" y1="147.32" x2="25.4" y2="147.32" width="0.1524" layer="91" grouprefs="RS232"/>
 <wire x1="25.4" y1="147.32" x2="22.86" y2="144.78" width="0.1524" layer="91" grouprefs="RS232"/>
-</segment>
-<segment>
-<wire x1="289.56" y1="86.36" x2="292.1" y2="88.9" width="0.1524" layer="91" grouprefs="CAN"/>
-<pinref part="IC3" gate="G$1" pin="RXD"/>
-<wire x1="304.8" y1="88.9" x2="292.1" y2="88.9" width="0.1524" layer="91" grouprefs="CAN"/>
-<label x="294.64" y="88.9" size="1.778" layer="95" grouprefs="CAN"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="R1IN"/>
@@ -2240,28 +2241,110 @@ CAN to RS232</text>
 <label x="66.04" y="91.44" size="1.778" layer="95" align="bottom-right" grouprefs="RS232"/>
 <wire x1="71.12" y1="91.44" x2="73.66" y2="93.98" width="0.1524" layer="91" grouprefs="RS232"/>
 </segment>
+</net>
+<net name="5V" class="0">
 <segment>
-<wire x1="73.66" y1="86.36" x2="71.12" y2="88.9" width="0.1524" layer="91" grouprefs="RS232"/>
-<pinref part="IC1" gate="G$1" pin="R1OUT"/>
-<wire x1="55.88" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91" grouprefs="RS232"/>
-<label x="66.04" y="88.9" size="1.778" layer="95" align="bottom-right" grouprefs="RS232"/>
+<pinref part="IC3" gate="G$1" pin="VCC"/>
+<wire x1="304.8" y1="91.44" x2="294.64" y2="91.44" width="0.1524" layer="91" grouprefs="CAN"/>
+<label x="294.64" y="91.44" size="1.778" layer="95" grouprefs="CAN"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PA11"/>
-<wire x1="182.88" y1="106.68" x2="198.12" y2="106.68" width="0.1524" layer="91" grouprefs="UC"/>
-<wire x1="198.12" y1="106.68" x2="200.66" y2="109.22" width="0.1524" layer="91" grouprefs="UC"/>
-<label x="190.5" y="106.68" size="1.778" layer="95" grouprefs="UC"/>
+<pinref part="IC1" gate="G$1" pin="VCC"/>
+<wire x1="55.88" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91" grouprefs="RS232"/>
+<label x="66.04" y="99.06" size="1.778" layer="95" align="bottom-right" grouprefs="RS232"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PA10"/>
-<wire x1="182.88" y1="104.14" x2="198.12" y2="104.14" width="0.1524" layer="91" grouprefs="UC"/>
-<wire x1="198.12" y1="104.14" x2="200.66" y2="101.6" width="0.1524" layer="91" grouprefs="UC"/>
-<label x="190.5" y="104.14" size="1.778" layer="95" grouprefs="UC"/>
+<wire x1="58.42" y1="50.8" x2="58.42" y2="43.18" width="0.1524" layer="91" grouprefs="RS232"/>
+<label x="58.42" y="43.18" size="1.778" layer="95" rot="R90" grouprefs="RS232"/>
+<pinref part="C3" gate="G$1" pin="+"/>
+</segment>
+<segment>
+<pinref part="PS1" gate="G$1" pin="OUT"/>
+<wire x1="101.6" y1="33.02" x2="91.44" y2="33.02" width="0.1524" layer="91" grouprefs="POWER"/>
+<label x="91.44" y="33.02" size="1.778" layer="95" grouprefs="POWER"/>
+</segment>
+<segment>
+<wire x1="66.04" y1="25.4" x2="66.04" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
+<label x="66.04" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<pinref part="JP4" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="GNDA" class="0">
+<net name="SWIDO" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="11"/>
+<pinref part="J2" gate="G$1" pin="4"/>
+<label x="165.1" y="20.32" size="1.778" layer="95" grouprefs="DEBUGGER"/>
+<wire x1="175.26" y1="20.32" x2="160.02" y2="20.32" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
+<wire x1="160.02" y1="20.32" x2="157.48" y2="17.78" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
+</segment>
+<segment>
+<wire x1="195.58" y1="114.3" x2="193.04" y2="111.76" width="0.1524" layer="91" grouprefs="UC"/>
+<pinref part="IC2" gate="G$1" pin="PA13"/>
+<wire x1="193.04" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91" grouprefs="UC"/>
+<label x="182.88" y="111.76" size="1.778" layer="95" grouprefs="UC"/>
+</segment>
+</net>
+<net name="SWCLK" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="6"/>
+<label x="165.1" y="15.24" size="1.778" layer="95" grouprefs="DEBUGGER"/>
+<wire x1="175.26" y1="15.24" x2="160.02" y2="15.24" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
+<wire x1="160.02" y1="15.24" x2="157.48" y2="12.7" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
+</segment>
+<segment>
+<wire x1="195.58" y1="116.84" x2="193.04" y2="114.3" width="0.1524" layer="91" grouprefs="UC"/>
+<pinref part="IC2" gate="G$1" pin="PA14"/>
+<wire x1="193.04" y1="114.3" x2="182.88" y2="114.3" width="0.1524" layer="91" grouprefs="UC"/>
+<label x="182.88" y="114.3" size="1.778" layer="95" grouprefs="UC"/>
+</segment>
+</net>
+<net name="SWO" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="8"/>
+<wire x1="198.12" y1="27.94" x2="208.28" y2="27.94" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
+<label x="208.28" y="27.94" size="1.778" layer="95" align="bottom-right" grouprefs="DEBUGGER"/>
+</segment>
+</net>
+<net name="NRST" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="12"/>
+<wire x1="198.12" y1="17.78" x2="208.28" y2="17.78" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
+<label x="208.28" y="17.78" size="1.778" layer="95" align="bottom-right" grouprefs="DEBUGGER"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="NRST"/>
+<wire x1="142.24" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91" grouprefs="UC"/>
+<wire x1="104.14" y1="106.68" x2="104.14" y2="134.62" width="0.1524" layer="91" grouprefs="UC"/>
+<pinref part="S1" gate="G$1" pin="COM_2"/>
+<wire x1="104.14" y1="134.62" x2="104.14" y2="139.7" width="0.1524" layer="91" grouprefs="UC"/>
+<wire x1="104.14" y1="139.7" x2="104.14" y2="170.18" width="0.1524" layer="91" grouprefs="UC"/>
+<wire x1="104.14" y1="170.18" x2="127" y2="170.18" width="0.1524" layer="91" grouprefs="UC"/>
+<pinref part="S1" gate="G$1" pin="COM_1"/>
+<wire x1="104.14" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91" grouprefs="UC"/>
+<junction x="104.14" y="139.7" grouprefs="UC"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="134.62" x2="104.14" y2="134.62" width="0.1524" layer="91" grouprefs="UC"/>
+<junction x="104.14" y="134.62" grouprefs="UC"/>
+<wire x1="104.14" y1="170.18" x2="91.44" y2="170.18" width="0.1524" layer="91" grouprefs="UC"/>
+<junction x="104.14" y="170.18" grouprefs="UC"/>
+<label x="91.44" y="170.18" size="1.778" layer="95" grouprefs="UC"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<wire x1="175.26" y1="12.7" x2="162.56" y2="12.7" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
+<pinref part="GND3" gate="1" pin="GNDA"/>
+<wire x1="162.56" y1="10.16" x2="162.56" y2="12.7" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
+<pinref part="J2" gate="G$1" pin="7"/>
+<pinref part="J2" gate="G$1" pin="5"/>
+<wire x1="175.26" y1="17.78" x2="162.56" y2="17.78" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
+<wire x1="162.56" y1="17.78" x2="162.56" y2="12.7" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
+<junction x="162.56" y="12.7" grouprefs="DEBUGGER"/>
+<wire x1="162.56" y1="17.78" x2="160.02" y2="17.78" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
+<junction x="162.56" y="17.78" grouprefs="DEBUGGER"/>
+<wire x1="160.02" y1="17.78" x2="157.48" y2="15.24" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="11"/>
 <wire x1="198.12" y1="20.32" x2="210.82" y2="20.32" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
 <wire x1="210.82" y1="20.32" x2="210.82" y2="10.16" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
 <pinref part="GND4" gate="1" pin="GNDA"/>
@@ -2282,7 +2365,7 @@ CAN to RS232</text>
 <junction x="144.78" y="12.7"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GNDA"/>
 <wire x1="175.26" y1="165.1" x2="172.72" y2="165.1" width="0.1524" layer="91" grouprefs="UC"/>
 <wire x1="172.72" y1="170.18" x2="172.72" y2="165.1" width="0.1524" layer="91" grouprefs="UC"/>
@@ -2324,12 +2407,12 @@ CAN to RS232</text>
 <pinref part="GND14" gate="1" pin="GNDA"/>
 </segment>
 <segment>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="256.54" y1="109.22" x2="256.54" y2="101.6" width="0.1524" layer="91" grouprefs="UC"/>
 <pinref part="GND12" gate="1" pin="GNDA"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="109.22" x2="233.68" y2="101.6" width="0.1524" layer="91" grouprefs="UC"/>
 <pinref part="GND13" gate="1" pin="GNDA"/>
 </segment>
@@ -2343,149 +2426,36 @@ CAN to RS232</text>
 <wire x1="266.7" y1="106.68" x2="266.7" y2="101.6" width="0.1524" layer="91" grouprefs="UC"/>
 <pinref part="GND8" gate="1" pin="GNDA"/>
 </segment>
-</net>
-<net name="CAN_L" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="307.34" y1="147.32" x2="294.64" y2="147.32" width="0.1524" layer="91" grouprefs="CAN"/>
-<label x="299.72" y="147.32" size="1.778" layer="95" grouprefs="CAN"/>
-<wire x1="294.64" y1="147.32" x2="292.1" y2="147.32" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="292.1" y1="147.32" x2="289.56" y2="144.78" width="0.1524" layer="91" grouprefs="CAN"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<junction x="294.64" y="147.32" grouprefs="CAN"/>
+<wire x1="68.58" y1="25.4" x2="68.58" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
+<label x="68.58" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<pinref part="JP4" gate="A" pin="3"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="CANL"/>
-<wire x1="332.74" y1="91.44" x2="342.9" y2="91.44" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="342.9" y1="91.44" x2="342.9" y2="109.22" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="342.9" y1="109.22" x2="340.36" y2="111.76" width="0.1524" layer="91" grouprefs="CAN"/>
-</segment>
-</net>
-<net name="5V" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="VCC"/>
-<wire x1="304.8" y1="91.44" x2="294.64" y2="91.44" width="0.1524" layer="91" grouprefs="CAN"/>
-<label x="294.64" y="91.44" size="1.778" layer="95" grouprefs="CAN"/>
+<wire x1="27.94" y1="10.16" x2="25.4" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
+<wire x1="25.4" y1="25.4" x2="25.4" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
+<label x="25.4" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<pinref part="JP2" gate="A" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VCC"/>
-<wire x1="55.88" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91" grouprefs="RS232"/>
-<label x="66.04" y="99.06" size="1.778" layer="95" align="bottom-right" grouprefs="RS232"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
+<label x="15.24" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="50.8" x2="58.42" y2="43.18" width="0.1524" layer="91" grouprefs="RS232"/>
-<label x="58.42" y="43.18" size="1.778" layer="95" rot="R90" grouprefs="RS232"/>
-<pinref part="C1" gate="G$1" pin="+"/>
+<wire x1="50.8" y1="10.16" x2="48.26" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
+<wire x1="48.26" y1="25.4" x2="48.26" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
+<label x="48.26" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<pinref part="JP3" gate="A" pin="1"/>
 </segment>
 <segment>
-<pinref part="PS1" gate="G$1" pin="OUT"/>
-<wire x1="101.6" y1="33.02" x2="91.44" y2="33.02" width="0.1524" layer="91" grouprefs="POWER"/>
-<label x="91.44" y="33.02" size="1.778" layer="95" grouprefs="POWER"/>
+<wire x1="73.66" y1="99.06" x2="71.12" y2="96.52" width="0.1524" layer="91" grouprefs="RS232"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<wire x1="55.88" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91" grouprefs="RS232"/>
+<label x="66.04" y="96.52" size="1.778" layer="95" align="bottom-right" grouprefs="RS232"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="2"/>
-<wire x1="66.04" y1="25.4" x2="66.04" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<label x="66.04" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
-</segment>
-</net>
-<net name="CAN_H" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="7"/>
-<wire x1="330.2" y1="149.86" x2="340.36" y2="149.86" width="0.1524" layer="91" grouprefs="CAN"/>
-<label x="337.82" y="149.86" size="1.778" layer="95" align="bottom-right" grouprefs="CAN"/>
-<wire x1="340.36" y1="149.86" x2="340.36" y2="160.02" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="340.36" y1="160.02" x2="294.64" y2="160.02" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="294.64" y1="160.02" x2="292.1" y2="160.02" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="292.1" y1="160.02" x2="289.56" y2="157.48" width="0.1524" layer="91" grouprefs="CAN"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="294.64" y1="157.48" x2="294.64" y2="160.02" width="0.1524" layer="91" grouprefs="CAN"/>
-<junction x="294.64" y="160.02" grouprefs="CAN"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="CANH"/>
-<wire x1="332.74" y1="93.98" x2="340.36" y2="93.98" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="340.36" y1="93.98" x2="340.36" y2="109.22" width="0.1524" layer="91" grouprefs="CAN"/>
-<wire x1="340.36" y1="109.22" x2="337.82" y2="111.76" width="0.1524" layer="91" grouprefs="CAN"/>
-</segment>
-</net>
-<net name="SWIDO" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<label x="165.1" y="20.32" size="1.778" layer="95" grouprefs="DEBUGGER"/>
-<wire x1="175.26" y1="20.32" x2="160.02" y2="20.32" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
-<wire x1="160.02" y1="20.32" x2="157.48" y2="17.78" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
-</segment>
-<segment>
-<wire x1="195.58" y1="114.3" x2="193.04" y2="111.76" width="0.1524" layer="91" grouprefs="UC"/>
-<pinref part="IC2" gate="G$1" pin="PA13"/>
-<wire x1="193.04" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91" grouprefs="UC"/>
-<label x="182.88" y="111.76" size="1.778" layer="95" grouprefs="UC"/>
-</segment>
-</net>
-<net name="SWCLK" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<label x="165.1" y="15.24" size="1.778" layer="95" grouprefs="DEBUGGER"/>
-<wire x1="175.26" y1="15.24" x2="160.02" y2="15.24" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
-<wire x1="160.02" y1="15.24" x2="157.48" y2="12.7" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
-</segment>
-<segment>
-<wire x1="195.58" y1="116.84" x2="193.04" y2="114.3" width="0.1524" layer="91" grouprefs="UC"/>
-<pinref part="IC2" gate="G$1" pin="PA14"/>
-<wire x1="193.04" y1="114.3" x2="182.88" y2="114.3" width="0.1524" layer="91" grouprefs="UC"/>
-<label x="182.88" y="114.3" size="1.778" layer="95" grouprefs="UC"/>
-</segment>
-</net>
-<net name="SWO" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="198.12" y1="27.94" x2="208.28" y2="27.94" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
-<label x="208.28" y="27.94" size="1.778" layer="95" align="bottom-right" grouprefs="DEBUGGER"/>
-</segment>
-</net>
-<net name="NRST" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="12"/>
-<wire x1="198.12" y1="17.78" x2="208.28" y2="17.78" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
-<label x="208.28" y="17.78" size="1.778" layer="95" align="bottom-right" grouprefs="DEBUGGER"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="NRST"/>
-<wire x1="142.24" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91" grouprefs="UC"/>
-<wire x1="104.14" y1="106.68" x2="104.14" y2="134.62" width="0.1524" layer="91" grouprefs="UC"/>
-<pinref part="S1" gate="G$1" pin="COM_2"/>
-<wire x1="104.14" y1="134.62" x2="104.14" y2="139.7" width="0.1524" layer="91" grouprefs="UC"/>
-<wire x1="104.14" y1="139.7" x2="104.14" y2="170.18" width="0.1524" layer="91" grouprefs="UC"/>
-<wire x1="104.14" y1="170.18" x2="127" y2="170.18" width="0.1524" layer="91" grouprefs="UC"/>
-<pinref part="S1" gate="G$1" pin="COM_1"/>
-<wire x1="104.14" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91" grouprefs="UC"/>
-<junction x="104.14" y="139.7" grouprefs="UC"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="134.62" x2="104.14" y2="134.62" width="0.1524" layer="91" grouprefs="UC"/>
-<junction x="104.14" y="134.62" grouprefs="UC"/>
-<wire x1="104.14" y1="170.18" x2="91.44" y2="170.18" width="0.1524" layer="91" grouprefs="UC"/>
-<junction x="104.14" y="170.18" grouprefs="UC"/>
-<label x="91.44" y="170.18" size="1.778" layer="95" grouprefs="UC"/>
-</segment>
-</net>
-<net name="GND" class="0">
-<segment>
-<wire x1="175.26" y1="12.7" x2="162.56" y2="12.7" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
-<pinref part="GND3" gate="1" pin="GNDA"/>
-<wire x1="162.56" y1="10.16" x2="162.56" y2="12.7" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
-<pinref part="J1" gate="G$1" pin="7"/>
 <pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="175.26" y1="17.78" x2="162.56" y2="17.78" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
-<wire x1="162.56" y1="17.78" x2="162.56" y2="12.7" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
-<junction x="162.56" y="12.7" grouprefs="DEBUGGER"/>
-<wire x1="162.56" y1="17.78" x2="160.02" y2="17.78" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
-<junction x="162.56" y="17.78" grouprefs="DEBUGGER"/>
-<wire x1="160.02" y1="17.78" x2="157.48" y2="15.24" width="0.1524" layer="91" grouprefs="DEBUGGER"/>
-</segment>
-</net>
-<net name="AGND" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="5"/>
 <wire x1="40.64" y1="139.7" x2="27.94" y2="139.7" width="0.1524" layer="91" grouprefs="RS232"/>
 <pinref part="GND1" gate="1" pin="GNDA"/>
 <wire x1="27.94" y1="134.62" x2="27.94" y2="139.7" width="0.1524" layer="91" grouprefs="RS232"/>
@@ -2494,11 +2464,11 @@ CAN to RS232</text>
 <wire x1="25.4" y1="139.7" x2="22.86" y2="137.16" width="0.1524" layer="91" grouprefs="RS232"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="307.34" y1="144.78" x2="294.64" y2="144.78" width="0.1524" layer="91" grouprefs="CAN"/>
 <wire x1="294.64" y1="144.78" x2="294.64" y2="139.7" width="0.1524" layer="91" grouprefs="CAN"/>
 <pinref part="GND2" gate="1" pin="GNDA"/>
-<pinref part="J2" gate="G$1" pin="6"/>
+<pinref part="J3" gate="G$1" pin="6"/>
 <wire x1="294.64" y1="139.7" x2="294.64" y2="137.16" width="0.1524" layer="91" grouprefs="CAN"/>
 <wire x1="294.64" y1="137.16" x2="294.64" y2="134.62" width="0.1524" layer="91" grouprefs="CAN"/>
 <wire x1="307.34" y1="137.16" x2="294.64" y2="137.16" width="0.1524" layer="91" grouprefs="CAN"/>
@@ -2523,75 +2493,24 @@ CAN to RS232</text>
 <junction x="302.26" y="93.98" grouprefs="CAN"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="99.06" x2="71.12" y2="96.52" width="0.1524" layer="91" grouprefs="RS232"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="55.88" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91" grouprefs="RS232"/>
-<label x="66.04" y="96.52" size="1.778" layer="95" align="bottom-right" grouprefs="RS232"/>
-</segment>
-<segment>
 <pinref part="GND15" gate="1" pin="GNDA"/>
 <wire x1="149.86" y1="73.66" x2="149.86" y2="68.58" width="0.1524" layer="91" grouprefs="UC"/>
 <wire x1="147.32" y1="66.04" x2="149.86" y2="68.58" width="0.1524" layer="91" grouprefs="UC"/>
-</segment>
-<segment>
-<wire x1="27.94" y1="10.16" x2="25.4" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<pinref part="JP2" gate="A" pin="1"/>
-<wire x1="25.4" y1="25.4" x2="25.4" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<label x="25.4" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
-</segment>
-<segment>
-<wire x1="50.8" y1="10.16" x2="48.26" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<pinref part="JP3" gate="A" pin="1"/>
-<wire x1="48.26" y1="25.4" x2="48.26" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<label x="48.26" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
-</segment>
-<segment>
-<wire x1="68.58" y1="25.4" x2="68.58" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<label x="68.58" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
-<pinref part="JP4" gate="A" pin="3"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="25.4" x2="15.24" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<label x="15.24" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<label x="132.08" y="93.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="TXD" class="0">
+<net name="TXD" class="3">
 <segment>
-<pinref part="J3" gate="G$1" pin="3"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="40.64" y1="144.78" x2="25.4" y2="144.78" width="0.1524" layer="91" grouprefs="RS232"/>
 <wire x1="25.4" y1="144.78" x2="22.86" y2="142.24" width="0.1524" layer="91" grouprefs="RS232"/>
 <label x="35.56" y="144.78" size="1.778" layer="95" grouprefs="RS232"/>
-</segment>
-<segment>
-<wire x1="289.56" y1="93.98" x2="292.1" y2="96.52" width="0.1524" layer="91" grouprefs="CAN"/>
-<pinref part="IC3" gate="G$1" pin="TXD"/>
-<wire x1="304.8" y1="96.52" x2="292.1" y2="96.52" width="0.1524" layer="91" grouprefs="CAN"/>
-<label x="294.64" y="96.52" size="1.778" layer="95" grouprefs="CAN"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="96.52" x2="71.12" y2="93.98" width="0.1524" layer="91" grouprefs="RS232"/>
 <pinref part="IC1" gate="G$1" pin="T1OUT"/>
 <wire x1="55.88" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91" grouprefs="RS232"/>
 <label x="66.04" y="93.98" size="1.778" layer="95" align="bottom-right" grouprefs="RS232"/>
-</segment>
-<segment>
-<wire x1="73.66" y1="83.82" x2="71.12" y2="86.36" width="0.1524" layer="91" grouprefs="RS232"/>
-<pinref part="IC1" gate="G$1" pin="T1IN"/>
-<wire x1="55.88" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91" grouprefs="RS232"/>
-<label x="66.04" y="86.36" size="1.778" layer="95" align="bottom-right" grouprefs="RS232"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PA12"/>
-<wire x1="182.88" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91" grouprefs="UC"/>
-<wire x1="198.12" y1="109.22" x2="200.66" y2="111.76" width="0.1524" layer="91" grouprefs="UC"/>
-<label x="190.5" y="109.22" size="1.778" layer="95" grouprefs="UC"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="PA9"/>
-<wire x1="182.88" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91" grouprefs="UC"/>
-<wire x1="198.12" y1="101.6" x2="200.66" y2="99.06" width="0.1524" layer="91" grouprefs="UC"/>
-<label x="190.5" y="101.6" size="1.778" layer="95" grouprefs="UC"/>
 </segment>
 </net>
 <net name="C1+" class="0">
@@ -2601,7 +2520,7 @@ CAN to RS232</text>
 <label x="15.24" y="99.06" size="1.778" layer="95" grouprefs="RS232"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="-"/>
+<pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="10.16" y1="50.8" x2="10.16" y2="43.18" width="0.1524" layer="91" grouprefs="RS232"/>
 </segment>
 <segment>
@@ -2615,7 +2534,7 @@ CAN to RS232</text>
 <label x="15.24" y="96.52" size="1.778" layer="95" grouprefs="RS232"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="C3" gate="G$1" pin="-"/>
 <wire x1="45.72" y1="50.8" x2="45.72" y2="43.18" width="0.1524" layer="91" grouprefs="RS232"/>
 </segment>
 <segment>
@@ -2629,7 +2548,7 @@ CAN to RS232</text>
 <label x="15.24" y="93.98" size="1.778" layer="95" grouprefs="RS232"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="+"/>
+<pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="22.86" y1="50.8" x2="22.86" y2="43.18" width="0.1524" layer="91" grouprefs="RS232"/>
 <label x="22.86" y="43.18" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -2694,19 +2613,19 @@ CAN to RS232</text>
 <wire x1="99.06" y1="15.24" x2="99.06" y2="22.86" width="0.1524" layer="91" grouprefs="POWER"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="149.86" x2="297.18" y2="149.86" width="0.1524" layer="91" grouprefs="CAN"/>
 <label x="299.72" y="149.86" size="1.778" layer="95" grouprefs="CAN"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="9"/>
+<pinref part="J3" gate="G$1" pin="9"/>
 <wire x1="330.2" y1="144.78" x2="340.36" y2="144.78" width="0.1524" layer="91" grouprefs="CAN"/>
 <label x="337.82" y="144.78" size="1.778" layer="95" align="bottom-right" grouprefs="CAN"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="25.4" x2="12.7" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
 <label x="12.7" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -2737,18 +2656,24 @@ CAN to RS232</text>
 <label x="63.5" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
 <pinref part="JP4" gate="A" pin="1"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="175.26" y1="22.86" x2="162.56" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="22.86" x2="162.56" y2="30.48" width="0.1524" layer="91"/>
+<label x="162.56" y="25.4" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="PB8-BOOT0"/>
 <wire x1="154.94" y1="165.1" x2="154.94" y2="137.16" width="0.1524" layer="91" grouprefs="UC"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="165.1" x2="160.02" y2="165.1" width="0.1524" layer="91" grouprefs="UC"/>
 </segment>
 </net>
-<net name="LED2" class="0">
+<net name="LED2" class="1">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="127" x2="274.32" y2="134.62" width="0.1524" layer="91" grouprefs="UC"/>
 <label x="274.32" y="129.54" size="1.778" layer="95" rot="R90" grouprefs="UC"/>
 </segment>
@@ -2758,9 +2683,9 @@ CAN to RS232</text>
 <label x="165.1" y="68.58" size="1.778" layer="95" rot="R90" grouprefs="UC"/>
 </segment>
 </net>
-<net name="LED1" class="0">
+<net name="LED1" class="1">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="127" x2="266.7" y2="134.62" width="0.1524" layer="91" grouprefs="UC"/>
 <label x="266.7" y="129.54" size="1.778" layer="95" rot="R90" grouprefs="UC"/>
 </segment>
@@ -2779,7 +2704,7 @@ CAN to RS232</text>
 <segment>
 <pinref part="Y1" gate="G$1" pin="CRYSTAL__2"/>
 <wire x1="246.38" y1="127" x2="246.38" y2="109.22" width="0.1524" layer="91" grouprefs="UC"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="109.22" x2="246.38" y2="114.3" width="0.1524" layer="91" grouprefs="UC"/>
 <wire x1="248.92" y1="109.22" x2="246.38" y2="109.22" width="0.1524" layer="91" grouprefs="UC"/>
 <junction x="246.38" y="109.22" grouprefs="UC"/>
@@ -2795,7 +2720,7 @@ CAN to RS232</text>
 <segment>
 <pinref part="Y1" gate="G$1" pin="CRYSTAL__1"/>
 <wire x1="243.84" y1="127" x2="243.84" y2="109.22" width="0.1524" layer="91" grouprefs="UC"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="109.22" x2="243.84" y2="114.3" width="0.1524" layer="91" grouprefs="UC"/>
 <wire x1="241.3" y1="109.22" x2="243.84" y2="109.22" width="0.1524" layer="91" grouprefs="UC"/>
 <junction x="243.84" y="109.22" grouprefs="UC"/>
@@ -2810,9 +2735,9 @@ CAN to RS232</text>
 </segment>
 <segment>
 <wire x1="55.88" y1="10.16" x2="53.34" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<pinref part="JP3" gate="A" pin="3"/>
 <wire x1="53.34" y1="25.4" x2="53.34" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
 <label x="53.34" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<pinref part="JP3" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -2823,21 +2748,21 @@ CAN to RS232</text>
 </segment>
 <segment>
 <wire x1="53.34" y1="10.16" x2="50.8" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<pinref part="JP3" gate="A" pin="2"/>
 <wire x1="50.8" y1="25.4" x2="50.8" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
 <label x="50.8" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<pinref part="JP3" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="266.7" y1="116.84" x2="266.7" y2="114.3" width="0.1524" layer="91" grouprefs="UC"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="274.32" y1="116.84" x2="274.32" y2="114.3" width="0.1524" layer="91" grouprefs="UC"/>
 </segment>
@@ -2849,10 +2774,10 @@ CAN to RS232</text>
 <wire x1="162.56" y1="68.58" x2="162.56" y2="78.74" width="0.1524" layer="91" grouprefs="UC"/>
 </segment>
 <segment>
-<wire x1="40.64" y1="10.16" x2="38.1" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<pinref part="JP2" gate="A" pin="6"/>
-<wire x1="38.1" y1="25.4" x2="38.1" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<label x="38.1" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<wire x1="30.48" y1="10.16" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="27.94" y1="12.7" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
+<label x="27.94" y="12.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -2862,10 +2787,10 @@ CAN to RS232</text>
 <wire x1="160.02" y1="68.58" x2="160.02" y2="78.74" width="0.1524" layer="91" grouprefs="UC"/>
 </segment>
 <segment>
-<wire x1="38.1" y1="10.16" x2="35.56" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<pinref part="JP2" gate="A" pin="5"/>
-<wire x1="35.56" y1="25.4" x2="35.56" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<label x="35.56" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<wire x1="30.48" y1="25.4" x2="30.48" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
+<pinref part="JP2" gate="A" pin="3"/>
+<wire x1="33.02" y1="10.16" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
+<label x="30.48" y="12.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -2875,10 +2800,10 @@ CAN to RS232</text>
 <wire x1="157.48" y1="68.58" x2="157.48" y2="78.74" width="0.1524" layer="91" grouprefs="UC"/>
 </segment>
 <segment>
-<wire x1="30.48" y1="10.16" x2="27.94" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<pinref part="JP2" gate="A" pin="2"/>
-<wire x1="27.94" y1="25.4" x2="27.94" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<label x="27.94" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<wire x1="33.02" y1="25.4" x2="33.02" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
+<pinref part="JP2" gate="A" pin="4"/>
+<wire x1="35.56" y1="10.16" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
+<label x="33.02" y="12.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="CS" class="0">
@@ -2888,10 +2813,10 @@ CAN to RS232</text>
 <wire x1="154.94" y1="68.58" x2="154.94" y2="78.74" width="0.1524" layer="91" grouprefs="UC"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="10.16" x2="30.48" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<pinref part="JP2" gate="A" pin="3"/>
-<wire x1="30.48" y1="25.4" x2="30.48" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<label x="30.48" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<wire x1="35.56" y1="25.4" x2="35.56" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
+<pinref part="JP2" gate="A" pin="5"/>
+<wire x1="38.1" y1="10.16" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
+<label x="35.56" y="12.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="CS2" class="0">
@@ -2901,10 +2826,10 @@ CAN to RS232</text>
 <wire x1="152.4" y1="68.58" x2="152.4" y2="78.74" width="0.1524" layer="91" grouprefs="UC"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="10.16" x2="33.02" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<pinref part="JP2" gate="A" pin="4"/>
-<wire x1="33.02" y1="25.4" x2="33.02" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
-<label x="33.02" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
+<pinref part="JP2" gate="A" pin="6"/>
+<wire x1="38.1" y1="12.7" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="10.16" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
+<label x="38.1" y="12.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="PA0" class="0">
@@ -2941,6 +2866,99 @@ CAN to RS232</text>
 <wire x1="76.2" y1="25.4" x2="76.2" y2="12.7" width="0.1524" layer="91" grouprefs="BREAKOUT"/>
 <label x="76.2" y="12.7" size="1.778" layer="95" rot="R90" grouprefs="BREAKOUT"/>
 <pinref part="JP4" gate="A" pin="6"/>
+</segment>
+</net>
+<net name="CAN_P" class="2">
+<segment>
+<pinref part="J3" gate="G$1" pin="7"/>
+<wire x1="330.2" y1="149.86" x2="340.36" y2="149.86" width="0.1524" layer="91" grouprefs="CAN"/>
+<label x="340.36" y="149.86" size="1.778" layer="95" align="bottom-right" grouprefs="CAN"/>
+<wire x1="340.36" y1="149.86" x2="340.36" y2="160.02" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="340.36" y1="160.02" x2="294.64" y2="160.02" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="294.64" y1="160.02" x2="292.1" y2="160.02" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="292.1" y1="160.02" x2="289.56" y2="157.48" width="0.1524" layer="91" grouprefs="CAN"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="294.64" y1="157.48" x2="294.64" y2="160.02" width="0.1524" layer="91" grouprefs="CAN"/>
+<junction x="294.64" y="160.02" grouprefs="CAN"/>
+</segment>
+<segment>
+<wire x1="337.82" y1="111.76" x2="340.36" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="CANH"/>
+<wire x1="332.74" y1="93.98" x2="340.36" y2="93.98" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="340.36" y1="109.22" x2="340.36" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CAN_N" class="2">
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="147.32" x2="294.64" y2="147.32" width="0.1524" layer="91" grouprefs="CAN"/>
+<label x="297.18" y="147.32" size="1.778" layer="95" grouprefs="CAN"/>
+<wire x1="294.64" y1="147.32" x2="292.1" y2="147.32" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="292.1" y1="147.32" x2="289.56" y2="144.78" width="0.1524" layer="91" grouprefs="CAN"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<junction x="294.64" y="147.32" grouprefs="CAN"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="CANL"/>
+<wire x1="332.74" y1="91.44" x2="342.9" y2="91.44" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="342.9" y1="91.44" x2="342.9" y2="109.22" width="0.1524" layer="91" grouprefs="CAN"/>
+<wire x1="340.36" y1="111.76" x2="342.9" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CAN_UC_XD_N" class="3">
+<segment>
+<wire x1="289.56" y1="86.36" x2="292.1" y2="88.9" width="0.1524" layer="91" grouprefs="CAN"/>
+<pinref part="IC3" gate="G$1" pin="RXD"/>
+<wire x1="304.8" y1="88.9" x2="292.1" y2="88.9" width="0.1524" layer="91" grouprefs="CAN"/>
+<label x="294.64" y="88.9" size="1.778" layer="95" grouprefs="CAN"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PA11"/>
+<wire x1="182.88" y1="106.68" x2="198.12" y2="106.68" width="0.1524" layer="91" grouprefs="UC"/>
+<label x="182.88" y="106.68" size="1.778" layer="95" grouprefs="UC"/>
+<wire x1="200.66" y1="109.22" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CAN_UC_XD_P" class="3">
+<segment>
+<wire x1="289.56" y1="93.98" x2="292.1" y2="96.52" width="0.1524" layer="91" grouprefs="CAN"/>
+<pinref part="IC3" gate="G$1" pin="TXD"/>
+<wire x1="304.8" y1="96.52" x2="292.1" y2="96.52" width="0.1524" layer="91" grouprefs="CAN"/>
+<label x="294.64" y="96.52" size="1.778" layer="95" grouprefs="CAN"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PA12"/>
+<wire x1="182.88" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91" grouprefs="UC"/>
+<label x="182.88" y="109.22" size="1.778" layer="95" grouprefs="UC"/>
+<wire x1="200.66" y1="111.76" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RXD_UC" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="R1OUT"/>
+<wire x1="55.88" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91" grouprefs="RS232"/>
+<label x="66.04" y="88.9" size="1.778" layer="95" align="bottom-right" grouprefs="RS232"/>
+<wire x1="73.66" y1="86.36" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PA10"/>
+<wire x1="182.88" y1="104.14" x2="198.12" y2="104.14" width="0.1524" layer="91" grouprefs="UC"/>
+<label x="187.96" y="104.14" size="1.778" layer="95" grouprefs="UC"/>
+<wire x1="200.66" y1="101.6" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TXD_UC" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="T1IN"/>
+<wire x1="55.88" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91" grouprefs="RS232"/>
+<label x="66.04" y="86.36" size="1.778" layer="95" align="bottom-right" grouprefs="RS232"/>
+<wire x1="73.66" y1="83.82" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PA9"/>
+<wire x1="182.88" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91" grouprefs="UC"/>
+<label x="187.96" y="101.6" size="1.778" layer="95" grouprefs="UC"/>
+<wire x1="200.66" y1="99.06" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
