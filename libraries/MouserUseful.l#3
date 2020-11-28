@@ -3473,32 +3473,17 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="9.75" y1="-16.46" x2="9.75" y2="14.94" width="0.2" layer="51"/>
 <wire x1="9.75" y1="14.94" x2="-8.25" y2="14.94" width="0.2" layer="51"/>
 <wire x1="-8.25" y1="14.94" x2="-8.25" y2="-16.46" width="0.2" layer="51"/>
-<wire x1="-8.25" y1="14.94" x2="9.75" y2="14.94" width="0.1" layer="21"/>
-<wire x1="9.75" y1="14.94" x2="9.75" y2="14.94" width="0.1" layer="21"/>
 <wire x1="9.75" y1="14.94" x2="-8.25" y2="14.94" width="0.1" layer="21"/>
-<wire x1="-8.25" y1="14.94" x2="-8.25" y2="14.94" width="0.1" layer="21"/>
-<wire x1="9.75" y1="-16.46" x2="-8.25" y2="-16.46" width="0.1" layer="21"/>
-<wire x1="-8.25" y1="-16.46" x2="-8.25" y2="-16.46" width="0.1" layer="21"/>
 <wire x1="-8.25" y1="-16.46" x2="9.75" y2="-16.46" width="0.1" layer="21"/>
-<wire x1="9.75" y1="-16.46" x2="9.75" y2="-16.46" width="0.1" layer="21"/>
-<wire x1="-11.55" y1="15.94" x2="11" y2="15.94" width="0.1" layer="51"/>
+<wire x1="-9.518" y1="15.94" x2="11" y2="15.94" width="0.1" layer="51"/>
 <wire x1="11" y1="15.94" x2="11" y2="-17.46" width="0.1" layer="51"/>
-<wire x1="11" y1="-17.46" x2="-11.55" y2="-17.46" width="0.1" layer="51"/>
-<wire x1="-11.55" y1="-17.46" x2="-11.55" y2="15.94" width="0.1" layer="51"/>
-<wire x1="-8.25" y1="8.5" x2="-8.25" y2="8.5" width="0.1" layer="21"/>
-<wire x1="-8.25" y1="8.5" x2="-8.25" y2="14.94" width="0.1" layer="21"/>
-<wire x1="-8.25" y1="14.94" x2="-8.25" y2="14.94" width="0.1" layer="21"/>
+<wire x1="11" y1="-17.46" x2="-9.518" y2="-17.46" width="0.1" layer="51"/>
+<wire x1="-9.518" y1="-17.46" x2="-9.518" y2="15.94" width="0.1" layer="51"/>
 <wire x1="-8.25" y1="14.94" x2="-8.25" y2="8.5" width="0.1" layer="21"/>
-<wire x1="9.75" y1="14.94" x2="9.75" y2="14.94" width="0.1" layer="21"/>
-<wire x1="9.75" y1="14.94" x2="9.75" y2="8.5" width="0.1" layer="21"/>
-<wire x1="9.75" y1="8.5" x2="9.75" y2="8.5" width="0.1" layer="21"/>
 <wire x1="9.75" y1="8.5" x2="9.75" y2="14.94" width="0.1" layer="21"/>
-<wire x1="-10.55" y1="7.5" x2="-10.55" y2="7.5" width="0.2" layer="21"/>
-<wire x1="-10.55" y1="7.5" x2="-10.45" y2="7.5" width="0.2" layer="21" curve="180"/>
-<wire x1="-10.45" y1="7.5" x2="-10.45" y2="7.5" width="0.2" layer="21"/>
-<wire x1="-10.45" y1="7.5" x2="-10.55" y2="7.5" width="0.2" layer="21" curve="180"/>
-<wire x1="-10.55" y1="7.5" x2="-10.55" y2="7.5" width="0.2" layer="21"/>
-<wire x1="-10.55" y1="7.5" x2="-10.45" y2="7.5" width="0.2" layer="21" curve="180"/>
+<wire x1="-5.978" y1="7.5" x2="-5.878" y2="7.5" width="0.2" layer="21" curve="180"/>
+<wire x1="-5.878" y1="7.5" x2="-5.978" y2="7.5" width="0.2" layer="21" curve="180"/>
+<wire x1="-5.978" y1="7.5" x2="-5.878" y2="7.5" width="0.2" layer="21" curve="180"/>
 </package>
 <package name="CM7VT1A32768KHZ7PF100PPMTAQC">
 <description>&lt;b&gt;CM7V-T1A-32.768KHZ-7PF-100PPM-TA-QC-2&lt;/b&gt;&lt;br&gt;
@@ -3517,6 +3502,37 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="-2.75" y1="-1.9" x2="-2.75" y2="1.9" width="0.1" layer="51"/>
 <wire x1="-0.6" y1="0.75" x2="0.6" y2="0.75" width="0.1" layer="21"/>
 <wire x1="-0.6" y1="-0.75" x2="0.6" y2="-0.75" width="0.1" layer="21"/>
+</package>
+<package name="SSOP">
+<smd name="AMI" x="0" y="0" dx="1.75" dy="0.45" layer="1"/>
+<smd name="NC1" x="0" y="0.635" dx="1.75" dy="0.45" layer="1"/>
+<smd name="NC2" x="0" y="1.27" dx="1.75" dy="0.45" layer="1"/>
+<smd name="RFGND" x="0" y="1.905" dx="1.75" dy="0.45" layer="1"/>
+<smd name="FMI" x="0" y="2.54" dx="1.75" dy="0.45" layer="1"/>
+<smd name="NC3" x="0" y="3.175" dx="1.75" dy="0.45" layer="1"/>
+<smd name="NC4" x="0" y="3.81" dx="1.75" dy="0.45" layer="1"/>
+<smd name="BAND" x="0" y="4.445" dx="1.75" dy="0.45" layer="1"/>
+<smd name="TUNE2" x="0" y="5.08" dx="1.75" dy="0.45" layer="1"/>
+<smd name="TUNE1" x="0" y="5.715" dx="1.75" dy="0.45" layer="1"/>
+<smd name="IRQ" x="0" y="6.35" dx="1.75" dy="0.45" layer="1"/>
+<smd name="LNA_EN" x="0" y="6.985" dx="1.75" dy="0.45" layer="1"/>
+<smd name="GND2" x="5.4" y="0" dx="1.75" dy="0.45" layer="1"/>
+<smd name="GND1" x="5.4" y="0.635" dx="1.75" dy="0.45" layer="1"/>
+<smd name="!RST" x="5.4" y="1.27" dx="1.75" dy="0.45" layer="1"/>
+<smd name="SDIO" x="5.4" y="1.905" dx="1.75" dy="0.45" layer="1"/>
+<smd name="XTALO" x="5.4" y="3.175" dx="1.75" dy="0.45" layer="1"/>
+<smd name="SCLK" x="5.4" y="2.54" dx="1.75" dy="0.45" layer="1"/>
+<smd name="XTALI" x="5.4" y="3.81" dx="1.75" dy="0.45" layer="1"/>
+<smd name="VDD1" x="5.4" y="4.445" dx="1.75" dy="0.45" layer="1"/>
+<smd name="VDD2" x="5.4" y="5.08" dx="1.75" dy="0.45" layer="1"/>
+<smd name="DBYP" x="5.4" y="5.715" dx="1.75" dy="0.45" layer="1"/>
+<smd name="ROUT" x="5.4" y="6.35" dx="1.75" dy="0.45" layer="1"/>
+<smd name="LOUT" x="5.4" y="6.985" dx="1.75" dy="0.45" layer="1"/>
+<wire x1="1.1" y1="7.1" x2="1.1" y2="-0.1" width="0.127" layer="25"/>
+<wire x1="1.1" y1="-0.1" x2="4.3" y2="-0.1" width="0.127" layer="25"/>
+<wire x1="4.3" y1="-0.1" x2="4.3" y2="7.1" width="0.127" layer="25"/>
+<wire x1="4.3" y1="7.1" x2="1.1" y2="7.1" width="0.127" layer="25"/>
+<circle x="1.5" y="6.7" radius="0.1" width="0.127" layer="25"/>
 </package>
 </packages>
 <packages3d>
@@ -4954,8 +4970,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <pin name="IO2" x="0" y="-58.42" length="middle"/>
 <pin name="IO0" x="38.1" y="0" length="middle" rot="R180"/>
 <pin name="IO4" x="38.1" y="-2.54" length="middle" rot="R180"/>
-<pin name="IO16" x="38.1" y="-5.08" length="middle" rot="R180"/>
-<pin name="IO17" x="38.1" y="-7.62" length="middle" rot="R180"/>
+<pin name="NC_8" x="38.1" y="-5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="NC_9" x="38.1" y="-7.62" length="middle" direction="nc" rot="R180"/>
 <pin name="IO5" x="38.1" y="-10.16" length="middle" rot="R180"/>
 <pin name="IO18" x="38.1" y="-12.7" length="middle" rot="R180"/>
 <pin name="IO19" x="38.1" y="-15.24" length="middle" rot="R180"/>
@@ -4985,6 +5001,38 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="CRYSTAL__1" x="0" y="0" length="middle"/>
 <pin name="CRYSTAL__2" x="0" y="-2.54" length="middle"/>
+</symbol>
+<symbol name="SI4840-A10-GU">
+<wire x1="0" y1="0" x2="0" y2="27.94" width="0.254" layer="94"/>
+<wire x1="0" y1="27.94" x2="22.86" y2="27.94" width="0.254" layer="94"/>
+<wire x1="22.86" y1="27.94" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="27.94" length="middle"/>
+<pin name="2" x="-5.08" y="25.4" length="middle"/>
+<pin name="3" x="-5.08" y="22.86" length="middle"/>
+<pin name="4" x="-5.08" y="20.32" length="middle"/>
+<pin name="5" x="-5.08" y="17.78" length="middle"/>
+<pin name="6" x="-5.08" y="15.24" length="middle"/>
+<pin name="7" x="-5.08" y="12.7" length="middle"/>
+<pin name="8" x="-5.08" y="10.16" length="middle"/>
+<pin name="9" x="-5.08" y="7.62" length="middle"/>
+<pin name="10" x="-5.08" y="5.08" length="middle"/>
+<pin name="11" x="-5.08" y="2.54" length="middle"/>
+<pin name="12" x="-5.08" y="0" length="middle"/>
+<pin name="13" x="27.94" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="14" x="27.94" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="15" x="27.94" y="5.08" length="middle" rot="R180"/>
+<pin name="16" x="27.94" y="7.62" length="middle" rot="R180"/>
+<pin name="17" x="27.94" y="10.16" length="middle" rot="R180"/>
+<pin name="18" x="27.94" y="12.7" length="middle" rot="R180"/>
+<pin name="19" x="27.94" y="15.24" length="middle" rot="R180"/>
+<pin name="20" x="27.94" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="21" x="27.94" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="22" x="27.94" y="22.86" length="middle" rot="R180"/>
+<pin name="23" x="27.94" y="25.4" length="middle" rot="R180"/>
+<pin name="24" x="27.94" y="27.94" length="middle" rot="R180"/>
+<text x="7.62" y="-5.08" size="1.778" layer="95">&gt;Name</text>
+<text x="7.62" y="-7.62" size="1.778" layer="96">&lt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5802,8 +5850,6 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/891/esp32-wrover-e_esp32-w
 <connect gate="G$1" pin="IO13" pad="16"/>
 <connect gate="G$1" pin="IO14" pad="13"/>
 <connect gate="G$1" pin="IO15" pad="23"/>
-<connect gate="G$1" pin="IO16" pad="28"/>
-<connect gate="G$1" pin="IO17" pad="27"/>
 <connect gate="G$1" pin="IO18" pad="30"/>
 <connect gate="G$1" pin="IO19" pad="31"/>
 <connect gate="G$1" pin="IO2" pad="24"/>
@@ -5826,6 +5872,8 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/891/esp32-wrover-e_esp32-w
 <connect gate="G$1" pin="NC_5" pad="21"/>
 <connect gate="G$1" pin="NC_6" pad="22"/>
 <connect gate="G$1" pin="NC_7" pad="32"/>
+<connect gate="G$1" pin="NC_8" pad="28"/>
+<connect gate="G$1" pin="NC_9" pad="27"/>
 <connect gate="G$1" pin="RXD0" pad="34"/>
 <connect gate="G$1" pin="SENSOR_VN" pad="5"/>
 <connect gate="G$1" pin="SENSOR_VP" pad="4"/>
@@ -5866,6 +5914,44 @@ Source: &lt;a href="https://www.microcrystal.com/fileadmin/Media/Products/32kHz/
 <attribute name="MOUSER_PART_NUMBER" value="428-202156-MG01" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM7V-T1A-32768kHz-7pF-100PPM-TA-QC?qs=7bTaA%2FLYtSbEiBEFaseBIA%3D%3D" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI4840-A10-GU">
+<gates>
+<gate name="G$1" symbol="SI4840-A10-GU" x="-10.16" y="-12.7"/>
+</gates>
+<devices>
+<device name="" package="SSOP">
+<connects>
+<connect gate="G$1" pin="1" pad="LNA_EN"/>
+<connect gate="G$1" pin="10" pad="NC2"/>
+<connect gate="G$1" pin="11" pad="NC1"/>
+<connect gate="G$1" pin="12" pad="AMI"/>
+<connect gate="G$1" pin="13" pad="GND2"/>
+<connect gate="G$1" pin="14" pad="GND1"/>
+<connect gate="G$1" pin="15" pad="!RST"/>
+<connect gate="G$1" pin="16" pad="SDIO"/>
+<connect gate="G$1" pin="17" pad="SCLK"/>
+<connect gate="G$1" pin="18" pad="XTALO"/>
+<connect gate="G$1" pin="19" pad="XTALI"/>
+<connect gate="G$1" pin="2" pad="IRQ"/>
+<connect gate="G$1" pin="20" pad="VDD1"/>
+<connect gate="G$1" pin="21" pad="VDD2"/>
+<connect gate="G$1" pin="22" pad="DBYP"/>
+<connect gate="G$1" pin="23" pad="ROUT"/>
+<connect gate="G$1" pin="24" pad="LOUT"/>
+<connect gate="G$1" pin="3" pad="TUNE1"/>
+<connect gate="G$1" pin="4" pad="TUNE2"/>
+<connect gate="G$1" pin="5" pad="BAND"/>
+<connect gate="G$1" pin="6" pad="NC4"/>
+<connect gate="G$1" pin="7" pad="NC3"/>
+<connect gate="G$1" pin="8" pad="FMI"/>
+<connect gate="G$1" pin="9" pad="RFGND"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

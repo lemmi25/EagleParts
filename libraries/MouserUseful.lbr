@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -37,7 +37,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -3503,6 +3503,59 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="-0.6" y1="0.75" x2="0.6" y2="0.75" width="0.1" layer="21"/>
 <wire x1="-0.6" y1="-0.75" x2="0.6" y2="-0.75" width="0.1" layer="21"/>
 </package>
+<package name="SSOP">
+<smd name="AMI" x="0" y="0" dx="1.55" dy="0.35" layer="1"/>
+<smd name="NC1" x="0" y="0.635" dx="1.55" dy="0.35" layer="1"/>
+<smd name="NC2" x="0" y="1.27" dx="1.55" dy="0.35" layer="1"/>
+<smd name="RFGND" x="0" y="1.905" dx="1.55" dy="0.35" layer="1"/>
+<smd name="FMI" x="0" y="2.54" dx="1.55" dy="0.35" layer="1"/>
+<smd name="NC3" x="0" y="3.175" dx="1.55" dy="0.35" layer="1"/>
+<smd name="NC4" x="0" y="3.81" dx="1.55" dy="0.35" layer="1"/>
+<smd name="BAND" x="0" y="4.445" dx="1.55" dy="0.35" layer="1"/>
+<smd name="TUNE2" x="0" y="5.08" dx="1.55" dy="0.35" layer="1"/>
+<smd name="TUNE1" x="0" y="5.715" dx="1.55" dy="0.35" layer="1"/>
+<smd name="IRQ" x="0" y="6.35" dx="1.55" dy="0.35" layer="1"/>
+<smd name="LNA_EN" x="0" y="6.985" dx="1.55" dy="0.35" layer="1"/>
+<smd name="GND2" x="5.4" y="0" dx="1.55" dy="0.35" layer="1"/>
+<smd name="GND1" x="5.4" y="0.635" dx="1.55" dy="0.35" layer="1"/>
+<smd name="!RST" x="5.4" y="1.27" dx="1.55" dy="0.35" layer="1"/>
+<smd name="SDIO" x="5.4" y="1.905" dx="1.55" dy="0.35" layer="1"/>
+<smd name="XTALO" x="5.4" y="3.175" dx="1.55" dy="0.35" layer="1"/>
+<smd name="SCLK" x="5.4" y="2.54" dx="1.55" dy="0.35" layer="1"/>
+<smd name="XTALI" x="5.4" y="3.81" dx="1.55" dy="0.35" layer="1"/>
+<smd name="VDD1" x="5.4" y="4.445" dx="1.55" dy="0.35" layer="1"/>
+<smd name="VDD2" x="5.4" y="5.08" dx="1.55" dy="0.35" layer="1"/>
+<smd name="DBYP" x="5.4" y="5.715" dx="1.55" dy="0.35" layer="1"/>
+<smd name="ROUT" x="5.4" y="6.35" dx="1.55" dy="0.35" layer="1"/>
+<smd name="LOUT" x="5.4" y="6.985" dx="1.55" dy="0.35" layer="1"/>
+<wire x1="1.1" y1="7.1" x2="1.1" y2="-0.1" width="0.127" layer="25"/>
+<wire x1="1.1" y1="-0.1" x2="4.3" y2="-0.1" width="0.127" layer="25"/>
+<wire x1="4.3" y1="-0.1" x2="4.3" y2="7.1" width="0.127" layer="25"/>
+<wire x1="4.3" y1="7.1" x2="1.1" y2="7.1" width="0.127" layer="25"/>
+<circle x="1.5" y="6.7" radius="0.1" width="0.127" layer="25"/>
+</package>
+<package name="PEC12R-4XXXF-SXXXX_1">
+<description>&lt;b&gt;PEC12R-4XXXF-SXXXX&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-2.5" y="-7.5" drill="1.2" diameter="1.8"/>
+<pad name="2" x="2.5" y="-7.5" drill="1.2" diameter="1.8"/>
+<pad name="3" x="0" y="-7.5" drill="1.2" diameter="1.8"/>
+<pad name="4" x="-2.5" y="7" drill="1.2" diameter="1.8"/>
+<pad name="5" x="2.5" y="7" drill="1.2" diameter="1.8"/>
+<pad name="6" x="5.6" y="0" drill="3.28" diameter="4.8"/>
+<pad name="7" x="-5.6" y="0" drill="3.28" diameter="4.8"/>
+<text x="-0.357" y="-1.016" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.357" y="-1.016" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-6.2" y1="6.7" x2="6.2" y2="6.7" width="0.254" layer="51"/>
+<wire x1="6.2" y1="6.7" x2="6.2" y2="-6.7" width="0.254" layer="51"/>
+<wire x1="6.2" y1="-6.7" x2="-6.2" y2="-6.7" width="0.254" layer="51"/>
+<wire x1="-6.2" y1="-6.7" x2="-6.2" y2="6.7" width="0.254" layer="51"/>
+<wire x1="-6.2" y1="6.7" x2="-6.2" y2="2.6" width="0.254" layer="21"/>
+<wire x1="-6.2" y1="-6.7" x2="-6.2" y2="-2.6" width="0.254" layer="21"/>
+<wire x1="6.2" y1="6.7" x2="6.2" y2="2.6" width="0.254" layer="21"/>
+<wire x1="6.2" y1="-6.7" x2="6.2" y2="-2.6" width="0.254" layer="21"/>
+<circle x="-2.533" y="-8.863" radius="0.0821" width="0.254" layer="25"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOP65P490X110-8N" urn="urn:adsk.eagle:package:13422153/1" type="model">
@@ -4971,6 +5024,51 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <pin name="CRYSTAL__1" x="0" y="0" length="middle"/>
 <pin name="CRYSTAL__2" x="0" y="-2.54" length="middle"/>
 </symbol>
+<symbol name="SI4840-A10-GU">
+<wire x1="0" y1="0" x2="0" y2="27.94" width="0.254" layer="94"/>
+<wire x1="0" y1="27.94" x2="22.86" y2="27.94" width="0.254" layer="94"/>
+<wire x1="22.86" y1="27.94" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="27.94" length="middle"/>
+<pin name="2" x="-5.08" y="25.4" length="middle"/>
+<pin name="3" x="-5.08" y="22.86" length="middle"/>
+<pin name="4" x="-5.08" y="20.32" length="middle"/>
+<pin name="5" x="-5.08" y="17.78" length="middle"/>
+<pin name="6" x="-5.08" y="15.24" length="middle"/>
+<pin name="7" x="-5.08" y="12.7" length="middle"/>
+<pin name="8" x="-5.08" y="10.16" length="middle"/>
+<pin name="9" x="-5.08" y="7.62" length="middle"/>
+<pin name="10" x="-5.08" y="5.08" length="middle"/>
+<pin name="11" x="-5.08" y="2.54" length="middle"/>
+<pin name="12" x="-5.08" y="0" length="middle"/>
+<pin name="13" x="27.94" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="14" x="27.94" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="15" x="27.94" y="5.08" length="middle" rot="R180"/>
+<pin name="16" x="27.94" y="7.62" length="middle" rot="R180"/>
+<pin name="17" x="27.94" y="10.16" length="middle" rot="R180"/>
+<pin name="18" x="27.94" y="12.7" length="middle" rot="R180"/>
+<pin name="19" x="27.94" y="15.24" length="middle" rot="R180"/>
+<pin name="20" x="27.94" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="21" x="27.94" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="22" x="27.94" y="22.86" length="middle" rot="R180"/>
+<pin name="23" x="27.94" y="25.4" length="middle" rot="R180"/>
+<pin name="24" x="27.94" y="27.94" length="middle" rot="R180"/>
+<text x="7.62" y="-5.08" size="1.778" layer="95">&gt;Name</text>
+<text x="7.62" y="-7.62" size="1.778" layer="96">&lt;Value</text>
+</symbol>
+<symbol name="PEC11R-4225F-S0024">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="0" y="-2.54" length="middle"/>
+<pin name="3" x="0" y="-5.08" length="middle"/>
+<pin name="4" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="5" x="20.32" y="-2.54" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TPS62160DGKR" prefix="IC">
@@ -5850,6 +5948,72 @@ Source: &lt;a href="https://www.microcrystal.com/fileadmin/Media/Products/32kHz/
 <attribute name="MANUFACTURER_PART_NUMBER" value="CM7V-T1A-32.768KHZ-7PF-100PPM-TA-QC" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="428-202156-MG01" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM7V-T1A-32768kHz-7pF-100PPM-TA-QC?qs=7bTaA%2FLYtSbEiBEFaseBIA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI4840-A10-GU" prefix="SI4844-A10" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="SI4840-A10-GU" x="-10.16" y="-12.7"/>
+</gates>
+<devices>
+<device name="" package="SSOP">
+<connects>
+<connect gate="G$1" pin="1" pad="LNA_EN"/>
+<connect gate="G$1" pin="10" pad="NC2"/>
+<connect gate="G$1" pin="11" pad="NC1"/>
+<connect gate="G$1" pin="12" pad="AMI"/>
+<connect gate="G$1" pin="13" pad="GND2"/>
+<connect gate="G$1" pin="14" pad="GND1"/>
+<connect gate="G$1" pin="15" pad="!RST"/>
+<connect gate="G$1" pin="16" pad="SDIO"/>
+<connect gate="G$1" pin="17" pad="SCLK"/>
+<connect gate="G$1" pin="18" pad="XTALO"/>
+<connect gate="G$1" pin="19" pad="XTALI"/>
+<connect gate="G$1" pin="2" pad="IRQ"/>
+<connect gate="G$1" pin="20" pad="VDD1"/>
+<connect gate="G$1" pin="21" pad="VDD2"/>
+<connect gate="G$1" pin="22" pad="DBYP"/>
+<connect gate="G$1" pin="23" pad="ROUT"/>
+<connect gate="G$1" pin="24" pad="LOUT"/>
+<connect gate="G$1" pin="3" pad="TUNE1"/>
+<connect gate="G$1" pin="4" pad="TUNE2"/>
+<connect gate="G$1" pin="5" pad="BAND"/>
+<connect gate="G$1" pin="6" pad="NC4"/>
+<connect gate="G$1" pin="7" pad="NC3"/>
+<connect gate="G$1" pin="8" pad="FMI"/>
+<connect gate="G$1" pin="9" pad="RFGND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PEC11R-4225F-S0024" prefix="U">
+<description>&lt;b&gt;Incremental encoder 24 detents 24 pulses&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PEC11R-4225F-S0024.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PEC11R-4225F-S0024" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PEC12R-4XXXF-SXXXX_1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Incremental encoder 24 detents 24 pulses" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PEC11R-4225F-S0024" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-PEC11R-4225F-S24" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bourns/PEC11R-4225F-S0024?qs=Zq5ylnUbLm4N6UNkPX3pkQ%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>

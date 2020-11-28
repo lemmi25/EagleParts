@@ -72,8 +72,6 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
-<layer number="125" name="_tNames" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="202" name="202bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -868,33 +866,6 @@
 <text x="4.5" y="21.5" size="0.6096" layer="25" font="vector" ratio="10" rot="R315" align="center">CS2</text>
 <text x="4" y="29" size="0.6096" layer="25" font="vector" ratio="10" rot="R315" align="center">5V IN</text>
 <text x="4" y="31" size="0.6096" layer="25" font="vector" ratio="10" rot="R315" align="center">GND</text>
-<text x="26.73223125" y="4.015003125" size="0.8128" layer="126" font="vector" rot="MR90" align="center">C1</text>
-<text x="20.86445" y="4.015003125" size="0.8128" layer="126" font="vector" rot="MR270" align="center">C2</text>
-<text x="32.800009375" y="4.015003125" size="0.8128" layer="126" font="vector" rot="MR90" align="center">C3</text>
-<text x="14.79666875" y="4.015003125" size="0.8128" layer="126" font="vector" rot="MR270" align="center">C4</text>
-<text x="19.790003125" y="25.41000625" size="0.8128" layer="126" font="vector" rot="MR0" align="center">C5</text>
-<text x="9.7400125" y="25.61000625" size="0.8128" layer="126" font="vector" rot="MR0" align="center">C6</text>
-<text x="24.18999375" y="25.41000625" size="0.8128" layer="126" font="vector" rot="MR0" align="center">C7</text>
-<text x="19.4000125" y="11.103940625" size="0.8128" layer="125" font="vector" rot="R135" align="center">C8</text>
-<text x="12.2" y="18.30395" size="0.8128" layer="125" font="vector" rot="R135" align="center">C9</text>
-<text x="13.689990625" y="18.59000625" size="0.8128" layer="126" font="vector" rot="MR0" align="center">IC1</text>
-<text x="21.7971125" y="18.557875" size="0.8128" layer="125" font="vector" rot="R45" align="center">IC2</text>
-<text x="33.3303875" y="11.18760625" size="0.8128" layer="125" font="vector" align="center">IC3</text>
-<text x="18.19000625" y="36.08100625" size="0.8128" layer="125" font="vector" align="center">J1</text>
-<text x="25.4499875" y="34.384996875" size="0.8128" layer="125" font="vector" align="center">J2</text>
-<text x="10.389996875" y="7.64900625" size="0.8128" layer="125" font="vector" rot="R180" align="center">J3</text>
-<text x="5.9999875" y="29.999990625" size="0.8128" layer="125" font="vector" ratio="10" rot="R270" align="center">JP1</text>
-<text x="6.5000125" y="15.49999375" size="0.8128" layer="125" font="vector" ratio="10" rot="R90" align="center">JP2</text>
-<text x="38.999996875" y="28.49999375" size="0.8128" layer="125" font="vector" ratio="10" rot="R90" align="center">JP3</text>
-<text x="38.999996875" y="15.49999375" size="0.8128" layer="125" font="vector" ratio="10" rot="R90" align="center">JP4</text>
-<text x="36.257203125" y="22.0336125" size="0.8128" layer="125" font="vector" rot="R180" align="center">LED1</text>
-<text x="36.257203125" y="18.8475875" size="0.8128" layer="125" font="vector" rot="R180" align="center">LED2</text>
-<text x="14.51500625" y="25.6087875" size="0.8128" layer="126" font="vector" rot="MR0" align="center">R1</text>
-<text x="32.3397875" y="22.011590625" size="0.8128" layer="125" font="vector" rot="R180" align="center">R2</text>
-<text x="32.3397875" y="18.829603125" size="0.8128" layer="125" font="vector" rot="R180" align="center">R3</text>
-<text x="30.633009375" y="7.0985875" size="0.8128" layer="125" font="vector" rot="R180" align="center">R4</text>
-<text x="10.091596875" y="28.8456125" size="0.8128" layer="125" font="vector" rot="R270" align="center">S1</text>
-<text x="11.95735625" y="11.028425" size="0.8128" layer="125" font="vector" rot="R135" align="center">Y1</text>
 </plain>
 <libraries>
 <library name="CommonParts">

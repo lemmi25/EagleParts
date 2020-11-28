@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3473,32 +3473,17 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="9.75" y1="-16.46" x2="9.75" y2="14.94" width="0.2" layer="51"/>
 <wire x1="9.75" y1="14.94" x2="-8.25" y2="14.94" width="0.2" layer="51"/>
 <wire x1="-8.25" y1="14.94" x2="-8.25" y2="-16.46" width="0.2" layer="51"/>
-<wire x1="-8.25" y1="14.94" x2="9.75" y2="14.94" width="0.1" layer="21"/>
-<wire x1="9.75" y1="14.94" x2="9.75" y2="14.94" width="0.1" layer="21"/>
 <wire x1="9.75" y1="14.94" x2="-8.25" y2="14.94" width="0.1" layer="21"/>
-<wire x1="-8.25" y1="14.94" x2="-8.25" y2="14.94" width="0.1" layer="21"/>
-<wire x1="9.75" y1="-16.46" x2="-8.25" y2="-16.46" width="0.1" layer="21"/>
-<wire x1="-8.25" y1="-16.46" x2="-8.25" y2="-16.46" width="0.1" layer="21"/>
 <wire x1="-8.25" y1="-16.46" x2="9.75" y2="-16.46" width="0.1" layer="21"/>
-<wire x1="9.75" y1="-16.46" x2="9.75" y2="-16.46" width="0.1" layer="21"/>
-<wire x1="-11.55" y1="15.94" x2="11" y2="15.94" width="0.1" layer="51"/>
+<wire x1="-9.518" y1="15.94" x2="11" y2="15.94" width="0.1" layer="51"/>
 <wire x1="11" y1="15.94" x2="11" y2="-17.46" width="0.1" layer="51"/>
-<wire x1="11" y1="-17.46" x2="-11.55" y2="-17.46" width="0.1" layer="51"/>
-<wire x1="-11.55" y1="-17.46" x2="-11.55" y2="15.94" width="0.1" layer="51"/>
-<wire x1="-8.25" y1="8.5" x2="-8.25" y2="8.5" width="0.1" layer="21"/>
-<wire x1="-8.25" y1="8.5" x2="-8.25" y2="14.94" width="0.1" layer="21"/>
-<wire x1="-8.25" y1="14.94" x2="-8.25" y2="14.94" width="0.1" layer="21"/>
+<wire x1="11" y1="-17.46" x2="-9.518" y2="-17.46" width="0.1" layer="51"/>
+<wire x1="-9.518" y1="-17.46" x2="-9.518" y2="15.94" width="0.1" layer="51"/>
 <wire x1="-8.25" y1="14.94" x2="-8.25" y2="8.5" width="0.1" layer="21"/>
-<wire x1="9.75" y1="14.94" x2="9.75" y2="14.94" width="0.1" layer="21"/>
-<wire x1="9.75" y1="14.94" x2="9.75" y2="8.5" width="0.1" layer="21"/>
-<wire x1="9.75" y1="8.5" x2="9.75" y2="8.5" width="0.1" layer="21"/>
 <wire x1="9.75" y1="8.5" x2="9.75" y2="14.94" width="0.1" layer="21"/>
-<wire x1="-10.55" y1="7.5" x2="-10.55" y2="7.5" width="0.2" layer="21"/>
-<wire x1="-10.55" y1="7.5" x2="-10.45" y2="7.5" width="0.2" layer="21" curve="180"/>
-<wire x1="-10.45" y1="7.5" x2="-10.45" y2="7.5" width="0.2" layer="21"/>
-<wire x1="-10.45" y1="7.5" x2="-10.55" y2="7.5" width="0.2" layer="21" curve="180"/>
-<wire x1="-10.55" y1="7.5" x2="-10.55" y2="7.5" width="0.2" layer="21"/>
-<wire x1="-10.55" y1="7.5" x2="-10.45" y2="7.5" width="0.2" layer="21" curve="180"/>
+<wire x1="-5.978" y1="7.5" x2="-5.878" y2="7.5" width="0.2" layer="21" curve="180"/>
+<wire x1="-5.878" y1="7.5" x2="-5.978" y2="7.5" width="0.2" layer="21" curve="180"/>
+<wire x1="-5.978" y1="7.5" x2="-5.878" y2="7.5" width="0.2" layer="21" curve="180"/>
 </package>
 <package name="CM7VT1A32768KHZ7PF100PPMTAQC">
 <description>&lt;b&gt;CM7V-T1A-32.768KHZ-7PF-100PPM-TA-QC-2&lt;/b&gt;&lt;br&gt;
@@ -4986,6 +4971,36 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <pin name="CRYSTAL__1" x="0" y="0" length="middle"/>
 <pin name="CRYSTAL__2" x="0" y="-2.54" length="middle"/>
 </symbol>
+<symbol name="SI4840-A10-GU">
+<wire x1="0" y1="0" x2="0" y2="27.94" width="0.254" layer="94"/>
+<wire x1="0" y1="27.94" x2="22.86" y2="27.94" width="0.254" layer="94"/>
+<wire x1="22.86" y1="27.94" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="LNA_EN" x="0" y="27.94" length="middle" rot="R180"/>
+<pin name="IRQ" x="0" y="25.4" length="middle" rot="R180"/>
+<pin name="TUNE1" x="0" y="22.86" length="middle" rot="R180"/>
+<pin name="TUNE2" x="0" y="20.32" length="middle" rot="R180"/>
+<pin name="BAND" x="0" y="17.78" length="middle" rot="R180"/>
+<pin name="NC_4" x="0" y="15.24" length="middle" rot="R180"/>
+<pin name="NC_3" x="0" y="12.7" length="middle" rot="R180"/>
+<pin name="FMI" x="0" y="10.16" length="middle" rot="R180"/>
+<pin name="RFGND" x="0" y="7.62" length="middle" rot="R180"/>
+<pin name="NC_2" x="0" y="5.08" length="middle" rot="R180"/>
+<pin name="NC_1" x="0" y="2.54" length="middle" rot="R180"/>
+<pin name="AMI" x="0" y="0" length="middle" rot="R180"/>
+<pin name="GND2" x="22.86" y="0" length="middle" direction="pwr"/>
+<pin name="GND1" x="22.86" y="2.54" length="middle" direction="pwr"/>
+<pin name="!RST" x="22.86" y="5.08" length="middle"/>
+<pin name="SDIO" x="22.86" y="7.62" length="middle"/>
+<pin name="SCLK" x="22.86" y="10.16" length="middle"/>
+<pin name="XTALO" x="22.86" y="12.7" length="middle"/>
+<pin name="XTALI" x="22.86" y="15.24" length="middle"/>
+<pin name="VDD1" x="22.86" y="17.78" length="middle" direction="pwr"/>
+<pin name="VDD2" x="22.86" y="20.32" length="middle" direction="pwr"/>
+<pin name="DBYP" x="22.86" y="22.86" length="middle"/>
+<pin name="ROUT" x="22.86" y="25.4" length="middle"/>
+<pin name="LOUT" x="22.86" y="27.94" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TPS62160DGKR" prefix="IC">
@@ -5866,6 +5881,17 @@ Source: &lt;a href="https://www.microcrystal.com/fileadmin/Media/Products/32kHz/
 <attribute name="MOUSER_PART_NUMBER" value="428-202156-MG01" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM7V-T1A-32768kHz-7pF-100PPM-TA-QC?qs=7bTaA%2FLYtSbEiBEFaseBIA%3D%3D" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI4840-A10-GU">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
