@@ -1250,7 +1250,7 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <parts>
 <part name="IC1" library="MouserUseful" deviceset="MCP73832T-2ACI_OT" device=""/>
 <part name="C2" library="CommonParts" deviceset="C-EU_1206" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="4.7uF"/>
-<part name="LED1" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
+<part name="C" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
 <part name="C1" library="CommonParts" deviceset="C-EU_1206" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="4.7uF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="IC3" library="MouserUseful" deviceset="DMP1045U-7" device=""/>
@@ -1270,7 +1270,7 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="R3" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470ohm"/>
 <part name="R2" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470ohm"/>
-<part name="LED2" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
+<part name="F" library="CommonParts" deviceset="LED_1206" device="SMT1206" package3d_urn="urn:adsk.eagle:package:15796/2"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="R1" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
@@ -1311,7 +1311,7 @@ charging power source</text>
 <attribute name="NAME" x="77.216" y="105.029" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="77.216" y="107.569" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED1" gate="G$1" x="24.13" y="91.44" smashed="yes" rot="R90">
+<instance part="C" gate="G$1" x="24.13" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.162" y="87.376" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="28.702" y="97.155" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -1386,7 +1386,7 @@ charging power source</text>
 <attribute name="NAME" x="31.75" y="100.5586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="31.75" y="95.758" size="1.778" layer="96"/>
 </instance>
-<instance part="LED2" gate="G$1" x="26.67" y="99.06" smashed="yes" rot="R270">
+<instance part="F" gate="G$1" x="26.67" y="99.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.558" y="95.504" size="1.778" layer="95"/>
 <attribute name="VALUE" x="22.098" y="93.345" size="1.778" layer="96"/>
 </instance>
@@ -1491,7 +1491,7 @@ charging power source</text>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GNDA"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="F" gate="G$1" pin="C"/>
 <wire x1="19.05" y1="99.06" x2="21.59" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1534,7 +1534,7 @@ charging power source</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="C" gate="G$1" pin="C"/>
 <wire x1="30.48" y1="91.44" x2="29.21" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
@@ -1563,7 +1563,7 @@ charging power source</text>
 <wire x1="119.38" y1="113.03" x2="124.46" y2="113.03" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="113.03" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
 <junction x="124.46" y="129.54"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="C" gate="G$1" pin="A"/>
 <wire x1="21.59" y1="91.44" x2="12.7" y2="91.44" width="0.1524" layer="91"/>
 <junction x="12.7" y="91.44"/>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -1663,7 +1663,7 @@ charging power source</text>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="99.06" x2="29.21" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="F" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$1" class="0">

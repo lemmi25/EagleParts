@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5895,6 +5895,31 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <wire x1="-3.2" y1="2.15" x2="2.15" y2="2.15" width="0.2" layer="21"/>
 <wire x1="-1.075" y1="-2.15" x2="2.15" y2="-2.15" width="0.2" layer="21"/>
 </package>
+<package name="SOT65P230X110-5N">
+<description>&lt;b&gt;SOT-353&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.05" y="0.65" dx="1.05" dy="0.45" layer="1"/>
+<smd name="2" x="-1.05" y="0" dx="1.05" dy="0.45" layer="1"/>
+<smd name="3" x="-1.05" y="-0.65" dx="1.05" dy="0.45" layer="1"/>
+<smd name="4" x="1.05" y="-0.65" dx="1.05" dy="0.45" layer="1"/>
+<smd name="5" x="1.05" y="0.65" dx="1.05" dy="0.45" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.825" y1="1.35" x2="1.825" y2="1.35" width="0.05" layer="51"/>
+<wire x1="1.825" y1="1.35" x2="1.825" y2="-1.35" width="0.05" layer="51"/>
+<wire x1="1.825" y1="-1.35" x2="-1.825" y2="-1.35" width="0.05" layer="51"/>
+<wire x1="-1.825" y1="-1.35" x2="-1.825" y2="1.35" width="0.05" layer="51"/>
+<wire x1="-0.625" y1="1.05" x2="0.625" y2="1.05" width="0.1" layer="51"/>
+<wire x1="0.625" y1="1.05" x2="0.625" y2="-1.05" width="0.1" layer="51"/>
+<wire x1="0.625" y1="-1.05" x2="-0.625" y2="-1.05" width="0.1" layer="51"/>
+<wire x1="-0.625" y1="-1.05" x2="-0.625" y2="1.05" width="0.1" layer="51"/>
+<wire x1="-0.625" y1="0.4" x2="0.025" y2="1.05" width="0.1" layer="51"/>
+<wire x1="-0.175" y1="1.05" x2="0.175" y2="1.05" width="0.2" layer="21"/>
+<wire x1="0.175" y1="1.05" x2="0.175" y2="-1.05" width="0.2" layer="21"/>
+<wire x1="0.175" y1="-1.05" x2="-0.175" y2="-1.05" width="0.2" layer="21"/>
+<wire x1="-0.175" y1="-1.05" x2="-0.175" y2="1.05" width="0.2" layer="21"/>
+<wire x1="-1.575" y1="1.125" x2="-0.525" y2="1.125" width="0.2" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="1206" urn="urn:adsk.eagle:package:15796/2" type="model">
@@ -7954,6 +7979,19 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <vertex x="6.858" y="2.54"/>
 </polygon>
 </symbol>
+<symbol name="CPDV5-3V3UP">
+<wire x1="5.08" y1="2.54" x2="38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-7.62" x2="38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="39.37" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="39.37" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="CATHODE1" x="0" y="0" length="middle"/>
+<pin name="COMMON_ANODE" x="0" y="-2.54" length="middle"/>
+<pin name="CATHODE2" x="0" y="-5.08" length="middle"/>
+<pin name="CATHODE3" x="43.18" y="0" length="middle" rot="R180"/>
+<pin name="CATHODE4" x="43.18" y="-2.54" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LED_1206" prefix="LED" uservalue="yes">
@@ -9064,6 +9102,34 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/UWX1H010MCL2G
 <attribute name="MANUFACTURER_PART_NUMBER" value="UWX1H010MCL2GB" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="647-UWX1H010MCL2" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UWX1H010MCL2GB?qs=atHKiefXm7RQQtnuG9o73w%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPDV5-3V3UP" prefix="D">
+<description>&lt;b&gt;ESD Suppressors / TVS Diodes VRWM=3.3V, VC= 5.5V&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.comchiptech.com/admin/files/product/CPDV5-3V3UP-HF RevB181493.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CPDV5-3V3UP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT65P230X110-5N">
+<connects>
+<connect gate="G$1" pin="CATHODE1" pad="1"/>
+<connect gate="G$1" pin="CATHODE2" pad="3"/>
+<connect gate="G$1" pin="CATHODE3" pad="4"/>
+<connect gate="G$1" pin="CATHODE4" pad="5"/>
+<connect gate="G$1" pin="COMMON_ANODE" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes VRWM=3.3V, VC= 5.5V" constant="no"/>
+<attribute name="HEIGHT" value="1.1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Comchip Technology" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPDV5-3V3UP" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="750-CPDV5-3V3UP" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Comchip-Technology/CPDV5-3V3UP?qs=2qJf6qQ4IOKNDSDk40eHZQ%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
