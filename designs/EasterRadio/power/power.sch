@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1279,6 +1279,7 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <part name="R8" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10kOhm"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
+<part name="D2" library="CommonParts" deviceset="LSM115JE3_TR13" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1345,8 +1346,8 @@ charging power source</text>
 <attribute name="NAME" x="27.94" y="41.91" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="27.94" y="39.37" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="GND2" gate="1" x="15.24" y="44.45" smashed="yes">
-<attribute name="VALUE" x="12.7" y="41.91" size="1.778" layer="96" rot="R90"/>
+<instance part="GND2" gate="1" x="17.78" y="36.83" smashed="yes">
+<attribute name="VALUE" x="15.24" y="34.29" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="IC2" gate="G$1" x="91.44" y="36.83" smashed="yes">
 <attribute name="NAME" x="88.9" y="39.37" size="1.778" layer="95" align="center-left"/>
@@ -1418,6 +1419,9 @@ charging power source</text>
 <instance part="GND7" gate="1" x="48.26" y="22.86" smashed="yes" rot="R90">
 <attribute name="VALUE" x="50.8" y="20.32" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="D2" gate="G$1" x="20.32" y="62.23" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.21" y="49.53" size="1.778" layer="95" rot="R270" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1479,10 +1483,16 @@ charging power source</text>
 <wire x1="170.18" y1="114.3" x2="170.18" y2="82.55" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="26.67" y1="49.53" x2="15.24" y2="49.53" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GNDA"/>
-<wire x1="15.24" y1="46.99" x2="15.24" y2="49.53" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="39.37" x2="17.78" y2="41.91" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="26.67" y1="49.53" x2="25.4" y2="49.53" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="49.53" x2="25.4" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="41.91" x2="20.32" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="41.91" x2="17.78" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="44.45" x2="20.32" y2="41.91" width="0.1524" layer="91"/>
+<junction x="20.32" y="41.91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -1570,8 +1580,16 @@ charging power source</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="26.67" y1="59.69" x2="17.78" y2="59.69" width="0.1524" layer="91"/>
+<wire x1="26.67" y1="59.69" x2="20.32" y2="59.69" width="0.1524" layer="91"/>
 <label x="17.78" y="59.69" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="D2" gate="G$1" pin="K"/>
+<wire x1="20.32" y1="59.69" x2="17.78" y2="59.69" width="0.1524" layer="91"/>
+<junction x="20.32" y="59.69"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="35.56" y1="15.24" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
+<label x="35.56" y="20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="U_DRAIN" class="0">
@@ -1684,11 +1702,6 @@ charging power source</text>
 <wire x1="86.36" y1="31.75" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
 <junction x="91.44" y="31.75"/>
 <label x="86.36" y="25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="35.56" y1="15.24" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
-<label x="35.56" y="20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>

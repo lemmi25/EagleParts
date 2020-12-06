@@ -70,6 +70,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -1203,6 +1204,169 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="MouserUseful">
+<description>&lt;Switching Voltage Regulators 3V-17V 1A Step-Down Converter&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="101181920001LF">
+<description>&lt;b&gt;10118192-0001LF&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.3" y="1.682" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="1.682" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="1.682" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="1.682" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="1.3" y="1.682" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="6" x="-3.1" y="1.557" dx="2.1" dy="1.6" layer="1"/>
+<smd name="7" x="3.1" y="1.557" dx="2.1" dy="1.6" layer="1"/>
+<smd name="8" x="-1.2" y="-0.993" dx="1.9" dy="1.9" layer="1"/>
+<smd name="9" x="1.2" y="-0.993" dx="1.9" dy="1.9" layer="1"/>
+<smd name="10" x="-3.8" y="-0.993" dx="1.9" dy="1.9" layer="1"/>
+<smd name="11" x="3.8" y="-0.993" dx="1.9" dy="1.9" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.95" y1="1.971" x2="3.95" y2="1.971" width="0.254" layer="51"/>
+<wire x1="3.95" y1="1.971" x2="3.95" y2="-3.079" width="0.254" layer="51"/>
+<wire x1="3.95" y1="-3.079" x2="-3.95" y2="-3.079" width="0.254" layer="51"/>
+<wire x1="-3.95" y1="-3.079" x2="-3.95" y2="1.971" width="0.254" layer="51"/>
+<wire x1="-5.75" y1="4.079" x2="5.75" y2="4.079" width="0.1" layer="51"/>
+<wire x1="5.75" y1="4.079" x2="5.75" y2="-4.079" width="0.1" layer="51"/>
+<wire x1="5.75" y1="-4.079" x2="-5.75" y2="-4.079" width="0.1" layer="51"/>
+<wire x1="-5.75" y1="-4.079" x2="-5.75" y2="4.079" width="0.1" layer="51"/>
+<wire x1="3.95" y1="-3.079" x2="-3.95" y2="-3.079" width="0.254" layer="21"/>
+<wire x1="-3.95" y1="-3.079" x2="-3.95" y2="-2.293" width="0.254" layer="21"/>
+<wire x1="3.95" y1="-3.079" x2="3.95" y2="-2.293" width="0.254" layer="21"/>
+<wire x1="-1.4" y1="3.066" x2="-1.4" y2="3.066" width="0.2" layer="21"/>
+<wire x1="-1.4" y1="3.066" x2="-1.2" y2="3.066" width="0.2" layer="21" curve="180"/>
+<wire x1="-1.2" y1="3.066" x2="-1.2" y2="3.066" width="0.2" layer="21"/>
+<wire x1="-1.2" y1="3.066" x2="-1.4" y2="3.066" width="0.2" layer="21" curve="180"/>
+</package>
+<package name="SJ3523SMTTR">
+<description>&lt;b&gt;SJ-3523-SMT-TR-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="2.4" y="-3.7" dx="2.8" dy="2.2" layer="1" rot="R90"/>
+<smd name="2" x="11.8" y="-3.8" dx="2.8" dy="2.6" layer="1"/>
+<smd name="3" x="4.4" y="3.7" dx="2.8" dy="2.2" layer="1" rot="R90"/>
+<hole x="3.5" y="0" drill="1.7"/>
+<hole x="10.5" y="0" drill="1.7"/>
+<text x="7.3" y="-0.4" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="7.3" y="-0.4" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.5" y1="2.95" x2="14.5" y2="2.95" width="0.2" layer="51"/>
+<wire x1="14.5" y1="2.95" x2="14.5" y2="-3.05" width="0.2" layer="51"/>
+<wire x1="14.5" y1="-3.05" x2="-2.5" y2="-3.05" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-3.05" x2="-2.5" y2="2.95" width="0.2" layer="51"/>
+<wire x1="-3.5" y1="6.1" x2="18.1" y2="6.1" width="0.1" layer="51"/>
+<wire x1="18.1" y1="6.1" x2="18.1" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="18.1" y1="-6.9" x2="-3.5" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-6.9" x2="-3.5" y2="6.1" width="0.1" layer="51"/>
+<wire x1="2.1" y1="-5.8" x2="2.1" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-5.8" x2="2.3" y2="-5.8" width="0.2" layer="21" curve="180"/>
+<wire x1="2.3" y1="-5.8" x2="2.3" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="2.3" y1="-5.8" x2="2.1" y2="-5.8" width="0.2" layer="21" curve="180"/>
+<wire x1="2.9" y1="2.95" x2="-2.5" y2="2.95" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="2.95" x2="-2.5" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-3.05" x2="0.9" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="5.9" y1="2.95" x2="14.5" y2="2.95" width="0.1" layer="21"/>
+<wire x1="13.5" y1="-3.05" x2="14.5" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="14.5" y1="-3.05" x2="14.5" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="3.9" y1="-3.05" x2="10.1" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="14.5" y1="3" x2="14.5" y2="-1.5" width="0.1" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="10118192-0001LF">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-15.24" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="0" y="-2.54" length="middle"/>
+<pin name="3" x="0" y="-5.08" length="middle"/>
+<pin name="4" x="0" y="-7.62" length="middle"/>
+<pin name="5" x="0" y="-10.16" length="middle"/>
+<pin name="6" x="0" y="-12.7" length="middle"/>
+<pin name="7" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="8" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="9" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="10" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="11" x="22.86" y="-10.16" length="middle" rot="R180"/>
+</symbol>
+<symbol name="SJ-3523-SMT-TR">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="SLEEVE" x="0" y="0" length="middle"/>
+<pin name="TIP" x="0" y="-2.54" length="middle"/>
+<pin name="RING" x="30.48" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="10118192-0001LF" prefix="J">
+<description>&lt;b&gt;USB Connectors 5P MICRO USB TYPE B RECEPTACLE&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.tw/datasheet/2/18/10118192-1361887.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="10118192-0001LF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="101181920001LF">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="USB Connectors 5P MICRO USB TYPE B RECEPTACLE" constant="no"/>
+<attribute name="HEIGHT" value="2.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="10118192-0001LF" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="649-10118192-0001LF" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10118192-0001LF?qs=Ywefl8B65e5bHFoQtIudZg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SJ-3523-SMT-TR" prefix="J">
+<description>&lt;b&gt;Phone Connectors Audio Jacks&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.de/datasheet/2/670/sj_352x_smt-1779397.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SJ-3523-SMT-TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SJ3523SMTTR">
+<connects>
+<connect gate="G$1" pin="RING" pad="3"/>
+<connect gate="G$1" pin="SLEEVE" pad="1"/>
+<connect gate="G$1" pin="TIP" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Phone Connectors Audio Jacks" constant="no"/>
+<attribute name="HEIGHT" value="5.2mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="CUI Devices" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SJ-3523-SMT-TR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="490-SJ-3523-SMT-TR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ-3523-SMT-TR?qs=WyjlAZoYn51zOHzJ3r4ZRA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1220,6 +1384,9 @@
 <part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
 <part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
 <part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
+<part name="J1" library="MouserUseful" deviceset="10118192-0001LF" device=""/>
+<part name="PROGRAMMER" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="J2" library="MouserUseful" deviceset="SJ-3523-SMT-TR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1253,6 +1420,18 @@
 <instance part="JP7" gate="A" x="17.78" y="38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="31.115" y="44.45" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="5.08" y="44.45" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="J1" gate="G$1" x="111.76" y="91.44" smashed="yes">
+<attribute name="NAME" x="130.81" y="99.06" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="130.81" y="96.52" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="PROGRAMMER" gate="A" x="154.94" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="163.195" y="19.05" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="147.32" y="19.05" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="J2" gate="G$1" x="111.76" y="106.68" smashed="yes">
+<attribute name="NAME" x="138.43" y="114.3" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="138.43" y="111.76" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>

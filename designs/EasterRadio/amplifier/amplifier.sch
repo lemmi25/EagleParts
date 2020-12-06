@@ -566,39 +566,36 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eNSH.pdf"&gt; Datashe
 <wire x1="-1.6" y1="-4.95" x2="-1.6" y2="4.95" width="0.2" layer="21"/>
 <wire x1="-3.525" y1="5.145" x2="-1.95" y2="5.145" width="0.2" layer="21"/>
 </package>
-<package name="STX31203BM">
-<description>&lt;b&gt;STX-3120-3BM&lt;/b&gt;&lt;br&gt;
+<package name="SJ3523SMTTR">
+<description>&lt;b&gt;SJ-3523-SMT-TR-1&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="-0.55" y="0" drill="1.3" diameter="2.35"/>
-<pad name="4" x="-0.55" y="5" drill="1.6" diameter="2.35"/>
-<pad name="5" x="4.45" y="5.08" drill="1.3" diameter="2.35"/>
-<pad name="3" x="4.45" y="0.04" drill="1.6" diameter="2.35"/>
-<pad name="2" x="4.45" y="-5" drill="1.3" diameter="2.35"/>
-<pad name="6" x="-0.55" y="-5" drill="1.6" diameter="2.35"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.55" y1="6" x2="7.05" y2="6" width="0.2" layer="51"/>
-<wire x1="7.05" y1="6" x2="7.05" y2="-6" width="0.2" layer="51"/>
-<wire x1="7.05" y1="-6" x2="-3.55" y2="-6" width="0.2" layer="51"/>
-<wire x1="-3.55" y1="-6" x2="-3.55" y2="6" width="0.2" layer="51"/>
-<wire x1="-8.05" y1="7.175" x2="8.05" y2="7.175" width="0.1" layer="51"/>
-<wire x1="8.05" y1="7.175" x2="8.05" y2="-7.175" width="0.1" layer="51"/>
-<wire x1="8.05" y1="-7.175" x2="-8.05" y2="-7.175" width="0.1" layer="51"/>
-<wire x1="-8.05" y1="-7.175" x2="-8.05" y2="7.175" width="0.1" layer="51"/>
-<wire x1="-3.55" y1="3.4" x2="-7.05" y2="3.4" width="0.2" layer="51"/>
-<wire x1="-7.05" y1="3.4" x2="-7.05" y2="-3.4" width="0.2" layer="51"/>
-<wire x1="-7.05" y1="-3.4" x2="-3.55" y2="-3.4" width="0.2" layer="51"/>
-<wire x1="-1.55" y1="6" x2="-3.55" y2="6" width="0.1" layer="21"/>
-<wire x1="-3.55" y1="6" x2="-3.55" y2="3.4" width="0.1" layer="21"/>
-<wire x1="-3.55" y1="3.4" x2="-7.05" y2="3.4" width="0.1" layer="21"/>
-<wire x1="-7.05" y1="3.4" x2="-7.05" y2="-3.4" width="0.1" layer="21"/>
-<wire x1="-7.05" y1="-3.4" x2="-3.55" y2="-3.4" width="0.1" layer="21"/>
-<wire x1="-3.55" y1="-3.4" x2="-3.55" y2="-6" width="0.1" layer="21"/>
-<wire x1="-3.55" y1="-6" x2="-1.55" y2="-6" width="0.1" layer="21"/>
-<wire x1="0.45" y1="6" x2="7.05" y2="6" width="0.1" layer="21"/>
-<wire x1="7.05" y1="6" x2="7.05" y2="-6" width="0.1" layer="21"/>
-<wire x1="7.05" y1="-6" x2="5.45" y2="-6" width="0.1" layer="21"/>
-<wire x1="0.45" y1="-6" x2="3.45" y2="-6" width="0.1" layer="21"/>
+<smd name="1" x="2.4" y="-3.7" dx="2.8" dy="2.2" layer="1" rot="R90"/>
+<smd name="2" x="11.8" y="-3.8" dx="2.8" dy="2.6" layer="1"/>
+<smd name="3" x="4.4" y="3.7" dx="2.8" dy="2.2" layer="1" rot="R90"/>
+<hole x="3.5" y="0" drill="1.7"/>
+<hole x="10.5" y="0" drill="1.7"/>
+<text x="7.3" y="-0.4" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="7.3" y="-0.4" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.5" y1="2.95" x2="14.5" y2="2.95" width="0.2" layer="51"/>
+<wire x1="14.5" y1="2.95" x2="14.5" y2="-3.05" width="0.2" layer="51"/>
+<wire x1="14.5" y1="-3.05" x2="-2.5" y2="-3.05" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-3.05" x2="-2.5" y2="2.95" width="0.2" layer="51"/>
+<wire x1="-3.5" y1="6.1" x2="18.1" y2="6.1" width="0.1" layer="51"/>
+<wire x1="18.1" y1="6.1" x2="18.1" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="18.1" y1="-6.9" x2="-3.5" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-6.9" x2="-3.5" y2="6.1" width="0.1" layer="51"/>
+<wire x1="2.1" y1="-5.8" x2="2.1" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-5.8" x2="2.3" y2="-5.8" width="0.2" layer="21" curve="180"/>
+<wire x1="2.3" y1="-5.8" x2="2.3" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="2.3" y1="-5.8" x2="2.1" y2="-5.8" width="0.2" layer="21" curve="180"/>
+<wire x1="2.9" y1="2.95" x2="-2.5" y2="2.95" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="2.95" x2="-2.5" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-3.05" x2="0.9" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="5.9" y1="2.95" x2="14.5" y2="2.95" width="0.1" layer="21"/>
+<wire x1="13.5" y1="-3.05" x2="14.5" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="14.5" y1="-3.05" x2="14.5" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="3.9" y1="-3.05" x2="10.1" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="14.5" y1="3" x2="14.5" y2="-1.5" width="0.1" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -626,19 +623,16 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eNSH.pdf"&gt; Datashe
 <pin name="INR" x="33.02" y="-15.24" length="middle" direction="in" rot="R180"/>
 <pin name="NC" x="33.02" y="-17.78" length="middle" direction="nc" rot="R180"/>
 </symbol>
-<symbol name="STX-3120-3BM">
-<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="-2.54" length="middle"/>
-<pin name="MH2" x="0" y="0" length="middle"/>
-<pin name="5" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="MH1" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="2" x="25.4" y="-5.08" length="middle" rot="R180"/>
-<pin name="MH3" x="0" y="-5.08" length="middle"/>
+<symbol name="SJ-3523-SMT-TR">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="SLEEVE" x="0" y="0" length="middle"/>
+<pin name="TIP" x="0" y="-2.54" length="middle"/>
+<pin name="RING" x="30.48" y="0" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -681,30 +675,27 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PAM8403DR.pdf
 </device>
 </devices>
 </deviceset>
-<deviceset name="STX-3120-3BM" prefix="J">
-<description>&lt;b&gt;Phone Connectors 3.5mm PCB MONO JACK 3P W/SWITCH BLACK&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="SJ-3523-SMT-TR" prefix="J">
+<description>&lt;b&gt;Phone Connectors Audio Jacks&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.de/datasheet/2/670/sj_352x_smt-1779397.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="STX-3120-3BM" x="0" y="0"/>
+<gate name="G$1" symbol="SJ-3523-SMT-TR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="STX31203BM">
+<device name="" package="SJ3523SMTTR">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="MH1" pad="6"/>
-<connect gate="G$1" pin="MH2" pad="4"/>
-<connect gate="G$1" pin="MH3" pad="3"/>
+<connect gate="G$1" pin="RING" pad="3"/>
+<connect gate="G$1" pin="SLEEVE" pad="1"/>
+<connect gate="G$1" pin="TIP" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Phone Connectors 3.5mm PCB MONO JACK 3P W/SWITCH BLACK" constant="no"/>
-<attribute name="HEIGHT" value="10mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Kycon" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="STX-3120-3BM" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="806-STX-3120-3BM" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kycon/STX-3120-3BM?qs=UDNZyWnowiEwFg0zQD1l8Q%3D%3D" constant="no"/>
+<attribute name="DESCRIPTION" value="Phone Connectors Audio Jacks" constant="no"/>
+<attribute name="HEIGHT" value="5.2mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="CUI Devices" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SJ-3523-SMT-TR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="490-SJ-3523-SMT-TR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ-3523-SMT-TR?qs=WyjlAZoYn51zOHzJ3r4ZRA%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -744,11 +735,11 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <part name="AGND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="J1" library="MouserUseful" deviceset="STX-3120-3BM" device=""/>
 <part name="AGND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="J2" library="CommonParts" deviceset="S2B-NSHSS-TB" device=""/>
 <part name="J3" library="CommonParts" deviceset="S2B-NSHSS-TB" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
+<part name="J4" library="MouserUseful" deviceset="SJ-3523-SMT-TR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -818,10 +809,6 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <instance part="AGND16" gate="VR1" x="63.5" y="44.45" smashed="yes" rot="R90">
 <attribute name="VALUE" x="68.58" y="41.91" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J1" gate="G$1" x="71.12" y="20.32" smashed="yes">
-<attribute name="NAME" x="92.71" y="27.94" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="92.71" y="25.4" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="AGND17" gate="VR1" x="67.31" y="8.89" smashed="yes">
 <attribute name="VALUE" x="64.77" y="6.35" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -836,6 +823,10 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <instance part="JP1" gate="A" x="35.56" y="10.16" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.355" y="16.51" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="25.4" y="16.51" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="J4" gate="G$1" x="78.74" y="17.78" smashed="yes">
+<attribute name="NAME" x="105.41" y="25.4" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="105.41" y="22.86" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -892,14 +883,14 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <wire x1="60.96" y1="44.45" x2="57.15" y2="44.45" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="AGND17" gate="VR1" pin="AGND"/>
-<wire x1="71.12" y1="17.78" x2="67.31" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="67.31" y1="17.78" x2="67.31" y2="11.43" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="43.18" y1="12.7" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="17.78" x2="67.31" y2="17.78" width="0.1524" layer="91"/>
 <junction x="67.31" y="17.78"/>
+<pinref part="J4" gate="G$1" pin="SLEEVE"/>
+<wire x1="78.74" y1="17.78" x2="67.31" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INR" class="0">
@@ -909,12 +900,16 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <label x="133.35" y="82.55" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="96.52" y1="20.32" x2="105.41" y2="20.32" width="0.1524" layer="91"/>
-<label x="100.33" y="20.32" size="1.778" layer="95"/>
+<label x="40.64" y="24.13" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<label x="40.64" y="24.13" size="1.778" layer="95" rot="R90"/>
+<pinref part="J4" gate="G$1" pin="RING"/>
+<wire x1="109.22" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
+<label x="114.3" y="17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="40.64" y1="12.7" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -962,12 +957,16 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <label x="46.99" y="80.01" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="15.24" x2="105.41" y2="15.24" width="0.1524" layer="91"/>
-<label x="100.33" y="15.24" size="1.778" layer="95"/>
+<label x="38.1" y="24.13" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<label x="38.1" y="24.13" size="1.778" layer="95" rot="R90"/>
+<pinref part="J4" gate="G$1" pin="TIP"/>
+<wire x1="78.74" y1="15.24" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
+<label x="71.12" y="15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="38.1" y1="12.7" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUT_L+" class="0">
@@ -1088,18 +1087,6 @@ Source: &lt;a href="http://www.kycon.com/Pub_Eng_Draw/STX-3120-3BM.PDF"&gt; Data
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="133.35" y1="99.06" x2="133.35" y2="92.71" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="38.1" y1="12.7" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="40.64" y1="12.7" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
