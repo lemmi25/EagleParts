@@ -270,6 +270,7 @@ UsedLibrary="/Users/moritzbosenberg/Desktop/GIT/EagleParts/libraries/NixieTube.l
 UsedLibrary="/Users/moritzbosenberg/Desktop/GIT/EagleParts/libraries/CommonParts.lbr"
 UsedLibrary="/Users/moritzbosenberg/Desktop/GIT/EagleParts/libraries/74xx-eu.lbr"
 UsedLibrary="/Users/moritzbosenberg/Desktop/GIT/EagleParts/libraries/USB_pcb_connectors.lbr"
+UsedLibrary="/Users/moritzbosenberg/Desktop/ERJL1WKF50MU.lbr"
 
 [Desktop]
 Screen="3440 1440"

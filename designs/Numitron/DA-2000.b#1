@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
@@ -104,7 +104,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:zxByGPeDTTmzeMC_mANCgQ" pcbguid="dd0ac9d7-3679-44e5-9a9d-285f126179b4" lastpulledtime="" lastsyncedchangeguid="0833988a-dd53-323c-0f01-a5e3a79e4481" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="11e0e7c4-4ee3-2fa4-bd43-3226d32d26c6" lastpushedtime="2020-12-12T16:42:34Z" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:zxByGPeDTTmzeMC_mANCgQ" pcbguid="dd0ac9d7-3679-44e5-9a9d-285f126179b4" lastpulledtime="" lastsyncedchangeguid="0833988a-dd53-323c-0f01-a5e3a79e4481" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="" lastpushedtime="" linktopcb3d="false"/>
 <plain>
 <wire x1="3.04" y1="98.19" x2="54.04" y2="98.19" width="0.1524" layer="20"/>
 <wire x1="54.04" y1="98.19" x2="59.04" y2="93.19" width="0.1524" layer="20" curve="-90"/>
@@ -862,8 +862,8 @@
 <rectangle x1="26.605" y1="48.7942" x2="28.1798" y2="48.845" layer="1" rot="R90"/>
 <rectangle x1="26.5542" y1="48.7942" x2="28.129" y2="48.845" layer="1" rot="R90"/>
 <rectangle x1="26.5542" y1="48.7942" x2="28.0274" y2="48.845" layer="1" rot="R90"/>
-<text x="58.21" y="43" size="2.1844" layer="1" font="vector" ratio="15" rot="R90">12/2020</text>
-<text x="58.21" y="43" size="2.1844" layer="29" font="vector" ratio="15" rot="R90">12/2020</text>
+<text x="58.21" y="43" size="2.1844" layer="1" font="vector" ratio="15" rot="R90">05/2020</text>
+<text x="58.21" y="43" size="2.1844" layer="29" font="vector" ratio="15" rot="R90">05/2020</text>
 <hole x="4" y="95" drill="2.8"/>
 <hole x="50" y="95" drill="2.8"/>
 <text x="11.8" y="93.65" size="2.54" layer="1" font="vector" ratio="10">Made</text>

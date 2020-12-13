@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -123,7 +123,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:Ri1lcShdSky3zJdAgSvN0A" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="8946dd5d-d268-4b6b-afb2-3a66a8f055a3" lastsyncedrevisionid="8946dd5d-d268-4b6b-afb2-3a66a8f055a3" lastboardhashguid="a3ee5601-4136-29e0-e85c-0bdcd154c6ba" lastpushedtime="2020-12-09T21:25:37Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:Ri1lcShdSky3zJdAgSvN0A" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="f11b23f6-c51d-45ad-a62d-f424a08db0b6" lastsyncedrevisionid="f11b23f6-c51d-45ad-a62d-f424a08db0b6" lastboardhashguid="180eee90-338f-847a-b516-b920cedae1f9" lastpushedtime="2020-12-13T17:01:01Z" linktopcb3d="true"/>
 <plain>
 <wire x1="231" y1="47.5" x2="231" y2="10" width="0" layer="20"/>
 <wire x1="231" y1="10" x2="221" y2="0" width="0" layer="20" curve="-90"/>
@@ -163,10 +163,87 @@
 <hole x="84.4" y="24.1" drill="2.8"/>
 <hole x="137.2" y="24.1" drill="2.8"/>
 <hole x="137.2" y="54.3" drill="2.8"/>
-<text x="142.5" y="18.5" size="0.8128" layer="26" align="center">3.3V</text>
-<text x="142.5" y="13.5" size="0.8128" layer="26" align="center">Rx</text>
-<text x="142.5" y="11" size="0.8128" layer="26" align="center">Tx</text>
-<text x="142.5" y="16" size="0.8128" layer="26" align="center">GND</text>
+<text x="140.5" y="18.5" size="0.8128" layer="26" align="center">3.3V</text>
+<text x="140.5" y="13.5" size="0.8128" layer="26" align="center">Rx</text>
+<text x="140.5" y="11" size="0.8128" layer="26" align="center">Tx</text>
+<text x="140.5" y="16" size="0.8128" layer="26" align="center">GND</text>
+<wire x1="99" y1="55" x2="99" y2="54" width="0" layer="20"/>
+<wire x1="99" y1="54" x2="102" y2="54" width="0" layer="20"/>
+<wire x1="102" y1="54" x2="102" y2="55" width="0" layer="20"/>
+<wire x1="102" y1="55" x2="99" y2="55" width="0" layer="20"/>
+<wire x1="99" y1="50" x2="99" y2="49" width="0" layer="20"/>
+<wire x1="99" y1="49" x2="102" y2="49" width="0" layer="20"/>
+<wire x1="102" y1="49" x2="102" y2="50" width="0" layer="20"/>
+<wire x1="102" y1="50" x2="99" y2="50" width="0" layer="20"/>
+<wire x1="120" y1="55" x2="123" y2="55" width="0" layer="20"/>
+<wire x1="123" y1="55" x2="123" y2="54" width="0" layer="20"/>
+<wire x1="123" y1="54" x2="120" y2="54" width="0" layer="20"/>
+<wire x1="120" y1="54" x2="120" y2="55" width="0" layer="20"/>
+<wire x1="120" y1="50" x2="123" y2="50" width="0" layer="20"/>
+<wire x1="123" y1="50" x2="123" y2="49" width="0" layer="20"/>
+<wire x1="123" y1="49" x2="120" y2="49" width="0" layer="20"/>
+<wire x1="120" y1="49" x2="120" y2="50" width="0" layer="20"/>
+<hole x="63" y="54.5" drill="3"/>
+<hole x="20" y="45" drill="2"/>
+<hole x="205" y="45" drill="2"/>
+<wire x1="36" y1="51" x2="39" y2="51" width="0" layer="20"/>
+<wire x1="39" y1="51" x2="39" y2="50" width="0" layer="20"/>
+<wire x1="39" y1="50" x2="36" y2="50" width="0" layer="20"/>
+<wire x1="36" y1="50" x2="36" y2="51" width="0" layer="20"/>
+<wire x1="36" y1="48" x2="39" y2="48" width="0" layer="20"/>
+<wire x1="39" y1="48" x2="39" y2="47" width="0" layer="20"/>
+<wire x1="39" y1="47" x2="36" y2="47" width="0" layer="20"/>
+<wire x1="36" y1="47" x2="36" y2="48" width="0" layer="20"/>
+<wire x1="186" y1="51" x2="189" y2="51" width="0" layer="20"/>
+<wire x1="189" y1="51" x2="189" y2="50" width="0" layer="20"/>
+<wire x1="189" y1="50" x2="186" y2="50" width="0" layer="20"/>
+<wire x1="186" y1="50" x2="186" y2="51" width="0" layer="20"/>
+<wire x1="186" y1="48" x2="189" y2="48" width="0" layer="20"/>
+<wire x1="189" y1="48" x2="189" y2="47" width="0" layer="20"/>
+<wire x1="189" y1="47" x2="186" y2="47" width="0" layer="20"/>
+<wire x1="186" y1="47" x2="186" y2="48" width="0" layer="20"/>
+<wire x1="92" y1="46" x2="95" y2="46" width="0" layer="20"/>
+<wire x1="95" y1="46" x2="95" y2="45" width="0" layer="20"/>
+<wire x1="95" y1="45" x2="92" y2="45" width="0" layer="20"/>
+<wire x1="92" y1="45" x2="92" y2="46" width="0" layer="20"/>
+<wire x1="92" y1="43" x2="95" y2="43" width="0" layer="20"/>
+<wire x1="95" y1="43" x2="95" y2="42" width="0" layer="20"/>
+<wire x1="95" y1="42" x2="92" y2="42" width="0" layer="20"/>
+<wire x1="92" y1="42" x2="92" y2="43" width="0" layer="20"/>
+<wire x1="130" y1="46" x2="133" y2="46" width="0" layer="20"/>
+<wire x1="133" y1="46" x2="133" y2="45" width="0" layer="20"/>
+<wire x1="133" y1="45" x2="130" y2="45" width="0" layer="20"/>
+<wire x1="130" y1="45" x2="130" y2="46" width="0" layer="20"/>
+<wire x1="130" y1="43" x2="133" y2="43" width="0" layer="20"/>
+<wire x1="133" y1="43" x2="133" y2="42" width="0" layer="20"/>
+<wire x1="133" y1="42" x2="130" y2="42" width="0" layer="20"/>
+<wire x1="130" y1="42" x2="130" y2="43" width="0" layer="20"/>
+<wire x1="111" y1="46" x2="114" y2="46" width="0" layer="20"/>
+<wire x1="114" y1="46" x2="114" y2="45" width="0" layer="20"/>
+<wire x1="114" y1="45" x2="111" y2="45" width="0" layer="20"/>
+<wire x1="111" y1="45" x2="111" y2="46" width="0" layer="20"/>
+<wire x1="111" y1="43" x2="114" y2="43" width="0" layer="20"/>
+<wire x1="114" y1="43" x2="114" y2="42" width="0" layer="20"/>
+<wire x1="114" y1="42" x2="111" y2="42" width="0" layer="20"/>
+<wire x1="111" y1="42" x2="111" y2="43" width="0" layer="20"/>
+<wire x1="66" y1="51" x2="69" y2="51" width="0" layer="20"/>
+<wire x1="69" y1="51" x2="69" y2="50" width="0" layer="20"/>
+<wire x1="69" y1="50" x2="66" y2="50" width="0" layer="20"/>
+<wire x1="66" y1="50" x2="66" y2="51" width="0" layer="20"/>
+<wire x1="66" y1="48" x2="69" y2="48" width="0" layer="20"/>
+<wire x1="69" y1="48" x2="69" y2="47" width="0" layer="20"/>
+<wire x1="69" y1="47" x2="66" y2="47" width="0" layer="20"/>
+<wire x1="66" y1="47" x2="66" y2="48" width="0" layer="20"/>
+<wire x1="156" y1="51" x2="159" y2="51" width="0" layer="20"/>
+<wire x1="159" y1="51" x2="159" y2="50" width="0" layer="20"/>
+<wire x1="159" y1="50" x2="156" y2="50" width="0" layer="20"/>
+<wire x1="156" y1="50" x2="156" y2="51" width="0" layer="20"/>
+<wire x1="156" y1="48" x2="159" y2="48" width="0" layer="20"/>
+<wire x1="159" y1="48" x2="159" y2="47" width="0" layer="20"/>
+<wire x1="159" y1="47" x2="156" y2="47" width="0" layer="20"/>
+<wire x1="156" y1="47" x2="156" y2="48" width="0" layer="20"/>
+<hole x="25" y="54" drill="2.8"/>
+<hole x="200" y="54" drill="2.8"/>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -1131,39 +1208,39 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="RADIO_CHIP" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X10" package3d_urn="urn:adsk.eagle:package:22406/2" value="" x="63" y="17" smashed="yes" rot="R180">
-<attribute name="NAME" x="63" y="20" size="0.8128" layer="25" ratio="10" rot="R180" align="center"/>
+<element name="RADIO_IC" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X10" package3d_urn="urn:adsk.eagle:package:22406/2" value="" x="63" y="17" smashed="yes" rot="R180">
+<attribute name="NAME" x="63" y="14.5" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="POPULARITY" value="35" x="36.33" y="32.24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="75.7" y="20.175" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X14" package3d_urn="urn:adsk.eagle:package:22417/2" value="" x="176.75" y="29.49" smashed="yes" rot="R90">
+<element name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X14" package3d_urn="urn:adsk.eagle:package:22417/2" value="" x="176.75" y="29.49" smashed="yes" rot="R90">
 <attribute name="POPULARITY" value="12" x="179.29" y="61.24" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="179.925" y="11.71" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="ESP32" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X14" package3d_urn="urn:adsk.eagle:package:22417/2" value="" x="150.75" y="29.49" smashed="yes" rot="R90">
-<attribute name="NAME" x="163.5" y="47.98" size="0.8128" layer="25" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="164" y="50.48" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="POPULARITY" value="12" x="159.64" y="61.24" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="153.925" y="11.71" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="AMPLIFIER" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X06" package3d_urn="urn:adsk.eagle:package:22472/2" value="" x="147.41" y="35.99" smashed="yes" rot="R90">
-<attribute name="NAME" x="145" y="36" size="0.8128" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="144.5" y="36" size="1.27" layer="26" ratio="10" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="79" x="169" y="57.58" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="150.585" y="28.37" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="CONTROL" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X06" package3d_urn="urn:adsk.eagle:package:22472/2" value="" x="113" y="32.44" smashed="yes" rot="R180">
-<attribute name="NAME" x="113" y="35.6112" size="0.8128" layer="26" ratio="10" rot="MR180" align="center"/>
+<attribute name="NAME" x="113" y="30.1112" size="1.27" layer="26" ratio="10" rot="MR180" align="center"/>
 <attribute name="POPULARITY" value="79" x="91.41" y="60.38" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="120.62" y="35.615" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="DISPLAY" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="84.4" y="39.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="81.8" y="39.2" size="0.8128" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="81.8" y="39.2" size="1.27" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="67" x="84.4" y="39.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="87.575" y="29.04" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="FLASH" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="145.41" y="15" smashed="yes" rot="R90">
-<attribute name="NAME" x="145.41" y="21" size="0.8128" layer="25" ratio="10" align="center"/>
-<attribute name="POPULARITY" value="91" x="145.41" y="15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="148.585" y="9.92" size="1.27" layer="27" rot="R90"/>
+<element name="PROG" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="143.41" y="15" smashed="yes" rot="R90">
+<attribute name="NAME" x="143.41" y="21.5" size="1.27" layer="25" ratio="10" align="center"/>
+<attribute name="POPULARITY" value="91" x="143.41" y="15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="146.585" y="9.92" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="STEREO" library="MouserUseful" package="SJ3523SMTTR" value="SJ-3523-SMT-TR" x="-3.3" y="13" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" value="Phone Connectors Audio Jacks" x="-3.3" y="13" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1174,57 +1251,57 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ-3523-SMT-TR?qs=WyjlAZoYn51zOHzJ3r4ZRA%3D%3D" x="-3.3" y="13" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="4" y="13" size="1.27" layer="25" rot="MR90" align="center"/>
 </element>
-<element name="POWER_MAIN" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="68.44" y="10.44" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.44" y="12.88" size="0.8128" layer="25" ratio="10" rot="R180" align="center"/>
+<element name="POWER" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="68.44" y="10.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="68.44" y="12.88" size="1.27" layer="26" ratio="10" rot="R180" align="center"/>
 <attribute name="POPULARITY" value="69" x="68.44" y="10.44" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="74.79" y="13.615" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="1" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="19" smashed="yes" rot="R180">
+<element name="LED5" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="19" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="LED  Blue/Green/Red 6-Pin PLCC T/R Cree CLY6D-FKC-CK1N1D1BB7D3D3, CLY6D-FKC Series RGB LED, 480 (Blue) nm, 540 (Green) nm, 624 (Red) nm PLCC 6" x="84" y="19" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="84" y="19" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="84" y="19" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="19" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="941-CLY6DFKCCK1N1D1B" x="84" y="19" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Cree-Inc/CLY6D-FKC-CK1N1D1BB7D3D3?qs=3ZbGupGMFUcwV8ee%2FC0TnQ%3D%3D" x="84" y="19" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="87.519" y="19" size="0.8128" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="79.519" y="19" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="2" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="15" smashed="yes" rot="R180">
+<element name="LED4" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="15" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="LED  Blue/Green/Red 6-Pin PLCC T/R Cree CLY6D-FKC-CK1N1D1BB7D3D3, CLY6D-FKC Series RGB LED, 480 (Blue) nm, 540 (Green) nm, 624 (Red) nm PLCC 6" x="84" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="84" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="84" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="941-CLY6DFKCCK1N1D1B" x="84" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Cree-Inc/CLY6D-FKC-CK1N1D1BB7D3D3?qs=3ZbGupGMFUcwV8ee%2FC0TnQ%3D%3D" x="84" y="15" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="87.519" y="15" size="0.8128" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="79.519" y="15" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="3" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="11" smashed="yes" rot="R180">
+<element name="LED3" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="11" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="LED  Blue/Green/Red 6-Pin PLCC T/R Cree CLY6D-FKC-CK1N1D1BB7D3D3, CLY6D-FKC Series RGB LED, 480 (Blue) nm, 540 (Green) nm, 624 (Red) nm PLCC 6" x="84" y="11" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="84" y="11" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="84" y="11" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="11" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="941-CLY6DFKCCK1N1D1B" x="84" y="11" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Cree-Inc/CLY6D-FKC-CK1N1D1BB7D3D3?qs=3ZbGupGMFUcwV8ee%2FC0TnQ%3D%3D" x="84" y="11" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="87.519" y="11" size="0.8128" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="79.519" y="11" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="4" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="7" smashed="yes" rot="R180">
+<element name="LED2" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="7" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="LED  Blue/Green/Red 6-Pin PLCC T/R Cree CLY6D-FKC-CK1N1D1BB7D3D3, CLY6D-FKC Series RGB LED, 480 (Blue) nm, 540 (Green) nm, 624 (Red) nm PLCC 6" x="84" y="7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="84" y="7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="84" y="7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="941-CLY6DFKCCK1N1D1B" x="84" y="7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Cree-Inc/CLY6D-FKC-CK1N1D1BB7D3D3?qs=3ZbGupGMFUcwV8ee%2FC0TnQ%3D%3D" x="84" y="7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="87.519" y="7" size="0.8128" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="79.519" y="7" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="5" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="3" smashed="yes" rot="R180">
+<element name="LED1" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="3" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="LED  Blue/Green/Red 6-Pin PLCC T/R Cree CLY6D-FKC-CK1N1D1BB7D3D3, CLY6D-FKC Series RGB LED, 480 (Blue) nm, 540 (Green) nm, 624 (Red) nm PLCC 6" x="84" y="3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="mm" x="84" y="3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="84" y="3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="941-CLY6DFKCCK1N1D1B" x="84" y="3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Cree-Inc/CLY6D-FKC-CK1N1D1BB7D3D3?qs=3ZbGupGMFUcwV8ee%2FC0TnQ%3D%3D" x="84" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="87.519" y="3" size="0.8128" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="79.519" y="3" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="IC1" library="MouserUseful" package="SOT95P280X145-5N" value="Analog Digital" x="58.7" y="5.3" smashed="yes" rot="MR0">
+<element name="IC4" library="MouserUseful" package="SOT95P280X145-5N" value="Analog Digital" x="58.7" y="5.3" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Analog to Digital Converters - ADC Automotive, 12-bit SAR ADC, I2C, single channel" x="58.7" y="5.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="HEIGHT" value="1.45mm" x="58.7" y="5.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Microchip" x="58.7" y="5.3" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1233,13 +1310,13 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP3221A6T-E-OTVAO?qs=5aG0NVq1C4xIe7K3D%2FHE6g%3D%3D" x="58.7" y="5.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="58.7" y="7.8" size="0.8128" layer="26" rot="MR0" align="center"/>
 </element>
-<element name="IC2" library="NixieTube" package="SO16" package3d_urn="urn:adsk.eagle:package:2010/1" value="74HC595D" x="52" y="32" smashed="yes" rot="MR270">
+<element name="IC1" library="NixieTube" package="SO16" package3d_urn="urn:adsk.eagle:package:2010/1" value="74HC595D" x="52" y="32" smashed="yes" rot="MR270">
 <attribute name="NAME" x="52.905" y="37.961" size="0.8128" layer="26" ratio="10" rot="MR0"/>
 </element>
-<element name="IC3" library="NixieTube" package="SO16" package3d_urn="urn:adsk.eagle:package:2010/1" value="74HC595D" x="63" y="32" smashed="yes" rot="MR270">
+<element name="IC2" library="NixieTube" package="SO16" package3d_urn="urn:adsk.eagle:package:2010/1" value="74HC595D" x="63" y="32" smashed="yes" rot="MR270">
 <attribute name="NAME" x="63.905" y="37.961" size="0.8128" layer="26" ratio="10" rot="MR0"/>
 </element>
-<element name="IC4" library="NixieTube" package="SO16" package3d_urn="urn:adsk.eagle:package:2010/1" value="74HC595D" x="74" y="32" smashed="yes" rot="MR270">
+<element name="IC3" library="NixieTube" package="SO16" package3d_urn="urn:adsk.eagle:package:2010/1" value="74HC595D" x="74" y="32" smashed="yes" rot="MR270">
 <attribute name="NAME" x="74.905" y="37.961" size="0.8128" layer="26" ratio="10" rot="MR0"/>
 </element>
 <element name="ON/OFF" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="-1" y="37.3" smashed="yes" rot="R90">
@@ -1247,7 +1324,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="92" x="-1" y="37.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="2.175" y="33.49" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="D1" library="CommonParts" package="DIOM5436X330N" value="LSM115JE3_TR13" x="4" y="26" smashed="yes" rot="MR90">
+<element name="D4" library="CommonParts" package="DIOM5436X330N" value="LSM115JE3_TR13" x="4" y="26" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="Schottky Diodes &amp; Rectifiers Schottky" x="4" y="26" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="3.3mm" x="4" y="26" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Microsemi Corporation" x="4" y="26" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1256,7 +1333,7 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=494-LSM115JE3%2FTR13" x="4" y="26" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="7" y="26" size="0.8128" layer="26" rot="MR90" align="center"/>
 </element>
-<element name="POWER" library="MouserUseful" package="KMMXBSMT35SB30TR" value="KMMX-BSMT35S-B30TR" x="-3.1" y="26" smashed="yes" rot="MR90">
+<element name="ENERGY" library="MouserUseful" package="KMMXBSMT35SB30TR" value="KMMX-BSMT35S-B30TR" x="-3.1" y="26" smashed="yes" rot="MR90">
 <attribute name="DESCRIPTION" value="CONN RCPT USB MICRO B SMD RA" x="-3.1" y="26" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="HEIGHT" value="2.18mm" x="-3.1" y="26" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Kycon, Inc." x="-3.1" y="26" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1265,282 +1342,312 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="-3.1" y="26" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="4" y="26" size="1.27" layer="25" rot="MR90" align="center"/>
 </element>
-<element name="D2" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="-2" y="-2" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="-2" y="-2" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="-2" y="-2" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-2" y="-2" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="-2" y="-2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="-2" y="-2" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="-2" y="-2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-2" y="-2" size="1.27" layer="25" align="center"/>
+<element name="D11" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="110.5" y="36.5" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="110.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="110.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="110.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="110.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="110.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="110.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="110.5" y="39" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D3" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="-6" y="-6" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="-6" y="-6" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="-6" y="-6" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-6" y="-6" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="-6" y="-6" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="-6" y="-6" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="-6" y="-6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-6" y="-6" size="1.27" layer="25" align="center"/>
+<element name="D12" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="115.5" y="36.5" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="115.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="115.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="115.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="115.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="115.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="115.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="115.5" y="39" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D4" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="-10" y="-10" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="-10" y="-10" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="-10" y="-10" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-10" y="-10" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="-10" y="-10" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="-10" y="-10" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="-10" y="-10" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-10" y="-10" size="1.27" layer="25" align="center"/>
+<element name="D13" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="120.5" y="36.5" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="120.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="120.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="120.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="120.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="120.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="120.5" y="36.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="120.5" y="39" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D5" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="-14" y="-14" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="-14" y="-14" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="-14" y="-14" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-14" y="-14" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="-14" y="-14" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="-14" y="-14" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="-14" y="-14" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-14" y="-14" size="1.27" layer="25" align="center"/>
+<element name="D14" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="143.5" y="38.5" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="143.5" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="143.5" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="143.5" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="143.5" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="143.5" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="143.5" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="140.5" y="38.5" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D6" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="-14" y="-18" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="-18" y="-18" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="-18" y="-18" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-18" y="-18" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="-18" y="-18" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="-18" y="-18" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="-18" y="-18" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-14" y="-18" size="1.27" layer="25" align="center"/>
+<element name="D15" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="143.5" y="33.5" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="147.5" y="33.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="147.5" y="33.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="147.5" y="33.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="147.5" y="33.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="147.5" y="33.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="147.5" y="33.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="140.5" y="33.5" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D7" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="-18" y="-22" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="-18" y="-22" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="-18" y="-22" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-18" y="-22" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="-18" y="-22" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="-18" y="-22" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="-18" y="-22" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18" y="-22" size="1.27" layer="25" align="center"/>
+<element name="D16" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="67" y="6.5" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="67" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="67" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="67" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="67" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="67" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="67" y="6.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="67" y="4" size="0.8128" layer="25" align="center"/>
 </element>
-<element name="D8" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="-22" y="-26" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="-22" y="-26" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="-22" y="-26" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-22" y="-26" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="-22" y="-26" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="-22" y="-26" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="-22" y="-26" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-22" y="-26" size="1.27" layer="25" align="center"/>
+<element name="D17" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="147" y="12.5" smashed="yes">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="147" y="12.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="147" y="12.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="147" y="12.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="147" y="12.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="147" y="12.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="147" y="12.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="147" y="10" size="0.8128" layer="25" align="center"/>
 </element>
-<element name="D10" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="-22" y="-34" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="-26" y="-34" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="-26" y="-34" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-26" y="-34" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="-26" y="-34" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="-26" y="-34" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="-26" y="-34" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-22" y="-34" size="1.27" layer="25" align="center"/>
+<element name="D6" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="58" y="20.5" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="58" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="58" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="58" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="58" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="58" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="58" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="58" y="23" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D11" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="94" y="-8.5" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="90" y="-8.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="90" y="-8.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="90" y="-8.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="90" y="-8.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="90" y="-8.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="90" y="-8.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="94" y="-8.5" size="1.27" layer="25" align="center"/>
+<element name="D7" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="63" y="20.5" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="63" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="63" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="63" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="63" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="63" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="63" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="63" y="23" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D12" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="94" y="-12.5" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="90" y="-12.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="90" y="-12.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="90" y="-12.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="90" y="-12.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="90" y="-12.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="90" y="-12.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="94" y="-12.5" size="1.27" layer="25" align="center"/>
+<element name="D8" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="68" y="20.5" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="68" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="68" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="68" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="68" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="68" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="68" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="68" y="23" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D13" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="94" y="-16.5" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="90" y="-16.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="90" y="-16.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="90" y="-16.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="90" y="-16.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="90" y="-16.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="90" y="-16.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="94" y="-16.5" size="1.27" layer="25" align="center"/>
+<element name="D9" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="73" y="20.5" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="73" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="73" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="73" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="73" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="73" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="73" y="16.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="73" y="23" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D9" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="94" y="-20.5" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="90" y="-20.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="90" y="-20.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="90" y="-20.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="90" y="-20.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="90" y="-20.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="90" y="-20.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="94" y="-20.5" size="1.27" layer="25" align="center"/>
+<element name="D10" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="14" y="13" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="10" y="13" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="10" y="13" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="10" y="13" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="10" y="13" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="10" y="13" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="10" y="13" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="17" y="13" size="0.8128" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="D14" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="94" y="-24.5" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="90" y="-24.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="90" y="-24.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="90" y="-24.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="90" y="-24.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="90" y="-24.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="90" y="-24.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="94" y="-24.5" size="1.27" layer="25" align="center"/>
+<element name="D5" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="3" y="37" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="-1" y="37" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="-1" y="37" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="-1" y="37" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="-1" y="37" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="-1" y="37" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="-1" y="37" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="6" y="37" size="0.8128" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="D15" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="94" y="-28.5" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="90" y="-28.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="90" y="-28.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="90" y="-28.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="90" y="-28.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="90" y="-28.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="90" y="-28.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="94" y="-28.5" size="1.27" layer="25" align="center"/>
+<element name="D18" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="173" y="14" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="177" y="14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="177" y="14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="177" y="14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="177" y="14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="177" y="14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="177" y="14" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="170" y="14" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D16" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="94" y="-32.5" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="86" y="-32.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="86" y="-32.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="86" y="-32.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="86" y="-32.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="86" y="-32.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="86" y="-32.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="94" y="-32.5" size="1.27" layer="25" align="center"/>
+<element name="D19" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="180.5" y="19.5" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="172.5" y="19.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="172.5" y="19.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="172.5" y="19.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="172.5" y="19.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="172.5" y="19.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="172.5" y="19.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="183.5" y="19.5" size="0.8128" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="D17" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="94" y="-36.5" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="82" y="-36.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="82" y="-36.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="82" y="-36.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="82" y="-36.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="82" y="-36.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="82" y="-36.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="94" y="-36.5" size="1.27" layer="25" align="center"/>
+<element name="D20" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="180.5" y="24.5" smashed="yes" rot="MR180">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="168.5" y="24.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="168.5" y="24.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="168.5" y="24.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="168.5" y="24.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="168.5" y="24.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="168.5" y="24.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="183.5" y="24.5" size="0.8128" layer="26" rot="MR180" align="center"/>
 </element>
-<element name="D18" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="94" y="-40.5" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="78" y="-40.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="78" y="-40.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="78" y="-40.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="78" y="-40.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="78" y="-40.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="78" y="-40.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="94" y="-40.5" size="1.27" layer="25" align="center"/>
+<element name="D21" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="173" y="29.5" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="189" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="189" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="189" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="189" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="189" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="189" y="29.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="170" y="29.5" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D19" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="94" y="-44.5" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="74" y="-44.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="74" y="-44.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="74" y="-44.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="74" y="-44.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="74" y="-44.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="74" y="-44.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="94" y="-44.5" size="1.27" layer="25" align="center"/>
+<element name="D22" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="173" y="34.5" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="193" y="34.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="193" y="34.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="193" y="34.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="193" y="34.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="193" y="34.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="193" y="34.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="170" y="34.5" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D20" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="94" y="-48.5" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="90" y="-48.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="90" y="-48.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="90" y="-48.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="90" y="-48.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="90" y="-48.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="90" y="-48.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="94" y="-48.5" size="1.27" layer="25" align="center"/>
+<element name="D23" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="173" y="39" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="177" y="39" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="177" y="39" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="177" y="39" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="177" y="39" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="177" y="39" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="177" y="39" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="170" y="39" size="0.8128" layer="25" align="center"/>
 </element>
-<element name="D21" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="94" y="-52.5" smashed="yes">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="86" y="-52.5" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="86" y="-52.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="86" y="-52.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="86" y="-52.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="86" y="-52.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="86" y="-52.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="94" y="-52.5" size="1.27" layer="25" align="center"/>
+<element name="D24" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="155" y="34.5" smashed="yes">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="147" y="34.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="147" y="34.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="147" y="34.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="147" y="34.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="147" y="34.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="147" y="34.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="158" y="34.5" size="0.8128" layer="25" align="center"/>
 </element>
-<element name="D22" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="165.7" y="-18" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="165.7" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="165.7" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="165.7" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="165.7" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="165.7" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="165.7" y="-6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="168.2" y="-18" size="1.27" layer="25" rot="R270" align="center"/>
+<element name="D25" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="155" y="29.5" smashed="yes">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="143" y="29.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="143" y="29.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="143" y="29.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="143" y="29.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="143" y="29.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="143" y="29.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="158" y="29.5" size="0.8128" layer="25" align="center"/>
 </element>
-<element name="D23" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="160.8" y="-18" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="160.8" y="-2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="160.8" y="-2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="160.8" y="-2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="160.8" y="-2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="160.8" y="-2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="160.8" y="-2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="163.3" y="-18" size="1.27" layer="25" rot="R270" align="center"/>
+<element name="D26" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="155" y="24.5" smashed="yes">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="139" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="139" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="139" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="139" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="139" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="139" y="24.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="158" y="24.5" size="0.8128" layer="25" align="center"/>
 </element>
-<element name="D24" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="160.3" y="8" smashed="yes" rot="R90">
+<element name="D27" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="160.3" y="8" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="160.3" y="-12" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="1.1mm" x="160.3" y="-12" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="160.3" y="-12" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="160.3" y="-12" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="160.3" y="-12" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="160.3" y="-12" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="157.8" y="8" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="160.3" y="10.5" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D25" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="165.3" y="8" smashed="yes" rot="R90">
+<element name="D28" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="165.3" y="8" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="165.3" y="4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="HEIGHT" value="1.1mm" x="165.3" y="4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Nexperia" x="165.3" y="4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="165.3" y="4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="165.3" y="4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="165.3" y="4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="162.8" y="8" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="165.3" y="10.5" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="D26" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="172.8" y="-6.2" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="172.8" y="-2.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="172.8" y="-2.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nexperia" x="172.8" y="-2.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="172.8" y="-2.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="172.8" y="-2.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="172.8" y="-2.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="175.3" y="-6.2" size="1.27" layer="25" rot="R270" align="center"/>
+<element name="D29" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="170.5" y="8" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="170.5" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="170.5" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="170.5" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="170.5" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="170.5" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="170.5" y="4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="170.5" y="10.5" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="GPIOS" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="162.7" y="4.4" smashed="yes">
-<attribute name="NAME" x="162.7" y="1.6288" size="1.27" layer="25" ratio="10" align="center"/>
-<attribute name="POPULARITY" value="91" x="162.7" y="4.4" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="157.62" y="1.225" size="1.27" layer="27"/>
+<element name="D3" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="88.5" y="32" smashed="yes">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="84" y="32" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="84" y="32" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="84" y="32" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="84" y="32" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="84" y="32" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="84" y="32" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="91.5" y="32" size="0.8128" layer="25" align="center"/>
+</element>
+<element name="D2" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="88.5" y="37" smashed="yes">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="80" y="37" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="80" y="37" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="80" y="37" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="80" y="37" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="80" y="37" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="80" y="37" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="91.5" y="37" size="0.8128" layer="25" align="center"/>
+</element>
+<element name="D1" library="MouserUseful" package="SOT95P230X110-3N" value="PESD3V3L2BT,215" x="88.5" y="42" smashed="yes">
+<attribute name="DESCRIPTION" value="ESD Suppressors / TVS Diodes" x="76" y="42" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="76" y="42" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" x="76" y="42" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PESD3V3L2BT,215" x="76" y="42" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PESD3V3L2BT-T/R" x="76" y="42" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L2BT215?qs=LOCUfHb8d9sJv74jXvbOZw%3D%3D" x="76" y="42" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="91.5" y="42" size="0.8128" layer="25" align="center"/>
+</element>
+<element name="GPIOS" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="167.9" y="4.3" smashed="yes">
+<attribute name="NAME" x="173.6638" y="7.1288" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="67" x="167.9" y="4.3" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="157.74" y="1.125" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
 <signal name="GND">
+<contactref element="IC1" pad="8"/>
 <contactref element="IC2" pad="8"/>
 <contactref element="IC3" pad="8"/>
-<contactref element="IC4" pad="8"/>
 <contactref element="ON/OFF" pad="1"/>
-<contactref element="FLASH" pad="3"/>
+<contactref element="PROG" pad="3"/>
 <contactref element="ESP32" pad="14"/>
-<contactref element="IC1" pad="2"/>
-<contactref element="POWER_MAIN" pad="2"/>
-<contactref element="D1" pad="2"/>
+<contactref element="IC4" pad="2"/>
+<contactref element="POWER" pad="2"/>
+<contactref element="D4" pad="2"/>
 <contactref element="AMPLIFIER" pad="6"/>
 <contactref element="STEREO" pad="1"/>
-<contactref element="RADIO_CHIP" pad="9"/>
-<contactref element="POWER" pad="5"/>
+<contactref element="RADIO_IC" pad="9"/>
+<contactref element="ENERGY" pad="5"/>
 <contactref element="CONTROL" pad="6"/>
 <contactref element="DISPLAY" pad="7"/>
-<contactref element="D6" pad="3"/>
-<contactref element="D5" pad="3"/>
-<contactref element="D4" pad="3"/>
-<contactref element="D3" pad="3"/>
-<contactref element="D2" pad="3"/>
+<contactref element="D15" pad="3"/>
+<contactref element="D14" pad="3"/>
 <contactref element="D13" pad="3"/>
 <contactref element="D12" pad="3"/>
 <contactref element="D11" pad="3"/>
-<contactref element="D10" pad="3"/>
 <contactref element="D9" pad="3"/>
-<contactref element="1" pad="1"/>
-<contactref element="5" pad="1"/>
-<contactref element="3" pad="1"/>
-<contactref element="3" pad="2"/>
-<contactref element="3" pad="3"/>
-<contactref element="4" pad="3"/>
-<contactref element="4" pad="2"/>
-<contactref element="4" pad="1"/>
-<contactref element="5" pad="3"/>
-<contactref element="5" pad="2"/>
-<contactref element="2" pad="1"/>
-<contactref element="2" pad="2"/>
-<contactref element="2" pad="3"/>
-<contactref element="1" pad="2"/>
-<contactref element="1" pad="3"/>
+<contactref element="D8" pad="3"/>
+<contactref element="D7" pad="3"/>
+<contactref element="D6" pad="3"/>
+<contactref element="D10" pad="3"/>
+<contactref element="LED5" pad="1"/>
+<contactref element="LED1" pad="1"/>
+<contactref element="LED3" pad="1"/>
+<contactref element="LED3" pad="2"/>
+<contactref element="LED3" pad="3"/>
+<contactref element="LED2" pad="3"/>
+<contactref element="LED2" pad="2"/>
+<contactref element="LED2" pad="1"/>
+<contactref element="LED1" pad="3"/>
+<contactref element="LED1" pad="2"/>
+<contactref element="LED4" pad="1"/>
+<contactref element="LED4" pad="2"/>
+<contactref element="LED4" pad="3"/>
+<contactref element="LED5" pad="2"/>
+<contactref element="LED5" pad="3"/>
+<contactref element="IC1" pad="13"/>
 <contactref element="IC2" pad="13"/>
 <contactref element="IC3" pad="13"/>
-<contactref element="IC4" pad="13"/>
+<contactref element="D29" pad="3"/>
+<contactref element="D28" pad="3"/>
+<contactref element="D27" pad="3"/>
 <contactref element="D26" pad="3"/>
 <contactref element="D25" pad="3"/>
 <contactref element="D24" pad="3"/>
@@ -1550,69 +1657,30 @@ design rules under a new name.</description>
 <contactref element="D20" pad="3"/>
 <contactref element="D19" pad="3"/>
 <contactref element="D18" pad="3"/>
-<contactref element="D17" pad="3"/>
 <contactref element="D16" pad="3"/>
-<contactref element="D15" pad="3"/>
-<contactref element="D7" pad="3"/>
-<contactref element="D8" pad="3"/>
-<contactref element="D14" pad="3"/>
-<wire x1="147.41" y1="42.34" x2="150.75" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="145.41" y1="16.27" x2="147.41" y2="42.34" width="0" layer="19" extent="1-1"/>
-<wire x1="160.3" y1="9.1" x2="145.41" y2="16.27" width="0" layer="19" extent="1-1"/>
-<wire x1="165.3" y1="9.1" x2="160.3" y2="9.1" width="0" layer="19" extent="1-1"/>
-<wire x1="172.8" y1="-7.3" x2="165.3" y2="9.1" width="0" layer="19" extent="1-1"/>
-<wire x1="165.7" y1="-19.1" x2="172.8" y2="-7.3" width="0" layer="19" extent="1-1"/>
-<wire x1="160.8" y1="-19.1" x2="165.7" y2="-19.1" width="0" layer="19" extent="1-1"/>
-<wire x1="106.65" y1="32.44" x2="147.41" y2="42.34" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="20.05" x2="106.65" y2="32.44" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="19" x2="85.7" y2="20.05" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="17.95" x2="85.7" y2="19" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="16.05" x2="85.7" y2="17.95" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="15" x2="85.7" y2="16.05" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="13.95" x2="85.7" y2="15" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="12.05" x2="85.7" y2="13.95" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="11" x2="85.7" y2="12.05" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="9.95" x2="85.7" y2="11" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="8.05" x2="85.7" y2="9.95" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="7" x2="85.7" y2="8.05" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="5.95" x2="85.7" y2="7" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="4.05" x2="85.7" y2="5.95" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="3" x2="85.7" y2="4.05" width="0" layer="19" extent="1-1"/>
-<wire x1="85.7" y1="1.95" x2="85.7" y2="3" width="0" layer="19" extent="1-1"/>
-<wire x1="77.0734" y1="27.555" x2="85.7" y2="20.05" width="0" layer="19" extent="1-16"/>
-<wire x1="70.9266" y1="32.635" x2="77.0734" y2="27.555" width="0" layer="19" extent="16-16"/>
+<contactref element="D17" pad="3"/>
+<contactref element="D5" pad="3"/>
+<contactref element="D1" pad="3"/>
+<contactref element="D2" pad="3"/>
+<contactref element="D3" pad="3"/>
+<contactref element="GPIOS" pad="8"/>
+<polygon width="0.508" layer="1">
+<vertex x="-5" y="0"/>
+<vertex x="-5" y="58"/>
+<vertex x="231" y="58"/>
+<vertex x="231" y="0"/>
+</polygon>
+<polygon width="0.508" layer="16">
+<vertex x="-5" y="58"/>
+<vertex x="231" y="58"/>
+<vertex x="231" y="0"/>
+<vertex x="-5" y="0"/>
+</polygon>
 <wire x1="66.0734" y1="27.555" x2="70.9266" y2="32.635" width="0" layer="19" extent="16-16"/>
-<wire x1="59.9266" y1="32.635" x2="66.0734" y2="27.555" width="0" layer="19" extent="16-16"/>
-<wire x1="55.0734" y1="27.555" x2="59.9266" y2="32.635" width="0" layer="19" extent="16-16"/>
+<wire x1="68" y1="21.6" x2="66.0734" y2="27.555" width="0" layer="19" extent="1-16"/>
+<wire x1="55.0734" y1="27.555" x2="58" y2="21.6" width="0" layer="19" extent="1-16"/>
+<wire x1="59.9266" y1="32.635" x2="55.0734" y2="27.555" width="0" layer="19" extent="16-16"/>
 <wire x1="48.9266" y1="32.635" x2="55.0734" y2="27.555" width="0" layer="19" extent="16-16"/>
-<wire x1="54.11" y1="17" x2="55.0734" y2="27.555" width="0" layer="19" extent="16-16"/>
-<wire x1="59.95" y1="5.3" x2="54.11" y2="17" width="0" layer="19" extent="16-16"/>
-<wire x1="70.98" y1="10.44" x2="59.95" y2="5.3" width="0" layer="19" extent="16-16"/>
-<wire x1="95.1" y1="-8.5" x2="85.7" y2="1.95" width="0" layer="19" extent="1-1"/>
-<wire x1="95.1" y1="-12.5" x2="95.1" y2="-8.5" width="0" layer="19" extent="1-1"/>
-<wire x1="95.1" y1="-16.5" x2="95.1" y2="-12.5" width="0" layer="19" extent="1-1"/>
-<wire x1="95.1" y1="-20.5" x2="95.1" y2="-16.5" width="0" layer="19" extent="1-1"/>
-<wire x1="95.1" y1="-24.5" x2="95.1" y2="-20.5" width="0" layer="19" extent="1-1"/>
-<wire x1="95.1" y1="-28.5" x2="95.1" y2="-24.5" width="0" layer="19" extent="1-1"/>
-<wire x1="95.1" y1="-32.5" x2="95.1" y2="-28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="95.1" y1="-36.5" x2="95.1" y2="-32.5" width="0" layer="19" extent="1-1"/>
-<wire x1="95.1" y1="-40.5" x2="95.1" y2="-36.5" width="0" layer="19" extent="1-1"/>
-<wire x1="95.1" y1="-44.5" x2="95.1" y2="-40.5" width="0" layer="19" extent="1-1"/>
-<wire x1="95.1" y1="-48.5" x2="95.1" y2="-44.5" width="0" layer="19" extent="1-1"/>
-<wire x1="95.1" y1="-52.5" x2="95.1" y2="-48.5" width="0" layer="19" extent="1-1"/>
-<wire x1="84.4" y1="45.55" x2="70.9266" y2="32.635" width="0" layer="19" extent="16-16"/>
-<wire x1="4" y1="28.2" x2="48.9266" y2="32.635" width="0" layer="19" extent="16-16"/>
-<wire x1="-0.425" y1="27.3" x2="4" y2="28.2" width="0" layer="19" extent="16-16"/>
-<wire x1="-1" y1="34.76" x2="-0.425" y2="27.3" width="0" layer="19" extent="16-16"/>
-<wire x1="-0.9" y1="16.7" x2="-0.425" y2="27.3" width="0" layer="19" extent="16-16"/>
-<wire x1="-0.9" y1="-2" x2="-0.9" y2="16.7" width="0" layer="19" extent="1-16"/>
-<wire x1="-4.9" y1="-6" x2="-0.9" y2="-2" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.9" y1="-10" x2="-4.9" y2="-6" width="0" layer="19" extent="1-1"/>
-<wire x1="-12.9" y1="-14" x2="-8.9" y2="-10" width="0" layer="19" extent="1-1"/>
-<wire x1="-12.9" y1="-18" x2="-12.9" y2="-14" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.9" y1="-22" x2="-12.9" y2="-18" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.9" y1="-26" x2="-16.9" y2="-22" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.9" y1="-34" x2="-20.9" y2="-26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <wire x1="8" y1="52" x2="8" y2="44" width="0.8128" layer="1"/>
@@ -1638,138 +1706,314 @@ design rules under a new name.</description>
 </signal>
 <signal name="3.3V">
 <contactref element="ON/OFF" pad="3"/>
-<contactref element="FLASH" pad="4"/>
+<contactref element="PROG" pad="4"/>
 <contactref element="ESP32" pad="13"/>
-<contactref element="IC1" pad="1"/>
-<contactref element="POWER_MAIN" pad="5"/>
+<contactref element="IC4" pad="1"/>
+<contactref element="POWER" pad="5"/>
 <contactref element="AMPLIFIER" pad="1"/>
-<contactref element="RADIO_CHIP" pad="10"/>
+<contactref element="RADIO_IC" pad="10"/>
 <contactref element="CONTROL" pad="3"/>
 <contactref element="DISPLAY" pad="8"/>
-<contactref element="D3" pad="1"/>
-<contactref element="D14" pad="1"/>
-<contactref element="IC4" pad="16"/>
+<contactref element="D12" pad="1"/>
 <contactref element="IC3" pad="16"/>
 <contactref element="IC2" pad="16"/>
+<contactref element="IC1" pad="16"/>
+<contactref element="IC1" pad="10"/>
 <contactref element="IC2" pad="10"/>
 <contactref element="IC3" pad="10"/>
-<contactref element="IC4" pad="10"/>
-<wire x1="147.41" y1="29.64" x2="150.75" y2="43.46" width="0" layer="19" extent="1-1"/>
-<wire x1="145.41" y1="18.81" x2="147.41" y2="29.64" width="0" layer="19" extent="1-1"/>
-<wire x1="114.27" y1="32.44" x2="147.41" y2="29.64" width="0" layer="19" extent="1-1"/>
-<wire x1="84.4" y1="48.09" x2="114.27" y2="32.44" width="0" layer="19" extent="1-1"/>
-<wire x1="70.9266" y1="36.445" x2="84.4" y2="48.09" width="0" layer="19" extent="16-16"/>
-<wire x1="70.9266" y1="28.825" x2="70.9266" y2="36.445" width="0" layer="19" extent="16-16"/>
-<wire x1="59.9266" y1="36.445" x2="70.9266" y2="36.445" width="0" layer="19" extent="16-16"/>
-<wire x1="59.9266" y1="28.825" x2="59.9266" y2="36.445" width="0" layer="19" extent="16-16"/>
-<wire x1="48.9266" y1="36.445" x2="59.9266" y2="36.445" width="0" layer="19" extent="16-16"/>
-<wire x1="48.9266" y1="28.825" x2="48.9266" y2="36.445" width="0" layer="19" extent="16-16"/>
-<wire x1="51.57" y1="17" x2="48.9266" y2="28.825" width="0" layer="19" extent="16-16"/>
-<wire x1="63.36" y1="10.44" x2="51.57" y2="17" width="0" layer="19" extent="1-1"/>
-<wire x1="59.95" y1="6.25" x2="63.36" y2="10.44" width="0" layer="19" extent="16-16"/>
-<wire x1="-1" y1="39.84" x2="48.9266" y2="36.445" width="0" layer="19" extent="16-16"/>
-<wire x1="-7.1" y1="-5.05" x2="-1" y2="39.84" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-23.55" x2="-7.1" y2="-5.05" width="0" layer="19" extent="1-1"/>
+<contactref element="D5" pad="2"/>
+<wire x1="114.55" y1="35.4" x2="114.55" y2="35.2" width="0.1524" layer="1"/>
+<wire x1="114.55" y1="35.2" x2="114.55" y2="32.72" width="0.1524" layer="1"/>
+<wire x1="59.95" y1="6.25" x2="62.25" y2="6.25" width="0.508" layer="16"/>
+<wire x1="63.36" y1="7.36" x2="63.36" y2="10.44" width="0.508" layer="16"/>
+<wire x1="62.25" y1="6.25" x2="63.36" y2="7.36" width="0.508" layer="16"/>
+<wire x1="63.36" y1="10.44" x2="62.96" y2="10.44" width="0.508" layer="16"/>
+<wire x1="62.96" y1="10.44" x2="61.998990625" y2="11.401009375" width="0.508" layer="16"/>
+<via x="61.998990625" y="11.401009375" extent="1-16" drill="0.35"/>
+<wire x1="61.998990625" y1="11.401009375" x2="59.498990625" y2="11.401009375" width="0.508" layer="1"/>
+<wire x1="54.2068" y1="11.8" x2="54.2" y2="11.8068" width="0.508" layer="1"/>
+<via x="54.2" y="11.8068" extent="1-16" drill="0.35"/>
+<wire x1="54.2" y1="11.8068" x2="51.57" y2="14.4368" width="0.508" layer="16"/>
+<wire x1="51.57" y1="14.4368" x2="51.57" y2="17" width="0.508" layer="16"/>
+<wire x1="59.498990625" y1="11.401009375" x2="59.1" y2="11.8" width="0.508" layer="1"/>
+<wire x1="59.1" y1="11.8" x2="54.2068" y2="11.8" width="0.508" layer="1"/>
+<wire x1="51.57" y1="17" x2="48.9" y2="19.67" width="0.508" layer="1"/>
+<wire x1="48.9" y1="19.67" x2="48.9" y2="28.8" width="0.508" layer="1"/>
+<via x="48.9" y="37.5" extent="1-16" drill="0.35"/>
+<wire x1="48.9" y1="28.8" x2="48.9" y2="37.5" width="0.508" layer="1"/>
+<wire x1="48.9" y1="37.5" x2="48.9266" y2="37.4734" width="0.508" layer="16"/>
+<wire x1="48.9266" y1="37.4734" x2="48.9266" y2="36.445" width="0.508" layer="16"/>
+<wire x1="70.9" y1="37.5" x2="59.9" y2="37.5" width="0.508" layer="16"/>
+<wire x1="48.9" y1="37.5" x2="59.9" y2="37.5" width="0.508" layer="16"/>
+<wire x1="70.9266" y1="36.445" x2="70.9" y2="36.4716" width="0.508" layer="16"/>
+<wire x1="70.9" y1="36.4716" x2="70.9" y2="37.5" width="0.508" layer="16"/>
+<wire x1="59.9266" y1="36.445" x2="59.9" y2="36.4716" width="0.508" layer="16"/>
+<wire x1="59.9" y1="36.4716" x2="59.9" y2="37.5" width="0.508" layer="16"/>
+<wire x1="48.9" y1="37.5" x2="59.9" y2="37.5" width="0.508" layer="1"/>
+<wire x1="59.9" y1="28.8516" x2="59.9" y2="37.5" width="0.508" layer="1"/>
+<wire x1="59.9266" y1="28.825" x2="59.9" y2="28.8516" width="0.508" layer="1"/>
+<via x="59.9266" y="28.825" extent="1-16" drill="0.35"/>
+<wire x1="59.9266" y1="28.825" x2="70.9266" y2="28.825" width="0.508" layer="1"/>
+<via x="70.9266" y="28.825" extent="1-16" drill="0.35"/>
+<wire x1="70.9" y1="37.5" x2="71.3" y2="37.9" width="0.508" layer="16"/>
+<wire x1="71.3" y1="37.9" x2="76.8" y2="37.9" width="0.508" layer="16"/>
+<via x="76.8" y="37.9" extent="1-16" drill="0.35"/>
+<wire x1="76.8" y1="37.9" x2="79.6" y2="40.7" width="0.508" layer="1"/>
+<wire x1="80.99" y1="48.09" x2="84.4" y2="48.09" width="0.508" layer="1"/>
+<wire x1="79.6" y1="40.7" x2="79.6" y2="45" width="0.508" layer="1"/>
+<wire x1="79.6" y1="45" x2="79.6" y2="46.7" width="0.508" layer="1"/>
+<wire x1="79.6" y1="46.7" x2="80.99" y2="48.09" width="0.508" layer="1"/>
+<wire x1="84.4" y1="48.09" x2="105.61" y2="48.09" width="0.508" layer="1"/>
+<wire x1="105.61" y1="48.09" x2="108.2" y2="45.5" width="0.508" layer="1"/>
+<wire x1="108.2" y1="45.5" x2="108.2" y2="43.2" width="0.508" layer="1"/>
+<via x="108.2" y="43.2" extent="1-16" drill="0.35"/>
+<wire x1="108.2" y1="43.2" x2="108.2" y2="39.3" width="0.508" layer="16"/>
+<wire x1="108.8" y1="38.7" x2="112.6" y2="38.7" width="0.508" layer="16"/>
+<wire x1="112.6" y1="38.7" x2="113.2" y2="38.1" width="0.508" layer="16"/>
+<wire x1="113.2" y1="38.1" x2="113.2" y2="36.6" width="0.508" layer="16"/>
+<via x="113.2" y="36.6" extent="1-16" drill="0.35"/>
+<wire x1="113.2" y1="36.6" x2="114.55" y2="35.25" width="0.508" layer="1"/>
+<wire x1="114.55" y1="35.25" x2="114.55" y2="35.2" width="0.508" layer="1"/>
+<wire x1="108.2" y1="39.3" x2="108.8" y2="38.7" width="0.508" layer="16"/>
+<wire x1="114.55" y1="35.4" x2="114.55" y2="32.72" width="0.508" layer="1"/>
+<wire x1="114.55" y1="32.72" x2="114.27" y2="32.44" width="0.508" layer="1"/>
+<wire x1="114.27" y1="32.44" x2="114.27" y2="26.43" width="0.508" layer="1"/>
+<wire x1="115.1" y1="25.6" x2="115.3" y2="25.6" width="0.508" layer="1"/>
+<via x="115.3" y="25.6" extent="1-16" drill="0.35"/>
+<wire x1="115.3" y1="25.6" x2="135.3" y2="25.6" width="0.508" layer="16"/>
+<wire x1="135.3" y1="25.6" x2="136.5" y2="26.8" width="0.508" layer="16"/>
+<wire x1="136.5" y1="26.8" x2="139.3" y2="26.8" width="0.508" layer="16"/>
+<wire x1="143.41" y1="22.69" x2="143.41" y2="18.81" width="0.508" layer="16"/>
+<wire x1="114.27" y1="26.43" x2="115.1" y2="25.6" width="0.508" layer="1"/>
+<wire x1="139.3" y1="26.8" x2="143.41" y2="22.69" width="0.508" layer="16"/>
+<wire x1="147.41" y1="29.64" x2="147.41" y2="26.91" width="0.508" layer="16"/>
+<wire x1="147.41" y1="26.91" x2="147.4" y2="26.9" width="0.508" layer="16"/>
+<via x="147.4" y="26.9" extent="1-16" drill="0.35"/>
+<wire x1="147.4" y1="26.9" x2="147.4" y2="22.8" width="0.508" layer="1"/>
+<wire x1="147.4" y1="22.8" x2="143.41" y2="18.81" width="0.508" layer="1"/>
+<wire x1="147.4" y1="26.9" x2="141.5" y2="26.9" width="0.508" layer="1"/>
+<wire x1="139.4" y1="29" x2="139.4" y2="39.5" width="0.508" layer="1"/>
+<wire x1="139.4" y1="39.5" x2="144.5" y2="44.6" width="0.508" layer="1"/>
+<wire x1="149.34" y1="43.46" x2="150.75" y2="43.46" width="0.508" layer="1"/>
+<wire x1="141.5" y1="26.9" x2="139.4" y2="29" width="0.508" layer="1"/>
+<wire x1="144.5" y1="44.6" x2="148.2" y2="44.6" width="0.508" layer="1"/>
+<wire x1="148.2" y1="44.6" x2="149.34" y2="43.46" width="0.508" layer="1"/>
+<contactref element="GPIOS" pad="7"/>
+<wire x1="143.41" y1="18.81" x2="138.3" y2="13.7" width="0.508" layer="1"/>
+<wire x1="138.3" y1="13.7" x2="138.3" y2="4.9" width="0.508" layer="1"/>
+<wire x1="142.2" y1="1" x2="155" y2="1" width="0.508" layer="1"/>
+<via x="155" y="1" extent="1-16" drill="0.35"/>
+<wire x1="155" y1="1" x2="155.7" y2="1.7" width="0.508" layer="16"/>
+<wire x1="174.25" y1="2.35" x2="174.25" y2="4.3" width="0.508" layer="16"/>
+<wire x1="138.3" y1="4.9" x2="142.2" y2="1" width="0.508" layer="1"/>
+<wire x1="155.7" y1="1.7" x2="173.6" y2="1.7" width="0.508" layer="16"/>
+<wire x1="173.6" y1="1.7" x2="174.25" y2="2.35" width="0.508" layer="16"/>
+<via x="48.9266" y="28.825" extent="1-16" drill="0.35"/>
+<wire x1="48.9266" y1="28.825" x2="48.9016" y2="28.8" width="0.508" layer="1"/>
+<wire x1="48.9016" y1="28.8" x2="48.9" y2="28.8" width="0.508" layer="1"/>
+<wire x1="79.6" y1="45" x2="77.6" y2="43" width="0.508" layer="1"/>
+<via x="7" y="39" extent="1-16" drill="0.35"/>
+<wire x1="7" y1="39" x2="5.95" y2="37.95" width="0.508" layer="16"/>
+<wire x1="5.95" y1="37.95" x2="1.9" y2="37.95" width="0.508" layer="16"/>
+<wire x1="77.6" y1="43" x2="30" y2="43" width="0.508" layer="1"/>
+<wire x1="30" y1="43" x2="25" y2="48" width="0.508" layer="1"/>
+<wire x1="25" y1="48" x2="16" y2="48" width="0.508" layer="1"/>
+<wire x1="16" y1="48" x2="7" y2="39" width="0.508" layer="1"/>
+<wire x1="1.9" y1="37.95" x2="1" y2="38.85" width="0.508" layer="16"/>
+<wire x1="1" y1="38.85" x2="1" y2="40" width="0.508" layer="16"/>
+<wire x1="1" y1="40" x2="-0.84" y2="40" width="0.508" layer="16"/>
+<wire x1="-0.84" y1="40" x2="-1" y2="39.84" width="0.508" layer="16"/>
 </signal>
 <signal name="EN">
 <contactref element="ON/OFF" pad="2"/>
-<contactref element="POWER_MAIN" pad="4"/>
-<contactref element="D7" pad="2"/>
-<contactref element="D14" pad="2"/>
-<wire x1="-19.1" y1="-22.95" x2="92.9" y2="-25.45" width="0" layer="19" extent="1-1"/>
-<wire x1="-1" y1="37.3" x2="-19.1" y2="-22.95" width="0" layer="19" extent="1-1"/>
-<wire x1="65.9" y1="10.44" x2="-1" y2="37.3" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="TXDO">
-<contactref element="FLASH" pad="1"/>
-<contactref element="D8" pad="2"/>
-<wire x1="-23.1" y1="-26.95" x2="145.41" y2="11.19" width="0" layer="19" extent="1-1"/>
+<contactref element="POWER" pad="4"/>
+<contactref element="D16" pad="2"/>
+<contactref element="D5" pad="1"/>
+<wire x1="66.05" y1="7.6" x2="65.9" y2="7.75" width="0.1524" layer="1"/>
+<wire x1="65.9" y1="7.75" x2="65.9" y2="10.44" width="0.1524" layer="1"/>
+<wire x1="-1" y1="37.3" x2="0.65" y2="37.3" width="0.1524" layer="16"/>
+<wire x1="0.65" y1="37.3" x2="1.9" y2="36.05" width="0.1524" layer="16"/>
+<wire x1="66.05" y1="7.6" x2="61.2" y2="7.6" width="0.1524" layer="1"/>
+<via x="52.2" y="11.2" extent="1-16" drill="0.35"/>
+<wire x1="52.2" y1="11.2" x2="38.1" y2="11.2" width="0.1524" layer="16"/>
+<wire x1="6.5" y1="24.3" x2="6.5" y2="34.4" width="0.1524" layer="16"/>
+<wire x1="6.5" y1="34.4" x2="4.85" y2="36.05" width="0.1524" layer="16"/>
+<wire x1="4.85" y1="36.05" x2="1.9" y2="36.05" width="0.1524" layer="16"/>
+<wire x1="61.2" y1="7.6" x2="57.6" y2="11.2" width="0.1524" layer="1"/>
+<wire x1="57.6" y1="11.2" x2="52.2" y2="11.2" width="0.1524" layer="1"/>
+<wire x1="38.1" y1="11.2" x2="34.1" y2="15.2" width="0.1524" layer="16"/>
+<wire x1="34.1" y1="15.2" x2="15.6" y2="15.2" width="0.1524" layer="16"/>
+<wire x1="15.6" y1="15.2" x2="6.5" y2="24.3" width="0.1524" layer="16"/>
 </signal>
 <signal name="IO12">
 <contactref element="ESP32" pad="2"/>
-<contactref element="GPIOS" pad="3"/>
-<contactref element="D25" pad="1"/>
-<wire x1="164.35" y1="6.9" x2="164.35" y2="4.78" width="0.1524" layer="1"/>
-<wire x1="164.35" y1="4.78" x2="163.97" y2="4.4" width="0.1524" layer="1" curve="-90"/>
-<wire x1="163.97" y1="4.4" x2="161.1604" y2="1.5904" width="0.1524" layer="1" curve="-90"/>
-<wire x1="161.1604" y1="1.5904" x2="157.2" y2="1.5904" width="0.1524" layer="1"/>
+<contactref element="D28" pad="1"/>
+<wire x1="164.35" y1="4.78" x2="164.35" y2="6.9" width="0.1524" layer="1"/>
+<wire x1="163.0904" y1="1.5904" x2="157.2" y2="1.5904" width="0.1524" layer="1"/>
 <wire x1="157.2" y1="1.5904" x2="154.5904" y2="4.2" width="0.1524" layer="1" curve="-90"/>
 <wire x1="151.512" y1="15.52" x2="150.75" y2="15.52" width="0.1524" layer="1"/>
 <wire x1="154.5904" y1="12.4416" x2="151.512" y2="15.52" width="0.1524" layer="1"/>
 <wire x1="154.5904" y1="4.2" x2="154.5904" y2="12.4416" width="0.1524" layer="1"/>
+<wire x1="164.13" y1="4.56" x2="164.35" y2="4.78" width="0.1524" layer="1"/>
+<wire x1="163.0904" y1="1.5904" x2="164.13" y2="2.63" width="0.1524" layer="1"/>
+<contactref element="GPIOS" pad="3"/>
+<wire x1="164.13" y1="2.63" x2="164.13" y2="4.26" width="0.1524" layer="1"/>
+<wire x1="164.13" y1="4.26" x2="164.09" y2="4.3" width="0.1524" layer="1"/>
+<wire x1="164.09" y1="4.3" x2="164.13" y2="4.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IO14">
 <contactref element="ESP32" pad="3"/>
-<contactref element="GPIOS" pad="2"/>
-<contactref element="D24" pad="2"/>
-<wire x1="161.25" y1="6.9" x2="161.25" y2="4.58" width="0.1524" layer="1"/>
-<wire x1="161.25" y1="4.58" x2="161.43" y2="4.4" width="0.1524" layer="1" curve="90"/>
-<wire x1="161.43" y1="4.4" x2="158.9252" y2="1.8952" width="0.1524" layer="1" curve="-90"/>
-<wire x1="158.9252" y1="1.8952" x2="157.2" y2="1.8952" width="0.1524" layer="1"/>
-<wire x1="157.2" y1="1.8952" x2="154.8952" y2="4.2" width="0.1524" layer="1" curve="-90"/>
+<contactref element="D27" pad="2"/>
+<wire x1="161.25" y1="4.58" x2="161.25" y2="6.9" width="0.1524" layer="1"/>
+<wire x1="154.8952" y1="4.2" x2="157.2" y2="1.8952" width="0.1524" layer="1" curve="90"/>
 <wire x1="151.512" y1="18.06" x2="150.75" y2="18.06" width="0.1524" layer="1"/>
 <wire x1="154.8952" y1="14.6768" x2="151.512" y2="18.06" width="0.1524" layer="1"/>
 <wire x1="154.8952" y1="4.2" x2="154.8952" y2="14.6768" width="0.1524" layer="1"/>
+<wire x1="161.31" y1="4.58" x2="161.25" y2="4.58" width="0.1524" layer="1"/>
+<wire x1="157.2" y1="1.8952" x2="160.8952" y2="1.8952" width="0.1524" layer="1"/>
+<contactref element="GPIOS" pad="2"/>
+<wire x1="160.8952" y1="1.8952" x2="161.59" y2="2.59" width="0.1524" layer="1"/>
+<wire x1="161.59" y1="4.26" x2="161.59" y2="2.59" width="0.1524" layer="1"/>
+<wire x1="161.55" y1="4.3" x2="161.59" y2="4.26" width="0.1524" layer="1"/>
+<wire x1="161.55" y1="4.3" x2="161.31" y2="4.54" width="0.1524" layer="1"/>
+<wire x1="161.31" y1="4.54" x2="161.31" y2="4.58" width="0.1524" layer="1"/>
 </signal>
 <signal name="IO27">
 <contactref element="ESP32" pad="4"/>
-<contactref element="GPIOS" pad="1"/>
-<contactref element="D24" pad="1"/>
-<wire x1="159.35" y1="6.9" x2="159.35" y2="4.86" width="0.1524" layer="1"/>
-<wire x1="159.35" y1="4.86" x2="158.89" y2="4.4" width="0.1524" layer="1" curve="-90"/>
-<wire x1="158.89" y1="4.4" x2="158.89" y2="3.89" width="0.1524" layer="1"/>
+<contactref element="D27" pad="1"/>
+<wire x1="159.35" y1="4.86" x2="159.35" y2="6.9" width="0.1524" layer="1"/>
 <wire x1="158.89" y1="3.89" x2="157.2" y2="2.2" width="0.1524" layer="1" curve="-90"/>
 <wire x1="157.2" y1="2.2" x2="155.2" y2="4.2" width="0.1524" layer="1" curve="-90"/>
 <wire x1="151.512" y1="20.6" x2="150.75" y2="20.6" width="0.1524" layer="1"/>
 <wire x1="155.2" y1="16.912" x2="151.512" y2="20.6" width="0.1524" layer="1"/>
 <wire x1="155.2" y1="4.2" x2="155.2" y2="16.912" width="0.1524" layer="1"/>
+<wire x1="159.05" y1="4.05" x2="159.01" y2="4.01" width="0.1524" layer="1"/>
+<contactref element="GPIOS" pad="1"/>
+<wire x1="159.01" y1="4.01" x2="158.89" y2="3.89" width="0.1524" layer="1"/>
+<wire x1="159.01" y1="4.3" x2="159.01" y2="4.01" width="0.1524" layer="1"/>
+<wire x1="159.01" y1="4.3" x2="159.01" y2="4.52" width="0.1524" layer="1"/>
+<wire x1="159.01" y1="4.52" x2="159.35" y2="4.86" width="0.1524" layer="1"/>
 </signal>
 <signal name="CS2">
 <contactref element="ESP32" pad="10"/>
+<contactref element="D24" pad="1"/>
+<wire x1="153.9" y1="35.45" x2="151.14" y2="35.45" width="0.1524" layer="1"/>
+<wire x1="151.14" y1="35.45" x2="150.75" y2="35.84" width="0.1524" layer="1"/>
 </signal>
 <signal name="SENSOR_VN">
 <contactref element="ESP32" pad="11"/>
-<contactref element="D26" pad="2"/>
-<wire x1="171.85" y1="-5.1" x2="150.75" y2="38.38" width="0" layer="19" extent="1-1"/>
+<contactref element="D29" pad="2"/>
+<wire x1="151.22" y1="38.85" x2="150.75" y2="38.38" width="0.1524" layer="1"/>
+<wire x1="165.17374375" y1="11.6" x2="163.8952" y2="12.87854375" width="0.1524" layer="1"/>
+<wire x1="160.5" y1="38.8" x2="151.27" y2="38.8" width="0.1524" layer="1"/>
+<wire x1="163.8952" y1="12.87854375" x2="163.8952" y2="35.4048" width="0.1524" layer="1"/>
+<wire x1="163.8952" y1="35.4048" x2="160.5" y2="38.8" width="0.1524" layer="1"/>
+<wire x1="151.27" y1="38.8" x2="151.22" y2="38.85" width="0.1524" layer="1"/>
+<contactref element="GPIOS" pad="6"/>
+<wire x1="171.71" y1="3.29" x2="171.71" y2="4.3" width="0.1524" layer="1"/>
+<wire x1="171.71" y1="3.29" x2="172.9" y2="2.1" width="0.1524" layer="1"/>
+<wire x1="171.45" y1="6.9" x2="171.71" y2="6.64" width="0.1524" layer="1"/>
+<wire x1="171.71" y1="6.64" x2="171.71" y2="4.3" width="0.1524" layer="1"/>
+<wire x1="178.5" y1="2.1" x2="179" y2="2.6" width="0.1524" layer="1"/>
+<wire x1="179" y1="2.6" x2="179" y2="8.2" width="0.1524" layer="1"/>
+<wire x1="179" y1="8.2" x2="175.6" y2="11.6" width="0.1524" layer="1"/>
+<wire x1="175.6" y1="11.6" x2="165.17374375" y2="11.6" width="0.1524" layer="1"/>
+<wire x1="172.9" y1="2.1" x2="178.5" y2="2.1" width="0.1524" layer="1"/>
 </signal>
 <signal name="SENSOR_VP">
 <contactref element="ESP32" pad="12"/>
-<contactref element="D26" pad="1"/>
-<wire x1="173.75" y1="-5.1" x2="150.75" y2="40.92" width="0" layer="19" extent="1-1"/>
+<contactref element="D29" pad="1"/>
+<wire x1="150.92" y1="40.75" x2="150.75" y2="40.92" width="0.1524" layer="1"/>
+<wire x1="169.55" y1="6.9" x2="169.55" y2="4.68" width="0.1524" layer="1"/>
+<wire x1="169.55" y1="4.68" x2="169.55" y2="4.64" width="0.1524" layer="1"/>
+<wire x1="165.3" y1="11.9048" x2="164.2" y2="13.0048" width="0.1524" layer="1"/>
+<wire x1="158.8262625" y1="40.9048" x2="150.7652" y2="40.9048" width="0.1524" layer="1"/>
+<wire x1="164.2" y1="13.0048" x2="164.2" y2="35.5310625" width="0.1524" layer="1"/>
+<wire x1="164.2" y1="35.5310625" x2="158.8262625" y2="40.9048" width="0.1524" layer="1"/>
+<wire x1="150.7652" y1="40.9048" x2="150.75" y2="40.92" width="0.1524" layer="1"/>
+<contactref element="GPIOS" pad="5"/>
+<wire x1="169.17" y1="4.3" x2="169.55" y2="4.68" width="0.1524" layer="1"/>
+<wire x1="169" y1="3" x2="170.2048" y2="1.7952" width="0.1524" layer="1"/>
+<wire x1="169" y1="3" x2="169" y2="4.13" width="0.1524" layer="1"/>
+<wire x1="169" y1="4.13" x2="169.17" y2="4.3" width="0.1524" layer="1"/>
+<wire x1="178.62625625" y1="1.7952" x2="179.3048" y2="2.47374375" width="0.1524" layer="1"/>
+<wire x1="179.3048" y1="8.32625625" x2="175.72625625" y2="11.9048" width="0.1524" layer="1"/>
+<wire x1="179.3048" y1="2.47374375" x2="179.3048" y2="8.32625625" width="0.1524" layer="1"/>
+<wire x1="175.72625625" y1="11.9048" x2="165.3" y2="11.9048" width="0.1524" layer="1"/>
+<wire x1="170.2048" y1="1.7952" x2="178.62625625" y2="1.7952" width="0.1524" layer="1"/>
 </signal>
 <signal name="IO13">
 <contactref element="ESP32" pad="1"/>
-<contactref element="GPIOS" pad="4"/>
-<contactref element="D25" pad="2"/>
-<wire x1="166.25" y1="6.9" x2="166.25" y2="4.66" width="0.1524" layer="1"/>
-<wire x1="166.25" y1="4.66" x2="166.51" y2="4.4" width="0.1524" layer="1" curve="90"/>
-<wire x1="166.51" y1="4.4" x2="163.3956" y2="1.2856" width="0.1524" layer="1" curve="-90"/>
-<wire x1="163.3956" y1="1.2856" x2="157.2" y2="1.2856" width="0.1524" layer="1"/>
-<wire x1="157.2" y1="1.2856" x2="154.2856" y2="4.2" width="0.1524" layer="1" curve="-90"/>
+<contactref element="D28" pad="2"/>
+<wire x1="166.25" y1="4.66" x2="166.25" y2="6.9" width="0.1524" layer="1"/>
+<wire x1="154.2856" y1="4.2" x2="157.2" y2="1.2856" width="0.1524" layer="1" curve="90"/>
 <wire x1="151.512" y1="12.98" x2="150.75" y2="12.98" width="0.1524" layer="1"/>
 <wire x1="154.2856" y1="4.2" x2="154.2856" y2="10.2064" width="0.1524" layer="1"/>
 <wire x1="154.2856" y1="10.2064" x2="151.512" y2="12.98" width="0.1524" layer="1"/>
+<wire x1="166.61" y1="4.3" x2="166.25" y2="4.66" width="0.1524" layer="1"/>
+<wire x1="166.61" y1="2.11" x2="166.61" y2="4" width="0.1524" layer="1"/>
+<wire x1="166.61" y1="4.28" x2="166.61" y2="4.3" width="0.1524" layer="1"/>
+<wire x1="157.2" y1="1.2856" x2="165.7856" y2="1.2856" width="0.1524" layer="1"/>
+<wire x1="165.7856" y1="1.2856" x2="166.61" y2="2.11" width="0.1524" layer="1"/>
+<contactref element="GPIOS" pad="4"/>
+<wire x1="166.63" y1="4.3" x2="166.61" y2="4.28" width="0.1524" layer="1"/>
+<wire x1="166.61" y1="4.28" x2="166.61" y2="4" width="0.1524" layer="1"/>
 </signal>
 <signal name="RXD0" class="1">
-<contactref element="JP3" pad="9"/>
-<contactref element="FLASH" pad="2"/>
-<contactref element="D8" pad="1"/>
-<contactref element="D19" pad="1"/>
-<wire x1="145.41" y1="13.73" x2="176.75" y2="33.3" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.1" y1="-25.05" x2="145.41" y2="13.73" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-43.55" x2="-23.1" y2="-25.05" width="0" layer="19" extent="1-1"/>
+<contactref element="JP5" pad="9"/>
+<contactref element="PROG" pad="2"/>
+<contactref element="D17" pad="1"/>
+<contactref element="D22" pad="1"/>
+<wire x1="145.9" y1="13.45" x2="143.69" y2="13.45" width="0.1524" layer="1"/>
+<wire x1="143.69" y1="13.45" x2="143.41" y2="13.73" width="0.1524" layer="1"/>
+<wire x1="174.1" y1="33.55" x2="176.5" y2="33.55" width="0.1524" layer="1"/>
+<wire x1="176.5" y1="33.55" x2="176.75" y2="33.3" width="0.1524" layer="1"/>
+<wire x1="143.41" y1="13.73" x2="144.46" y2="13.73" width="0.1524" layer="16"/>
+<wire x1="144.46" y1="13.73" x2="147.3574" y2="10.8326" width="0.1524" layer="16" curve="-90"/>
+<wire x1="147.3574" y1="10.8326" x2="147.3574" y2="9.7" width="0.1524" layer="16"/>
+<wire x1="147.3574" y1="9.7" x2="148.4574" y2="8.6" width="0.1524" layer="16" curve="90"/>
+<wire x1="156.56" y1="8.6" x2="159.1" y2="11.14" width="0.1524" layer="16" curve="90"/>
+<wire x1="159.1" y1="31.76" x2="161.9974" y2="34.6574" width="0.1524" layer="16" curve="-90"/>
+<wire x1="161.9974" y1="34.6574" x2="168.7" y2="34.6574" width="0.1524" layer="16"/>
+<wire x1="148.4574" y1="8.6" x2="156.56" y2="8.6" width="0.1524" layer="16"/>
+<wire x1="159.1" y1="11.14" x2="159.1" y2="31.76" width="0.1524" layer="16"/>
+<wire x1="168.7" y1="34.6574" x2="169.4" y2="35.3574" width="0.1524" layer="16"/>
+<wire x1="169.4" y1="35.3574" x2="170" y2="35.3574" width="0.1524" layer="16"/>
+<via x="170" y="35.3574" extent="1-16" drill="0.35"/>
+<wire x1="170" y1="35.3574" x2="170" y2="35.177325" width="0.1524" layer="1"/>
+<wire x1="171.627325" y1="33.55" x2="170" y2="35.177325" width="0.1524" layer="1"/>
+<wire x1="171.627325" y1="33.55" x2="174.1" y2="33.55" width="0.1524" layer="1"/>
 </signal>
 <signal name="TXD0" class="1">
-<contactref element="JP3" pad="10"/>
-<contactref element="D19" pad="2"/>
-<wire x1="92.9" y1="-45.45" x2="176.75" y2="35.84" width="0" layer="19" extent="1-1"/>
+<contactref element="JP5" pad="10"/>
+<contactref element="D22" pad="2"/>
+<wire x1="174.1" y1="35.45" x2="174.3" y2="35.45" width="0.1524" layer="1"/>
+<wire x1="174.3" y1="35.45" x2="176.36" y2="35.45" width="0.1524" layer="1"/>
+<wire x1="176.36" y1="35.45" x2="176.75" y2="35.84" width="0.1524" layer="1"/>
+<contactref element="PROG" pad="1"/>
+<contactref element="D17" pad="2"/>
+<wire x1="145.9" y1="11.55" x2="143.77" y2="11.55" width="0.1524" layer="1"/>
+<wire x1="143.77" y1="11.55" x2="143.41" y2="11.19" width="0.1524" layer="1"/>
+<wire x1="143.41" y1="11.19" x2="145.51" y2="11.19" width="0.1524" layer="16"/>
+<wire x1="145.51" y1="11.19" x2="147" y2="9.7" width="0.1524" layer="16" curve="-90"/>
+<wire x1="147" y1="9.7" x2="148.4574" y2="8.2426" width="0.1524" layer="16" curve="90"/>
+<wire x1="156.56" y1="8.2426" x2="159.4574" y2="11.14" width="0.1524" layer="16" curve="90"/>
+<wire x1="159.4574" y1="31.76" x2="161.9974" y2="34.3" width="0.1524" layer="16" curve="-90"/>
+<wire x1="161.9974" y1="34.3" x2="170.1" y2="34.3" width="0.1524" layer="16"/>
+<wire x1="148.4574" y1="8.2426" x2="156.56" y2="8.2426" width="0.1524" layer="16"/>
+<wire x1="159.4574" y1="11.14" x2="159.4574" y2="31.76" width="0.1524" layer="16"/>
+<wire x1="170.1" y1="34.3" x2="170.9614" y2="35.1614" width="0.1524" layer="16"/>
+<wire x1="170.9614" y1="35.1614" x2="170.9614" y2="35.4285375" width="0.1524" layer="16"/>
+<via x="170.9614" y="35.4285375" extent="1-16" drill="0.35"/>
+<wire x1="170.9614" y1="35.4285375" x2="174.2785375" y2="35.4285375" width="0.1524" layer="1"/>
+<wire x1="174.2785375" y1="35.4285375" x2="174.3" y2="35.45" width="0.1524" layer="1"/>
 </signal>
 <signal name="SCL">
-<contactref element="JP3" pad="11"/>
-<contactref element="IC1" pad="5"/>
-<contactref element="RADIO_CHIP" pad="6"/>
-<contactref element="D11" pad="1"/>
-<contactref element="D20" pad="1"/>
+<contactref element="JP5" pad="11"/>
+<contactref element="IC4" pad="5"/>
+<contactref element="RADIO_IC" pad="6"/>
+<contactref element="D7" pad="1"/>
+<contactref element="D23" pad="1"/>
 <wire x1="57.45" y1="6.25" x2="56.5452" y2="6.25" width="0.1524" layer="16"/>
 <wire x1="56.5452" y1="6.25" x2="55.5" y2="7.2952" width="0.1524" layer="16" curve="-90"/>
 <wire x1="55.5" y1="7.2952" x2="55.5" y2="9.86" width="0.1524" layer="16"/>
@@ -1795,60 +2039,196 @@ design rules under a new name.</description>
 <wire x1="183.1048" y1="9.34" x2="183.1048" y2="35.86" width="0.1524" layer="16"/>
 <wire x1="180.5648" y1="38.4" x2="176.77" y2="38.4" width="0.1524" layer="16"/>
 <wire x1="176.77" y1="38.4" x2="176.75" y2="38.38" width="0.1524" layer="16" curve="90"/>
-<wire x1="92.9" y1="-7.55" x2="92.9" y2="-47.55" width="0" layer="19" extent="1-1"/>
-<wire x1="57.45" y1="6.25" x2="92.9" y2="-7.55" width="0" layer="19" extent="1-16"/>
+<wire x1="174.1" y1="38.05" x2="176.42" y2="38.05" width="0.1524" layer="1"/>
+<wire x1="176.42" y1="38.05" x2="176.75" y2="38.38" width="0.1524" layer="1"/>
+<wire x1="62.05" y1="19.4" x2="62.05" y2="17.32" width="0.1524" layer="1"/>
+<wire x1="62.05" y1="17.32" x2="61.73" y2="17" width="0.1524" layer="1"/>
 </signal>
 <signal name="CS">
-<contactref element="JP3" pad="1"/>
+<contactref element="JP5" pad="1"/>
 <contactref element="DISPLAY" pad="4"/>
-<contactref element="D15" pad="1"/>
-<wire x1="84.4" y1="37.93" x2="176.75" y2="12.98" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-27.55" x2="84.4" y2="37.93" width="0" layer="19" extent="1-1"/>
+<contactref element="D18" pad="1"/>
+<wire x1="174.1" y1="13.05" x2="176.68" y2="13.05" width="0.1524" layer="1"/>
+<wire x1="176.68" y1="13.05" x2="176.75" y2="12.98" width="0.1524" layer="1"/>
+<contactref element="D2" pad="1"/>
+<wire x1="87.4" y1="37.95" x2="84.42" y2="37.95" width="0.1524" layer="1"/>
+<wire x1="84.42" y1="37.95" x2="84.4" y2="37.93" width="0.1524" layer="1"/>
+<wire x1="145.0096" y1="50.5525125" x2="148.7666875" y2="54.3096" width="0.1524" layer="1"/>
+<wire x1="160.7525125" y1="54.3096" x2="167.2096" y2="47.8525125" width="0.1524" layer="1"/>
+<wire x1="87.4" y1="37.95" x2="104.412125" y2="37.95" width="0.1524" layer="1"/>
+<wire x1="104.412125" y1="37.95" x2="106.971725" y2="40.5096" width="0.1524" layer="1"/>
+<wire x1="106.971725" y1="40.5096" x2="137.171725" y2="40.5096" width="0.1524" layer="1"/>
+<wire x1="137.171725" y1="40.5096" x2="145.0096" y2="48.347475" width="0.1524" layer="1"/>
+<wire x1="145.0096" y1="48.347475" x2="145.0096" y2="50.5525125" width="0.1524" layer="1"/>
+<wire x1="148.7666875" y1="54.3096" x2="160.7525125" y2="54.3096" width="0.1524" layer="1"/>
+<wire x1="167.2096" y1="15.8904" x2="170.2" y2="12.9" width="0.1524" layer="1"/>
+<wire x1="170.2" y1="12.9" x2="173.95" y2="12.9" width="0.1524" layer="1"/>
+<wire x1="173.95" y1="12.9" x2="174.1" y2="13.05" width="0.1524" layer="1"/>
+<wire x1="167.2096" y1="47.8525125" x2="167.2096" y2="15.8904" width="0.1524" layer="1"/>
 </signal>
 <signal name="DC">
-<contactref element="JP3" pad="2"/>
+<contactref element="JP5" pad="2"/>
 <contactref element="DISPLAY" pad="3"/>
-<contactref element="D15" pad="2"/>
-<wire x1="84.4" y1="35.39" x2="176.75" y2="15.52" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-29.45" x2="84.4" y2="35.39" width="0" layer="19" extent="1-1"/>
+<contactref element="D18" pad="2"/>
+<wire x1="174.1" y1="14.95" x2="176.18" y2="14.95" width="0.1524" layer="1"/>
+<wire x1="176.18" y1="14.95" x2="176.75" y2="15.52" width="0.1524" layer="1"/>
+<contactref element="D2" pad="2"/>
+<wire x1="87.4" y1="36.05" x2="86.74" y2="35.39" width="0.1524" layer="1"/>
+<wire x1="86.74" y1="35.39" x2="84.4" y2="35.39" width="0.1524" layer="1"/>
+<wire x1="87.4" y1="36.05" x2="92.57854375" y2="36.05" width="0.1524" layer="1"/>
+<wire x1="92.57854375" y1="36.05" x2="94.17374375" y2="37.6452" width="0.1524" layer="1"/>
+<wire x1="145.3144" y1="50.42625625" x2="148.89294375" y2="54.0048" width="0.1524" layer="1"/>
+<wire x1="160.62625625" y1="54.0048" x2="166.9048" y2="47.72625625" width="0.1524" layer="1"/>
+<wire x1="94.17374375" y1="37.6452" x2="104.5383875" y2="37.6452" width="0.1524" layer="1"/>
+<wire x1="104.5383875" y1="37.6452" x2="107.0979875" y2="40.2048" width="0.1524" layer="1"/>
+<wire x1="107.0979875" y1="40.2048" x2="137.2979875" y2="40.2048" width="0.1524" layer="1"/>
+<wire x1="137.2979875" y1="40.2048" x2="145.3144" y2="48.2212125" width="0.1524" layer="1"/>
+<wire x1="145.3144" y1="48.2212125" x2="145.3144" y2="50.42625625" width="0.1524" layer="1"/>
+<wire x1="148.89294375" y1="54.0048" x2="160.62625625" y2="54.0048" width="0.1524" layer="1"/>
+<wire x1="166.9048" y1="18.502" x2="166.6028" y2="18.2" width="0.1524" layer="1"/>
+<via x="166.6028" y="18.2" extent="1-16" drill="0.35"/>
+<wire x1="166.6028" y1="18.2" x2="169.9028" y2="14.9" width="0.1524" layer="16"/>
+<wire x1="169.9028" y1="14.9" x2="171.8" y2="14.9" width="0.1524" layer="16"/>
+<via x="171.8" y="14.9" extent="1-16" drill="0.35"/>
+<wire x1="171.8" y1="14.9" x2="174.05" y2="14.9" width="0.1524" layer="1"/>
+<wire x1="174.05" y1="14.9" x2="174.1" y2="14.95" width="0.1524" layer="1"/>
+<wire x1="166.9048" y1="47.72625625" x2="166.9048" y2="18.502" width="0.1524" layer="1"/>
 </signal>
 <signal name="MOSI">
-<contactref element="JP3" pad="5"/>
+<contactref element="JP5" pad="5"/>
 <contactref element="DISPLAY" pad="6"/>
-<contactref element="D17" pad="1"/>
-<wire x1="84.4" y1="43.01" x2="176.75" y2="23.14" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-35.55" x2="84.4" y2="43.01" width="0" layer="19" extent="1-1"/>
+<contactref element="D20" pad="1"/>
+<contactref element="D1" pad="1"/>
+<wire x1="87.4" y1="42.95" x2="84.46" y2="42.95" width="0.1524" layer="1"/>
+<wire x1="84.46" y1="42.95" x2="84.4" y2="43.01" width="0.1524" layer="1"/>
+<wire x1="179.4" y1="23.55" x2="177.16" y2="23.55" width="0.1524" layer="16"/>
+<wire x1="177.16" y1="23.55" x2="176.75" y2="23.14" width="0.1524" layer="16"/>
+<wire x1="89.9096" y1="42.95" x2="94.3" y2="38.5596" width="0.1524" layer="1"/>
+<wire x1="87.4" y1="42.95" x2="89.9096" y2="42.95" width="0.1524" layer="1"/>
+<wire x1="94.3" y1="38.5596" x2="104.1596" y2="38.5596" width="0.1524" layer="1"/>
+<wire x1="144.4" y1="50.805025" x2="148.514175" y2="54.9192" width="0.1524" layer="1"/>
+<wire x1="161.005025" y1="54.9192" x2="167.8192" y2="48.105025" width="0.1524" layer="1"/>
+<wire x1="167.8192" y1="48.105025" x2="167.8192" y2="25.6" width="0.1524" layer="1"/>
+<wire x1="167.8192" y1="25.6" x2="167.8192" y2="25.5" width="0.1524" layer="1"/>
+<wire x1="104.1596" y1="38.5596" x2="106.7192" y2="41.1192" width="0.1524" layer="1"/>
+<wire x1="106.7192" y1="41.1192" x2="136.9192" y2="41.1192" width="0.1524" layer="1"/>
+<wire x1="136.9192" y1="41.1192" x2="144.4" y2="48.6" width="0.1524" layer="1"/>
+<wire x1="144.4" y1="48.6" x2="144.4" y2="50.805025" width="0.1524" layer="1"/>
+<wire x1="148.514175" y1="54.9192" x2="161.005025" y2="54.9192" width="0.1524" layer="1"/>
+<wire x1="167.8192" y1="25.5" x2="167.8192" y2="25.2808" width="0.1524" layer="1"/>
+<wire x1="175.49" y1="24.4" x2="176.75" y2="23.14" width="0.1524" layer="1"/>
+<wire x1="167.8192" y1="25.2808" x2="168.7" y2="24.4" width="0.1524" layer="1"/>
+<wire x1="168.7" y1="24.4" x2="175.49" y2="24.4" width="0.1524" layer="1"/>
 </signal>
 <signal name="SCLK">
-<contactref element="JP3" pad="4"/>
+<contactref element="JP5" pad="4"/>
 <contactref element="DISPLAY" pad="5"/>
-<contactref element="D16" pad="2"/>
-<wire x1="84.4" y1="40.47" x2="176.75" y2="20.6" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-33.45" x2="84.4" y2="40.47" width="0" layer="19" extent="1-1"/>
+<contactref element="D19" pad="2"/>
+<contactref element="D1" pad="2"/>
+<wire x1="87.4" y1="41.05" x2="84.98" y2="41.05" width="0.1524" layer="1"/>
+<wire x1="84.98" y1="41.05" x2="84.4" y2="40.47" width="0.1524" layer="1"/>
+<wire x1="179.4" y1="20.45" x2="176.9" y2="20.45" width="0.1524" layer="16"/>
+<wire x1="176.9" y1="20.45" x2="176.75" y2="20.6" width="0.1524" layer="16"/>
+<wire x1="87.4" y1="41.05" x2="91.37854375" y2="41.05" width="0.1524" layer="1"/>
+<wire x1="91.37854375" y1="41.05" x2="94.17374375" y2="38.2548" width="0.1524" layer="1"/>
+<wire x1="144.7048" y1="50.67876875" x2="148.64043125" y2="54.6144" width="0.1524" layer="1"/>
+<wire x1="160.87876875" y1="54.6144" x2="167.5144" y2="47.97876875" width="0.1524" layer="1"/>
+<wire x1="94.17374375" y1="38.2548" x2="104.2858625" y2="38.2548" width="0.1524" layer="1"/>
+<wire x1="104.2858625" y1="38.2548" x2="106.8454625" y2="40.8144" width="0.1524" layer="1"/>
+<wire x1="106.8454625" y1="40.8144" x2="137.0454625" y2="40.8144" width="0.1524" layer="1"/>
+<wire x1="137.0454625" y1="40.8144" x2="144.7048" y2="48.4737375" width="0.1524" layer="1"/>
+<wire x1="144.7048" y1="48.4737375" x2="144.7048" y2="50.67876875" width="0.1524" layer="1"/>
+<wire x1="148.64043125" y1="54.6144" x2="160.87876875" y2="54.6144" width="0.1524" layer="1"/>
+<wire x1="167.5144" y1="25.15454375" x2="172.06894375" y2="20.6" width="0.1524" layer="1"/>
+<wire x1="172.06894375" y1="20.6" x2="176.75" y2="20.6" width="0.1524" layer="1"/>
+<wire x1="167.5144" y1="47.97876875" x2="167.5144" y2="25.15454375" width="0.1524" layer="1"/>
 </signal>
 <signal name="RST">
-<contactref element="JP3" pad="3"/>
+<contactref element="JP5" pad="3"/>
 <contactref element="DISPLAY" pad="2"/>
-<contactref element="D16" pad="1"/>
-<wire x1="84.4" y1="32.85" x2="176.75" y2="18.06" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-31.55" x2="84.4" y2="32.85" width="0" layer="19" extent="1-1"/>
+<contactref element="D19" pad="1"/>
+<contactref element="D3" pad="1"/>
+<wire x1="87.4" y1="32.95" x2="84.5" y2="32.95" width="0.1524" layer="1"/>
+<wire x1="84.5" y1="32.95" x2="84.4" y2="32.85" width="0.1524" layer="1"/>
+<wire x1="179.4" y1="18.55" x2="177.24" y2="18.55" width="0.1524" layer="16"/>
+<wire x1="177.24" y1="18.55" x2="176.75" y2="18.06" width="0.1524" layer="16"/>
+<wire x1="89.9096" y1="32.95" x2="94.3" y2="37.3404" width="0.1524" layer="1"/>
+<wire x1="87.4" y1="32.95" x2="89.9096" y2="32.95" width="0.1524" layer="1"/>
+<wire x1="94.3" y1="37.3404" x2="104.66465" y2="37.3404" width="0.1524" layer="1"/>
+<wire x1="145.6192" y1="48.09495" x2="145.6192" y2="50.3" width="0.1524" layer="1"/>
+<wire x1="145.6192" y1="50.3" x2="149.0192" y2="53.7" width="0.1524" layer="1"/>
+<wire x1="149.0192" y1="53.7" x2="160.5" y2="53.7" width="0.1524" layer="1"/>
+<wire x1="160.5" y1="53.7" x2="166.6" y2="47.6" width="0.1524" layer="1"/>
+<wire x1="104.66465" y1="37.3404" x2="107.22425" y2="39.9" width="0.1524" layer="1"/>
+<wire x1="107.22425" y1="39.9" x2="137.42425" y2="39.9" width="0.1524" layer="1"/>
+<wire x1="137.42425" y1="39.9" x2="145.6192" y2="48.09495" width="0.1524" layer="1"/>
+<wire x1="166.6" y1="20.8" x2="166" y2="20.2" width="0.1524" layer="1"/>
+<via x="166" y="20.2" extent="1-16" drill="0.35"/>
+<wire x1="166" y1="20.2" x2="168.14" y2="18.06" width="0.1524" layer="16"/>
+<wire x1="168.14" y1="18.06" x2="176.75" y2="18.06" width="0.1524" layer="16"/>
+<wire x1="166.6" y1="47.6" x2="166.6" y2="20.8" width="0.1524" layer="1"/>
 </signal>
 <signal name="ENC_1">
-<contactref element="JP3" pad="6"/>
-<contactref element="D17" pad="2"/>
-<wire x1="92.9" y1="-37.45" x2="176.75" y2="25.68" width="0" layer="19" extent="1-1"/>
+<contactref element="JP5" pad="6"/>
+<contactref element="D20" pad="2"/>
+<wire x1="179.4" y1="25.45" x2="176.98" y2="25.45" width="0.1524" layer="16"/>
+<wire x1="176.98" y1="25.45" x2="176.75" y2="25.68" width="0.1524" layer="16"/>
+<contactref element="CONTROL" pad="4"/>
+<contactref element="D11" pad="2"/>
+<wire x1="111.45" y1="35.4" x2="111.45" y2="32.72" width="0.1524" layer="1"/>
+<wire x1="111.45" y1="32.72" x2="111.73" y2="32.44" width="0.1524" layer="1"/>
+<wire x1="111.73" y1="32.44" x2="114.7996" y2="35.5096" width="0.1524" layer="16"/>
+<via x="139.5028" y="47.4" extent="1-16" drill="0.35"/>
+<wire x1="139.5028" y1="46.92825625" x2="139.5028" y2="47.4" width="0.1524" layer="16"/>
+<wire x1="139.8048" y1="46.62625625" x2="139.5028" y2="46.92825625" width="0.1524" layer="16"/>
+<wire x1="139.5028" y1="47.4" x2="139.5028" y2="48.864925" width="0.1524" layer="1"/>
+<wire x1="114.7996" y1="35.5096" x2="131.3406625" y2="35.5096" width="0.1524" layer="16"/>
+<wire x1="131.3406625" y1="35.5096" x2="139.8048" y2="43.9737375" width="0.1524" layer="16"/>
+<wire x1="139.8048" y1="43.9737375" x2="139.8048" y2="46.62625625" width="0.1524" layer="16"/>
+<wire x1="139.5028" y1="48.864925" x2="146.647475" y2="56.0096" width="0.1524" layer="1"/>
+<wire x1="146.647475" y1="56.0096" x2="164.408" y2="56.0096" width="0.1524" layer="1"/>
+<wire x1="164.408" y1="56.0096" x2="164.4224" y2="55.9952" width="0.1524" layer="1"/>
+<wire x1="179.06" y1="55.9952" x2="181.6" y2="53.4552" width="0.1524" layer="1" curve="-90"/>
+<wire x1="164.4224" y1="55.9952" x2="179.06" y2="55.9952" width="0.1524" layer="1"/>
+<wire x1="181.6" y1="28.22" x2="179.06" y2="25.68" width="0.1524" layer="1" curve="-90"/>
+<wire x1="179.06" y1="25.68" x2="176.75" y2="25.68" width="0.1524" layer="1"/>
+<wire x1="181.6" y1="53.4552" x2="181.6" y2="28.22" width="0.1524" layer="1"/>
 </signal>
 <signal name="ENC_2">
-<contactref element="JP3" pad="7"/>
-<contactref element="D18" pad="1"/>
-<wire x1="92.9" y1="-39.55" x2="176.75" y2="28.22" width="0" layer="19" extent="1-1"/>
+<contactref element="JP5" pad="7"/>
+<contactref element="D21" pad="1"/>
+<wire x1="174.1" y1="28.55" x2="176.42" y2="28.55" width="0.1524" layer="1"/>
+<wire x1="176.42" y1="28.55" x2="176.75" y2="28.22" width="0.1524" layer="1"/>
+<contactref element="CONTROL" pad="5"/>
+<contactref element="D11" pad="1"/>
+<wire x1="109.55" y1="35.4" x2="109.55" y2="32.8" width="0.1524" layer="1"/>
+<wire x1="109.55" y1="32.8" x2="109.19" y2="32.44" width="0.1524" layer="1"/>
+<wire x1="109.19" y1="32.44" x2="112.5644" y2="35.8144" width="0.1524" layer="16"/>
+<via x="138.594" y="47.4" extent="1-16" drill="0.35"/>
+<wire x1="138.594" y1="47.4" x2="138.594" y2="48.3871875" width="0.1524" layer="1"/>
+<wire x1="112.5644" y1="35.8144" x2="131.2144" y2="35.8144" width="0.1524" layer="16"/>
+<wire x1="131.2144" y1="35.8144" x2="139.5" y2="44.1" width="0.1524" layer="16"/>
+<wire x1="138.594" y1="48.3871875" x2="146.5212125" y2="56.3144" width="0.1524" layer="1"/>
+<wire x1="146.5212125" y1="56.3144" x2="165.012" y2="56.3144" width="0.1524" layer="1"/>
+<wire x1="139.5" y1="44.1" x2="139.5" y2="46.494" width="0.1524" layer="16"/>
+<wire x1="139.5" y1="46.494" x2="138.594" y2="47.4" width="0.1524" layer="16"/>
+<wire x1="165.012" y1="56.3144" x2="165.0264" y2="56.3" width="0.1524" layer="1"/>
+<wire x1="179.06" y1="56.3" x2="181.9048" y2="53.4552" width="0.1524" layer="1" curve="-90"/>
+<wire x1="165.0264" y1="56.3" x2="179.06" y2="56.3" width="0.1524" layer="1"/>
+<wire x1="181.9048" y1="41.3952" x2="182.3" y2="41" width="0.1524" layer="1"/>
+<wire x1="182.3" y1="41" x2="182.3" y2="27.9068" width="0.1524" layer="1"/>
+<wire x1="182.3" y1="27.9068" x2="182.1932" y2="27.8" width="0.1524" layer="1"/>
+<via x="182.1932" y="27.8" extent="1-16" drill="0.35"/>
+<wire x1="182.1932" y1="27.8" x2="177.17" y2="27.8" width="0.1524" layer="16"/>
+<wire x1="177.17" y1="27.8" x2="176.75" y2="28.22" width="0.1524" layer="16"/>
+<wire x1="181.9048" y1="53.4552" x2="181.9048" y2="41.3952" width="0.1524" layer="1"/>
 </signal>
 <signal name="SDA">
-<contactref element="JP3" pad="8"/>
-<contactref element="IC1" pad="4"/>
-<contactref element="RADIO_CHIP" pad="7"/>
-<contactref element="D10" pad="2"/>
-<contactref element="D18" pad="2"/>
+<contactref element="JP5" pad="8"/>
+<contactref element="IC4" pad="4"/>
+<contactref element="RADIO_IC" pad="7"/>
+<contactref element="D6" pad="2"/>
+<contactref element="D21" pad="2"/>
 <wire x1="57.45" y1="4.35" x2="56.5452" y2="4.35" width="0.1524" layer="16"/>
 <wire x1="56.5452" y1="4.35" x2="55.1952" y2="5.7" width="0.1524" layer="16" curve="-90"/>
 <wire x1="55.1952" y1="5.7" x2="55.1952" y2="9.86" width="0.1524" layer="16"/>
@@ -1874,106 +2254,284 @@ design rules under a new name.</description>
 <wire x1="92.11746875" y1="22.2048" x2="138.16" y2="22.2048" width="0.1524" layer="16"/>
 <wire x1="182.8" y1="30.2" x2="182.24" y2="30.76" width="0.1524" layer="16" curve="90"/>
 <wire x1="182.24" y1="30.76" x2="176.75" y2="30.76" width="0.1524" layer="16"/>
-<wire x1="-23.1" y1="-34.95" x2="92.9" y2="-41.45" width="0" layer="19" extent="1-1"/>
-<wire x1="57.45" y1="4.35" x2="-23.1" y2="-34.95" width="0" layer="19" extent="1-16"/>
+<wire x1="174.1" y1="30.45" x2="176.44" y2="30.45" width="0.1524" layer="1"/>
+<wire x1="176.44" y1="30.45" x2="176.75" y2="30.76" width="0.1524" layer="1"/>
+<wire x1="58.95" y1="19.4" x2="58.95" y2="17.24" width="0.1524" layer="1"/>
+<wire x1="58.95" y1="17.24" x2="59.19" y2="17" width="0.1524" layer="1"/>
 </signal>
 <signal name="U_DRAIN">
-<contactref element="IC1" pad="3"/>
-<contactref element="POWER_MAIN" pad="1"/>
+<contactref element="IC4" pad="3"/>
+<contactref element="POWER" pad="1"/>
 <wire x1="59.95" y1="4.35" x2="70.98" y2="4.35" width="0.1524" layer="16"/>
 <wire x1="70.98" y1="4.35" x2="73.52" y2="6.89" width="0.1524" layer="16" curve="90"/>
 <wire x1="73.52" y1="6.89" x2="73.52" y2="10.44" width="0.1524" layer="16"/>
 </signal>
 <signal name="5V">
-<contactref element="POWER_MAIN" pad="3"/>
-<contactref element="D1" pad="1"/>
-<contactref element="POWER" pad="1"/>
-<wire x1="4" y1="23.8" x2="68.44" y2="10.44" width="0" layer="19" extent="16-16"/>
-<wire x1="-0.425" y1="24.7" x2="4" y2="23.8" width="0" layer="19" extent="16-16"/>
+<contactref element="POWER" pad="3"/>
+<contactref element="D4" pad="1"/>
+<contactref element="ENERGY" pad="1"/>
+<wire x1="68.44" y1="10.44" x2="69.3" y2="9.58" width="1.27" layer="1"/>
+<wire x1="71.6" y1="5.5" x2="74.4" y2="5.5" width="1.27" layer="1"/>
+<via x="74.4" y="5.5" extent="1-16" drill="0.35"/>
+<wire x1="74.4" y1="5.5" x2="74.4" y2="3.5" width="1.27" layer="16"/>
+<wire x1="74.4" y1="3.5" x2="73.7" y2="2.8" width="1.27" layer="16"/>
+<wire x1="73.7" y1="2.8" x2="53.9" y2="2.8" width="1.27" layer="16"/>
+<wire x1="52.6" y1="4.1" x2="52.6" y2="5.9656" width="1.27" layer="16"/>
+<wire x1="52.6" y1="5.9656" x2="-1.2656" y2="5.9656" width="1.27" layer="16"/>
+<wire x1="-3.1" y1="19.1" x2="-2.3" y2="19.9" width="1.27" layer="16"/>
+<wire x1="-2.3" y1="19.9" x2="3.6" y2="19.9" width="1.27" layer="16"/>
+<wire x1="3.6" y1="19.9" x2="4" y2="20.3" width="1.27" layer="16"/>
+<wire x1="4" y1="20.3" x2="4" y2="23.8" width="1.27" layer="16"/>
+<wire x1="69.3" y1="9.58" x2="69.3" y2="7.8" width="1.27" layer="1"/>
+<wire x1="69.3" y1="7.8" x2="71.6" y2="5.5" width="1.27" layer="1"/>
+<wire x1="53.9" y1="2.8" x2="52.6" y2="4.1" width="1.27" layer="16"/>
+<wire x1="-1.2656" y1="5.9656" x2="-3.1" y2="7.8" width="1.27" layer="16"/>
+<wire x1="-3.1" y1="7.8" x2="-3.1" y2="19.1" width="1.27" layer="16"/>
+<wire x1="4" y1="23.8" x2="-0.425" y2="24.7" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="INR">
 <contactref element="AMPLIFIER" pad="5"/>
 <contactref element="STEREO" pad="3"/>
-<contactref element="RADIO_CHIP" pad="4"/>
-<contactref element="D4" pad="2"/>
-<contactref element="D12" pad="1"/>
-<contactref element="D9" pad="2"/>
-<wire x1="66.81" y1="17" x2="147.41" y2="39.8" width="0" layer="19" extent="1-1"/>
-<wire x1="1.1" y1="9.3" x2="66.81" y2="17" width="0" layer="19" extent="16-16"/>
-<wire x1="-11.1" y1="-10.95" x2="1.1" y2="9.3" width="0" layer="19" extent="1-16"/>
-<wire x1="92.9" y1="-11.55" x2="-11.1" y2="-10.95" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-21.45" x2="92.9" y2="-11.55" width="0" layer="19" extent="1-1"/>
+<contactref element="RADIO_IC" pad="4"/>
+<contactref element="D10" pad="1"/>
+<contactref element="D14" pad="2"/>
+<contactref element="D8" pad="1"/>
+<wire x1="67.05" y1="19.4" x2="67.05" y2="17.24" width="0.1524" layer="1"/>
+<wire x1="67.05" y1="17.24" x2="66.81" y2="17" width="0.1524" layer="1"/>
+<wire x1="144.6" y1="39.45" x2="144.95" y2="39.8" width="0.1524" layer="1"/>
+<wire x1="144.95" y1="39.8" x2="147.41" y2="39.8" width="0.1524" layer="1"/>
+<wire x1="1.1" y1="9.3" x2="2.3" y2="10.5" width="0.1524" layer="16"/>
+<wire x1="11.35" y1="10.5" x2="12.9" y2="12.05" width="0.1524" layer="16"/>
+<wire x1="2.3" y1="10.5" x2="11.35" y2="10.5" width="0.1524" layer="16"/>
+<wire x1="66.81" y1="17" x2="66.81" y2="15.34" width="0.1524" layer="16"/>
+<wire x1="66.81" y1="15.34" x2="64.27" y2="12.8" width="0.1524" layer="16" curve="-90"/>
+<wire x1="64.27" y1="12.8" x2="61.5952" y2="12.8" width="0.1524" layer="16"/>
+<wire x1="61.5952" y1="12.8" x2="60.6952" y2="11.9" width="0.1524" layer="16" curve="90"/>
+<wire x1="60.6952" y1="11.9" x2="58.2952" y2="9.5" width="0.1524" layer="16" curve="-90"/>
+<wire x1="58.2952" y1="9.5" x2="57.2" y2="9.5" width="0.1524" layer="16"/>
+<via x="57.2" y="9.5" extent="1-16" drill="0.35"/>
+<wire x1="57.2" y1="9.5" x2="53.5" y2="9.5" width="0.1524" layer="1"/>
+<via x="53.5" y="9.5" extent="1-16" drill="0.35"/>
+<wire x1="53.5" y1="9.5" x2="34" y2="9.5" width="0.1524" layer="16"/>
+<wire x1="30.2952" y1="13.2048" x2="27.1" y2="13.2048" width="0.1524" layer="16"/>
+<wire x1="27.1" y1="13.2048" x2="26.798" y2="13.5068" width="0.1524" layer="16"/>
+<wire x1="26.798" y1="13.5068" x2="21.5" y2="13.5068" width="0.1524" layer="16"/>
+<via x="21.5" y="13.5068" extent="1-16" drill="0.35"/>
+<wire x1="34" y1="9.5" x2="30.2952" y2="13.2048" width="0.1524" layer="16"/>
+<wire x1="21.5" y1="13.5068" x2="19.2068" y2="13.5068" width="0.1524" layer="1"/>
+<wire x1="17.7" y1="12" x2="15.4" y2="12" width="0.1524" layer="1"/>
+<via x="15.4" y="12" extent="1-16" drill="0.35"/>
+<wire x1="15.4" y1="12" x2="12.95" y2="12" width="0.1524" layer="16"/>
+<wire x1="12.95" y1="12" x2="12.9" y2="12.05" width="0.1524" layer="16"/>
+<wire x1="19.2068" y1="13.5068" x2="17.7" y2="12" width="0.1524" layer="1"/>
+<via x="67.05" y="21.7" extent="1-16" drill="0.35"/>
+<wire x1="67.05" y1="21.7" x2="67.05" y2="22.26" width="0.1524" layer="16"/>
+<wire x1="67.05" y1="22.26" x2="69.8948" y2="25.1048" width="0.1524" layer="16" curve="-90"/>
+<wire x1="80.9048" y1="25.1048" x2="82" y2="26.2" width="0.1524" layer="16" curve="90"/>
+<wire x1="82" y1="26.2" x2="82.8048" y2="27.0048" width="0.1524" layer="16" curve="-90"/>
+<wire x1="67.05" y1="19.4" x2="67.05" y2="21.7" width="0.1524" layer="1"/>
+<wire x1="69.8948" y1="25.1048" x2="80.9048" y2="25.1048" width="0.1524" layer="16"/>
+<wire x1="133.66" y1="27.0048" x2="136.2" y2="29.5448" width="0.1524" layer="16" curve="90"/>
+<wire x1="136.2" y1="35.86" x2="139.0448" y2="38.7048" width="0.1524" layer="16" curve="-90"/>
+<wire x1="136.2" y1="29.5448" x2="136.2" y2="35.86" width="0.1524" layer="16"/>
+<wire x1="82.8048" y1="27.0048" x2="133.66" y2="27.0048" width="0.1524" layer="16"/>
+<wire x1="140.4048" y1="38.7048" x2="141" y2="39.3" width="0.1524" layer="16" curve="90"/>
+<via x="141" y="39.3" extent="1-16" drill="0.35"/>
+<wire x1="141" y1="39.3" x2="141.15" y2="39.45" width="0.1524" layer="1" curve="-90"/>
+<wire x1="141.15" y1="39.45" x2="144.6" y2="39.45" width="0.1524" layer="1"/>
+<wire x1="139.0448" y1="38.7048" x2="140.4048" y2="38.7048" width="0.1524" layer="16"/>
 </signal>
 <signal name="INL">
 <contactref element="AMPLIFIER" pad="4"/>
 <contactref element="STEREO" pad="2"/>
-<contactref element="RADIO_CHIP" pad="3"/>
-<contactref element="D5" pad="1"/>
-<contactref element="D12" pad="2"/>
-<contactref element="D9" pad="1"/>
-<wire x1="69.35" y1="17" x2="147.41" y2="37.26" width="0" layer="19" extent="1-1"/>
-<wire x1="8.5" y1="16.8" x2="69.35" y2="17" width="0" layer="19" extent="16-16"/>
-<wire x1="-15.1" y1="-13.05" x2="8.5" y2="16.8" width="0" layer="19" extent="1-16"/>
-<wire x1="92.9" y1="-13.45" x2="-15.1" y2="-13.05" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-19.55" x2="92.9" y2="-13.45" width="0" layer="19" extent="1-1"/>
+<contactref element="RADIO_IC" pad="3"/>
+<contactref element="D10" pad="2"/>
+<contactref element="D14" pad="1"/>
+<contactref element="D8" pad="2"/>
+<wire x1="68.95" y1="19.4" x2="68.95" y2="17.4" width="0.1524" layer="1"/>
+<wire x1="68.95" y1="17.4" x2="69.35" y2="17" width="0.1524" layer="1"/>
+<wire x1="144.6" y1="37.55" x2="147.12" y2="37.55" width="0.1524" layer="1"/>
+<wire x1="147.12" y1="37.55" x2="147.41" y2="37.26" width="0.1524" layer="1"/>
+<wire x1="8.5" y1="16.8" x2="10.05" y2="16.8" width="0.1524" layer="16"/>
+<wire x1="10.05" y1="16.8" x2="12.875" y2="13.975" width="0.1524" layer="16"/>
+<wire x1="12.875" y1="13.975" x2="12.9" y2="13.95" width="0.1524" layer="16"/>
+<wire x1="69.35" y1="17" x2="69.35" y2="15.34" width="0.1524" layer="16"/>
+<wire x1="69.35" y1="15.34" x2="66.5052" y2="12.4952" width="0.1524" layer="16" curve="-90"/>
+<wire x1="66.5052" y1="12.4952" x2="61.5952" y2="12.4952" width="0.1524" layer="16"/>
+<wire x1="61.5952" y1="12.4952" x2="61" y2="11.9" width="0.1524" layer="16" curve="90"/>
+<wire x1="61" y1="11.9" x2="57.6912" y2="8.5912" width="0.1524" layer="16" curve="-90"/>
+<wire x1="57.6912" y1="8.5912" x2="57.2" y2="8.5912" width="0.1524" layer="16"/>
+<via x="57.2" y="8.5912" extent="1-16" drill="0.35"/>
+<wire x1="57.2" y1="8.5912" x2="53.5" y2="8.5912" width="0.1524" layer="1"/>
+<via x="53.5" y="8.5912" extent="1-16" drill="0.35"/>
+<wire x1="53.5" y1="8.5912" x2="33.6235625" y2="8.5912" width="0.1524" layer="16"/>
+<wire x1="29.3147625" y1="12.9" x2="27.1" y2="12.9" width="0.1524" layer="16"/>
+<wire x1="27.1" y1="12.9" x2="26.798" y2="12.598" width="0.1524" layer="16"/>
+<wire x1="26.798" y1="12.598" x2="21.5" y2="12.598" width="0.1524" layer="16"/>
+<via x="21.5" y="12.598" extent="1-16" drill="0.35"/>
+<wire x1="33.6235625" y1="8.5912" x2="29.3147625" y2="12.9" width="0.1524" layer="16"/>
+<wire x1="21.5" y1="12.598" x2="19.402" y2="12.598" width="0.1524" layer="16"/>
+<wire x1="19.402" y1="12.598" x2="18" y2="14" width="0.1524" layer="16"/>
+<wire x1="18" y1="14" x2="12.9" y2="14" width="0.1524" layer="16"/>
+<wire x1="12.9" y1="14" x2="12.875" y2="13.975" width="0.1524" layer="16"/>
+<via x="68.95" y="21.7" extent="1-16" drill="0.35"/>
+<wire x1="68.95" y1="21.7" x2="68.95" y2="22.26" width="0.1524" layer="16"/>
+<wire x1="68.95" y1="22.26" x2="71.49" y2="24.8" width="0.1524" layer="16" curve="-90"/>
+<wire x1="80.9048" y1="24.8" x2="82.3048" y2="26.2" width="0.1524" layer="16" curve="90"/>
+<wire x1="82.3048" y1="26.2" x2="82.8048" y2="26.7" width="0.1524" layer="16" curve="-90"/>
+<wire x1="68.95" y1="19.4" x2="68.95" y2="21.7" width="0.1524" layer="1"/>
+<wire x1="71.49" y1="24.8" x2="80.9048" y2="24.8" width="0.1524" layer="16"/>
+<wire x1="133.66" y1="26.7" x2="136.5048" y2="29.5448" width="0.1524" layer="16" curve="90"/>
+<wire x1="136.5048" y1="35.86" x2="139.0448" y2="38.4" width="0.1524" layer="16" curve="-90"/>
+<wire x1="136.5048" y1="29.5448" x2="136.5048" y2="35.86" width="0.1524" layer="16"/>
+<wire x1="82.8048" y1="26.7" x2="133.66" y2="26.7" width="0.1524" layer="16"/>
+<wire x1="140.2" y1="38.4" x2="141" y2="37.6" width="0.1524" layer="16" curve="-90"/>
+<via x="141" y="37.6" extent="1-16" drill="0.35"/>
+<wire x1="144.6" y1="37.55" x2="144.55" y2="37.6" width="0.1524" layer="1"/>
+<wire x1="144.55" y1="37.6" x2="141" y2="37.6" width="0.1524" layer="1"/>
+<wire x1="139.0448" y1="38.4" x2="140.2" y2="38.4" width="0.1524" layer="16"/>
 </signal>
 <signal name="!MUTE">
 <contactref element="AMPLIFIER" pad="2"/>
-<contactref element="D6" pad="1"/>
-<wire x1="-15.1" y1="-17.05" x2="147.41" y2="32.18" width="0" layer="19" extent="1-1"/>
+<contactref element="D15" pad="1"/>
+<wire x1="144.6" y1="32.55" x2="147.04" y2="32.55" width="0.1524" layer="1"/>
+<wire x1="147.04" y1="32.55" x2="147.41" y2="32.18" width="0.1524" layer="1"/>
 </signal>
 <signal name="!SHDN">
 <contactref element="AMPLIFIER" pad="3"/>
-<contactref element="D5" pad="2"/>
-<wire x1="-15.1" y1="-14.95" x2="147.41" y2="34.72" width="0" layer="19" extent="1-1"/>
+<contactref element="D15" pad="2"/>
+<wire x1="144.6" y1="34.45" x2="147.14" y2="34.45" width="0.1524" layer="1"/>
+<wire x1="147.14" y1="34.45" x2="147.41" y2="34.72" width="0.1524" layer="1"/>
 </signal>
 <signal name="IRQ_RADIO_IC">
-<contactref element="RADIO_CHIP" pad="5"/>
+<contactref element="RADIO_IC" pad="5"/>
 <contactref element="ESP32" pad="8"/>
-<contactref element="D11" pad="2"/>
-<contactref element="D21" pad="2"/>
-<wire x1="64.27" y1="17" x2="150.75" y2="30.76" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-9.45" x2="64.27" y2="17" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-53.45" x2="92.9" y2="-9.45" width="0" layer="19" extent="1-1"/>
+<contactref element="D7" pad="2"/>
+<contactref element="D25" pad="1"/>
+<wire x1="153.9" y1="30.45" x2="151.06" y2="30.45" width="0.1524" layer="1"/>
+<wire x1="151.06" y1="30.45" x2="150.75" y2="30.76" width="0.1524" layer="1"/>
+<wire x1="63.95" y1="19.4" x2="63.95" y2="17.32" width="0.1524" layer="1"/>
+<wire x1="63.95" y1="17.32" x2="64.27" y2="17" width="0.1524" layer="1"/>
+<wire x1="64.27" y1="17" x2="61.0556" y2="13.7856" width="0.1524" layer="1" curve="-90"/>
+<wire x1="61.0556" y1="13.7856" x2="51.9" y2="13.7856" width="0.1524" layer="1"/>
+<wire x1="51.9" y1="13.7856" x2="48.8904" y2="10.776" width="0.1524" layer="1" curve="90"/>
+<wire x1="48.8904" y1="10.776" x2="48.8904" y2="6.37374375" width="0.1524" layer="1"/>
+<wire x1="48.8904" y1="6.37374375" x2="48.5884" y2="6.07174375" width="0.1524" layer="1"/>
+<wire x1="48.5884" y1="6.07174375" x2="48.5884" y2="4.8" width="0.1524" layer="1"/>
+<via x="48.5884" y="4.8" extent="1-16" drill="0.35"/>
+<wire x1="48.5884" y1="4.8" x2="48.5884" y2="4.14" width="0.1524" layer="16"/>
+<wire x1="48.5884" y1="4.14" x2="51.738" y2="0.9904" width="0.1524" layer="16" curve="90"/>
+<wire x1="51.738" y1="0.9904" x2="152.5904" y2="0.9904" width="0.1524" layer="16"/>
+<wire x1="152.5904" y1="0.9904" x2="156" y2="4.4" width="0.1524" layer="16"/>
+<via x="156" y="4.4" extent="1-16" drill="0.35"/>
+<wire x1="156" y1="4.4" x2="157.1" y2="5.5" width="0.1524" layer="1"/>
+<wire x1="157.1" y1="5.5" x2="157.1" y2="11.8" width="0.1524" layer="1"/>
+<wire x1="157.1" y1="11.8" x2="157.1" y2="12" width="0.1524" layer="1"/>
+<wire x1="157.1" y1="12" x2="157.1" y2="30" width="0.1524" layer="1"/>
+<wire x1="157.1" y1="30" x2="156.7" y2="30.4" width="0.1524" layer="1" curve="90"/>
+<wire x1="156.7" y1="30.4" x2="153.95" y2="30.4" width="0.1524" layer="1"/>
+<wire x1="153.95" y1="30.4" x2="153.9" y2="30.45" width="0.1524" layer="1" curve="-90"/>
 </signal>
 <signal name="TUNE1">
-<contactref element="RADIO_CHIP" pad="1"/>
+<contactref element="RADIO_IC" pad="1"/>
 <contactref element="CONTROL" pad="1"/>
-<contactref element="D4" pad="1"/>
-<contactref element="D13" pad="2"/>
-<wire x1="74.43" y1="17" x2="119.35" y2="32.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.1" y1="-9.05" x2="74.43" y2="17" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-17.45" x2="-11.1" y2="-9.05" width="0" layer="19" extent="1-1"/>
+<contactref element="D13" pad="1"/>
+<contactref element="D9" pad="2"/>
+<wire x1="119.55" y1="35.4" x2="119.55" y2="32.64" width="0.1524" layer="1"/>
+<wire x1="119.55" y1="32.64" x2="119.35" y2="32.44" width="0.1524" layer="1"/>
+<wire x1="73.95" y1="19.4" x2="73.93" y2="19.38" width="0.1524" layer="1"/>
+<wire x1="73.93" y1="19.38" x2="73.93" y2="17.5" width="0.1524" layer="1"/>
+<wire x1="73.93" y1="17.5" x2="74.43" y2="17" width="0.1524" layer="1"/>
+<wire x1="74.43" y1="17" x2="69.9964" y2="12.5664" width="0.1524" layer="1" curve="-90"/>
+<wire x1="69.9964" y1="12.5664" x2="51.9" y2="12.5664" width="0.1524" layer="1"/>
+<wire x1="51.9" y1="12.5664" x2="49.5" y2="10.1664" width="0.1524" layer="1" curve="90"/>
+<wire x1="49.5" y1="10.1664" x2="49.5" y2="6.5" width="0.1524" layer="1"/>
+<wire x1="49.5" y1="6.5" x2="50.406" y2="5.594" width="0.1524" layer="1"/>
+<wire x1="50.406" y1="5.594" x2="50.406" y2="4.8" width="0.1524" layer="1"/>
+<via x="50.406" y="4.8" extent="1-16" drill="0.35"/>
+<wire x1="50.406" y1="4.8" x2="50.406" y2="4.14" width="0.1524" layer="16"/>
+<wire x1="50.406" y1="4.14" x2="52.946" y2="1.6" width="0.1524" layer="16" curve="90"/>
+<wire x1="84.96" y1="1.6" x2="87.5" y2="4.14" width="0.1524" layer="16" curve="90"/>
+<wire x1="87.5" y1="17.7088" x2="88.2" y2="18.4088" width="0.1524" layer="16" curve="-90"/>
+<via x="88.2" y="18.4088" extent="1-16" drill="0.35"/>
+<wire x1="88.2" y1="18.4088" x2="89.1" y2="19.3088" width="0.1524" layer="1" curve="90"/>
+<wire x1="89.1" y1="19.3088" x2="89.1" y2="21.7" width="0.1524" layer="1"/>
+<wire x1="89.1" y1="21.7" x2="91.8048" y2="24.4048" width="0.1524" layer="1" curve="-90"/>
+<wire x1="114.86" y1="24.4048" x2="117.4" y2="26.9448" width="0.1524" layer="1" curve="90"/>
+<via x="117.4" y="27.8" extent="1-16" drill="0.35"/>
+<wire x1="87.5" y1="4.14" x2="87.5" y2="17.7088" width="0.1524" layer="16"/>
+<wire x1="91.8048" y1="24.4048" x2="114.86" y2="24.4048" width="0.1524" layer="1"/>
+<wire x1="117.4" y1="26.9448" x2="117.4" y2="27.8" width="0.1524" layer="1"/>
+<wire x1="52.946" y1="1.6" x2="84.96" y2="1.6" width="0.1524" layer="16"/>
+<wire x1="117.4" y1="27.8" x2="117.4" y2="28.1" width="0.1524" layer="16"/>
+<wire x1="119.35" y1="30.05" x2="119.35" y2="32.44" width="0.1524" layer="16"/>
+<wire x1="117.4" y1="28.1" x2="119.35" y2="30.05" width="0.1524" layer="16"/>
 </signal>
 <signal name="TUNE2">
-<contactref element="RADIO_CHIP" pad="2"/>
+<contactref element="RADIO_IC" pad="2"/>
 <contactref element="CONTROL" pad="2"/>
-<contactref element="D3" pad="2"/>
-<contactref element="D13" pad="1"/>
-<wire x1="71.89" y1="17" x2="116.81" y2="32.44" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.1" y1="-6.95" x2="71.89" y2="17" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-15.55" x2="-7.1" y2="-6.95" width="0" layer="19" extent="1-1"/>
+<contactref element="D12" pad="2"/>
+<contactref element="D9" pad="1"/>
+<wire x1="116.45" y1="35.4" x2="116.45" y2="32.8" width="0.1524" layer="1"/>
+<wire x1="116.45" y1="32.8" x2="116.81" y2="32.44" width="0.1524" layer="1"/>
+<wire x1="72.05" y1="19.4" x2="72.05" y2="17.16" width="0.1524" layer="1"/>
+<wire x1="72.05" y1="17.16" x2="71.89" y2="17" width="0.1524" layer="1"/>
+<wire x1="71.89" y1="17" x2="67.7612" y2="12.8712" width="0.1524" layer="1" curve="-90"/>
+<wire x1="67.7612" y1="12.8712" x2="51.9" y2="12.8712" width="0.1524" layer="1"/>
+<wire x1="51.9" y1="12.8712" x2="49.1952" y2="10.1664" width="0.1524" layer="1" curve="90"/>
+<wire x1="49.1952" y1="10.1664" x2="49.1952" y2="6.37374375" width="0.1524" layer="1"/>
+<wire x1="49.1952" y1="6.37374375" x2="49.4972" y2="6.07174375" width="0.1524" layer="1"/>
+<wire x1="49.4972" y1="6.07174375" x2="49.4972" y2="4.8" width="0.1524" layer="1"/>
+<via x="49.4972" y="4.8" extent="1-16" drill="0.35"/>
+<wire x1="49.4972" y1="4.8" x2="49.4972" y2="4.14" width="0.1524" layer="16"/>
+<wire x1="49.4972" y1="4.14" x2="52.342" y2="1.2952" width="0.1524" layer="16" curve="90"/>
+<wire x1="84.96" y1="1.2952" x2="87.8048" y2="4.14" width="0.1524" layer="16" curve="90"/>
+<wire x1="87.8048" y1="17.1048" x2="88.2" y2="17.5" width="0.1524" layer="16" curve="-90"/>
+<via x="88.2" y="17.5" extent="1-16" drill="0.35"/>
+<wire x1="88.2" y1="17.5" x2="89.4048" y2="18.7048" width="0.1524" layer="1" curve="90"/>
+<wire x1="89.4048" y1="18.7048" x2="89.4048" y2="21.7" width="0.1524" layer="1"/>
+<wire x1="89.4048" y1="21.7" x2="91.8048" y2="24.1" width="0.1524" layer="1" curve="-90"/>
+<wire x1="115.9048" y1="24.1" x2="119.0048" y2="27.2" width="0.1524" layer="1" curve="90"/>
+<wire x1="87.8048" y1="4.14" x2="87.8048" y2="17.1048" width="0.1524" layer="16"/>
+<wire x1="91.8048" y1="24.1" x2="115.9048" y2="24.1" width="0.1524" layer="1"/>
+<wire x1="52.342" y1="1.2952" x2="84.96" y2="1.2952" width="0.1524" layer="16"/>
+<wire x1="116.81" y1="30.29" x2="116.81" y2="32.44" width="0.1524" layer="1"/>
+<wire x1="119.0048" y1="27.2" x2="119.0048" y2="28.0952" width="0.1524" layer="1"/>
+<wire x1="119.0048" y1="28.0952" x2="116.81" y2="30.29" width="0.1524" layer="1"/>
 </signal>
 <signal name="RST_RADIO_IC">
 <contactref element="ESP32" pad="9"/>
-<contactref element="RADIO_CHIP" pad="8"/>
-<contactref element="D21" pad="1"/>
-<wire x1="56.65" y1="17" x2="150.75" y2="33.3" width="0" layer="19" extent="1-1"/>
-<wire x1="92.9" y1="-51.55" x2="56.65" y2="17" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ENC_A">
-<contactref element="CONTROL" pad="4"/>
-<contactref element="D2" pad="2"/>
-<wire x1="-3.1" y1="-2.95" x2="111.73" y2="32.44" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ENC_B">
-<contactref element="CONTROL" pad="5"/>
-<contactref element="D2" pad="1"/>
-<wire x1="-3.1" y1="-1.05" x2="109.19" y2="32.44" width="0" layer="19" extent="1-1"/>
+<contactref element="RADIO_IC" pad="8"/>
+<contactref element="D6" pad="1"/>
+<contactref element="D24" pad="2"/>
+<wire x1="153.9" y1="33.55" x2="153.7" y2="33.55" width="0.1524" layer="1"/>
+<wire x1="153.7" y1="33.55" x2="151" y2="33.55" width="0.1524" layer="1"/>
+<wire x1="151" y1="33.55" x2="150.75" y2="33.3" width="0.1524" layer="1"/>
+<wire x1="57.05" y1="19.4" x2="57.05" y2="17.4" width="0.1524" layer="1"/>
+<wire x1="57.05" y1="17.4" x2="56.65" y2="17" width="0.1524" layer="1"/>
+<wire x1="56.65" y1="17" x2="54.35" y2="14.7" width="0.1524" layer="1" curve="-90"/>
+<wire x1="54.35" y1="14.7" x2="51.9" y2="14.7" width="0.1524" layer="1"/>
+<wire x1="51.9" y1="14.7" x2="48.5856" y2="11.3856" width="0.1524" layer="1" curve="90"/>
+<wire x1="48.5856" y1="11.3856" x2="48.5856" y2="6.5" width="0.1524" layer="1"/>
+<wire x1="48.5856" y1="6.5" x2="47.6796" y2="5.594" width="0.1524" layer="1"/>
+<wire x1="47.6796" y1="5.594" x2="47.6796" y2="4.8" width="0.1524" layer="1"/>
+<via x="47.6796" y="4.8" extent="1-16" drill="0.35"/>
+<wire x1="47.6796" y1="4.8" x2="47.6796" y2="4.14" width="0.1524" layer="16"/>
+<wire x1="47.6796" y1="4.14" x2="51.134" y2="0.6856" width="0.1524" layer="16" curve="90"/>
+<wire x1="51.134" y1="0.6856" x2="153.5708375" y2="0.6856" width="0.1524" layer="16"/>
+<wire x1="153.5708375" y1="0.6856" x2="156.64261875" y2="3.75738125" width="0.1524" layer="16"/>
+<via x="156.64261875" y="3.75738125" extent="1-16" drill="0.35"/>
+<wire x1="156.64261875" y1="3.75738125" x2="157.4048" y2="4.5195625" width="0.1524" layer="1"/>
+<wire x1="157.4048" y1="4.5195625" x2="157.4048" y2="11.9" width="0.1524" layer="1"/>
+<wire x1="157.4048" y1="11.9" x2="157.4048" y2="12" width="0.1524" layer="1"/>
+<wire x1="157.4048" y1="12" x2="157.4048" y2="32.3952" width="0.1524" layer="1"/>
+<wire x1="157.4048" y1="32.3952" x2="156.3" y2="33.5" width="0.1524" layer="1" curve="90"/>
+<wire x1="156.3" y1="33.5" x2="153.75" y2="33.5" width="0.1524" layer="1"/>
+<wire x1="153.75" y1="33.5" x2="153.7" y2="33.55" width="0.1524" layer="1" curve="-90"/>
 </signal>
 <signal name="N$4">
-<contactref element="5" pad="6"/>
-<contactref element="IC4" pad="2"/>
+<contactref element="LED1" pad="6"/>
+<contactref element="IC3" pad="2"/>
 <wire x1="82.3" y1="1.95" x2="83.4048" y2="1.95" width="0.1524" layer="1"/>
 <wire x1="83.4048" y1="1.95" x2="84.3096" y2="2.8548" width="0.1524" layer="1" curve="90"/>
 <wire x1="84.3096" y1="2.8548" x2="84.3096" y2="21.2" width="0.1524" layer="1"/>
@@ -1993,8 +2551,8 @@ design rules under a new name.</description>
 <wire x1="74.804" y1="34.304" x2="75.675" y2="35.175" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$6">
-<contactref element="4" pad="6"/>
-<contactref element="IC3" pad="5"/>
+<contactref element="LED2" pad="6"/>
+<contactref element="IC2" pad="5"/>
 <wire x1="77.85" y1="5.95" x2="77.4" y2="5.5" width="0.1524" layer="1" curve="90"/>
 <wire x1="77.4" y1="5.5" x2="73.476" y2="1.576" width="0.1524" layer="1" curve="-90"/>
 <wire x1="48.54" y1="1.576" x2="44.476" y2="5.64" width="0.1524" layer="1" curve="-90"/>
@@ -2011,8 +2569,8 @@ design rules under a new name.</description>
 <wire x1="63.624" y1="37.76" x2="63.624" y2="32.176" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$7">
-<contactref element="IC2" pad="15"/>
-<contactref element="1" pad="4"/>
+<contactref element="IC1" pad="15"/>
+<contactref element="LED5" pad="4"/>
 <wire x1="80.35" y1="20.05" x2="79.1" y2="21.3" width="0.1524" layer="1" curve="-90"/>
 <wire x1="79.1" y1="21.3" x2="76.376" y2="24.024" width="0.1524" layer="1" curve="90"/>
 <wire x1="76.376" y1="24.024" x2="54.1" y2="24.024" width="0.1524" layer="1"/>
@@ -2029,8 +2587,8 @@ design rules under a new name.</description>
 <wire x1="52.7" y1="25.424" x2="52.7" y2="29.917625" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$8">
-<contactref element="IC2" pad="1"/>
-<contactref element="1" pad="5"/>
+<contactref element="IC1" pad="1"/>
+<contactref element="LED5" pad="5"/>
 <wire x1="81.0952" y1="19" x2="78.7952" y2="21.3" width="0.1524" layer="1" curve="-90"/>
 <wire x1="78.7952" y1="21.3" x2="76.376" y2="23.7192" width="0.1524" layer="1" curve="90"/>
 <wire x1="76.376" y1="23.7192" x2="54.1" y2="23.7192" width="0.1524" layer="1"/>
@@ -2047,8 +2605,8 @@ design rules under a new name.</description>
 <wire x1="52.3952" y1="25.424" x2="52.3952" y2="30.04388125" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$9">
-<contactref element="IC2" pad="2"/>
-<contactref element="1" pad="6"/>
+<contactref element="IC1" pad="2"/>
+<contactref element="LED5" pad="6"/>
 <wire x1="82.3" y1="17.95" x2="81.1952" y2="17.95" width="0.1524" layer="1"/>
 <wire x1="81.1952" y1="17.95" x2="78.4904" y2="20.6548" width="0.1524" layer="1" curve="-90"/>
 <wire x1="78.4904" y1="20.6548" x2="78.4904" y2="21.3" width="0.1524" layer="1"/>
@@ -2064,8 +2622,8 @@ design rules under a new name.</description>
 <wire x1="52.0904" y1="25.424" x2="52.0904" y2="30.1701375" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$10">
-<contactref element="IC2" pad="3"/>
-<contactref element="2" pad="4"/>
+<contactref element="IC1" pad="3"/>
+<contactref element="LED4" pad="4"/>
 <wire x1="82.3" y1="16.05" x2="81.1952" y2="16.05" width="0.1524" layer="1"/>
 <wire x1="81.1952" y1="16.05" x2="78.1856" y2="19.0596" width="0.1524" layer="1" curve="-90"/>
 <wire x1="78.1856" y1="19.0596" x2="78.1856" y2="21.3" width="0.1524" layer="1"/>
@@ -2083,8 +2641,8 @@ design rules under a new name.</description>
 <wire x1="51.7856" y1="25.424" x2="51.7856" y2="30.29639375" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$11">
-<contactref element="IC2" pad="4"/>
-<contactref element="2" pad="5"/>
+<contactref element="IC1" pad="4"/>
+<contactref element="LED4" pad="5"/>
 <wire x1="82.3" y1="15" x2="81.1952" y2="15" width="0.1524" layer="1"/>
 <wire x1="81.1952" y1="15" x2="77.8808" y2="18.3144" width="0.1524" layer="1" curve="-90"/>
 <wire x1="77.8808" y1="18.3144" x2="77.8808" y2="21.3" width="0.1524" layer="1"/>
@@ -2102,8 +2660,8 @@ design rules under a new name.</description>
 <wire x1="51.4808" y1="25.424" x2="51.4808" y2="30.42265" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$12">
-<contactref element="IC2" pad="5"/>
-<contactref element="2" pad="6"/>
+<contactref element="IC1" pad="5"/>
+<contactref element="LED4" pad="6"/>
 <wire x1="82.3" y1="13.95" x2="81.1952" y2="13.95" width="0.1524" layer="1"/>
 <wire x1="81.1952" y1="13.95" x2="77.576" y2="17.5692" width="0.1524" layer="1" curve="-90"/>
 <wire x1="77.576" y1="17.5692" x2="77.576" y2="21.3" width="0.1524" layer="1"/>
@@ -2117,8 +2675,8 @@ design rules under a new name.</description>
 <wire x1="51.176" y1="25.424" x2="51.176" y2="30.976" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$13">
-<contactref element="IC3" pad="15"/>
-<contactref element="3" pad="4"/>
+<contactref element="IC2" pad="15"/>
+<contactref element="LED3" pad="4"/>
 <wire x1="79.94" y1="12.05" x2="75.876" y2="7.986" width="0.1524" layer="1" curve="90"/>
 <wire x1="75.876" y1="7.986" x2="75.876" y2="5.5" width="0.1524" layer="1"/>
 <wire x1="75.876" y1="5.5" x2="73.476" y2="3.1" width="0.1524" layer="1" curve="-90"/>
@@ -2136,8 +2694,8 @@ design rules under a new name.</description>
 <wire x1="62.1" y1="37.76" x2="62.1" y2="36.2" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$14">
-<contactref element="IC3" pad="1"/>
-<contactref element="3" pad="5"/>
+<contactref element="IC2" pad="1"/>
+<contactref element="LED3" pad="5"/>
 <wire x1="79.94" y1="11" x2="76.1808" y2="7.2408" width="0.1524" layer="1" curve="90"/>
 <wire x1="76.1808" y1="7.2408" x2="76.1808" y2="5.5" width="0.1524" layer="1"/>
 <wire x1="76.1808" y1="5.5" x2="73.476" y2="2.7952" width="0.1524" layer="1" curve="-90"/>
@@ -2159,8 +2717,8 @@ design rules under a new name.</description>
 <wire x1="62.4048" y1="37.76" x2="62.4048" y2="35.39400625" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$15">
-<contactref element="IC3" pad="3"/>
-<contactref element="4" pad="4"/>
+<contactref element="IC2" pad="3"/>
+<contactref element="LED2" pad="4"/>
 <wire x1="79.3404" y1="8.05" x2="76.7904" y2="5.5" width="0.1524" layer="1" curve="90"/>
 <wire x1="76.7904" y1="5.5" x2="73.476" y2="2.1856" width="0.1524" layer="1" curve="-90"/>
 <wire x1="48.54" y1="2.1856" x2="45.0856" y2="5.64" width="0.1524" layer="1" curve="-90"/>
@@ -2177,8 +2735,8 @@ design rules under a new name.</description>
 <wire x1="63.0144" y1="37.76" x2="63.0144" y2="34.7144" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$16">
-<contactref element="IC3" pad="4"/>
-<contactref element="4" pad="5"/>
+<contactref element="IC2" pad="4"/>
+<contactref element="LED2" pad="5"/>
 <wire x1="78.5952" y1="7" x2="77.0952" y2="5.5" width="0.1524" layer="1" curve="90"/>
 <wire x1="77.0952" y1="5.5" x2="73.476" y2="1.8808" width="0.1524" layer="1" curve="-90"/>
 <wire x1="48.54" y1="1.8808" x2="44.7808" y2="5.64" width="0.1524" layer="1" curve="-90"/>
@@ -2196,8 +2754,8 @@ design rules under a new name.</description>
 <wire x1="65.9084" y1="32.8" x2="66.0734" y2="32.635" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$18">
-<contactref element="IC4" pad="15"/>
-<contactref element="5" pad="4"/>
+<contactref element="IC3" pad="15"/>
+<contactref element="LED1" pad="4"/>
 <wire x1="82.3" y1="4.05" x2="83.4048" y2="4.05" width="0.1524" layer="1"/>
 <wire x1="83.4048" y1="4.05" x2="83.7" y2="4.3452" width="0.1524" layer="1" curve="90"/>
 <wire x1="83.7" y1="4.3452" x2="83.7" y2="21.2" width="0.1524" layer="1"/>
@@ -2217,8 +2775,8 @@ design rules under a new name.</description>
 <wire x1="72.9864" y1="34.3136" x2="72.125" y2="35.175" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$19">
-<contactref element="IC4" pad="1"/>
-<contactref element="5" pad="5"/>
+<contactref element="IC3" pad="1"/>
+<contactref element="LED1" pad="5"/>
 <wire x1="82.3" y1="3" x2="83.4048" y2="3" width="0.1524" layer="1"/>
 <wire x1="83.4048" y1="3" x2="84.0048" y2="3.6" width="0.1524" layer="1" curve="90"/>
 <wire x1="84.0048" y1="3.6" x2="84.0048" y2="21.2" width="0.1524" layer="1"/>
@@ -2236,7 +2794,7 @@ design rules under a new name.</description>
 <wire x1="73.8952" y1="35.1952" x2="75.145" y2="36.445" width="0.1524" layer="16"/>
 </signal>
 <signal name="DS">
-<contactref element="IC2" pad="14"/>
+<contactref element="IC1" pad="14"/>
 <contactref element="ESP32" pad="7"/>
 <wire x1="48.9266" y1="33.905" x2="47.6058" y2="33.905" width="0.1524" layer="16"/>
 <wire x1="47.6058" y1="33.905" x2="47.3" y2="34.2108" width="0.1524" layer="16" curve="-90"/>
@@ -2247,19 +2805,19 @@ design rules under a new name.</description>
 <wire x1="47.3" y1="34.2108" x2="47.3" y2="36.36" width="0.1524" layer="16"/>
 <wire x1="49.84" y1="38.9" x2="78.76" y2="38.9" width="0.1524" layer="16"/>
 <wire x1="82.2144" y1="42.3544" x2="82.2144" y2="48.16" width="0.1524" layer="16"/>
-<wire x1="84.7544" y1="50.7" x2="140.16" y2="50.7" width="0.1524" layer="16"/>
 <via x="142.7" y="30.9" extent="1-16" drill="0.35"/>
 <wire x1="142.7" y1="30.9" x2="142.7" y2="30.76" width="0.1524" layer="1"/>
 <wire x1="142.7" y1="30.76" x2="145.24" y2="28.22" width="0.1524" layer="1" curve="90"/>
 <wire x1="145.24" y1="28.22" x2="150.75" y2="28.22" width="0.1524" layer="1"/>
 <wire x1="142.7" y1="48.16" x2="142.7" y2="30.9" width="0.1524" layer="16"/>
-<contactref element="D22" pad="2"/>
-<wire x1="164.47" y1="-16.62" x2="164.75" y2="-16.9" width="0.1524" layer="1" curve="90"/>
-<wire x1="150.75" y1="28.22" x2="164.47" y2="-16.62" width="0" layer="19" extent="1-1"/>
+<contactref element="D25" pad="2"/>
+<wire x1="153.9" y1="28.55" x2="151.08" y2="28.55" width="0.1524" layer="1"/>
+<wire x1="151.08" y1="28.55" x2="150.75" y2="28.22" width="0.1524" layer="1"/>
+<wire x1="84.7544" y1="50.7" x2="140.16" y2="50.7" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$17">
-<contactref element="IC2" pad="9"/>
-<contactref element="IC3" pad="14"/>
+<contactref element="IC1" pad="9"/>
+<contactref element="IC2" pad="14"/>
 <wire x1="59.9266" y1="33.905" x2="58.6058" y2="33.905" width="0.1524" layer="16"/>
 <wire x1="58.6058" y1="33.905" x2="57.5856" y2="32.8848" width="0.1524" layer="16" curve="90"/>
 <wire x1="57.5856" y1="27.74" x2="55.0456" y2="25.2" width="0.1524" layer="16" curve="-90"/>
@@ -2272,8 +2830,8 @@ design rules under a new name.</description>
 <wire x1="48.8716" y1="27.5" x2="48.9266" y2="27.555" width="0.1524" layer="16" curve="90"/>
 </signal>
 <signal name="N$21">
-<contactref element="IC3" pad="9"/>
-<contactref element="IC4" pad="14"/>
+<contactref element="IC2" pad="9"/>
+<contactref element="IC3" pad="14"/>
 <wire x1="70.9266" y1="33.905" x2="69.6058" y2="33.905" width="0.1524" layer="16"/>
 <wire x1="69.6058" y1="33.905" x2="68.1856" y2="32.4848" width="0.1524" layer="16" curve="90"/>
 <wire x1="68.1856" y1="28.14" x2="65.6456" y2="25.6" width="0.1524" layer="16" curve="-90"/>
@@ -2289,9 +2847,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="SHCP">
 <contactref element="ESP32" pad="6"/>
+<contactref element="IC1" pad="11"/>
 <contactref element="IC2" pad="11"/>
 <contactref element="IC3" pad="11"/>
-<contactref element="IC4" pad="11"/>
 <wire x1="48.9266" y1="30.095" x2="48.1" y2="30.095" width="0.1524" layer="16"/>
 <wire x1="48.1" y1="30.095" x2="47.6058" y2="30.095" width="0.1524" layer="16"/>
 <wire x1="47.6058" y1="30.095" x2="46.3856" y2="31.3152" width="0.1524" layer="16" curve="-90"/>
@@ -2302,7 +2860,6 @@ design rules under a new name.</description>
 <wire x1="46.3856" y1="31.3152" x2="46.3856" y2="36.36" width="0.1524" layer="16"/>
 <wire x1="49.84" y1="39.8144" x2="78.76" y2="39.8144" width="0.1524" layer="16"/>
 <wire x1="81.3" y1="42.3544" x2="81.3" y2="48.16" width="0.1524" layer="16"/>
-<wire x1="84.7544" y1="51.6144" x2="140.16" y2="51.6144" width="0.1524" layer="16"/>
 <wire x1="143.6144" y1="28.22" x2="146.1544" y2="25.68" width="0.1524" layer="16" curve="90"/>
 <wire x1="146.1544" y1="25.68" x2="150.75" y2="25.68" width="0.1524" layer="16"/>
 <wire x1="143.6144" y1="48.16" x2="143.6144" y2="28.22" width="0.1524" layer="16"/>
@@ -2322,14 +2879,16 @@ design rules under a new name.</description>
 <wire x1="69.1" y1="29.5892" x2="69.1" y2="28.14" width="0.1524" layer="16"/>
 <wire x1="62.3856" y1="27.636" x2="59.9266" y2="30.095" width="0.1524" layer="16" curve="90"/>
 <wire x1="62.3856" y1="26.7" x2="62.3856" y2="27.636" width="0.1524" layer="16"/>
-<contactref element="D23" pad="1"/>
-<wire x1="150.75" y1="25.68" x2="161.75" y2="-16.9" width="0" layer="19" extent="1-1"/>
+<contactref element="D26" pad="1"/>
+<wire x1="153.9" y1="25.45" x2="150.98" y2="25.45" width="0.1524" layer="1"/>
+<wire x1="150.98" y1="25.45" x2="150.75" y2="25.68" width="0.1524" layer="1"/>
+<wire x1="84.7544" y1="51.6144" x2="140.16" y2="51.6144" width="0.1524" layer="16"/>
 </signal>
 <signal name="STCP">
 <contactref element="ESP32" pad="5"/>
+<contactref element="IC1" pad="12"/>
 <contactref element="IC2" pad="12"/>
 <contactref element="IC3" pad="12"/>
-<contactref element="IC4" pad="12"/>
 <wire x1="48.9266" y1="31.365" x2="47.6058" y2="31.365" width="0.1524" layer="16"/>
 <wire x1="47.6058" y1="31.365" x2="46.6904" y2="32.2804" width="0.1524" layer="16" curve="-90"/>
 <wire x1="46.6904" y1="36.36" x2="49.84" y2="39.5096" width="0.1524" layer="16" curve="-90"/>
@@ -2339,7 +2898,6 @@ design rules under a new name.</description>
 <wire x1="46.6904" y1="32.2804" x2="46.6904" y2="36.36" width="0.1524" layer="16"/>
 <wire x1="49.84" y1="39.5096" x2="78.76" y2="39.5096" width="0.1524" layer="16"/>
 <wire x1="81.6048" y1="42.3544" x2="81.6048" y2="48.16" width="0.1524" layer="16"/>
-<wire x1="84.7544" y1="51.3096" x2="140.16" y2="51.3096" width="0.1524" layer="16"/>
 <wire x1="143.3096" y1="48.16" x2="143.3096" y2="25.68" width="0.1524" layer="16"/>
 <wire x1="143.3096" y1="25.68" x2="145.8496" y2="23.14" width="0.1524" layer="16" curve="90"/>
 <wire x1="145.8496" y1="23.14" x2="150.75" y2="23.14" width="0.1524" layer="16"/>
@@ -2366,12 +2924,14 @@ design rules under a new name.</description>
 <wire x1="62.6904" y1="28.825" x2="60.1504" y2="31.365" width="0.1524" layer="16" curve="90"/>
 <wire x1="60.1504" y1="31.365" x2="59.9266" y2="31.365" width="0.1524" layer="16"/>
 <wire x1="62.6904" y1="26.7" x2="62.6904" y2="28.825" width="0.1524" layer="16"/>
-<contactref element="D23" pad="2"/>
-<wire x1="150.75" y1="23.14" x2="159.85" y2="-16.9" width="0" layer="19" extent="1-1"/>
+<contactref element="D26" pad="2"/>
+<wire x1="153.9" y1="23.55" x2="151.16" y2="23.55" width="0.1524" layer="1"/>
+<wire x1="151.16" y1="23.55" x2="150.75" y2="23.14" width="0.1524" layer="1"/>
+<wire x1="84.7544" y1="51.3096" x2="140.16" y2="51.3096" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$3">
-<contactref element="IC3" pad="2"/>
-<contactref element="3" pad="6"/>
+<contactref element="IC2" pad="2"/>
+<contactref element="LED3" pad="6"/>
 <wire x1="79.94" y1="9.95" x2="76.4856" y2="6.4956" width="0.1524" layer="1" curve="90"/>
 <wire x1="76.4856" y1="6.4956" x2="76.4856" y2="5.5" width="0.1524" layer="1"/>
 <wire x1="76.4856" y1="5.5" x2="73.476" y2="2.4904" width="0.1524" layer="1" curve="-90"/>
@@ -2394,6 +2954,9 @@ design rules under a new name.</description>
 <wire x1="64.4" y1="34.8" x2="64.775" y2="35.175" width="0.1524" layer="16"/>
 <wire x1="64.775" y1="35.175" x2="66.0734" y2="35.175" width="0.1524" layer="16"/>
 <wire x1="62.7096" y1="37.76" x2="62.7096" y2="35.26775" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="D3" pad="2"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
