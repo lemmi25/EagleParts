@@ -123,7 +123,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:zI2w9i2xSFaMLz-7zfKZsQ" pcbguid="1e8e6a85-2238-4de1-a780-48ef88d6e7b2" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="521892d8-50a9-4cf6-bdbc-dc60ed7f5a97" lastsyncedrevisionid="521892d8-50a9-4cf6-bdbc-dc60ed7f5a97" lastboardhashguid="699127a8-67b5-fb33-730c-a053a2e91cc4" lastpushedtime="2020-12-14T22:28:48Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:GdUElHh-Ssm79hANlXEZ3w" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="2d75f9dd-24ce-4b4f-a06e-16aec18b3e25" lastsyncedrevisionid="2d75f9dd-24ce-4b4f-a06e-16aec18b3e25" lastboardhashguid="699127a8-67b5-fb33-730c-a053a2e91cc4" lastpushedtime="2020-12-14T22:24:53Z" linktopcb3d="true"/>
 <plain>
 <wire x1="33" y1="2" x2="33" y2="32" width="0" layer="20"/>
 <wire x1="33" y1="32" x2="31" y2="34" width="0" layer="20"/>

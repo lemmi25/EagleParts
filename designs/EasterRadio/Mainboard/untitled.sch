@@ -3492,9 +3492,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/LSM115JE3_TR1
 <segment>
 <pinref part="AMPLIFIER" gate="A" pin="5"/>
 <label x="248.92" y="68.58" size="1.778" layer="95" rot="R90"/>
-<wire x1="248.92" y1="83.82" x2="248.92" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="D14" gate="G$1" pin="CATHODE_2"/>
-<wire x1="248.92" y1="30.48" x2="294.64" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="83.82" x2="248.92" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="D14" gate="G$1" pin="CATHODE_1"/>
+<wire x1="294.64" y1="33.02" x2="248.92" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="STEREO" gate="G$1" pin="RING"/>
@@ -3519,9 +3519,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/LSM115JE3_TR1
 <segment>
 <pinref part="AMPLIFIER" gate="A" pin="4"/>
 <label x="246.38" y="68.58" size="1.778" layer="95" rot="R90"/>
-<wire x1="246.38" y1="83.82" x2="246.38" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="D14" gate="G$1" pin="CATHODE_1"/>
-<wire x1="246.38" y1="33.02" x2="294.64" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="83.82" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="D14" gate="G$1" pin="CATHODE_2"/>
+<wire x1="294.64" y1="30.48" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="STEREO" gate="G$1" pin="TIP"/>
@@ -3545,18 +3545,18 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/LSM115JE3_TR1
 <segment>
 <pinref part="AMPLIFIER" gate="A" pin="2"/>
 <label x="241.3" y="68.58" size="1.778" layer="95" rot="R90"/>
-<wire x1="241.3" y1="83.82" x2="241.3" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="D15" gate="G$1" pin="CATHODE_1"/>
-<wire x1="294.64" y1="22.86" x2="241.3" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="83.82" x2="241.3" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="D15" gate="G$1" pin="CATHODE_2"/>
+<wire x1="294.64" y1="20.32" x2="241.3" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!SHDN" class="0">
 <segment>
 <pinref part="AMPLIFIER" gate="A" pin="3"/>
 <label x="243.84" y="68.58" size="1.778" layer="95" rot="R90"/>
-<wire x1="243.84" y1="83.82" x2="243.84" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="D15" gate="G$1" pin="CATHODE_2"/>
-<wire x1="243.84" y1="20.32" x2="294.64" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="83.82" x2="243.84" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="D15" gate="G$1" pin="CATHODE_1"/>
+<wire x1="294.64" y1="22.86" x2="243.84" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IRQ_RADIO_IC" class="0">
