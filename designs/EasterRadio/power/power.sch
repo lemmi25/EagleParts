@@ -1357,8 +1357,8 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <part name="C3" library="MouserUseful" deviceset="CNC5L1X7R1C106K160AE" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF"/>
 <part name="C5" library="MouserUseful" deviceset="GRM219R61C226ME15K" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="22uF"/>
 <part name="L1" library="MouserUseful" deviceset="VLS6045EX-221M" device=""/>
-<part name="R5" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="68kOhm"/>
-<part name="R6" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22kOhm"/>
+<part name="R5" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="562kOhm"/>
+<part name="R6" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="180kOhm"/>
 <part name="R4" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100kOhm"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="R3" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470ohm"/>
@@ -1369,7 +1369,7 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="R7" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100Kohm"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
-<part name="R8" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10kOhm"/>
+<part name="R8" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="200kOhm"/>
 <part name="D2" library="CommonParts" deviceset="LSM115JE3_TR13" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
