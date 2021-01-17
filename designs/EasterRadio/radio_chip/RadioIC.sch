@@ -1106,7 +1106,7 @@ www.irf.com&lt;p&gt;
 <part name="L1" library="MouserUseful" deviceset="LQW2UASR56F0CL" device="" value="270nH"/>
 <part name="C5" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="33pF"/>
 <part name="C3" library="CommonParts" deviceset="C-EU_1206" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="33nF"/>
-<part name="C4" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.5K"/>
+<part name="B1" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.5K Ferrit Perle"/>
 <part name="AGND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="R4" library="MouserUseful" deviceset="ERJ-PB6B5623V" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="120k"/>
 <part name="R1" library="MouserUseful" deviceset="ERJ-PB6B5623V" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
@@ -1157,7 +1157,7 @@ www.irf.com&lt;p&gt;
 <attribute name="NAME" x="36.576" y="83.439" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="32.004" y="86.741" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="38.1" y="71.12" smashed="yes" rot="R180" grouprefs="SI4844">
+<instance part="B1" gate="G$1" x="38.1" y="71.12" smashed="yes" rot="R180" grouprefs="SI4844">
 <attribute name="NAME" x="36.576" y="70.739" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="32.004" y="74.041" size="1.778" layer="96"/>
 </instance>
@@ -1537,7 +1537,7 @@ www.irf.com&lt;p&gt;
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="58.42" x2="38.1" y2="66.04" width="0.1524" layer="91" grouprefs="SI4844"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="B1" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="68.58" x2="38.1" y2="66.04" width="0.1524" layer="91" grouprefs="SI4844"/>
 <junction x="38.1" y="66.04" grouprefs="SI4844"/>
 <wire x1="38.1" y1="66.04" x2="7.62" y2="66.04" width="0.1524" layer="91" grouprefs="SI4844"/>
@@ -1554,7 +1554,7 @@ www.irf.com&lt;p&gt;
 <net name="N$3" class="0">
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="B1" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="81.28" x2="38.1" y2="76.2" width="0.1524" layer="91" grouprefs="SI4844"/>
 </segment>
 </net>
