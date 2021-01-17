@@ -7122,7 +7122,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D4" library="CommonParts" deviceset="LSM115JE3_TR13" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="ENERGY" library="MouserUseful" deviceset="KMMX-BSMT35S-B30TR" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7151,7 +7150,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="D24" library="MouserUseful" deviceset="PESD3V3L2BT,215" device=""/>
 <part name="D25" library="MouserUseful" deviceset="PESD3V3L2BT,215" device=""/>
 <part name="D26" library="MouserUseful" deviceset="PESD3V3L2BT,215" device=""/>
-<part name="D27" library="MouserUseful" deviceset="PESD3V3L2BT,215" device=""/>
 <part name="D28" library="MouserUseful" deviceset="PESD3V3L2BT,215" device=""/>
 <part name="D29" library="MouserUseful" deviceset="PESD3V3L2BT,215" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7171,6 +7169,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3.3K"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7267,9 +7266,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="GND6" gate="1" x="71.12" y="78.74" smashed="yes">
 <attribute name="VALUE" x="68.58" y="76.2" size="1.778" layer="96"/>
-</instance>
-<instance part="GND4" gate="1" x="251.46" y="63.5" smashed="yes">
-<attribute name="VALUE" x="248.92" y="60.96" size="1.778" layer="96"/>
 </instance>
 <instance part="ENERGY" gate="G$1" x="86.36" y="137.16" smashed="yes">
 <attribute name="NAME" x="105.41" y="144.78" size="1.778" layer="95" align="center-left"/>
@@ -7378,10 +7374,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="341.63" y="142.24" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="341.63" y="139.7" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="D27" gate="G$1" x="297.18" y="124.46" smashed="yes">
-<attribute name="NAME" x="341.63" y="132.08" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="341.63" y="129.54" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="D28" gate="G$1" x="297.18" y="114.3" smashed="yes">
 <attribute name="NAME" x="341.63" y="121.92" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="341.63" y="119.38" size="1.778" layer="96" align="center-left"/>
@@ -7449,6 +7441,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND3" gate="1" x="129.54" y="114.3" smashed="yes">
 <attribute name="VALUE" x="127" y="111.76" size="1.778" layer="96"/>
 </instance>
+<instance part="GND4" gate="1" x="238.76" y="63.5" smashed="yes">
+<attribute name="VALUE" x="236.22" y="60.96" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 <bus name="SPI:CS,CS2,DC,GND,MOSI,RST,SCLK,SDA">
@@ -7507,11 +7502,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="241.3" y="251.46" size="1.778" layer="95" rot="R90" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="AMPLIFIER" gate="A" pin="1"/>
-<wire x1="238.76" y1="83.82" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
-<label x="238.76" y="68.58" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <wire x1="73.66" y1="33.02" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
 <label x="73.66" y="48.26" size="1.778" layer="95" rot="R90" align="bottom-right"/>
 <pinref part="RADIO_IC" gate="A" pin="10"/>
@@ -7556,6 +7546,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="CONTROL" gate="A" pin="7"/>
 <wire x1="284.48" y1="83.82" x2="284.48" y2="73.66" width="0.1524" layer="91"/>
 <label x="284.48" y="73.66" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="AMPLIFIER" gate="A" pin="6"/>
+<wire x1="251.46" y1="83.82" x2="251.46" y2="66.04" width="0.1524" layer="91"/>
+<label x="251.46" y="68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -7628,11 +7623,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="71.12" y="93.98"/>
 </segment>
 <segment>
-<pinref part="AMPLIFIER" gate="A" pin="6"/>
-<wire x1="251.46" y1="83.82" x2="251.46" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-</segment>
-<segment>
 <wire x1="281.94" y1="83.82" x2="281.94" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="CONTROL" gate="A" pin="6"/>
@@ -7666,12 +7656,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="D29" gate="G$1" pin="DOUBLE_CATHODE"/>
 <pinref part="D28" gate="G$1" pin="DOUBLE_CATHODE"/>
 <wire x1="345.44" y1="104.14" x2="345.44" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="D27" gate="G$1" pin="DOUBLE_CATHODE"/>
-<wire x1="345.44" y1="114.3" x2="345.44" y2="124.46" width="0.1524" layer="91"/>
 <junction x="345.44" y="114.3"/>
 <pinref part="D26" gate="G$1" pin="DOUBLE_CATHODE"/>
-<wire x1="345.44" y1="124.46" x2="345.44" y2="134.62" width="0.1524" layer="91"/>
-<junction x="345.44" y="124.46"/>
+<wire x1="345.44" y1="114.3" x2="345.44" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="D25" gate="G$1" pin="DOUBLE_CATHODE"/>
 <wire x1="345.44" y1="134.62" x2="345.44" y2="144.78" width="0.1524" layer="91"/>
 <junction x="345.44" y="134.62"/>
@@ -7831,9 +7818,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="124.46" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="GPIOS" gate="A" pin="1"/>
 <pinref part="GND19" gate="1" pin="GND"/>
+<wire x1="218.44" y1="124.46" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="GPIOS" gate="A" pin="2"/>
+<wire x1="218.44" y1="121.92" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
+<junction x="218.44" y="124.46"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="AIN"/>
@@ -7847,6 +7839,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="129.54" y1="119.38" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
 <junction x="129.54" y="119.38"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="AMPLIFIER" gate="A" pin="1"/>
+<wire x1="238.76" y1="83.82" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="RXD0" class="1">
@@ -7930,23 +7927,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="297.18" y1="165.1" x2="276.86" y2="165.1" width="0.1524" layer="91"/>
 <label x="279.4" y="165.1" size="1.778" layer="95"/>
 <pinref part="D23" gate="G$1" pin="CATHODE_1"/>
-</segment>
-</net>
-<net name="IO14" class="0">
-<segment>
-<pinref part="ESP32" gate="A" pin="3"/>
-<wire x1="180.34" y1="147.32" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
-<label x="200.66" y="147.32" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-<segment>
-<wire x1="238.76" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
-<label x="218.44" y="121.92" size="1.778" layer="95" rot="R180" align="top-right"/>
-<pinref part="GPIOS" gate="A" pin="2"/>
-</segment>
-<segment>
-<wire x1="276.86" y1="121.92" x2="297.18" y2="121.92" width="0.1524" layer="91"/>
-<label x="287.02" y="121.92" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="D27" gate="G$1" pin="CATHODE_2"/>
 </segment>
 </net>
 <net name="CS2" class="0">
@@ -8230,13 +8210,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="INR" class="0">
 <segment>
-<pinref part="AMPLIFIER" gate="A" pin="5"/>
-<label x="248.92" y="68.58" size="1.778" layer="95" rot="R90"/>
-<wire x1="248.92" y1="83.82" x2="248.92" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="D14" gate="G$1" pin="CATHODE_1"/>
-<wire x1="294.64" y1="33.02" x2="248.92" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="STEREO" gate="G$1" pin="RING"/>
 <wire x1="114.3" y1="152.4" x2="127" y2="152.4" width="0.1524" layer="91"/>
 <label x="124.46" y="152.4" size="1.778" layer="95" align="bottom-right"/>
@@ -8254,15 +8227,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="D8" gate="G$1" pin="CATHODE_1"/>
 <wire x1="88.9" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="AMPLIFIER" gate="A" pin="2"/>
+<label x="241.3" y="68.58" size="1.778" layer="95" rot="R90"/>
+<wire x1="241.3" y1="83.82" x2="241.3" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="D15" gate="G$1" pin="CATHODE_2"/>
+<wire x1="294.64" y1="20.32" x2="241.3" y2="20.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="INL" class="0">
-<segment>
-<pinref part="AMPLIFIER" gate="A" pin="4"/>
-<label x="246.38" y="68.58" size="1.778" layer="95" rot="R90"/>
-<wire x1="246.38" y1="83.82" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="D14" gate="G$1" pin="CATHODE_2"/>
-<wire x1="294.64" y1="30.48" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="STEREO" gate="G$1" pin="TIP"/>
 <wire x1="83.82" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
@@ -8280,17 +8253,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="D8" gate="G$1" pin="CATHODE_2"/>
 <wire x1="109.22" y1="76.2" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="!MUTE" class="0">
-<segment>
-<pinref part="AMPLIFIER" gate="A" pin="2"/>
-<label x="241.3" y="68.58" size="1.778" layer="95" rot="R90"/>
-<wire x1="241.3" y1="83.82" x2="241.3" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="D15" gate="G$1" pin="CATHODE_2"/>
-<wire x1="294.64" y1="20.32" x2="241.3" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="!SHDN" class="0">
 <segment>
 <pinref part="AMPLIFIER" gate="A" pin="3"/>
 <label x="243.84" y="68.58" size="1.778" layer="95" rot="R90"/>
@@ -8609,6 +8571,29 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="IC4" gate="G$1" pin="VSS"/>
 <wire x1="137.16" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="!MUTE" class="0">
+<segment>
+<pinref part="AMPLIFIER" gate="A" pin="5"/>
+<label x="248.92" y="68.58" size="1.778" layer="95" rot="R90"/>
+<wire x1="248.92" y1="83.82" x2="248.92" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="D14" gate="G$1" pin="CATHODE_1"/>
+<wire x1="294.64" y1="33.02" x2="248.92" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="!SHDN" class="0">
+<segment>
+<pinref part="AMPLIFIER" gate="A" pin="4"/>
+<label x="246.38" y="68.58" size="1.778" layer="95" rot="R90"/>
+<wire x1="246.38" y1="83.82" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="D14" gate="G$1" pin="CATHODE_2"/>
+<wire x1="294.64" y1="30.48" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="ESP32" gate="A" pin="3"/>
+<wire x1="180.34" y1="147.32" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
+<label x="200.66" y="147.32" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>
