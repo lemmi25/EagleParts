@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -264,6 +264,8 @@
 <wire x1="4" y1="52" x2="2" y2="54" width="0.8128" layer="29"/>
 <hole x="90.9" y="32.1" drill="2.8"/>
 <hole x="134.9" y="32.1" drill="2.8"/>
+<hole x="200" y="3.5" drill="2.8"/>
+<hole x="25" y="3.5" drill="2.8"/>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -2878,7 +2880,6 @@ design rules under a new name.</description>
 <via x="192" y="11" extent="1-16" drill="0.45"/>
 <via x="195" y="17" extent="1-16" drill="0.45"/>
 <via x="195" y="14" extent="1-16" drill="0.45"/>
-<via x="195" y="11" extent="1-16" drill="0.45"/>
 <via x="186" y="8" extent="1-16" drill="0.45"/>
 <via x="186" y="5" extent="1-16" drill="0.45"/>
 <via x="186" y="2" extent="1-16" drill="0.45"/>
@@ -2888,27 +2889,12 @@ design rules under a new name.</description>
 <via x="192" y="8" extent="1-16" drill="0.45"/>
 <via x="192" y="5" extent="1-16" drill="0.45"/>
 <via x="192" y="2" extent="1-16" drill="0.45"/>
-<via x="195" y="8" extent="1-16" drill="0.45"/>
-<via x="195" y="5" extent="1-16" drill="0.45"/>
-<via x="195" y="2" extent="1-16" drill="0.45"/>
 <via x="198" y="17" extent="1-16" drill="0.45"/>
 <via x="198" y="14" extent="1-16" drill="0.45"/>
-<via x="198" y="11" extent="1-16" drill="0.45"/>
 <via x="201" y="14" extent="1-16" drill="0.45"/>
-<via x="201" y="11" extent="1-16" drill="0.45"/>
 <via x="204" y="14" extent="1-16" drill="0.45"/>
-<via x="204" y="11" extent="1-16" drill="0.45"/>
 <via x="207" y="14" extent="1-16" drill="0.45"/>
 <via x="207" y="11" extent="1-16" drill="0.45"/>
-<via x="198" y="8" extent="1-16" drill="0.45"/>
-<via x="198" y="5" extent="1-16" drill="0.45"/>
-<via x="198" y="2" extent="1-16" drill="0.45"/>
-<via x="201" y="8" extent="1-16" drill="0.45"/>
-<via x="201" y="5" extent="1-16" drill="0.45"/>
-<via x="201" y="2" extent="1-16" drill="0.45"/>
-<via x="204" y="8" extent="1-16" drill="0.45"/>
-<via x="204" y="5" extent="1-16" drill="0.45"/>
-<via x="204" y="2" extent="1-16" drill="0.45"/>
 <via x="207" y="8" extent="1-16" drill="0.45"/>
 <via x="207" y="5" extent="1-16" drill="0.45"/>
 <via x="207" y="2" extent="1-16" drill="0.45"/>
@@ -2983,12 +2969,9 @@ design rules under a new name.</description>
 <via x="192" y="44" extent="1-16" drill="0.45"/>
 <via x="192" y="41" extent="1-16" drill="0.45"/>
 <via x="192" y="38" extent="1-16" drill="0.45"/>
-<via x="195" y="47" extent="1-16" drill="0.45"/>
-<via x="198" y="47" extent="1-16" drill="0.45"/>
 <via x="195" y="44" extent="1-16" drill="0.45"/>
 <via x="195" y="41" extent="1-16" drill="0.45"/>
 <via x="198" y="44" extent="1-16" drill="0.45"/>
-<via x="201" y="47" extent="1-16" drill="0.45"/>
 <via x="207" y="53" extent="1-16" drill="0.45"/>
 <via x="201" y="44" extent="1-16" drill="0.45"/>
 <via x="195" y="20" extent="1-16" drill="0.45"/>
@@ -3049,13 +3032,7 @@ design rules under a new name.</description>
 <via x="34" y="50" extent="1-16" drill="0.45"/>
 <via x="34" y="47" extent="1-16" drill="0.45"/>
 <via x="34" y="44" extent="1-16" drill="0.45"/>
-<via x="28" y="2" extent="1-16" drill="0.45"/>
-<via x="25" y="2" extent="1-16" drill="0.45"/>
-<via x="31" y="2" extent="1-16" drill="0.45"/>
 <via x="34" y="2" extent="1-16" drill="0.45"/>
-<via x="31" y="47" extent="1-16" drill="0.45"/>
-<via x="31" y="44" extent="1-16" drill="0.45"/>
-<via x="28" y="47" extent="1-16" drill="0.45"/>
 <via x="40" y="56" extent="1-16" drill="0.45"/>
 <via x="40" y="53" extent="1-16" drill="0.45"/>
 <via x="40" y="50" extent="1-16" drill="0.45"/>
@@ -3064,7 +3041,6 @@ design rules under a new name.</description>
 <via x="37" y="56" extent="1-16" drill="0.45"/>
 <via x="37" y="53" extent="1-16" drill="0.45"/>
 <via x="37" y="44" extent="1-16" drill="0.45"/>
-<via x="25" y="47" extent="1-16" drill="0.45"/>
 <via x="16" y="56" extent="1-16" drill="0.45"/>
 <via x="16" y="53" extent="1-16" drill="0.45"/>
 <via x="16" y="50" extent="1-16" drill="0.45"/>
@@ -3089,19 +3065,8 @@ design rules under a new name.</description>
 <via x="10" y="8" extent="1-16" drill="0.45"/>
 <via x="13" y="11" extent="1-16" drill="0.45"/>
 <via x="13" y="8" extent="1-16" drill="0.45"/>
-<via x="16" y="11" extent="1-16" drill="0.45"/>
-<via x="16" y="8" extent="1-16" drill="0.45"/>
-<via x="19" y="11" extent="1-16" drill="0.45"/>
-<via x="19" y="8" extent="1-16" drill="0.45"/>
-<via x="22" y="11" extent="1-16" drill="0.45"/>
-<via x="22" y="8" extent="1-16" drill="0.45"/>
-<via x="25" y="11" extent="1-16" drill="0.45"/>
-<via x="25" y="8" extent="1-16" drill="0.45"/>
 <via x="28" y="14" extent="1-16" drill="0.45"/>
-<via x="28" y="11" extent="1-16" drill="0.45"/>
-<via x="28" y="8" extent="1-16" drill="0.45"/>
 <via x="31" y="14" extent="1-16" drill="0.45"/>
-<via x="31" y="8" extent="1-16" drill="0.45"/>
 <via x="37" y="11" extent="1-16" drill="0.45"/>
 <via x="40" y="14" extent="1-16" drill="0.45"/>
 <via x="37" y="14" extent="1-16" drill="0.45"/>
@@ -3115,8 +3080,6 @@ design rules under a new name.</description>
 <via x="13" y="2" extent="1-16" drill="0.45"/>
 <via x="10" y="2" extent="1-16" drill="0.45"/>
 <via x="16" y="2" extent="1-16" drill="0.45"/>
-<via x="19" y="2" extent="1-16" drill="0.45"/>
-<via x="22" y="2" extent="1-16" drill="0.45"/>
 <via x="4" y="8" extent="1-16" drill="0.45"/>
 <via x="50" y="21.5" extent="1-16" drill="0.45"/>
 <via x="52.5" y="21.5" extent="1-16" drill="0.45"/>
@@ -3132,34 +3095,6 @@ design rules under a new name.</description>
 <via x="47.4" y="32.6" extent="1-16" drill="0.45"/>
 <via x="58.3" y="32.6" extent="1-16" drill="0.45"/>
 <via x="189" y="56" extent="1-16" drill="0.45"/>
-<polygon width="0.508" layer="1">
-<vertex x="194" y="49"/>
-<vertex x="206" y="49"/>
-<vertex x="206" y="58"/>
-<vertex x="231" y="58"/>
-<vertex x="231" y="0"/>
-<vertex x="-5" y="0"/>
-<vertex x="-5" y="58"/>
-<vertex x="19" y="58"/>
-<vertex x="19" y="49"/>
-<vertex x="31" y="49"/>
-<vertex x="31" y="58.35"/>
-<vertex x="194" y="58.35"/>
-</polygon>
-<polygon width="0.508" layer="16">
-<vertex x="19" y="58"/>
-<vertex x="19" y="49"/>
-<vertex x="31" y="49"/>
-<vertex x="31" y="58.35"/>
-<vertex x="194" y="58.35"/>
-<vertex x="194" y="49"/>
-<vertex x="206" y="49"/>
-<vertex x="206" y="58"/>
-<vertex x="231" y="58"/>
-<vertex x="231" y="0"/>
-<vertex x="-5" y="0"/>
-<vertex x="-5" y="58"/>
-</polygon>
 <contactref element="CONTROL" pad="6"/>
 <contactref element="GPIOS" pad="1"/>
 <contactref element="D30" pad="3"/>
@@ -3169,6 +3104,50 @@ design rules under a new name.</description>
 <contactref element="AMPLIFIER" pad="1"/>
 <contactref element="GPIOS" pad="2"/>
 <via x="145.2" y="38.5" extent="1-16" drill="0.35"/>
+<polygon width="0.508" layer="16">
+<vertex x="-5" y="0"/>
+<vertex x="20" y="0"/>
+<vertex x="20" y="7.5"/>
+<vertex x="30" y="7.5"/>
+<vertex x="30" y="0"/>
+<vertex x="195" y="0"/>
+<vertex x="195" y="7.5"/>
+<vertex x="205" y="7.5"/>
+<vertex x="205" y="0"/>
+<vertex x="231" y="0"/>
+<vertex x="231" y="57.5"/>
+<vertex x="205" y="57.5"/>
+<vertex x="205" y="50"/>
+<vertex x="195" y="50"/>
+<vertex x="195" y="57.5"/>
+<vertex x="30" y="57.5"/>
+<vertex x="30" y="50"/>
+<vertex x="20" y="50"/>
+<vertex x="20" y="57.5"/>
+<vertex x="-5" y="57.5"/>
+</polygon>
+<polygon width="0.508" layer="1">
+<vertex x="20" y="57.5"/>
+<vertex x="-5" y="57.5"/>
+<vertex x="-5" y="0"/>
+<vertex x="20" y="0"/>
+<vertex x="20" y="7.5"/>
+<vertex x="30" y="7.5"/>
+<vertex x="30" y="0"/>
+<vertex x="195" y="0"/>
+<vertex x="195" y="7.5"/>
+<vertex x="205" y="7.5"/>
+<vertex x="205" y="0"/>
+<vertex x="231" y="0"/>
+<vertex x="231" y="57.5"/>
+<vertex x="205" y="57.5"/>
+<vertex x="205" y="50"/>
+<vertex x="195" y="50"/>
+<vertex x="195" y="57.5"/>
+<vertex x="30" y="57.5"/>
+<vertex x="30" y="50"/>
+<vertex x="20" y="50"/>
+</polygon>
 </signal>
 <signal name="N$1">
 <wire x1="8" y1="52" x2="8" y2="44" width="0.8128" layer="1"/>
@@ -3728,19 +3707,26 @@ design rules under a new name.</description>
 <wire x1="74.4" y1="5.5" x2="74.4" y2="3.5" width="1.27" layer="16"/>
 <wire x1="74.4" y1="3.5" x2="73.7" y2="2.8" width="1.27" layer="16"/>
 <wire x1="73.7" y1="2.8" x2="53.9" y2="2.8" width="1.27" layer="16"/>
-<wire x1="52.6" y1="4.1" x2="52.6" y2="5.9656" width="1.27" layer="16"/>
-<wire x1="52.6" y1="5.9656" x2="-1.2656" y2="5.9656" width="1.27" layer="16"/>
 <wire x1="-3.1" y1="19.1" x2="-2.3" y2="19.9" width="1.27" layer="16"/>
 <wire x1="-2.3" y1="19.9" x2="3.6" y2="19.9" width="1.27" layer="16"/>
 <wire x1="3.6" y1="19.9" x2="4" y2="20.3" width="1.27" layer="16"/>
 <wire x1="4" y1="20.3" x2="4" y2="23.8" width="1.27" layer="16"/>
 <wire x1="69.3" y1="9.58" x2="69.3" y2="7.8" width="1.27" layer="1"/>
 <wire x1="69.3" y1="7.8" x2="71.6" y2="5.5" width="1.27" layer="1"/>
-<wire x1="53.9" y1="2.8" x2="52.6" y2="4.1" width="1.27" layer="16"/>
-<wire x1="-1.2656" y1="5.9656" x2="-3.1" y2="7.8" width="1.27" layer="16"/>
+<wire x1="52.6" y1="4.1" x2="53.9" y2="2.8" width="1.27" layer="16"/>
+<wire x1="-3.1" y1="7.8" x2="-1.2656" y2="5.9656" width="1.27" layer="16"/>
 <wire x1="-3.1" y1="7.8" x2="-3.1" y2="19.1" width="1.27" layer="16"/>
 <wire x1="3.1" y1="24.7" x2="-0.425" y2="24.7" width="0.6096" layer="16"/>
 <wire x1="3.1" y1="24.7" x2="4" y2="23.8" width="0.6096" layer="16"/>
+<wire x1="-1.2656" y1="5.9656" x2="13.9656" y2="5.9656" width="1.27" layer="16"/>
+<wire x1="14.7844" y1="8.50351875" x2="15.68088125" y2="9.4" width="1.27" layer="16"/>
+<wire x1="15.68088125" y1="9.4" x2="31.59344375" y2="9.4" width="1.27" layer="16"/>
+<wire x1="14.7844" y1="6.7844" x2="14.7844" y2="8.50351875" width="1.27" layer="16"/>
+<wire x1="31.59344375" y1="9.4" x2="33.26584375" y2="7.7276" width="1.27" layer="16"/>
+<wire x1="33.26584375" y1="7.7276" x2="52" y2="7.7276" width="1.27" layer="16"/>
+<wire x1="52" y1="7.7276" x2="52.6" y2="7.1276" width="1.27" layer="16"/>
+<wire x1="13.9656" y1="5.9656" x2="14.7844" y2="6.7844" width="1.27" layer="16"/>
+<wire x1="52.6" y1="7.1276" x2="52.6" y2="4.1" width="1.27" layer="16"/>
 </signal>
 <signal name="INR">
 <contactref element="STEREO" pad="3"/>
