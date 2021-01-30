@@ -104,7 +104,6 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:3xyLtgKsQSaDgoILjqxeTQ" pcbguid="740cd8f7-38c4-4990-ac6b-69b8cefd6bf5" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="fbd95af2-5762-4092-bc78-ce1952443f8e" lastsyncedrevisionid="fbd95af2-5762-4092-bc78-ce1952443f8e" lastboardhashguid="bc43773f-9567-0733-0cf0-ea5042d3aef1" lastpushedtime="2021-01-30T09:47:44Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="95" x2="0" y2="3" width="0" layer="20"/>
 <wire x1="0" y1="3" x2="3" y2="0" width="0" layer="20" curve="90"/>
@@ -1356,21 +1355,15 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="8"/>
 <contactref element="SV2" pad="5"/>
 <contactref element="SV2" pad="7"/>
-<polygon width="0.4064" layer="1">
-<vertex x="0" y="98"/>
-<vertex x="59" y="98"/>
-<vertex x="59" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
-<polygon width="0.4064" layer="16">
-<vertex x="0" y="98"/>
-<vertex x="59" y="98"/>
-<vertex x="59" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
-<via x="27.7" y="49.7" extent="1-16" drill="0.35"/>
-<via x="28.1" y="38.5" extent="1-16" drill="0.35"/>
-<via x="30.2" y="38.5" extent="1-16" drill="0.35"/>
+<wire x1="17.73" y1="64.19" x2="17.73" y2="78.19" width="0" layer="19" extent="1-1"/>
+<wire x1="22.555" y1="57.5734" x2="17.73" y2="64.19" width="0" layer="19" extent="1-1"/>
+<wire x1="27.635" y1="51.4266" x2="22.555" y2="57.5734" width="0" layer="19" extent="1-1"/>
+<wire x1="22.555" y1="46.5734" x2="27.635" y2="51.4266" width="0" layer="19" extent="1-1"/>
+<wire x1="27.635" y1="40.4266" x2="22.555" y2="46.5734" width="0" layer="19" extent="1-1"/>
+<wire x1="3" y1="55.35" x2="17.73" y2="64.19" width="0" layer="19" extent="1-1"/>
+<wire x1="3" y1="50.27" x2="3" y2="55.35" width="0" layer="19" extent="1-1"/>
+<wire x1="17.73" y1="26.19" x2="27.635" y2="40.4266" width="0" layer="19" extent="1-1"/>
+<wire x1="17.73" y1="12.19" x2="17.73" y2="26.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="IC2" pad="10"/>
@@ -2238,11 +2231,6 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports Fusion synchronisation.
-This feature will not be available in this version and saving
-the document will break the link to the Fusion PCB feature.
-</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets

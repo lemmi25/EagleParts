@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -104,7 +104,6 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:3xyLtgKsQSaDgoILjqxeTQ" pcbguid="740cd8f7-38c4-4990-ac6b-69b8cefd6bf5" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="fbd95af2-5762-4092-bc78-ce1952443f8e" lastsyncedrevisionid="fbd95af2-5762-4092-bc78-ce1952443f8e" lastboardhashguid="bc43773f-9567-0733-0cf0-ea5042d3aef1" lastpushedtime="2021-01-30T09:47:44Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="95" x2="0" y2="3" width="0" layer="20"/>
 <wire x1="0" y1="3" x2="3" y2="0" width="0" layer="20" curve="90"/>
@@ -1368,9 +1367,8 @@ design rules under a new name.</description>
 <vertex x="59" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<via x="27.7" y="49.7" extent="1-16" drill="0.35"/>
-<via x="28.1" y="38.5" extent="1-16" drill="0.35"/>
-<via x="30.2" y="38.5" extent="1-16" drill="0.35"/>
+<wire x1="27.635" y1="51.4266" x2="22.555" y2="46.5734" width="0" layer="19" extent="1-1"/>
+<wire x1="27.635" y1="40.4266" x2="22.555" y2="46.5734" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="IC2" pad="10"/>
@@ -2238,11 +2236,6 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports Fusion synchronisation.
-This feature will not be available in this version and saving
-the document will break the link to the Fusion PCB feature.
-</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
