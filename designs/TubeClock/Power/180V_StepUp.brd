@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -121,16 +121,16 @@
 <layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:EW_nxjs3TOeM8ciUlo7Bhg" pcbguid="f30d4857-b7eb-4cd6-9f83-62fb7e7f0654" lastpulledtime="" lastsyncedchangeguid="e5bd292d-e348-6bac-0a30-bca2dcfeea96" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="" lastpushedtime="" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:EW_nxjs3TOeM8ciUlo7Bhg" pcbguid="f30d4857-b7eb-4cd6-9f83-62fb7e7f0654" lastpulledtime="" lastsyncedchangeguid="e5bd292d-e348-6bac-0a30-bca2dcfeea96" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="a5e7afaf-2fa9-2cd0-933a-33ae002bcec1" lastpushedtime="2021-02-01T17:02:43Z" linktopcb3d="false"/>
 <plain>
-<wire x1="51" y1="2" x2="51" y2="37" width="0" layer="20"/>
-<wire x1="51" y1="37" x2="49" y2="39" width="0" layer="20" curve="90"/>
+<wire x1="52" y1="2" x2="52" y2="36" width="0" layer="20"/>
+<wire x1="52" y1="36" x2="49" y2="39" width="0" layer="20" curve="90"/>
 <wire x1="49" y1="39" x2="1" y2="39" width="0" layer="20"/>
 <wire x1="1" y1="39" x2="-1" y2="37" width="0" layer="20" curve="90"/>
 <wire x1="-1" y1="37" x2="-1" y2="2" width="0" layer="20"/>
 <wire x1="-1" y1="2" x2="1" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="1" y1="0" x2="49" y2="0" width="0" layer="20"/>
-<wire x1="49" y1="0" x2="51" y2="2" width="0" layer="20" curve="90"/>
+<wire x1="49" y1="0" x2="52" y2="2" width="0" layer="20" curve="90"/>
 <hole x="2" y="36" drill="2.8"/>
 <hole x="48" y="36" drill="2.8"/>
 <text x="16.5" y="4" size="1.016" layer="25" rot="R90">12V</text>
@@ -2610,8 +2610,8 @@ design rules under a new name.</description>
 <vertex x="42.5" y="33"/>
 <vertex x="45.5" y="36"/>
 <vertex x="45.5" y="39"/>
-<vertex x="51" y="39"/>
-<vertex x="51" y="0"/>
+<vertex x="52" y="39"/>
+<vertex x="52" y="0"/>
 <vertex x="-1" y="0"/>
 <vertex x="-1" y="39"/>
 </polygon>
@@ -2619,8 +2619,8 @@ design rules under a new name.</description>
 <vertex x="37.5" y="35.5"/>
 <vertex x="42.5" y="35.5"/>
 <vertex x="42.5" y="0"/>
-<vertex x="51" y="0"/>
-<vertex x="51" y="39"/>
+<vertex x="52" y="0"/>
+<vertex x="52" y="39"/>
 <vertex x="-1" y="39"/>
 <vertex x="-1" y="0"/>
 <vertex x="29.5" y="0"/>

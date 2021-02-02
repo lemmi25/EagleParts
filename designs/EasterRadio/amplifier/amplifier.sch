@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -640,6 +640,25 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eNSH.pdf"&gt; Datashe
 <wire x1="3" y1="3" x2="-3" y2="3" width="0.2" layer="21"/>
 <wire x1="-3" y1="-3" x2="3" y2="-3" width="0.2" layer="21"/>
 </package>
+<package name="CAPPM7343X430N">
+<description>&lt;b&gt;Case Code E&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.1" y="0" dx="2.45" dy="2.35" layer="1" rot="R90"/>
+<smd name="2" x="3.1" y="0" dx="2.45" dy="2.35" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.525" y1="2.55" x2="4.525" y2="2.55" width="0.05" layer="51"/>
+<wire x1="4.525" y1="2.55" x2="4.525" y2="-2.55" width="0.05" layer="51"/>
+<wire x1="4.525" y1="-2.55" x2="-4.525" y2="-2.55" width="0.05" layer="51"/>
+<wire x1="-4.525" y1="-2.55" x2="-4.525" y2="2.55" width="0.05" layer="51"/>
+<wire x1="-3.65" y1="2.15" x2="3.65" y2="2.15" width="0.1" layer="51"/>
+<wire x1="3.65" y1="2.15" x2="3.65" y2="-2.15" width="0.1" layer="51"/>
+<wire x1="3.65" y1="-2.15" x2="-3.65" y2="-2.15" width="0.1" layer="51"/>
+<wire x1="-3.65" y1="-2.15" x2="-3.65" y2="2.15" width="0.1" layer="51"/>
+<wire x1="-3.65" y1="0.975" x2="-2.475" y2="2.15" width="0.1" layer="51"/>
+<wire x1="3.65" y1="2.15" x2="-4.275" y2="2.15" width="0.2" layer="21"/>
+<wire x1="-3.65" y1="-2.15" x2="3.65" y2="-2.15" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PAM8403DR">
@@ -699,6 +718,26 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eNSH.pdf"&gt; Datashe
 <text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="293D477X9010E2TE3">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.572" y1="1.27" x2="3.556" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.064" y1="1.778" x2="4.064" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+" x="0" y="0" visible="pad" length="short"/>
+<pin name="-" x="12.7" y="0" visible="pad" length="short" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="7.62" y="2.54"/>
+<vertex x="7.62" y="-2.54"/>
+<vertex x="6.858" y="-2.54"/>
+<vertex x="6.858" y="2.54"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -817,6 +856,31 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-VLS6045EX-221M" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="1247062" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1247062" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="293D477X9010E2TE3" prefix="C">
+<description>&lt;b&gt;Solid Tantalum Surface Mount Chip Capacitors TANTAMOUNT(TM), Molded Case, Standard Industrial Grade&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.vishay.com/doc?40002"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="293D477X9010E2TE3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPPM7343X430N">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Solid Tantalum Surface Mount Chip Capacitors TANTAMOUNT(TM), Molded Case, Standard Industrial Grade" constant="no"/>
+<attribute name="HEIGHT" value="4.3mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="293D477X9010E2TE3" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="74-293D477X9010E2TE3" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Sprague/293D477X9010E2TE3/?qs=rQrCv%2FN695FTUwC4XgLqtg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5216,13 +5280,12 @@ Source: AVX .. aphvc.pdf</description>
 <part name="AGND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="R1" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="C2" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.47uF"/>
-<part name="C6" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C6" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.47uF to 1 uF"/>
 <part name="AGND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="C1" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="R2" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="C7" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.47uF"/>
 <part name="AGND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="C4" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="470uF"/>
 <part name="C3" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="C5" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="AGND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
@@ -5239,6 +5302,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="C8"/>
 <part name="AGND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
+<part name="C4" library="MouserUseful" deviceset="293D477X9010E2TE3" device="" value="470uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -5286,10 +5350,6 @@ Source: AVX .. aphvc.pdf</description>
 </instance>
 <instance part="AGND13" gate="VR1" x="111.76" y="78.74" smashed="yes">
 <attribute name="VALUE" x="109.22" y="73.66" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C4" gate="G$1" x="52.07" y="52.07" smashed="yes" rot="R90">
-<attribute name="NAME" x="59.436" y="51.689" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="45.974" y="49.911" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="52.07" y="59.69" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.436" y="59.309" size="1.778" layer="95" rot="R180"/>
@@ -5349,6 +5409,10 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="AGND3" gate="VR1" x="185.42" y="86.36" smashed="yes" rot="R180">
 <attribute name="VALUE" x="187.96" y="91.44" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="C4" gate="G$1" x="41.91" y="52.07" smashed="yes">
+<attribute name="NAME" x="50.8" y="50.8" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="39.37" y="50.8" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5395,8 +5459,8 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="AGND15" gate="VR1" pin="AGND"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="52.07" x2="57.15" y2="52.07" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="52.07" x2="54.61" y2="52.07" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="AGND16" gate="VR1" pin="AGND"/>
@@ -5647,9 +5711,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="58.42" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="26.67" y1="52.07" x2="38.1" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="52.07" x2="49.53" y2="52.07" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="59.69" x2="49.53" y2="59.69" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="44.45" x2="49.53" y2="44.45" width="0.1524" layer="91"/>
@@ -5657,6 +5719,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="38.1" y1="59.69" x2="38.1" y2="52.07" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="52.07" x2="38.1" y2="44.45" width="0.1524" layer="91"/>
 <junction x="38.1" y="52.07"/>
+<pinref part="C4" gate="G$1" pin="+"/>
+<wire x1="38.1" y1="52.07" x2="41.91" y2="52.07" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="26.67" y="52.07" size="1.778" layer="95"/>
