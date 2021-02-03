@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -123,7 +123,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:3cznDv7KT36rVomoCqRWPA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="2dbd548e-a3dd-49c0-bbff-32b45b5b9153" lastsyncedrevisionid="2dbd548e-a3dd-49c0-bbff-32b45b5b9153" lastboardhashguid="febd1a38-2622-4c81-96de-2d81002e64d9" lastpushedtime="2020-12-07T17:29:31Z" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:wOoAA2M-RPuLG1GPSYmcCA" pcbguid="d30a3555-70e7-4493-8fc0-304cd4db8004" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="e11345d7-297c-4ce4-9a95-81f68e122695" lastsyncedrevisionid="e11345d7-297c-4ce4-9a95-81f68e122695" lastboardhashguid="a461c4b4-3f62-5e7e-d129-7f53e24d2c9b" lastpushedtime="2021-02-03T18:40:54Z" linktopcb3d="true"/>
 <plain>
 <text x="15.5" y="41.5" size="2.1844" layer="29" font="vector" ratio="15" align="center">Power</text>
 <wire x1="1" y1="42" x2="1" y2="2" width="0" layer="20"/>
