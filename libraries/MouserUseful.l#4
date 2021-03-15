@@ -3722,8 +3722,11 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="5.893" y1="5.275" x2="5.893" y2="-3.649" width="0.1" layer="51"/>
 <wire x1="5.893" y1="-3.649" x2="-5.893" y2="-3.649" width="0.1" layer="51"/>
 <wire x1="-5.893" y1="-3.649" x2="-5.893" y2="5.275" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="4.275" x2="-1.3" y2="4.275" width="0.2" layer="21"/>
 <wire x1="-1.3" y1="4.275" x2="-1.3" y2="4.175" width="0.2" layer="21" curve="180"/>
+<wire x1="-1.3" y1="4.175" x2="-1.3" y2="4.175" width="0.2" layer="21"/>
 <wire x1="-1.3" y1="4.175" x2="-1.3" y2="4.275" width="0.2" layer="21" curve="180"/>
+<wire x1="-1.3" y1="4.275" x2="-1.3" y2="4.275" width="0.2" layer="21"/>
 <wire x1="-1.3" y1="4.275" x2="-1.3" y2="4.175" width="0.2" layer="21" curve="180"/>
 <wire x1="-3.75" y1="-2" x2="-3.75" y2="-2.45" width="0.1" layer="21"/>
 <wire x1="-3.75" y1="-2.45" x2="3.75" y2="-2.45" width="0.1" layer="21"/>
@@ -3823,104 +3826,6 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <wire x1="-3.65" y1="0.975" x2="-2.475" y2="2.15" width="0.1" layer="51"/>
 <wire x1="3.65" y1="2.15" x2="-4.275" y2="2.15" width="0.2" layer="21"/>
 <wire x1="-3.65" y1="-2.15" x2="3.65" y2="-2.15" width="0.2" layer="21"/>
-</package>
-<package name="SOP64P599X175-16N">
-<description>&lt;b&gt;SSOP-16 (MO-137AB)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.712" y="2.222" dx="1.526" dy="0.435" layer="1"/>
-<smd name="2" x="-2.712" y="1.588" dx="1.526" dy="0.435" layer="1"/>
-<smd name="3" x="-2.712" y="0.952" dx="1.526" dy="0.435" layer="1"/>
-<smd name="4" x="-2.712" y="0.318" dx="1.526" dy="0.435" layer="1"/>
-<smd name="5" x="-2.712" y="-0.318" dx="1.526" dy="0.435" layer="1"/>
-<smd name="6" x="-2.712" y="-0.952" dx="1.526" dy="0.435" layer="1"/>
-<smd name="7" x="-2.712" y="-1.588" dx="1.526" dy="0.435" layer="1"/>
-<smd name="8" x="-2.712" y="-2.222" dx="1.526" dy="0.435" layer="1"/>
-<smd name="9" x="2.712" y="-2.222" dx="1.526" dy="0.435" layer="1"/>
-<smd name="10" x="2.712" y="-1.588" dx="1.526" dy="0.435" layer="1"/>
-<smd name="11" x="2.712" y="-0.952" dx="1.526" dy="0.435" layer="1"/>
-<smd name="12" x="2.712" y="-0.318" dx="1.526" dy="0.435" layer="1"/>
-<smd name="13" x="2.712" y="0.318" dx="1.526" dy="0.435" layer="1"/>
-<smd name="14" x="2.712" y="0.952" dx="1.526" dy="0.435" layer="1"/>
-<smd name="15" x="2.712" y="1.588" dx="1.526" dy="0.435" layer="1"/>
-<smd name="16" x="2.712" y="2.222" dx="1.526" dy="0.435" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.725" y1="2.752" x2="3.725" y2="2.752" width="0.05" layer="51"/>
-<wire x1="3.725" y1="2.752" x2="3.725" y2="-2.752" width="0.05" layer="51"/>
-<wire x1="3.725" y1="-2.752" x2="-3.725" y2="-2.752" width="0.05" layer="51"/>
-<wire x1="-3.725" y1="-2.752" x2="-3.725" y2="2.752" width="0.05" layer="51"/>
-<wire x1="-1.95" y1="2.451" x2="1.95" y2="2.451" width="0.1" layer="51"/>
-<wire x1="1.95" y1="2.451" x2="1.95" y2="-2.451" width="0.1" layer="51"/>
-<wire x1="1.95" y1="-2.451" x2="-1.95" y2="-2.451" width="0.1" layer="51"/>
-<wire x1="-1.95" y1="-2.451" x2="-1.95" y2="2.451" width="0.1" layer="51"/>
-<wire x1="-1.95" y1="1.816" x2="-1.314" y2="2.451" width="0.1" layer="51"/>
-<wire x1="-1.6" y1="2.451" x2="1.6" y2="2.451" width="0.2" layer="21"/>
-<wire x1="1.6" y1="2.451" x2="1.6" y2="-2.451" width="0.2" layer="21"/>
-<wire x1="1.6" y1="-2.451" x2="-1.6" y2="-2.451" width="0.2" layer="21"/>
-<wire x1="-1.6" y1="-2.451" x2="-1.6" y2="2.451" width="0.2" layer="21"/>
-<wire x1="-3.475" y1="2.79" x2="-1.95" y2="2.79" width="0.2" layer="21"/>
-</package>
-<package name="SOT65P210X100-6N">
-<description>&lt;b&gt;UMT6&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.9" y="0.65" dx="1.1" dy="0.4" layer="1"/>
-<smd name="2" x="-0.9" y="0" dx="1.1" dy="0.4" layer="1"/>
-<smd name="3" x="-0.9" y="-0.65" dx="1.1" dy="0.4" layer="1"/>
-<smd name="4" x="0.9" y="-0.65" dx="1.1" dy="0.4" layer="1"/>
-<smd name="5" x="0.9" y="0" dx="1.1" dy="0.4" layer="1"/>
-<smd name="6" x="0.9" y="0.65" dx="1.1" dy="0.4" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.7" y1="1.3" x2="1.7" y2="1.3" width="0.05" layer="51"/>
-<wire x1="1.7" y1="1.3" x2="1.7" y2="-1.3" width="0.05" layer="51"/>
-<wire x1="1.7" y1="-1.3" x2="-1.7" y2="-1.3" width="0.05" layer="51"/>
-<wire x1="-1.7" y1="-1.3" x2="-1.7" y2="1.3" width="0.05" layer="51"/>
-<wire x1="-0.625" y1="1" x2="0.625" y2="1" width="0.1" layer="51"/>
-<wire x1="0.625" y1="1" x2="0.625" y2="-1" width="0.1" layer="51"/>
-<wire x1="0.625" y1="-1" x2="-0.625" y2="-1" width="0.1" layer="51"/>
-<wire x1="-0.625" y1="-1" x2="-0.625" y2="1" width="0.1" layer="51"/>
-<wire x1="-0.625" y1="0.35" x2="0.025" y2="1" width="0.1" layer="51"/>
-<wire x1="-1.45" y1="1.2" x2="-0.35" y2="1.2" width="0.2" layer="21"/>
-</package>
-<package name="SOP65P640X120-20N">
-<description>&lt;b&gt;PW (R-PDSO-G20)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.938" y="2.925" dx="1.475" dy="0.45" layer="1"/>
-<smd name="2" x="-2.938" y="2.275" dx="1.475" dy="0.45" layer="1"/>
-<smd name="3" x="-2.938" y="1.625" dx="1.475" dy="0.45" layer="1"/>
-<smd name="4" x="-2.938" y="0.975" dx="1.475" dy="0.45" layer="1"/>
-<smd name="5" x="-2.938" y="0.325" dx="1.475" dy="0.45" layer="1"/>
-<smd name="6" x="-2.938" y="-0.325" dx="1.475" dy="0.45" layer="1"/>
-<smd name="7" x="-2.938" y="-0.975" dx="1.475" dy="0.45" layer="1"/>
-<smd name="8" x="-2.938" y="-1.625" dx="1.475" dy="0.45" layer="1"/>
-<smd name="9" x="-2.938" y="-2.275" dx="1.475" dy="0.45" layer="1"/>
-<smd name="10" x="-2.938" y="-2.925" dx="1.475" dy="0.45" layer="1"/>
-<smd name="11" x="2.938" y="-2.925" dx="1.475" dy="0.45" layer="1"/>
-<smd name="12" x="2.938" y="-2.275" dx="1.475" dy="0.45" layer="1"/>
-<smd name="13" x="2.938" y="-1.625" dx="1.475" dy="0.45" layer="1"/>
-<smd name="14" x="2.938" y="-0.975" dx="1.475" dy="0.45" layer="1"/>
-<smd name="15" x="2.938" y="-0.325" dx="1.475" dy="0.45" layer="1"/>
-<smd name="16" x="2.938" y="0.325" dx="1.475" dy="0.45" layer="1"/>
-<smd name="17" x="2.938" y="0.975" dx="1.475" dy="0.45" layer="1"/>
-<smd name="18" x="2.938" y="1.625" dx="1.475" dy="0.45" layer="1"/>
-<smd name="19" x="2.938" y="2.275" dx="1.475" dy="0.45" layer="1"/>
-<smd name="20" x="2.938" y="2.925" dx="1.475" dy="0.45" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.925" y1="3.55" x2="3.925" y2="3.55" width="0.05" layer="51"/>
-<wire x1="3.925" y1="3.55" x2="3.925" y2="-3.55" width="0.05" layer="51"/>
-<wire x1="3.925" y1="-3.55" x2="-3.925" y2="-3.55" width="0.05" layer="51"/>
-<wire x1="-3.925" y1="-3.55" x2="-3.925" y2="3.55" width="0.05" layer="51"/>
-<wire x1="-2.2" y1="3.25" x2="2.2" y2="3.25" width="0.1" layer="51"/>
-<wire x1="2.2" y1="3.25" x2="2.2" y2="-3.25" width="0.1" layer="51"/>
-<wire x1="2.2" y1="-3.25" x2="-2.2" y2="-3.25" width="0.1" layer="51"/>
-<wire x1="-2.2" y1="-3.25" x2="-2.2" y2="3.25" width="0.1" layer="51"/>
-<wire x1="-2.2" y1="2.6" x2="-1.55" y2="3.25" width="0.1" layer="51"/>
-<wire x1="-1.85" y1="3.25" x2="1.85" y2="3.25" width="0.2" layer="21"/>
-<wire x1="1.85" y1="3.25" x2="1.85" y2="-3.25" width="0.2" layer="21"/>
-<wire x1="1.85" y1="-3.25" x2="-1.85" y2="-3.25" width="0.2" layer="21"/>
-<wire x1="-1.85" y1="-3.25" x2="-1.85" y2="3.25" width="0.2" layer="21"/>
-<wire x1="-3.675" y1="3.5" x2="-2.2" y2="3.5" width="0.2" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -5466,15 +5371,15 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <pin name="2" x="22.86" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
 <symbol name="PESD3V3L2BT,215">
-<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-5.08" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="43.18" y2="2.54" width="0.254" layer="94"/>
+<wire x1="43.18" y1="-5.08" x2="43.18" y2="2.54" width="0.254" layer="94"/>
+<wire x1="43.18" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="8.89" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="8.89" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="C_1" x="0" y="0" length="middle"/>
-<pin name="C_2" x="0" y="-2.54" length="middle"/>
-<pin name="D_C" x="25.4" y="0" length="middle" rot="R180"/>
+<text x="44.45" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="44.45" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="CATHODE_1" x="0" y="0" length="middle"/>
+<pin name="CATHODE_2" x="0" y="-2.54" length="middle"/>
+<pin name="DOUBLE_CATHODE" x="48.26" y="0" length="middle" rot="R180"/>
 </symbol>
 <symbol name="SJ1-2503A">
 <wire x1="5.08" y1="12.7" x2="25.4" y2="12.7" width="0.254" layer="94"/>
@@ -5597,72 +5502,6 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <vertex x="6.858" y="-2.54"/>
 <vertex x="6.858" y="2.54"/>
 </polygon>
-</symbol>
-<symbol name="FT230XS-U">
-<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-20.32" x2="27.94" y2="2.54" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
-<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="TXD" x="0" y="0" length="middle"/>
-<pin name="RTS#" x="0" y="-2.54" length="middle"/>
-<pin name="VCCIO" x="0" y="-5.08" length="middle"/>
-<pin name="RXD" x="0" y="-7.62" length="middle"/>
-<pin name="GND_1" x="0" y="-10.16" length="middle"/>
-<pin name="CTS#" x="0" y="-12.7" length="middle"/>
-<pin name="CBUS2" x="0" y="-15.24" length="middle"/>
-<pin name="USBDP" x="0" y="-17.78" length="middle"/>
-<pin name="CBUS3" x="33.02" y="0" length="middle" rot="R180"/>
-<pin name="CBUS0" x="33.02" y="-2.54" length="middle" rot="R180"/>
-<pin name="CBUS1" x="33.02" y="-5.08" length="middle" rot="R180"/>
-<pin name="GND_2" x="33.02" y="-7.62" length="middle" rot="R180"/>
-<pin name="VCC" x="33.02" y="-10.16" length="middle" rot="R180"/>
-<pin name="RESET#" x="33.02" y="-12.7" length="middle" rot="R180"/>
-<pin name="3V3OUT" x="33.02" y="-15.24" length="middle" rot="R180"/>
-<pin name="USBDM" x="33.02" y="-17.78" length="middle" rot="R180"/>
-</symbol>
-<symbol name="UMH3NFHATN">
-<wire x1="5.08" y1="2.54" x2="48.26" y2="2.54" width="0.254" layer="94"/>
-<wire x1="48.26" y1="-7.62" x2="48.26" y2="2.54" width="0.254" layer="94"/>
-<wire x1="48.26" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="49.53" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="49.53" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="DTR1_EMITTER" x="0" y="0" length="middle"/>
-<pin name="DTR1_BASE" x="0" y="-2.54" length="middle"/>
-<pin name="DTR2_COLLECTOR" x="0" y="-5.08" length="middle"/>
-<pin name="DTR1_COLLECTOR" x="53.34" y="0" length="middle" rot="R180"/>
-<pin name="DTR2_BASE" x="53.34" y="-2.54" length="middle" rot="R180"/>
-<pin name="DTR2_EMITTER" x="53.34" y="-5.08" length="middle" rot="R180"/>
-</symbol>
-<symbol name="PCM5102APWR">
-<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-25.4" x2="25.4" y2="2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-25.4" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
-<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="CPVDD" x="0" y="0" length="middle"/>
-<pin name="CAPP" x="0" y="-2.54" length="middle"/>
-<pin name="CPGND" x="0" y="-5.08" length="middle"/>
-<pin name="CAPM" x="0" y="-7.62" length="middle"/>
-<pin name="VNEG" x="0" y="-10.16" length="middle"/>
-<pin name="OUTL" x="0" y="-12.7" length="middle"/>
-<pin name="OUTR" x="0" y="-15.24" length="middle"/>
-<pin name="AVDD" x="0" y="-17.78" length="middle"/>
-<pin name="AGND" x="0" y="-20.32" length="middle"/>
-<pin name="DEMP" x="0" y="-22.86" length="middle"/>
-<pin name="DVDD" x="30.48" y="0" length="middle" rot="R180"/>
-<pin name="DGND" x="30.48" y="-2.54" length="middle" rot="R180"/>
-<pin name="LDOO" x="30.48" y="-5.08" length="middle" rot="R180"/>
-<pin name="XSMT" x="30.48" y="-7.62" length="middle" rot="R180"/>
-<pin name="FMT" x="30.48" y="-10.16" length="middle" rot="R180"/>
-<pin name="LRCK" x="30.48" y="-12.7" length="middle" rot="R180"/>
-<pin name="DIN" x="30.48" y="-15.24" length="middle" rot="R180"/>
-<pin name="BCK" x="30.48" y="-17.78" length="middle" rot="R180"/>
-<pin name="SCK" x="30.48" y="-20.32" length="middle" rot="R180"/>
-<pin name="FLT" x="30.48" y="-22.86" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6645,9 +6484,9 @@ Source: &lt;a href="https://assets.nexperia.com/documents/data-sheet/PESDXL2BT_S
 <devices>
 <device name="" package="SOT95P230X110-3N">
 <connects>
-<connect gate="G$1" pin="C_1" pad="1"/>
-<connect gate="G$1" pin="C_2" pad="2"/>
-<connect gate="G$1" pin="D_C" pad="3"/>
+<connect gate="G$1" pin="CATHODE_1" pad="1"/>
+<connect gate="G$1" pin="CATHODE_2" pad="2"/>
+<connect gate="G$1" pin="DOUBLE_CATHODE" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -6877,117 +6716,6 @@ Source: &lt;a href="http://www.vishay.com/doc?40002"&gt; Datasheet &lt;/a&gt;</d
 <attribute name="MANUFACTURER_PART_NUMBER" value="293D477X9010E2TE3" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="74-293D477X9010E2TE3" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Sprague/293D477X9010E2TE3/?qs=rQrCv%2FN695FTUwC4XgLqtg%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FT230XS-U" prefix="IC">
-<description>&lt;b&gt;USB Interface IC USB to Basic Serial UART IC SSOP-16&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="FT230XS-U" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOP64P599X175-16N">
-<connects>
-<connect gate="G$1" pin="3V3OUT" pad="10"/>
-<connect gate="G$1" pin="CBUS0" pad="15"/>
-<connect gate="G$1" pin="CBUS1" pad="14"/>
-<connect gate="G$1" pin="CBUS2" pad="7"/>
-<connect gate="G$1" pin="CBUS3" pad="16"/>
-<connect gate="G$1" pin="CTS#" pad="6"/>
-<connect gate="G$1" pin="GND_1" pad="5"/>
-<connect gate="G$1" pin="GND_2" pad="13"/>
-<connect gate="G$1" pin="RESET#" pad="11"/>
-<connect gate="G$1" pin="RTS#" pad="2"/>
-<connect gate="G$1" pin="RXD" pad="4"/>
-<connect gate="G$1" pin="TXD" pad="1"/>
-<connect gate="G$1" pin="USBDM" pad="9"/>
-<connect gate="G$1" pin="USBDP" pad="8"/>
-<connect gate="G$1" pin="VCC" pad="12"/>
-<connect gate="G$1" pin="VCCIO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="USB Interface IC USB to Basic Serial UART IC SSOP-16" constant="no"/>
-<attribute name="HEIGHT" value="1.753mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="FTDI Chip" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="FT230XS-U" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="895-FT230XS-U" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/FTDI/FT230XS-U/?qs=Gp1Yz1mis3UZolxbXux7lw%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="UMH3NFHATN" prefix="Q">
-<description>&lt;b&gt;ROHM - UMH3NFHATN - TRANS, NPN, AUTO, 4.7K/4.7K, SOT-353&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.rohm.com/web/global/datasheet/UMH3NFHA/umh3nfha-e"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="UMH3NFHATN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT65P210X100-6N">
-<connects>
-<connect gate="G$1" pin="DTR1_BASE" pad="2"/>
-<connect gate="G$1" pin="DTR1_COLLECTOR" pad="6"/>
-<connect gate="G$1" pin="DTR1_EMITTER" pad="1"/>
-<connect gate="G$1" pin="DTR2_BASE" pad="5"/>
-<connect gate="G$1" pin="DTR2_COLLECTOR" pad="3"/>
-<connect gate="G$1" pin="DTR2_EMITTER" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="ROHM - UMH3NFHATN - TRANS, NPN, AUTO, 4.7K/4.7K, SOT-353" constant="no"/>
-<attribute name="HEIGHT" value="1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UMH3NFHATN" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="755-UMH3NFHATN" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/UMH3NFHATN/?qs=4v%252BiZTmLVHETwyIExWQvig%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PCM5102APWR" prefix="IC">
-<description>&lt;b&gt;2VRMS DirectPath, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/PCM5102APWR.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="PCM5102APWR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOP65P640X120-20N">
-<connects>
-<connect gate="G$1" pin="AGND" pad="9"/>
-<connect gate="G$1" pin="AVDD" pad="8"/>
-<connect gate="G$1" pin="BCK" pad="13"/>
-<connect gate="G$1" pin="CAPM" pad="4"/>
-<connect gate="G$1" pin="CAPP" pad="2"/>
-<connect gate="G$1" pin="CPGND" pad="3"/>
-<connect gate="G$1" pin="CPVDD" pad="1"/>
-<connect gate="G$1" pin="DEMP" pad="10"/>
-<connect gate="G$1" pin="DGND" pad="19"/>
-<connect gate="G$1" pin="DIN" pad="14"/>
-<connect gate="G$1" pin="DVDD" pad="20"/>
-<connect gate="G$1" pin="FLT" pad="11"/>
-<connect gate="G$1" pin="FMT" pad="16"/>
-<connect gate="G$1" pin="LDOO" pad="18"/>
-<connect gate="G$1" pin="LRCK" pad="15"/>
-<connect gate="G$1" pin="OUTL" pad="6"/>
-<connect gate="G$1" pin="OUTR" pad="7"/>
-<connect gate="G$1" pin="SCK" pad="12"/>
-<connect gate="G$1" pin="VNEG" pad="5"/>
-<connect gate="G$1" pin="XSMT" pad="17"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="2VRMS DirectPath, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface" constant="no"/>
-<attribute name="HEIGHT" value="1.2mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PCM5102APWR" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-PCM5102APWR" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PCM5102APWR?qs=E2%2FxqS9xjzrfECkwEYoiyg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
