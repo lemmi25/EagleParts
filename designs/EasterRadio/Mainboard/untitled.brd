@@ -6259,7 +6259,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="19" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="941-CLY6DFKCCK1N1D1B" x="84" y="19" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Cree-Inc/CLY6D-FKC-CK1N1D1BB7D3D3?qs=3ZbGupGMFUcwV8ee%2FC0TnQ%3D%3D" x="84" y="19" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="79.519" y="19" size="0.8128" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="78.619" y="19" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
 <element name="LED4" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="15" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="LED  Blue/Green/Red 6-Pin PLCC T/R Cree CLY6D-FKC-CK1N1D1BB7D3D3, CLY6D-FKC Series RGB LED, 480 (Blue) nm, 540 (Green) nm, 624 (Red) nm PLCC 6" x="84" y="15" size="1.778" layer="27" rot="R180" display="off"/>
@@ -6268,7 +6268,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="941-CLY6DFKCCK1N1D1B" x="84" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Cree-Inc/CLY6D-FKC-CK1N1D1BB7D3D3?qs=3ZbGupGMFUcwV8ee%2FC0TnQ%3D%3D" x="84" y="15" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="79.519" y="15" size="0.8128" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="78.619" y="15" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
 <element name="LED3" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="11" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="LED  Blue/Green/Red 6-Pin PLCC T/R Cree CLY6D-FKC-CK1N1D1BB7D3D3, CLY6D-FKC Series RGB LED, 480 (Blue) nm, 540 (Green) nm, 624 (Red) nm PLCC 6" x="84" y="11" size="1.778" layer="27" rot="R180" display="off"/>
@@ -6277,7 +6277,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="11" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="941-CLY6DFKCCK1N1D1B" x="84" y="11" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Cree-Inc/CLY6D-FKC-CK1N1D1BB7D3D3?qs=3ZbGupGMFUcwV8ee%2FC0TnQ%3D%3D" x="84" y="11" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="79.519" y="11" size="0.8128" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="78.619" y="11" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
 <element name="LED2" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="7" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="LED  Blue/Green/Red 6-Pin PLCC T/R Cree CLY6D-FKC-CK1N1D1BB7D3D3, CLY6D-FKC Series RGB LED, 480 (Blue) nm, 540 (Green) nm, 624 (Red) nm PLCC 6" x="84" y="7" size="1.778" layer="27" rot="R180" display="off"/>
@@ -6286,7 +6286,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="941-CLY6DFKCCK1N1D1B" x="84" y="7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Cree-Inc/CLY6D-FKC-CK1N1D1BB7D3D3?qs=3ZbGupGMFUcwV8ee%2FC0TnQ%3D%3D" x="84" y="7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="79.519" y="7" size="0.8128" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="78.619" y="7" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
 <element name="LED1" library="MouserUseful" package="PLCC6" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="3" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="LED  Blue/Green/Red 6-Pin PLCC T/R Cree CLY6D-FKC-CK1N1D1BB7D3D3, CLY6D-FKC Series RGB LED, 480 (Blue) nm, 540 (Green) nm, 624 (Red) nm PLCC 6" x="84" y="3" size="1.778" layer="27" rot="R180" display="off"/>
@@ -6295,7 +6295,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CLY6D-FKC-CK1N1D1BB7D3D3" x="84" y="3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="941-CLY6DFKCCK1N1D1B" x="84" y="3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Cree-Inc/CLY6D-FKC-CK1N1D1BB7D3D3?qs=3ZbGupGMFUcwV8ee%2FC0TnQ%3D%3D" x="84" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="79.519" y="3" size="0.8128" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="78.619" y="3" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
 <element name="IC4" library="MouserUseful" package="SOT95P280X145-5N" value="Analog Digital" x="58.7" y="5.3" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Analog to Digital Converters - ADC Automotive, 12-bit SAR ADC, I2C, single channel" x="58.7" y="5.3" size="1.778" layer="28" rot="MR0" display="off"/>
