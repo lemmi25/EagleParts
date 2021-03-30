@@ -777,6 +777,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PEC11R-4225F-
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="12.7" x2="93.98" y2="12.7" width="0.1524" layer="91" grouprefs="ENCODER"/>
 <label x="93.98" y="12.7" size="1.778" layer="95" grouprefs="ENCODER"/>
+<pinref part="U1" gate="G$1" pin="3"/>
+<wire x1="106.68" y1="22.86" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="12.7" x2="101.6" y2="12.7" width="0.1524" layer="91"/>
+<junction x="101.6" y="12.7"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -795,10 +799,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PEC11R-4225F-
 <wire x1="88.9" y1="15.24" x2="88.9" y2="7.62" width="0.1524" layer="91" grouprefs="ENCODER"/>
 <wire x1="88.9" y1="7.62" x2="81.28" y2="7.62" width="0.1524" layer="91" grouprefs="ENCODER"/>
 <pinref part="GND1" gate="1" pin="GNDA"/>
-<pinref part="U1" gate="G$1" pin="3"/>
-<wire x1="106.68" y1="22.86" x2="106.68" y2="7.62" width="0.1524" layer="91" grouprefs="ENCODER"/>
-<wire x1="106.68" y1="7.62" x2="88.9" y2="7.62" width="0.1524" layer="91" grouprefs="ENCODER"/>
-<junction x="88.9" y="7.62" grouprefs="ENCODER"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
