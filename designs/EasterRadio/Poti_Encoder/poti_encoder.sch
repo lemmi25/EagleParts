@@ -688,6 +688,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PEC11R-4225F-
 <plain>
 <text x="0" y="99.06" size="3.81" layer="91">Poti and Encoder</text>
 <frame x1="0" y1="0" x2="144.78" y2="96.52" columns="8" rows="5" layer="91"/>
+<text x="43.18" y="99.06" size="1.778" layer="91">Revision 1 02.04.21</text>
 </plain>
 <instances>
 <instance part="VR1" gate="G$1" x="38.1" y="43.18" smashed="yes" grouprefs="POTENTIOMETER">

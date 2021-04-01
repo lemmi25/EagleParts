@@ -1143,6 +1143,7 @@ www.irf.com&lt;p&gt;
 <plain>
 <text x="0" y="165.1" size="5.08" layer="91">Radio IC (SI4840-A10-GU)</text>
 <frame x1="0" y1="0" x2="241.3" y2="162.56" columns="8" rows="5" layer="91"/>
+<text x="86.36" y="165.1" size="1.778" layer="91">Revision 1 02.04.21</text>
 </plain>
 <instances>
 <instance part="L1" gate="G$1" x="38.1" y="25.4" smashed="yes" rot="R90" grouprefs="SI4844">

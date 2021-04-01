@@ -1340,6 +1340,11 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
+<groups>
+<schematic_group name="JACKS"/>
+<schematic_group name="CHARGING_IC"/>
+<schematic_group name="STEP_DOWN_CONVERTER_3.3V"/>
+</groups>
 <parts>
 <part name="IC1" library="MouserUseful" deviceset="MCP73832T-2ACI_OT" device=""/>
 <part name="C2" library="CommonParts" deviceset="C-EU_1206" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="4.7uF"/>
@@ -1377,143 +1382,142 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/inductor_
 <sheets>
 <sheet>
 <plain>
-<text x="1.27" y="147.32" size="5.08" layer="91">Power</text>
-<text x="87.63" y="46.99" size="1.778" layer="89">Step down to 3.3V Converter</text>
-<text x="46.99" y="115.57" size="1.778" layer="89">Lade-IC
+<text x="1.27" y="167.64" size="5.08" layer="91">Power</text>
+<text x="52.07" y="128.27" size="1.778" layer="89" grouprefs="CHARGING_IC">Lade-IC
 STAT = Low --&gt;
 Battery charging</text>
-<text x="25.4" y="66.04" size="1.778" layer="89">Mico SD für Spannung</text>
-<text x="97.79" y="101.6" size="1.778" layer="89">pMOSFET
+<text x="102.87" y="114.3" size="1.778" layer="89" grouprefs="CHARGING_IC">pMOSFET
 runs current when ext. 
 v. source is NOT connected</text>
-<text x="143.51" y="111.76" size="1.778" layer="89">Shottky diode
+<text x="148.59" y="124.46" size="1.778" layer="89" grouprefs="CHARGING_IC">Shottky diode
 to prevent current 
 flowing from the 
 battery into the 
 charging power source</text>
-<text x="40.64" y="92.71" size="1.778" layer="89">Charging</text>
-<text x="40.64" y="101.6" size="1.778" layer="89">Charging Done</text>
-<frame x1="0" y1="0" x2="187.96" y2="138.43" columns="8" rows="5" layer="91"/>
-<text x="1.27" y="142.24" size="3.81" layer="91">(Battery Charger + Step Down Regulator)</text>
+<text x="45.72" y="105.41" size="1.778" layer="89" grouprefs="CHARGING_IC">Charging</text>
+<text x="45.72" y="114.3" size="1.778" layer="89" grouprefs="CHARGING_IC">Charging Done</text>
+<text x="1.27" y="162.56" size="3.81" layer="91">(Battery Charger + Step Down Regulator)</text>
+<frame x1="0" y1="0" x2="198.12" y2="157.48" columns="8" rows="5" layer="91"/>
+<text x="99.06" y="162.56" size="1.778" layer="91">Revision 1 02.04.21</text>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="48.26" y="107.95" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.59" y="114.3" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="43.18" y="116.84" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="IC1" gate="G$1" x="53.34" y="120.65" smashed="yes" rot="R180" grouprefs="CHARGING_IC">
+<attribute name="NAME" x="26.67" y="127" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="48.26" y="129.54" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="C2" gate="G$1" x="69.85" y="102.87" smashed="yes" rot="R180">
-<attribute name="NAME" x="77.216" y="105.029" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="77.216" y="107.569" size="1.778" layer="96" rot="R180"/>
+<instance part="C2" gate="G$1" x="74.93" y="115.57" smashed="yes" rot="R180" grouprefs="CHARGING_IC">
+<attribute name="NAME" x="82.296" y="117.729" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="82.296" y="120.269" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C" gate="G$1" x="24.13" y="91.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.162" y="87.376" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="28.702" y="97.155" size="1.778" layer="96" rot="R180"/>
+<instance part="C" gate="G$1" x="29.21" y="104.14" smashed="yes" rot="R90" grouprefs="CHARGING_IC">
+<attribute name="NAME" x="31.242" y="100.076" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="33.782" y="109.855" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C1" gate="G$1" x="22.86" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.479" y="73.914" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="27.559" y="73.914" size="1.778" layer="96" rot="R90"/>
+<instance part="C1" gate="G$1" x="27.94" y="93.98" smashed="yes" rot="R90" grouprefs="CHARGING_IC">
+<attribute name="NAME" x="27.559" y="86.614" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="32.639" y="86.614" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND4" gate="1" x="83.82" y="81.28" smashed="yes" rot="R90">
-<attribute name="VALUE" x="86.36" y="78.74" size="1.778" layer="96" rot="R180"/>
+<instance part="GND4" gate="1" x="88.9" y="93.98" smashed="yes" rot="R90" grouprefs="CHARGING_IC">
+<attribute name="VALUE" x="91.44" y="91.44" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC3" gate="G$1" x="119.38" y="113.03" smashed="yes" rot="R180">
-<attribute name="NAME" x="118.11" y="120.65" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="118.11" y="123.19" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="IC3" gate="G$1" x="124.46" y="125.73" smashed="yes" rot="R180" grouprefs="CHARGING_IC">
+<attribute name="NAME" x="123.19" y="133.35" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="123.19" y="135.89" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="GND9" gate="1" x="170.18" y="80.01" smashed="yes">
-<attribute name="VALUE" x="167.64" y="77.47" size="1.778" layer="96" rot="R90"/>
+<instance part="GND9" gate="1" x="175.26" y="92.71" smashed="yes" grouprefs="CHARGING_IC">
+<attribute name="VALUE" x="172.72" y="90.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C4" gate="G$1" x="139.7" y="96.52" smashed="yes">
-<attribute name="NAME" x="141.224" y="96.901" size="1.778" layer="95"/>
-<attribute name="VALUE" x="141.224" y="91.821" size="1.778" layer="96"/>
+<instance part="C4" gate="G$1" x="144.78" y="109.22" smashed="yes" grouprefs="CHARGING_IC">
+<attribute name="NAME" x="146.304" y="109.601" size="1.778" layer="95"/>
+<attribute name="VALUE" x="146.304" y="104.521" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="139.7" y="107.95" smashed="yes" rot="R90">
-<attribute name="NAME" x="130.81" y="107.95" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="133.35" y="107.95" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="D1" gate="G$1" x="144.78" y="120.65" smashed="yes" rot="R90" grouprefs="CHARGING_IC">
+<attribute name="NAME" x="135.89" y="120.65" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="138.43" y="120.65" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="J2" gate="G$1" x="113.03" y="76.2" smashed="yes" rot="MR270">
-<attribute name="NAME" x="107.43428125" y="81.2829" size="1.272509375" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="122.45268125" y="81.28811875" size="1.275409375" layer="96" rot="MR270"/>
+<instance part="J2" gate="G$1" x="118.11" y="88.9" smashed="yes" rot="MR270" grouprefs="CHARGING_IC">
+<attribute name="NAME" x="112.51428125" y="93.9829" size="1.272509375" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="127.53268125" y="93.98811875" size="1.275409375" layer="96" rot="MR270"/>
 </instance>
-<instance part="J1" gate="G$1" x="26.67" y="59.69" smashed="yes">
-<attribute name="NAME" x="27.94" y="41.91" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="27.94" y="39.37" size="1.778" layer="96" align="center-left"/>
+<instance part="J1" gate="G$1" x="31.75" y="67.31" smashed="yes" grouprefs="JACKS">
+<attribute name="NAME" x="33.02" y="49.53" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="33.02" y="46.99" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="GND2" gate="1" x="17.78" y="36.83" smashed="yes">
-<attribute name="VALUE" x="15.24" y="34.29" size="1.778" layer="96" rot="R90"/>
+<instance part="GND2" gate="1" x="22.86" y="44.45" smashed="yes" grouprefs="JACKS">
+<attribute name="VALUE" x="20.32" y="41.91" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC2" gate="G$1" x="91.44" y="36.83" smashed="yes">
-<attribute name="NAME" x="88.9" y="39.37" size="1.778" layer="95" align="center-left"/>
+<instance part="IC2" gate="G$1" x="99.06" y="44.45" smashed="yes" grouprefs="STEP_DOWN_CONVERTER_3.3V">
+<attribute name="NAME" x="96.52" y="46.99" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="C3" gate="G$1" x="66.04" y="21.59" smashed="yes">
-<attribute name="NAME" x="67.564" y="21.971" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.564" y="16.891" size="1.778" layer="96"/>
+<instance part="C3" gate="G$1" x="73.66" y="29.21" smashed="yes" grouprefs="STEP_DOWN_CONVERTER_3.3V">
+<attribute name="NAME" x="75.184" y="29.591" size="1.778" layer="95"/>
+<attribute name="VALUE" x="75.184" y="24.511" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="170.18" y="36.83" smashed="yes">
-<attribute name="NAME" x="171.704" y="37.211" size="1.778" layer="95"/>
-<attribute name="VALUE" x="171.704" y="32.131" size="1.778" layer="96"/>
+<instance part="C5" gate="G$1" x="177.8" y="44.45" smashed="yes" grouprefs="STEP_DOWN_CONVERTER_3.3V">
+<attribute name="NAME" x="179.324" y="44.831" size="1.778" layer="95"/>
+<attribute name="VALUE" x="179.324" y="39.751" size="1.778" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="121.92" y="46.99" smashed="yes">
-<attribute name="NAME" x="138.43" y="53.34" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="138.43" y="50.8" size="1.778" layer="96" align="center-left"/>
+<instance part="L1" gate="G$1" x="129.54" y="54.61" smashed="yes" grouprefs="STEP_DOWN_CONVERTER_3.3V">
+<attribute name="NAME" x="146.05" y="60.96" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="146.05" y="58.42" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="R5" gate="G$1" x="149.86" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="148.3614" y="34.29" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="153.162" y="34.29" size="1.778" layer="96" rot="R90"/>
+<instance part="R5" gate="G$1" x="157.48" y="45.72" smashed="yes" rot="R90" grouprefs="STEP_DOWN_CONVERTER_3.3V">
+<attribute name="NAME" x="155.9814" y="41.91" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="160.782" y="41.91" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R6" gate="G$1" x="149.86" y="21.59" smashed="yes" rot="R90">
-<attribute name="NAME" x="148.3614" y="17.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="153.162" y="17.78" size="1.778" layer="96" rot="R90"/>
+<instance part="R6" gate="G$1" x="157.48" y="29.21" smashed="yes" rot="R90" grouprefs="STEP_DOWN_CONVERTER_3.3V">
+<attribute name="NAME" x="155.9814" y="25.4" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="160.782" y="25.4" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R4" gate="G$1" x="132.08" y="36.83" smashed="yes">
-<attribute name="NAME" x="128.27" y="38.3286" size="1.778" layer="95"/>
-<attribute name="VALUE" x="128.27" y="33.528" size="1.778" layer="96"/>
+<instance part="R4" gate="G$1" x="139.7" y="44.45" smashed="yes" grouprefs="STEP_DOWN_CONVERTER_3.3V">
+<attribute name="NAME" x="135.89" y="45.9486" size="1.778" layer="95"/>
+<attribute name="VALUE" x="135.89" y="41.148" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="139.7" y="80.01" smashed="yes">
-<attribute name="VALUE" x="137.16" y="77.47" size="1.778" layer="96" rot="R90"/>
+<instance part="GND5" gate="1" x="144.78" y="92.71" smashed="yes" grouprefs="CHARGING_IC">
+<attribute name="VALUE" x="142.24" y="90.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="35.56" y="91.44" smashed="yes">
-<attribute name="NAME" x="31.75" y="92.9386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="31.75" y="88.138" size="1.778" layer="96"/>
+<instance part="R3" gate="G$1" x="40.64" y="104.14" smashed="yes" grouprefs="CHARGING_IC">
+<attribute name="NAME" x="36.83" y="105.6386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="36.83" y="100.838" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="35.56" y="99.06" smashed="yes">
-<attribute name="NAME" x="31.75" y="100.5586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="31.75" y="95.758" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="40.64" y="111.76" smashed="yes" grouprefs="CHARGING_IC">
+<attribute name="NAME" x="36.83" y="113.2586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="36.83" y="108.458" size="1.778" layer="96"/>
 </instance>
-<instance part="F" gate="G$1" x="26.67" y="99.06" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.558" y="95.504" size="1.778" layer="95"/>
-<attribute name="VALUE" x="22.098" y="93.345" size="1.778" layer="96"/>
+<instance part="F" gate="G$1" x="31.75" y="111.76" smashed="yes" rot="R270" grouprefs="CHARGING_IC">
+<attribute name="NAME" x="24.638" y="108.204" size="1.778" layer="95"/>
+<attribute name="VALUE" x="27.178" y="106.045" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="16.51" y="99.06" smashed="yes" rot="R270">
-<attribute name="VALUE" x="13.97" y="101.6" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="21.59" y="111.76" smashed="yes" rot="R270" grouprefs="CHARGING_IC">
+<attribute name="VALUE" x="19.05" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="30.48" y="124.46" smashed="yes">
-<attribute name="NAME" x="26.67" y="125.9586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="26.67" y="121.158" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="35.56" y="137.16" smashed="yes" grouprefs="CHARGING_IC">
+<attribute name="NAME" x="31.75" y="138.6586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="31.75" y="133.858" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="41.91" y="124.46" smashed="yes" rot="R90">
-<attribute name="VALUE" x="44.45" y="121.92" size="1.778" layer="96" rot="R180"/>
+<instance part="GND3" gate="1" x="46.99" y="137.16" smashed="yes" rot="R90" grouprefs="CHARGING_IC">
+<attribute name="VALUE" x="49.53" y="134.62" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R7" gate="G$1" x="170.18" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="168.6814" y="115.57" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="173.482" y="115.57" size="1.778" layer="96" rot="R90"/>
+<instance part="R7" gate="G$1" x="175.26" y="132.08" smashed="yes" rot="R90" grouprefs="CHARGING_IC">
+<attribute name="NAME" x="173.7614" y="128.27" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="178.562" y="128.27" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND6" gate="1" x="111.76" y="5.08" smashed="yes">
-<attribute name="VALUE" x="109.22" y="2.54" size="1.778" layer="96" rot="R90"/>
+<instance part="GND6" gate="1" x="119.38" y="12.7" smashed="yes" grouprefs="STEP_DOWN_CONVERTER_3.3V">
+<attribute name="VALUE" x="116.84" y="10.16" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R8" gate="G$1" x="73.66" y="31.75" smashed="yes">
-<attribute name="NAME" x="69.85" y="33.2486" size="1.778" layer="95"/>
-<attribute name="VALUE" x="69.85" y="28.448" size="1.778" layer="96"/>
+<instance part="R8" gate="G$1" x="81.28" y="39.37" smashed="yes" grouprefs="STEP_DOWN_CONVERTER_3.3V">
+<attribute name="NAME" x="77.47" y="40.8686" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.47" y="36.068" size="1.778" layer="96"/>
 </instance>
-<instance part="D2" gate="G$1" x="20.32" y="62.23" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.21" y="49.53" size="1.778" layer="95" rot="R270" align="center-left"/>
+<instance part="D2" gate="G$1" x="25.4" y="69.85" smashed="yes" rot="R270" grouprefs="JACKS">
+<attribute name="NAME" x="34.29" y="57.15" size="1.778" layer="95" rot="R270" align="center-left"/>
 </instance>
-<instance part="JP1" gate="A" x="35.56" y="10.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.815" y="16.51" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="25.4" y="16.51" size="1.778" layer="96" rot="R270"/>
+<instance part="JP1" gate="A" x="40.64" y="17.78" smashed="yes" rot="R270" grouprefs="JACKS">
+<attribute name="NAME" x="48.895" y="24.13" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="30.48" y="24.13" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND7" gate="1" x="38.1" y="30.48" smashed="yes" rot="R180">
-<attribute name="VALUE" x="33.02" y="35.56" size="1.778" layer="96" rot="R270"/>
+<instance part="GND7" gate="1" x="43.18" y="38.1" smashed="yes" rot="R180" grouprefs="JACKS">
+<attribute name="VALUE" x="38.1" y="43.18" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -1521,31 +1525,31 @@ charging power source</text>
 <nets>
 <net name="STAT" class="0">
 <segment>
-<wire x1="58.42" y1="91.44" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 <pinref part="IC1" gate="G$1" pin="STAT"/>
-<wire x1="48.26" y1="107.95" x2="58.42" y2="107.95" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="107.95" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="120.65" x2="63.5" y2="120.65" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="63.5" y1="120.65" x2="63.5" y2="111.76" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="99.06" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
-<junction x="58.42" y="99.06"/>
+<wire x1="63.5" y1="111.76" x2="63.5" y2="104.14" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="45.72" y1="111.76" x2="63.5" y2="111.76" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<junction x="63.5" y="111.76" grouprefs="CHARGING_IC"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="69.85" y1="107.95" x2="95.25" y2="107.95" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="107.95" x2="95.25" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="86.36" x2="113.03" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="120.65" x2="100.33" y2="120.65" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="100.33" y1="120.65" x2="100.33" y2="99.06" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="100.33" y1="99.06" x2="118.11" y2="99.06" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="113.03" y1="86.36" x2="113.03" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="118.11" y1="99.06" x2="118.11" y2="96.52" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 <pinref part="IC1" gate="G$1" pin="VBAT"/>
-<wire x1="48.26" y1="113.03" x2="69.85" y2="113.03" width="0.1524" layer="91"/>
-<wire x1="69.85" y1="113.03" x2="69.85" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="125.73" x2="74.93" y2="125.73" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="74.93" y1="125.73" x2="74.93" y2="120.65" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 <pinref part="IC3" gate="G$1" pin="D"/>
-<wire x1="69.85" y1="113.03" x2="99.06" y2="113.03" width="0.1524" layer="91"/>
-<junction x="69.85" y="113.03"/>
+<wire x1="74.93" y1="125.73" x2="104.14" y2="125.73" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<junction x="74.93" y="125.73" grouprefs="CHARGING_IC"/>
 </segment>
 </net>
 <net name="GNDA" class="0">
@@ -1553,187 +1557,187 @@ charging power source</text>
 <pinref part="GND4" gate="1" pin="GNDA"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
-<junction x="69.85" y="81.28"/>
-<wire x1="66.04" y1="81.28" x2="69.85" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="69.85" y1="100.33" x2="69.85" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="81.28" x2="72.39" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<junction x="74.93" y="93.98" grouprefs="CHARGING_IC"/>
+<wire x1="71.12" y1="93.98" x2="74.93" y2="93.98" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="74.93" y1="113.03" x2="74.93" y2="93.98" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="86.36" y1="93.98" x2="77.47" y2="93.98" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 <pinref part="IC1" gate="G$1" pin="VSS"/>
-<wire x1="72.39" y1="81.28" x2="69.85" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="110.49" x2="66.04" y2="110.49" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="110.49" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
-<junction x="66.04" y="81.28"/>
-<wire x1="72.39" y1="102.87" x2="72.39" y2="81.28" width="0.1524" layer="91"/>
-<junction x="72.39" y="81.28"/>
-<wire x1="72.39" y1="102.87" x2="92.71" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="92.71" y1="102.87" x2="92.71" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="77.47" y1="93.98" x2="74.93" y2="93.98" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="53.34" y1="123.19" x2="71.12" y2="123.19" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="71.12" y1="123.19" x2="71.12" y2="93.98" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<junction x="71.12" y="93.98" grouprefs="CHARGING_IC"/>
+<wire x1="77.47" y1="115.57" x2="77.47" y2="93.98" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<junction x="77.47" y="93.98" grouprefs="CHARGING_IC"/>
+<wire x1="77.47" y1="115.57" x2="97.79" y2="115.57" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="97.79" y1="115.57" x2="97.79" y2="96.52" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="92.71" y1="83.82" x2="110.49" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="97.79" y1="96.52" x2="115.57" y2="96.52" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GNDA"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="114.3" x2="170.18" y2="82.55" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="127" x2="175.26" y2="95.25" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GNDA"/>
-<wire x1="17.78" y1="39.37" x2="17.78" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="46.99" x2="22.86" y2="49.53" width="0.1524" layer="91" grouprefs="JACKS"/>
 <pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="26.67" y1="49.53" x2="25.4" y2="49.53" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="49.53" x2="25.4" y2="41.91" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="41.91" x2="20.32" y2="41.91" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="41.91" x2="17.78" y2="41.91" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="44.45" x2="20.32" y2="41.91" width="0.1524" layer="91"/>
-<junction x="20.32" y="41.91"/>
+<wire x1="31.75" y1="57.15" x2="30.48" y2="57.15" width="0.1524" layer="91" grouprefs="JACKS"/>
+<wire x1="30.48" y1="57.15" x2="30.48" y2="49.53" width="0.1524" layer="91" grouprefs="JACKS"/>
+<wire x1="30.48" y1="49.53" x2="25.4" y2="49.53" width="0.1524" layer="91" grouprefs="JACKS"/>
+<wire x1="25.4" y1="49.53" x2="22.86" y2="49.53" width="0.1524" layer="91" grouprefs="JACKS"/>
+<wire x1="25.4" y1="52.07" x2="25.4" y2="49.53" width="0.1524" layer="91" grouprefs="JACKS"/>
+<junction x="25.4" y="49.53" grouprefs="JACKS"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND5" gate="1" pin="GNDA"/>
-<wire x1="139.7" y1="91.44" x2="139.7" y2="82.55" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="104.14" x2="144.78" y2="95.25" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GNDA"/>
 <pinref part="F" gate="G$1" pin="C"/>
-<wire x1="19.05" y1="99.06" x2="21.59" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="24.13" y1="111.76" x2="26.67" y2="111.76" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="1" pin="GNDA"/>
-<wire x1="35.56" y1="124.46" x2="39.37" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="137.16" x2="44.45" y2="137.16" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PGND"/>
-<wire x1="91.44" y1="36.83" x2="81.28" y2="36.83" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="16.51" x2="149.86" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="44.45" x2="88.9" y2="44.45" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="157.48" y1="24.13" x2="157.48" y2="21.59" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="13.97" x2="170.18" y2="13.97" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="13.97" x2="170.18" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="21.59" x2="177.8" y2="21.59" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="177.8" y1="21.59" x2="177.8" y2="39.37" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="IC2" gate="G$1" pin="AGND"/>
-<wire x1="91.44" y1="29.21" x2="83.82" y2="29.21" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="13.97" x2="111.76" y2="13.97" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="13.97" x2="83.82" y2="13.97" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="13.97" x2="83.82" y2="29.21" width="0.1524" layer="91"/>
-<junction x="149.86" y="13.97"/>
-<wire x1="81.28" y1="36.83" x2="81.28" y2="13.97" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="13.97" x2="83.82" y2="13.97" width="0.1524" layer="91"/>
-<junction x="83.82" y="13.97"/>
+<wire x1="99.06" y1="36.83" x2="91.44" y2="36.83" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="157.48" y1="21.59" x2="119.38" y2="21.59" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="119.38" y1="21.59" x2="91.44" y2="21.59" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="91.44" y1="21.59" x2="91.44" y2="36.83" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<junction x="157.48" y="21.59" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="88.9" y1="44.45" x2="88.9" y2="21.59" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="88.9" y1="21.59" x2="91.44" y2="21.59" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<junction x="91.44" y="21.59" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="16.51" x2="66.04" y2="13.97" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="13.97" x2="81.28" y2="13.97" width="0.1524" layer="91"/>
-<junction x="81.28" y="13.97"/>
-<wire x1="111.76" y1="8.89" x2="111.76" y2="7.62" width="0.1524" layer="91"/>
-<junction x="111.76" y="13.97"/>
+<wire x1="73.66" y1="24.13" x2="73.66" y2="21.59" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="73.66" y1="21.59" x2="88.9" y2="21.59" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<junction x="88.9" y="21.59" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="119.38" y1="16.51" x2="119.38" y2="15.24" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<junction x="119.38" y="21.59" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="GND6" gate="1" pin="GNDA"/>
-<wire x1="111.76" y1="7.62" x2="111.76" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="15.24" x2="119.38" y2="21.59" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <pinref part="GND7" gate="1" pin="GNDA"/>
-<wire x1="38.1" y1="12.7" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="20.32" x2="43.18" y2="35.56" width="0.1524" layer="91" grouprefs="JACKS"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="C" gate="G$1" pin="C"/>
-<wire x1="30.48" y1="91.44" x2="29.21" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="104.14" x2="34.29" y2="104.14" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="5V" class="0">
 <segment>
-<wire x1="139.7" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="129.54" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="175.26" y1="142.24" x2="175.26" y2="137.16" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 <pinref part="IC1" gate="G$1" pin="VDD"/>
-<wire x1="20.32" y1="107.95" x2="12.7" y2="107.95" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="107.95" x2="12.7" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="120.65" x2="17.78" y2="120.65" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="17.78" y1="120.65" x2="17.78" y2="104.14" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="91.44" x2="12.7" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="81.28" x2="12.7" y2="81.28" width="0.1524" layer="91"/>
-<junction x="12.7" y="81.28"/>
-<wire x1="12.7" y1="81.28" x2="12.7" y2="76.2" width="0.1524" layer="91"/>
-<label x="12.7" y="76.2" size="1.778" layer="95" rot="R270" xref="yes"/>
-<wire x1="12.7" y1="107.95" x2="12.7" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="129.54" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
-<junction x="12.7" y="107.95"/>
+<wire x1="17.78" y1="104.14" x2="17.78" y2="93.98" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="25.4" y1="93.98" x2="17.78" y2="93.98" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<junction x="17.78" y="93.98" grouprefs="CHARGING_IC"/>
+<wire x1="17.78" y1="93.98" x2="17.78" y2="88.9" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<label x="17.78" y="88.9" size="1.778" layer="95" rot="R270" xref="yes" grouprefs="CHARGING_IC"/>
+<wire x1="17.78" y1="120.65" x2="17.78" y2="142.24" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="17.78" y1="142.24" x2="129.54" y2="142.24" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<junction x="17.78" y="120.65" grouprefs="CHARGING_IC"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="124.46" y1="129.54" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="125.73" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
-<junction x="139.7" y="129.54"/>
+<wire x1="129.54" y1="142.24" x2="144.78" y2="142.24" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="144.78" y1="138.43" x2="144.78" y2="142.24" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<junction x="144.78" y="142.24" grouprefs="CHARGING_IC"/>
 <pinref part="IC3" gate="G$1" pin="G"/>
-<wire x1="119.38" y1="113.03" x2="124.46" y2="113.03" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="113.03" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
-<junction x="124.46" y="129.54"/>
+<wire x1="124.46" y1="125.73" x2="129.54" y2="125.73" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="129.54" y1="125.73" x2="129.54" y2="142.24" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<junction x="129.54" y="142.24" grouprefs="CHARGING_IC"/>
 <pinref part="C" gate="G$1" pin="A"/>
-<wire x1="21.59" y1="91.44" x2="12.7" y2="91.44" width="0.1524" layer="91"/>
-<junction x="12.7" y="91.44"/>
+<wire x1="26.67" y1="104.14" x2="17.78" y2="104.14" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<junction x="17.78" y="104.14" grouprefs="CHARGING_IC"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="26.67" y1="59.69" x2="20.32" y2="59.69" width="0.1524" layer="91"/>
-<label x="17.78" y="59.69" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="31.75" y1="67.31" x2="25.4" y2="67.31" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="22.86" y="67.31" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="JACKS"/>
 <pinref part="D2" gate="G$1" pin="K"/>
-<wire x1="20.32" y1="59.69" x2="17.78" y2="59.69" width="0.1524" layer="91"/>
-<junction x="20.32" y="59.69"/>
+<wire x1="25.4" y1="67.31" x2="22.86" y2="67.31" width="0.1524" layer="91" grouprefs="JACKS"/>
+<junction x="25.4" y="67.31" grouprefs="JACKS"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="12.7" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
-<label x="35.56" y="17.78" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="40.64" y1="20.32" x2="40.64" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="40.64" y="25.4" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="JACKS"/>
 <pinref part="JP1" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="U_DRAIN" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="K"/>
-<wire x1="139.7" y1="110.49" x2="139.7" y2="106.68" width="0.1524" layer="91"/>
-<junction x="139.7" y="106.68"/>
+<wire x1="144.78" y1="123.19" x2="144.78" y2="119.38" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<junction x="144.78" y="119.38" grouprefs="CHARGING_IC"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="106.68" x2="139.7" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="106.68" x2="139.7" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="106.68" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="106.68" x2="149.86" y2="82.55" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="119.38" x2="144.78" y2="111.76" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="127" y1="119.38" x2="144.78" y2="119.38" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="144.78" y1="119.38" x2="154.94" y2="119.38" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="154.94" y1="119.38" x2="154.94" y2="95.25" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 <pinref part="IC3" gate="G$1" pin="S"/>
-<wire x1="119.38" y1="115.57" x2="121.92" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="115.57" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="128.27" x2="127" y2="128.27" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="127" y1="128.27" x2="127" y2="119.38" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 </segment>
 <segment>
-<label x="149.86" y="82.55" size="1.778" layer="95" rot="R270" xref="yes"/>
+<label x="154.94" y="95.25" size="1.778" layer="95" rot="R270" xref="yes" grouprefs="CHARGING_IC"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VIN"/>
-<wire x1="91.44" y1="34.29" x2="86.36" y2="34.29" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="39.37" x2="86.36" y2="39.37" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="39.37" x2="86.36" y2="34.29" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="41.91" x2="93.98" y2="41.91" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="73.66" y1="46.99" x2="93.98" y2="46.99" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="93.98" y1="46.99" x2="93.98" y2="41.91" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="24.13" x2="66.04" y2="31.75" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="31.75" x2="66.04" y2="39.37" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="39.37" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
-<label x="66.04" y="50.8" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="73.66" y1="31.75" x2="73.66" y2="39.37" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="73.66" y1="39.37" x2="73.66" y2="46.99" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="73.66" y1="46.99" x2="73.66" y2="58.42" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<label x="73.66" y="58.42" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="31.75" x2="66.04" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="39.37" x2="73.66" y2="39.37" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="40.64" y1="12.7" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
-<label x="40.64" y="17.78" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="45.72" y1="20.32" x2="45.72" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="45.72" y="25.4" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="JACKS"/>
 </segment>
 </net>
 <net name="PG" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="PG"/>
-<wire x1="119.38" y1="36.83" x2="127" y2="36.83" width="0.1524" layer="91"/>
+<wire x1="127" y1="44.45" x2="134.62" y2="44.45" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="FB" class="0">
 <segment>
-<wire x1="149.86" y1="33.02" x2="149.86" y2="29.21" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="40.64" x2="157.48" y2="36.83" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="IC2" gate="G$1" pin="FB"/>
-<wire x1="149.86" y1="29.21" x2="149.86" y2="26.67" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="29.21" x2="149.86" y2="29.21" width="0.1524" layer="91"/>
-<junction x="149.86" y="29.21"/>
+<wire x1="157.48" y1="36.83" x2="157.48" y2="34.29" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="127" y1="36.83" x2="157.48" y2="36.83" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<junction x="157.48" y="36.83" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
@@ -1741,68 +1745,67 @@ charging power source</text>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="VOS"/>
-<wire x1="119.38" y1="31.75" x2="142.24" y2="31.75" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="31.75" x2="142.24" y2="36.83" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="36.83" x2="142.24" y2="36.83" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="46.99" x2="149.86" y2="46.99" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="46.99" x2="170.18" y2="46.99" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="36.83" x2="142.24" y2="46.99" width="0.1524" layer="91"/>
-<junction x="142.24" y="36.83"/>
-<wire x1="149.86" y1="43.18" x2="149.86" y2="46.99" width="0.1524" layer="91"/>
-<junction x="149.86" y="46.99"/>
+<wire x1="127" y1="39.37" x2="149.86" y2="39.37" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="149.86" y1="39.37" x2="149.86" y2="44.45" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="144.78" y1="44.45" x2="149.86" y2="44.45" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="149.86" y1="54.61" x2="157.48" y2="54.61" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="157.48" y1="54.61" x2="177.8" y2="54.61" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="149.86" y1="44.45" x2="149.86" y2="54.61" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<junction x="149.86" y="44.45" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="157.48" y1="50.8" x2="157.48" y2="54.61" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<junction x="157.48" y="54.61" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="39.37" x2="170.18" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="46.99" x2="177.8" y2="54.61" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<junction x="142.24" y="46.99"/>
+<junction x="149.86" y="54.61" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="45.72" x2="170.18" y2="46.99" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="46.99" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
-<label x="170.18" y="55.88" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="177.8" y1="54.61" x2="177.8" y2="63.5" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<label x="177.8" y="63.5" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 </segment>
 <segment>
-<wire x1="30.48" y1="12.7" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
-<label x="30.48" y="17.78" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="35.56" y1="20.32" x2="35.56" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="35.56" y="25.4" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="JACKS"/>
 <pinref part="JP1" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="SW" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="SW"/>
-<wire x1="119.38" y1="34.29" x2="121.92" y2="34.29" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="34.29" x2="121.92" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="127" y1="41.91" x2="129.54" y2="41.91" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="129.54" y1="41.91" x2="129.54" y2="54.61" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="99.06" x2="29.21" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="111.76" x2="34.29" y2="111.76" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 <pinref part="F" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PROG"/>
-<wire x1="20.32" y1="110.49" x2="15.24" y2="110.49" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="110.49" x2="15.24" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="123.19" x2="20.32" y2="123.19" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
+<wire x1="20.32" y1="123.19" x2="20.32" y2="137.16" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="124.46" x2="25.4" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="137.16" x2="30.48" y2="137.16" width="0.1524" layer="91" grouprefs="CHARGING_IC"/>
 </segment>
 </net>
 <net name="EN" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="EN"/>
-<wire x1="91.44" y1="31.75" x2="78.74" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="39.37" x2="86.36" y2="39.37" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="31.75" x2="86.36" y2="31.75" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="31.75" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
-<junction x="91.44" y="31.75"/>
-<label x="86.36" y="25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="99.06" y1="39.37" x2="93.98" y2="39.37" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<wire x1="93.98" y1="39.37" x2="93.98" y2="33.02" width="0.1524" layer="91" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<junction x="99.06" y="39.37" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
+<label x="93.98" y="33.02" size="1.778" layer="95" rot="R270" xref="yes" grouprefs="STEP_DOWN_CONVERTER_3.3V"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="12.7" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
-<label x="33.02" y="17.78" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="38.1" y1="20.32" x2="38.1" y2="25.4" width="0.1524" layer="91" grouprefs="JACKS"/>
+<label x="38.1" y="25.4" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="JACKS"/>
 <pinref part="JP1" gate="A" pin="4"/>
 </segment>
 </net>
@@ -1830,6 +1833,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.5" severity="warning">
+Since Version 9.5, EAGLE supports persistent groups with
+schematics, and board files. Those persistent groups
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
