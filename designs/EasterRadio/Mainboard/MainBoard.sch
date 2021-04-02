@@ -13524,6 +13524,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <sheet>
 <plain>
 <frame x1="0" y1="0" x2="370.84" y2="337.82" columns="8" rows="5" layer="91"/>
+<text x="2.54" y="340.36" size="6.4516" layer="91">Mainboard</text>
+<text x="48.26" y="340.36" size="1.778" layer="91">Revision 1 02.04.21</text>
 </plain>
 <instances>
 <instance part="RADIO_IC" gate="A" x="86.36" y="10.16" smashed="yes" rot="R270">
@@ -13931,7 +13933,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </instance>
 </instances>
 <busses>
-<bus name="SPI:CS,CS2,DC,GND,MOSI,RST,SCLK,SDA">
+<bus name="SPI:CS,DC,GND,MOSI,RST,SCLK,SDA">
 <segment>
 <wire x1="157.48" y1="177.8" x2="157.48" y2="154.94" width="0.762" layer="92"/>
 <wire x1="162.56" y1="182.88" x2="157.48" y2="177.8" width="0.762" layer="92"/>
@@ -14052,18 +14054,16 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="238.76" y1="96.52" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
 <label x="218.44" y="96.52" size="1.778" layer="95"/>
 <pinref part="GPIOS" gate="A" pin="4"/>
-<pinref part="GPIOS" gate="A" pin="5"/>
-<wire x1="238.76" y1="93.98" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="93.98" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="GPIOS" gate="A" pin="6"/>
-<wire x1="238.76" y1="91.44" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="91.44" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
-<junction x="218.44" y="93.98"/>
 </segment>
 <segment>
 <wire x1="254" y1="71.12" x2="254" y2="53.34" width="0.1524" layer="91"/>
 <label x="254" y="55.88" size="1.778" layer="95" rot="R90"/>
 <pinref part="AMPLIFIER" gate="A" pin="8"/>
+</segment>
+<segment>
+<pinref part="GPIOS" gate="A" pin="6"/>
+<wire x1="238.76" y1="91.44" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
+<label x="218.44" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -14472,14 +14472,18 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <net name="CS2" class="0">
 <segment>
 <pinref part="ESP32" gate="A" pin="10"/>
-<wire x1="180.34" y1="144.78" x2="213.36" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="144.78" x2="200.66" y2="144.78" width="0.1524" layer="91"/>
 <label x="200.66" y="144.78" size="1.778" layer="95" align="bottom-right"/>
-<wire x1="213.36" y1="144.78" x2="215.9" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D24" gate="G$1" pin="CATHODE_1"/>
 <wire x1="297.18" y1="154.94" x2="276.86" y2="154.94" width="0.1524" layer="91"/>
 <label x="276.86" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="GPIOS" gate="A" pin="5"/>
+<wire x1="238.76" y1="93.98" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
+<label x="218.44" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SENSOR_VN" class="0">

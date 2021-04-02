@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9375,6 +9375,7 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/891/esp32-wrover-e_esp32-w
 <plain>
 <text x="0" y="158.75" size="5.08" layer="91">ESP32 (ESP32-Wrover-B)</text>
 <frame x1="0" y1="0" x2="215.9" y2="154.94" columns="8" rows="5" layer="91"/>
+<text x="86.36" y="157.48" size="1.778" layer="91">Revision 1 02.04.21</text>
 </plain>
 <instances>
 <instance part="S2" gate="G$1" x="153.67" y="52.07" smashed="yes" grouprefs="PROGRAMMING"/>
