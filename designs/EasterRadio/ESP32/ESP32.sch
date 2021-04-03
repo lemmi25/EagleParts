@@ -9347,10 +9347,10 @@ Source: &lt;a href="https://www.mouser.de/datasheet/2/891/esp32-wrover-e_esp32-w
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="CommonParts" deviceset="C-EU_1206" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100uF"/>
-<part name="C3" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
-<part name="R2" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="12k"/>
-<part name="C4" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1nF"/>
+<part name="C1" library="CommonParts" deviceset="C-EU_1206" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF"/>
+<part name="C3" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="R2" library="CommonParts" deviceset="R-EU_805" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="C4" library="CommonParts" deviceset="C-EU_805" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="PS1" library="MouserUseful" deviceset="LP38693MPX-5.0_NOPB" device="" package3d_urn="urn:adsk.eagle:package:13422906/1"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
