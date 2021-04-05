@@ -6,11 +6,11 @@
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = .
-BUILDDIR      = build
+BUILDDIR      = _build
 
 github:
 	@make html
-	@cp -a build/html/. ../docs
+	@cp -a _build/html/. ../docs
 
 # Put it first so that "make" without argument is like "make help".
 help:
