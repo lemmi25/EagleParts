@@ -6,11 +6,6 @@ I found this Link useful too [sphinxSytnax](http://udig.refractions.net/files/do
 
 Please edit the files in **documentation/documents**. Add a new file or edit the once that exist.
 
-There are two main ways to edit this documentation.
-
-1. For small changes like fixing a typo you can use the web IDE of GitLab to modify a file. There is no need to install anything. After you have commited your changes to GitLab it will take a minute to process your changes. After that the website will show your modifications. 
-1. The editing of lager sections it is recommended to clone/pull this repository, edit the files localy and then commit your changes to GitLab. For this you will have to install a few things.
-
 
 ## Local Installation (optional)
 
