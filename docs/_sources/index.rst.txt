@@ -9,6 +9,7 @@ Contents:
 
     intro
     documents/1_PCB
+    documents/Easter_Radio
 	
 Indices and tables
 ==================
