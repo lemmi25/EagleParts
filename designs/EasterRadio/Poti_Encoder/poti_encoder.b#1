@@ -549,10 +549,10 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="43.25" y="11.1125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="44.52" y="13.6525" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R4" library="CommonParts" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100kohm" x="36.5525" y="8.89" smashed="yes" rot="R180">
+<element name="R4" library="CommonParts" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10kohm" x="36.5525" y="8.89" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.41" y="8.89" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
-<element name="R5" library="CommonParts" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100kohm" x="44.2375" y="8.89" smashed="yes" rot="R180">
+<element name="R5" library="CommonParts" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10kohm" x="44.2375" y="8.89" smashed="yes" rot="R180">
 <attribute name="NAME" x="47.38" y="8.89" size="0.8128" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C2" library="CommonParts" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF" x="6.685" y="12.7" smashed="yes">
