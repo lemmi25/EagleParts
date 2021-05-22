@@ -104,7 +104,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:zxByGPeDTTmzeMC_mANCgQ" pcbguid="dd0ac9d7-3679-44e5-9a9d-285f126179b4" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="8954c40d-396d-7390-1039-90fb1c03b36a" lastpushedtime="2021-05-15T15:15:00Z" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTNmMDU1" projecturn="a.cGVyc29uYWw6dWUyYTNmMDU1IzIwMTgxMjEwMTY0OTQ5MjI2" f3durn="urn:adsk.wipprod:dm.lineage:zxByGPeDTTmzeMC_mANCgQ" pcbguid="dd0ac9d7-3679-44e5-9a9d-285f126179b4" lastpulledtime="" lastsyncedchangeguid="0833988a-dd53-323c-0f01-a5e3a79e4481" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="11e0e7c4-4ee3-2fa4-bd43-3226d32d26c6" lastpushedtime="2020-12-12T16:42:34Z" linktopcb3d="false"/>
 <plain>
 <wire x1="3.04" y1="98.19" x2="54.04" y2="98.19" width="0.1524" layer="20"/>
 <wire x1="54.04" y1="98.19" x2="59.04" y2="93.19" width="0.1524" layer="20" curve="-90"/>
